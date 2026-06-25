@@ -7,7 +7,10 @@
     "home": "홈",
     "create": "만들기",
     "trending": "인기",
-    "howItWorks": "이용 방법"
+    "howItWorks": "이용 방법",
+    "about": "소개",
+    "openMenu": "메뉴",
+    "closeMenu": "닫기"
   },
   "hero": {
     "badge": "글로벌 #1 맞히기 게임",
@@ -92,7 +95,8 @@
     "shareText": "\"{title}\" 퀴즈에서 {score}/{total} 맞춤 — 상위 {percent}%! 이길 수 있어?",
     "playAgain": "다시 하기",
     "browseMore": "더 많은 퀴즈",
-    "copied": "클립보드에 복사됨!"
+    "copied": "클립보드에 복사됨!",
+    "relatedTitle": "이것도 도전해 보세요"
   },
   "create": {
     "title": "퀴즈 만들기",
@@ -159,7 +163,22 @@
   },
   "footer": {
     "tagline": "스트리머, 친구들, 퀴즈 매니아를 위해.",
-    "rights": "© {year} ClipQuiz. All rights reserved."
+    "rights": "© {year} ClipQuiz. All rights reserved.",
+    "home": "홈",
+    "about": "소개",
+    "contact": "문의",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "adChoices": "광고 설정"
+  },
+  "ads": {
+    "label": "광고",
+    "placeholder": "광고 영역 — AdSense 승인 후 표시됩니다"
+  },
+  "cookies": {
+    "message": "사이트 운영 및 Google AdSense 광고를 위해 쿠키를 사용합니다.",
+    "privacyLink": "개인정보처리방침",
+    "accept": "동의"
   },
   "lang": {
     "label": "언어"
