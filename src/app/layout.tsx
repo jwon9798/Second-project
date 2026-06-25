@@ -1,5 +1,4 @@
 import { Syne, DM_Sans } from "next/font/google";
-import type { Metadata } from "next";
 import "./globals.css";
 
 const syne = Syne({
@@ -14,20 +13,13 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata: Metadata = {
-  icons: {
-    icon: [{ url: "/icon.png", type: "image/png" }],
-    apple: [{ url: "/icon.png", type: "image/png" }],
-  },
-};
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${syne.variable} ${dmSans.variable} h-full`}>
+    <html lang="en" className={`${syne.variable} ${dmSans.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-[#07080f] text-white font-[family-name:var(--font-dm-sans)] antialiased">
         {children}
       </body>

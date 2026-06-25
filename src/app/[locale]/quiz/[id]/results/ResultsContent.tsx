@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 import { fetchQuizById } from "@/lib/quizzes-client";
 import ResultScreen from "@/components/ResultScreen";
+import RelatedQuizzes from "@/components/RelatedQuizzes";
+import AdSlot from "@/components/ads/AdSlot";
 
 export default function ResultsContent() {
   const params = useParams();
@@ -21,9 +23,7 @@ export default function ResultsContent() {
     : [];
 
   useEffect(() => {
-    fetchQuizById(id)
-      .then(setQuiz)
-      .catch(() => {});
+    fetchQuizById(id).then(setQuiz).catch(() => {});
   }, [id]);
 
   if (!quiz) {
@@ -35,13 +35,22 @@ export default function ResultsContent() {
   }
 
   return (
-    <ResultScreen
-      quizId={id}
-      quizTitle={quiz.title}
-      score={score}
-      total={total}
-      percentile={percentile}
-      distribution={distribution}
-    />
+    <>
+      <div className="mx-auto max-w-lg px-4 pt-4">
+        <AdSlot label="results" />
+      </div>
+      <ResultScreen
+        quizId={id}
+        quizTitle={quiz.title}
+        score={score}
+        total={total}
+        percentile={percentile}
+        distribution={distribution}
+      />
+      <div className="mx-auto max-w-lg px-4">
+        <AdSlot label="results" />
+      </div>
+      <RelatedQuizzes currentId={id} category={quiz.category} />
+    </>
   );
 }

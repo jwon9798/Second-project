@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import type { Quiz } from "@/lib/types";
 import { fetchQuizById } from "@/lib/quizzes-client";
 import QuizPlayer from "@/components/QuizPlayer";
+import AdSlot from "@/components/ads/AdSlot";
 import { Play, Users, Clock } from "lucide-react";
 
 export default function QuizPlayPage() {
@@ -90,6 +91,8 @@ export default function QuizPlayPage() {
             ))}
           </div>
         </div>
+
+        <AdSlot label="quiz" />
       </div>
     );
   }
