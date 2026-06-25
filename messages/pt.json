@@ -65,6 +65,8 @@
     "seeResults": "Ver Resultados",
     "playAudio": "Tocar Clipe",
     "replayAudio": "Repetir",
+    "audioPlaying": "Ouça e digite sua resposta…",
+    "audioHint": "Somente áudio — sem vídeo ou título",
     "cropHint": "Zoom extremo — olhe bem!",
     "timer": "{seconds}s"
   },

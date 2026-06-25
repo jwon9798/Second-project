@@ -65,6 +65,8 @@
     "seeResults": "結果を見る",
     "playAudio": "クリップ再生",
     "replayAudio": "もう一度",
+    "audioPlaying": "聞きながら答えを入力…",
+    "audioHint": "音声のみ再生（動画・タイトル非表示）",
     "cropHint": "超拡大 — よく見て！",
     "timer": "{seconds}秒"
   },

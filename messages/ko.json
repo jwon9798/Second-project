@@ -65,6 +65,8 @@
     "seeResults": "결과 보기",
     "playAudio": "클립 재생",
     "replayAudio": "다시 듣기",
+    "audioPlaying": "들으면서 정답을 입력하세요…",
+    "audioHint": "음원만 재생됩니다 (영상·제목 숨김)",
     "cropHint": "극한 확대 — 잘 보세요!",
     "timer": "{seconds}초"
   },

@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { Question } from "@/lib/types";
 import { getCropStyle } from "@/lib/quiz-utils";
+import YoutubeAudioPlayer from "./YoutubeAudioPlayer";
 import { Crop, Music, Play, Volume2 } from "lucide-react";
 
 interface QuestionDisplayProps {
@@ -13,58 +13,60 @@ interface QuestionDisplayProps {
 
 export default function QuestionDisplay({ question }: QuestionDisplayProps) {
   const t = useTranslations("quiz");
-  const [audioPlaying, setAudioPlaying] = useState(false);
-  const [audioKey, setAudioKey] = useState(0);
+  const [playKey, setPlayKey] = useState(0);
 
   function playAudio() {
-    setAudioKey((k) => k + 1);
-    setAudioPlaying(true);
+    setPlayKey((k) => k + 1);
   }
 
-  if (question.type === "audio") {
+  if (question.type === "audio" && question.youtubeId) {
     const start = question.audioStart ?? 0;
-    const embedUrl = question.youtubeId
-      ? `https://www.youtube.com/embed/${question.youtubeId}?start=${start}&autoplay=1&controls=0&modestbranding=1&rel=0&enablejsapi=1`
-      : null;
+    const duration = question.audioDuration ?? 8;
 
     return (
       <div className="flex flex-col items-center gap-6">
-        <div className="audio-pulse flex h-40 w-40 items-center justify-center rounded-full bg-gradient-to-br from-[#00f5d4]/20 to-[#8b5cf6]/20 border border-[#00f5d4]/30">
-          <Volume2 className="h-16 w-16 text-[#00f5d4]" />
+        {playKey > 0 && (
+          <YoutubeAudioPlayer
+            videoId={question.youtubeId}
+            start={start}
+            duration={duration}
+            playKey={playKey}
+          />
+        )}
+
+        <div
+          className={`audio-pulse flex h-40 w-40 items-center justify-center rounded-full bg-gradient-to-br from-[#00f5d4]/20 to-[#8b5cf6]/20 border border-[#00f5d4]/30 transition-all ${
+            playKey > 0 ? "scale-105 border-[#00f5d4]/60" : ""
+          }`}
+        >
+          <Volume2
+            className={`h-16 w-16 text-[#00f5d4] ${playKey > 0 ? "animate-pulse" : ""}`}
+          />
         </div>
 
-        {!audioPlaying ? (
-          <button
-            type="button"
-            onClick={playAudio}
-            className="btn-primary flex items-center gap-2 rounded-xl px-8 py-4 text-lg font-bold text-white"
-          >
-            <Play className="h-5 w-5 fill-current" />
-            {t("playAudio")}
-          </button>
-        ) : (
-          <div className="w-full max-w-lg">
-            {embedUrl && (
-              <div className="relative aspect-video overflow-hidden rounded-2xl border border-white/10">
-                <iframe
-                  key={audioKey}
-                  src={embedUrl}
-                  title="Audio clip"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  className="absolute inset-0 h-full w-full"
-                />
-              </div>
-            )}
-            <button
-              type="button"
-              onClick={playAudio}
-              className="mt-3 btn-secondary w-full rounded-xl py-3 text-sm font-medium text-white/70"
-            >
-              <Music className="inline h-4 w-4 mr-2" />
+        <p className="text-sm text-white/40 text-center max-w-xs">
+          {playKey > 0
+            ? t("audioPlaying")
+            : t("audioHint")}
+        </p>
+
+        <button
+          type="button"
+          onClick={playAudio}
+          className="btn-primary flex items-center gap-2 rounded-xl px-8 py-4 text-lg font-bold text-white"
+        >
+          {playKey > 0 ? (
+            <>
+              <Music className="h-5 w-5" />
               {t("replayAudio")}
-            </button>
-          </div>
-        )}
+            </>
+          ) : (
+            <>
+              <Play className="h-5 w-5 fill-current" />
+              {t("playAudio")}
+            </>
+          )}
+        </button>
       </div>
     );
   }
