@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ClipQuiz — Adivina con Imágenes, Recortes y Audio",
+    "description": "La plataforma global de adivinanzas. Juega quizzes de imagen, recorte y música. Supera el percentil."
+  },
+  "nav": {
+    "home": "Inicio",
+    "create": "Crear",
+    "trending": "Tendencias",
+    "howItWorks": "Cómo funciona"
+  },
+  "hero": {
+    "badge": "El Juego de Adivinanzas #1",
+    "title": "Adivina. Compite.",
+    "titleAccent": "Hazte Viral.",
+    "subtitle": "Quizzes de imagen, recortes extremos y clips de música. Escribe tu respuesta, supera a la multitud y comparte tu ranking.",
+    "cta": "Jugar Ahora",
+    "ctaSecondary": "Crear Quiz",
+    "stats": {
+      "quizzes": "Quizzes",
+      "players": "Jugadores",
+      "countries": "Países"
+    }
+  },
+  "modes": {
+    "title": "Tres formas de adivinar",
+    "image": {
+      "title": "Quiz de Imagen",
+      "desc": "Mira la foto. Escribe la respuesta."
+    },
+    "crop": {
+      "title": "Desafío Recorte",
+      "desc": "Solo se muestra un fragmento. ¿Lo reconoces?"
+    },
+    "audio": {
+      "title": "Clip de Audio",
+      "desc": "Escucha unos segundos y nombra la canción."
+    }
+  },
+  "quiz": {
+    "play": "Jugar",
+    "plays": "{count} partidas",
+    "questions": "{count} preguntas",
+    "difficulty": {
+      "easy": "Fácil",
+      "medium": "Medio",
+      "hard": "Difícil"
+    },
+    "featured": "Destacado",
+    "trending": "Tendencia",
+    "all": "Todos los Quizzes",
+    "search": "Buscar quizzes...",
+    "noResults": "No se encontraron quizzes",
+    "start": "Empezar Quiz",
+    "selectCount": "¿Cuántas preguntas?",
+    "allQuestions": "Todas ({count})",
+    "question": "Pregunta {current} de {total}",
+    "typeAnswer": "Escribe tu respuesta...",
+    "submit": "Enviar",
+    "skip": "Saltar",
+    "correct": "¡Correcto!",
+    "wrong": "¡Incorrecto!",
+    "theAnswerWas": "La respuesta era",
+    "next": "Siguiente",
+    "seeResults": "Ver Resultados",
+    "playAudio": "Reproducir Clip",
+    "replayAudio": "Repetir",
+    "cropHint": "Zoom extremo — ¡mira bien!",
+    "timer": "{seconds}s"
+  },
+  "results": {
+    "title": "Tus Resultados",
+    "score": "{score} / {total} correctas",
+    "percentile": "Top {percent}% de jugadores",
+    "percentileLow": "Mejor que el {percent}% de jugadores",
+    "rank": {
+      "legendary": "LEGENDARIO",
+      "elite": "ÉLITE",
+      "solid": "SÓLIDO",
+      "rookie": "NOVATO"
+    },
+    "distribution": "Distribución de Puntuaciones",
+    "share": "Compartir Resultado",
+    "shareText": "Saqué {score}/{total} en \"{title}\" — ¡Top {percent}%! ¿Me superas?",
+    "playAgain": "Jugar de Nuevo",
+    "browseMore": "Más Quizzes",
+    "copied": "¡Copiado al portapapeles!"
+  },
+  "create": {
+    "title": "Crea tu Quiz",
+    "subtitle": "Crea un quiz en minutos. Comparte el enlace. Míralo explotar.",
+    "quizTitle": "Título del Quiz",
+    "quizTitlePlaceholder": "ej. Adivina los Cartoons de los 90",
+    "description": "Descripción",
+    "descriptionPlaceholder": "¿De qué trata este quiz?",
+    "category": "Categoría",
+    "categories": {
+      "music": "Música",
+      "gaming": "Videojuegos",
+      "anime": "Anime",
+      "movies": "Películas & TV",
+      "sports": "Deportes",
+      "food": "Comida",
+      "geography": "Geografía",
+      "travel": "Viajes",
+      "memes": "Memes & Internet",
+      "other": "Otro"
+    },
+    "difficulty": "Dificultad",
+    "creatorName": "Tu Nombre",
+    "creatorPlaceholder": "Nombre o apodo",
+    "addQuestion": "Añadir Pregunta",
+    "questionType": "Tipo de Pregunta",
+    "imageUrl": "URL de Imagen",
+    "imageUrlPlaceholder": "https://example.com/imagen.jpg",
+    "youtubeUrl": "URL de YouTube o ID de Video",
+    "youtubePlaceholder": "https://youtube.com/watch?v=...",
+    "audioStart": "Inicio en (segundos)",
+    "answers": "Respuestas Aceptadas",
+    "answersPlaceholder": "Una por línea",
+    "answersHelp": "Añade varias formas de escribir, una por línea",
+    "hint": "Pista (opcional)",
+    "hintPlaceholder": "Una pequeña pista",
+    "cropPosition": "Posición del Recorte",
+    "cropSize": "Nivel de Zoom",
+    "preview": "Vista Previa",
+    "remove": "Eliminar",
+    "publish": "Publicar Quiz",
+    "publishing": "Publicando...",
+    "success": "¡Quiz publicado!",
+    "successDesc": "Comparte tu quiz y desafía al mundo.",
+    "viewQuiz": "Ver Quiz",
+    "createAnother": "Crear Otro",
+    "minQuestions": "Añade al menos 3 preguntas",
+    "loginNote": "Sin cuenta — solo elige un nombre"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona ClipQuiz",
+    "step1": {
+      "title": "Elige un Quiz",
+      "desc": "Explora tendencias o busca por categoría."
+    },
+    "step2": {
+      "title": "Escribe tus Respuestas",
+      "desc": "Sin opciones múltiples — escribe lo que sabes."
+    },
+    "step3": {
+      "title": "Supera a la Multitud",
+      "desc": "Ve tu percentil y comparte tu puntuación."
+    }
+  },
+  "footer": {
+    "tagline": "Para streamers, grupos de amigos y adictos al trivia en todo el mundo.",
+    "rights": "© {year} ClipQuiz. Todos los derechos reservados."
+  },
+  "lang": {
+    "label": "Idioma"
+  }
+}

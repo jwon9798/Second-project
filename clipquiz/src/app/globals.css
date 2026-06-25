@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07080f;
+  --foreground: #f4f4f8;
+  --accent-pink: #ff3366;
+  --accent-cyan: #00f5d4;
+  --accent-yellow: #ffe566;
+  --accent-purple: #8b5cf6;
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-syne);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.mesh-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(255, 51, 102, 0.18), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 0%, rgba(0, 245, 212, 0.12), transparent),
+    radial-gradient(ellipse 50% 50% at 50% 100%, rgba(139, 92, 246, 0.1), transparent),
+    #07080f;
+}
+
+.font-display {
+  font-family: var(--font-syne), system-ui, sans-serif;
+}
+
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(12px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff3366 0%, #ff6b9d 40%, #00f5d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff3366, #ff6b35);
+  box-shadow: 0 4px 24px rgba(255, 51, 102, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(255, 51, 102, 0.45);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: rgba(0, 245, 212, 0.5);
+  box-shadow: 0 0 0 3px rgba(0, 245, 212, 0.1);
+}
+
+.difficulty-easy {
+  color: #00f5d4;
+  background: rgba(0, 245, 212, 0.12);
+}
+
+.difficulty-medium {
+  color: #ffe566;
+  background: rgba(255, 229, 102, 0.12);
+}
+
+.difficulty-hard {
+  color: #ff3366;
+  background: rgba(255, 51, 102, 0.12);
+}
+
+.crop-container {
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 245, 212, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(0, 245, 212, 0.4); }
+}
+
+.audio-pulse {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes correct-flash {
+  0% { background-color: rgba(0, 245, 212, 0.3); }
+  100% { background-color: transparent; }
+}
+
+.correct-flash {
+  animation: correct-flash 0.6s ease-out;
+}
+
+@keyframes wrong-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.wrong-shake {
+  animation: wrong-shake 0.4s ease-out;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

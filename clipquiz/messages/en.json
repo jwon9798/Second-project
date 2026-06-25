@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ClipQuiz — Guess from Clips, Images & Audio",
+    "description": "The global guessing game platform. Play image, crop & music quizzes. Beat the percentile. Go viral."
+  },
+  "nav": {
+    "home": "Home",
+    "create": "Create",
+    "trending": "Trending",
+    "howItWorks": "How it works"
+  },
+  "hero": {
+    "badge": "The #1 Global Guessing Game",
+    "title": "Guess. Compete.",
+    "titleAccent": "Go Viral.",
+    "subtitle": "Image quizzes. Cropped close-ups. Music clips. Type your answer, beat the crowd, and share your rank.",
+    "cta": "Play Now",
+    "ctaSecondary": "Create a Quiz",
+    "stats": {
+      "quizzes": "Quizzes",
+      "players": "Players",
+      "countries": "Countries"
+    }
+  },
+  "modes": {
+    "title": "Three ways to guess",
+    "image": {
+      "title": "Image Quiz",
+      "desc": "See the picture. Type the answer. Classic visual trivia."
+    },
+    "crop": {
+      "title": "Crop Challenge",
+      "desc": "Only a tiny slice is shown. Can you still recognize it?"
+    },
+    "audio": {
+      "title": "Audio Clip",
+      "desc": "Hear a few seconds of a song. Name it before time runs out."
+    }
+  },
+  "quiz": {
+    "play": "Play",
+    "plays": "{count} plays",
+    "questions": "{count} questions",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "featured": "Featured",
+    "trending": "Trending Now",
+    "all": "All Quizzes",
+    "search": "Search quizzes...",
+    "noResults": "No quizzes found",
+    "start": "Start Quiz",
+    "selectCount": "How many questions?",
+    "allQuestions": "All ({count})",
+    "question": "Question {current} of {total}",
+    "typeAnswer": "Type your answer...",
+    "submit": "Submit",
+    "skip": "Skip",
+    "correct": "Correct!",
+    "wrong": "Wrong!",
+    "theAnswerWas": "The answer was",
+    "next": "Next",
+    "seeResults": "See Results",
+    "playAudio": "Play Clip",
+    "replayAudio": "Replay",
+    "cropHint": "Extreme zoom — look closely!",
+    "timer": "{seconds}s"
+  },
+  "results": {
+    "title": "Your Results",
+    "score": "{score} / {total} correct",
+    "percentile": "Top {percent}% of players",
+    "percentileLow": "Better than {percent}% of players",
+    "rank": {
+      "legendary": "LEGENDARY",
+      "elite": "ELITE",
+      "solid": "SOLID",
+      "rookie": "ROOKIE"
+    },
+    "distribution": "Score Distribution",
+    "share": "Share Result",
+    "shareText": "I scored {score}/{total} on \"{title}\" — Top {percent}%! Can you beat me?",
+    "playAgain": "Play Again",
+    "browseMore": "More Quizzes",
+    "copied": "Copied to clipboard!"
+  },
+  "create": {
+    "title": "Create Your Quiz",
+    "subtitle": "Build a quiz in minutes. Share the link. Watch it blow up.",
+    "quizTitle": "Quiz Title",
+    "quizTitlePlaceholder": "e.g. Guess the 90s Cartoons",
+    "description": "Description",
+    "descriptionPlaceholder": "What's this quiz about?",
+    "category": "Category",
+    "categories": {
+      "music": "Music",
+      "gaming": "Gaming",
+      "anime": "Anime",
+      "movies": "Movies & TV",
+      "sports": "Sports",
+      "food": "Food & Drink",
+      "geography": "Geography",
+      "travel": "Travel",
+      "memes": "Memes & Internet",
+      "other": "Other"
+    },
+    "difficulty": "Difficulty",
+    "creatorName": "Your Name",
+    "creatorPlaceholder": "Creator name or nickname",
+    "addQuestion": "Add Question",
+    "questionType": "Question Type",
+    "imageUrl": "Image URL",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "youtubeUrl": "YouTube URL or Video ID",
+    "youtubePlaceholder": "https://youtube.com/watch?v=...",
+    "audioStart": "Start at (seconds)",
+    "answers": "Accepted Answers",
+    "answersPlaceholder": "One per line (e.g. naruto)",
+    "answersHelp": "Add multiple accepted spellings, one per line",
+    "hint": "Hint (optional)",
+    "hintPlaceholder": "A small clue for players",
+    "cropPosition": "Crop Position",
+    "cropSize": "Zoom Level",
+    "preview": "Preview",
+    "remove": "Remove",
+    "publish": "Publish Quiz",
+    "publishing": "Publishing...",
+    "success": "Quiz published!",
+    "successDesc": "Share your quiz and challenge the world.",
+    "viewQuiz": "View Quiz",
+    "createAnother": "Create Another",
+    "minQuestions": "Add at least 3 questions",
+    "loginNote": "No account needed — just pick a creator name"
+  },
+  "howItWorks": {
+    "title": "How ClipQuiz Works",
+    "step1": {
+      "title": "Pick a Quiz",
+      "desc": "Browse trending quizzes or search by category."
+    },
+    "step2": {
+      "title": "Type Your Answers",
+      "desc": "No multiple choice — type what you know. Partial matches count."
+    },
+    "step3": {
+      "title": "Beat the Crowd",
+      "desc": "See your percentile rank and share your score with friends."
+    }
+  },
+  "footer": {
+    "tagline": "Made for streamers, friend groups, and trivia addicts worldwide.",
+    "rights": "© {year} ClipQuiz. All rights reserved."
+  },
+  "lang": {
+    "label": "Language"
+  }
+}

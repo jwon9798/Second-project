@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ClipQuiz — 画像・クロップ・音楽クイズ",
+    "description": "グローバル当てゲームプラットフォーム。画像・クロップ・音楽クイズで上位%を競おう。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "create": "作成",
+    "trending": "トレンド",
+    "howItWorks": "遊び方"
+  },
+  "hero": {
+    "badge": "世界No.1 当てゲーム",
+    "title": "当てて。競え。",
+    "titleAccent": "バズれ。",
+    "subtitle": "画像クイズ、拡大クロップ、音楽クリップ。答えを入力して上位%を競い、結果をシェアしよう。",
+    "cta": "今すぐプレイ",
+    "ctaSecondary": "クイズを作る",
+    "stats": {
+      "quizzes": "クイズ",
+      "players": "プレイヤー",
+      "countries": "国"
+    }
+  },
+  "modes": {
+    "title": "3つの当て方",
+    "image": {
+      "title": "画像クイズ",
+      "desc": "写真を見て答えを入力。"
+    },
+    "crop": {
+      "title": "クロップチャレンジ",
+      "desc": "一部だけ表示。わかるかな？"
+    },
+    "audio": {
+      "title": "音楽クリップ",
+      "desc": "数秒聴いて曲名を当てよう。"
+    }
+  },
+  "quiz": {
+    "play": "プレイ",
+    "plays": "{count}回プレイ",
+    "questions": "{count}問",
+    "difficulty": {
+      "easy": "簡単",
+      "medium": "普通",
+      "hard": "難しい"
+    },
+    "featured": "おすすめ",
+    "trending": "今人気",
+    "all": "すべてのクイズ",
+    "search": "クイズを検索...",
+    "noResults": "クイズが見つかりません",
+    "start": "クイズ開始",
+    "selectCount": "何問プレイしますか？",
+    "allQuestions": "全問 ({count})",
+    "question": "{total}問中 {current}問目",
+    "typeAnswer": "答えを入力...",
+    "submit": "送信",
+    "skip": "スキップ",
+    "correct": "正解！",
+    "wrong": "不正解！",
+    "theAnswerWas": "正解は",
+    "next": "次へ",
+    "seeResults": "結果を見る",
+    "playAudio": "クリップ再生",
+    "replayAudio": "もう一度",
+    "cropHint": "超拡大 — よく見て！",
+    "timer": "{seconds}秒"
+  },
+  "results": {
+    "title": "結果",
+    "score": "{score} / {total} 正解",
+    "percentile": "上位 {percent}%",
+    "percentileLow": "プレイヤーの {percent}% より上",
+    "rank": {
+      "legendary": "レジェンド",
+      "elite": "エリート",
+      "solid": "そこそこ",
+      "rookie": "ルーキー"
+    },
+    "distribution": "スコア分布",
+    "share": "結果をシェア",
+    "shareText": "「{title}」で {score}/{total} 正解 — 上位 {percent}%！負けられない？",
+    "playAgain": "もう一度",
+    "browseMore": "他のクイズ",
+    "copied": "コピーしました！"
+  },
+  "create": {
+    "title": "クイズを作成",
+    "subtitle": "数分でクイズを作ってリンクをシェア。",
+    "quizTitle": "クイズタイトル",
+    "quizTitlePlaceholder": "例：90年代アニメ当て",
+    "description": "説明",
+    "descriptionPlaceholder": "どんなクイズ？",
+    "category": "カテゴリ",
+    "categories": {
+      "music": "音楽",
+      "gaming": "ゲーム",
+      "anime": "アニメ",
+      "movies": "映画 & TV",
+      "sports": "スポーツ",
+      "food": "食べ物",
+      "geography": "地理",
+      "travel": "旅行",
+      "memes": "ミーム",
+      "other": "その他"
+    },
+    "difficulty": "難易度",
+    "creatorName": "作成者名",
+    "creatorPlaceholder": "ニックネーム",
+    "addQuestion": "問題を追加",
+    "questionType": "問題タイプ",
+    "imageUrl": "画像URL",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "youtubeUrl": "YouTube URLまたは動画ID",
+    "youtubePlaceholder": "https://youtube.com/watch?v=...",
+    "audioStart": "開始位置（秒）",
+    "answers": "正解リスト",
+    "answersPlaceholder": "1行に1つ",
+    "answersHelp": "複数の表記を1行に1つずつ",
+    "hint": "ヒント（任意）",
+    "hintPlaceholder": "小さなヒント",
+    "cropPosition": "クロップ位置",
+    "cropSize": "ズームレベル",
+    "preview": "プレビュー",
+    "remove": "削除",
+    "publish": "公開",
+    "publishing": "公開中...",
+    "success": "クイズを公開しました！",
+    "successDesc": "リンクをシェアして挑戦を受けよう。",
+    "viewQuiz": "クイズを見る",
+    "createAnother": "別のクイズを作る",
+    "minQuestions": "最低3問追加してください",
+    "loginNote": "アカウント不要 — 名前だけ入力"
+  },
+  "howItWorks": {
+    "title": "ClipQuizの遊び方",
+    "step1": {
+      "title": "クイズを選ぶ",
+      "desc": "トレンドを見るかカテゴリで検索。"
+    },
+    "step2": {
+      "title": "答えを入力",
+      "desc": "選択肢なし — 直接入力。類似回答もOK。"
+    },
+    "step3": {
+      "title": "順位を競う",
+      "desc": "上位%を確認して友達とシェア。"
+    }
+  },
+  "footer": {
+    "tagline": "配信者、友達、クイズ好きのために。",
+    "rights": "© {year} ClipQuiz. All rights reserved."
+  },
+  "lang": {
+    "label": "言語"
+  }
+}

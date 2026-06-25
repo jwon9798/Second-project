@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ClipQuiz — 이미지·크롭·음악 맞히기 퀴즈",
+    "description": "글로벌 맞히기 게임 플랫폼. 이미지, 크롭, 음악 퀴즈를 풀고 상위 %를 겨루세요."
+  },
+  "nav": {
+    "home": "홈",
+    "create": "만들기",
+    "trending": "인기",
+    "howItWorks": "이용 방법"
+  },
+  "hero": {
+    "badge": "글로벌 #1 맞히기 게임",
+    "title": "맞혀라. 겨뤄라.",
+    "titleAccent": "퍼져라.",
+    "subtitle": "이미지 퀴즈, 확대 크롭, 음악 클립. 답을 입력하고 상위 %를 겨루고 결과를 공유하세요.",
+    "cta": "지금 플레이",
+    "ctaSecondary": "퀴즈 만들기",
+    "stats": {
+      "quizzes": "퀴즈",
+      "players": "플레이어",
+      "countries": "국가"
+    }
+  },
+  "modes": {
+    "title": "세 가지 맞히기 방식",
+    "image": {
+      "title": "이미지 퀴즈",
+      "desc": "사진을 보고 정답을 입력하세요."
+    },
+    "crop": {
+      "title": "크롭 챌린지",
+      "desc": "일부분만 보여줍니다. 알아맞힐 수 있나요?"
+    },
+    "audio": {
+      "title": "음악 클립",
+      "desc": "몇 초만 듣고 곡 이름을 맞히세요."
+    }
+  },
+  "quiz": {
+    "play": "플레이",
+    "plays": "{count}회 플레이",
+    "questions": "{count}문제",
+    "difficulty": {
+      "easy": "쉬움",
+      "medium": "보통",
+      "hard": "어려움"
+    },
+    "featured": "추천",
+    "trending": "지금 인기",
+    "all": "전체 퀴즈",
+    "search": "퀴즈 검색...",
+    "noResults": "퀴즈를 찾을 수 없습니다",
+    "start": "퀴즈 시작",
+    "selectCount": "몇 문제 풀까요?",
+    "allQuestions": "전체 ({count})",
+    "question": "{total}문제 중 {current}번째",
+    "typeAnswer": "정답을 입력하세요...",
+    "submit": "제출",
+    "skip": "건너뛰기",
+    "correct": "정답!",
+    "wrong": "오답!",
+    "theAnswerWas": "정답은",
+    "next": "다음",
+    "seeResults": "결과 보기",
+    "playAudio": "클립 재생",
+    "replayAudio": "다시 듣기",
+    "cropHint": "극한 확대 — 잘 보세요!",
+    "timer": "{seconds}초"
+  },
+  "results": {
+    "title": "결과",
+    "score": "{score} / {total} 정답",
+    "percentile": "상위 {percent}%",
+    "percentileLow": "플레이어 중 {percent}%보다 높음",
+    "rank": {
+      "legendary": "레전드",
+      "elite": "엘리트",
+      "solid": "준수",
+      "rookie": "루키"
+    },
+    "distribution": "점수 분포",
+    "share": "결과 공유",
+    "shareText": "\"{title}\" 퀴즈에서 {score}/{total} 맞춤 — 상위 {percent}%! 이길 수 있어?",
+    "playAgain": "다시 하기",
+    "browseMore": "더 많은 퀴즈",
+    "copied": "클립보드에 복사됨!"
+  },
+  "create": {
+    "title": "퀴즈 만들기",
+    "subtitle": "몇 분 만에 퀴즈를 만들고 링크를 공유하세요.",
+    "quizTitle": "퀴즈 제목",
+    "quizTitlePlaceholder": "예: 90년대 만화 맞히기",
+    "description": "설명",
+    "descriptionPlaceholder": "어떤 퀴즈인가요?",
+    "category": "카테고리",
+    "categories": {
+      "music": "음악",
+      "gaming": "게임",
+      "anime": "애니메이션",
+      "movies": "영화 & TV",
+      "sports": "스포츠",
+      "food": "음식",
+      "geography": "지리",
+      "travel": "여행",
+      "memes": "밈 & 인터넷",
+      "other": "기타"
+    },
+    "difficulty": "난이도",
+    "creatorName": "제작자 이름",
+    "creatorPlaceholder": "닉네임",
+    "addQuestion": "문제 추가",
+    "questionType": "문제 유형",
+    "imageUrl": "이미지 URL",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "youtubeUrl": "YouTube URL 또는 영상 ID",
+    "youtubePlaceholder": "https://youtube.com/watch?v=...",
+    "audioStart": "시작 시점 (초)",
+    "answers": "정답 목록",
+    "answersPlaceholder": "한 줄에 하나씩",
+    "answersHelp": "여러 표기를 한 줄에 하나씩 입력",
+    "hint": "힌트 (선택)",
+    "hintPlaceholder": "작은 힌트",
+    "cropPosition": "크롭 위치",
+    "cropSize": "확대 수준",
+    "preview": "미리보기",
+    "remove": "삭제",
+    "publish": "퀴즈 게시",
+    "publishing": "게시 중...",
+    "success": "퀴즈가 게시되었습니다!",
+    "successDesc": "링크를 공유하고 도전을 받아보세요.",
+    "viewQuiz": "퀴즈 보기",
+    "createAnother": "다른 퀴즈 만들기",
+    "minQuestions": "최소 3문제를 추가하세요",
+    "loginNote": "계정 불필요 — 제작자 이름만 입력"
+  },
+  "howItWorks": {
+    "title": "ClipQuiz 이용 방법",
+    "step1": {
+      "title": "퀴즈 선택",
+      "desc": "인기 퀴즈를 둘러보거나 카테고리로 검색하세요."
+    },
+    "step2": {
+      "title": "답 입력",
+      "desc": "객관식 없이 직접 입력. 유사 답변도 인정됩니다."
+    },
+    "step3": {
+      "title": "순위 겨루기",
+      "desc": "상위 %를 확인하고 친구들과 공유하세요."
+    }
+  },
+  "footer": {
+    "tagline": "스트리머, 친구들, 퀴즈 매니아를 위해.",
+    "rights": "© {year} ClipQuiz. All rights reserved."
+  },
+  "lang": {
+    "label": "언어"
+  }
+}
