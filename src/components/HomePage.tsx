@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import type { Quiz } from "@/lib/types";
+import { fetchQuizzes } from "@/lib/quizzes-client";
 import QuizCard from "@/components/QuizCard";
 import ModeShowcase from "@/components/ModeShowcase";
 import HowItWorks from "@/components/HowItWorks";
@@ -12,13 +12,12 @@ import { Play, Plus, Search, TrendingUp } from "lucide-react";
 
 export default function HomePage() {
   const t = useTranslations();
-  const [quizzes, setQuizzes] = useState<Quiz[]>([]);
+  const [quizzes, setQuizzes] = useState<Awaited<ReturnType<typeof fetchQuizzes>>>([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/quizzes?sort=trending")
-      .then((r) => r.json())
+    fetchQuizzes()
       .then((data) => {
         setQuizzes(data);
         setLoading(false);

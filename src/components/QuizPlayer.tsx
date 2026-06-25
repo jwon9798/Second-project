@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
 import type { Quiz, Question } from "@/lib/types";
 import { checkAnswer, shuffleQuestions } from "@/lib/quiz-utils";
+import { saveQuizResult } from "@/lib/quizzes-client";
 import QuestionDisplay from "./QuestionDisplay";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Check, X, Lightbulb } from "lucide-react";
@@ -31,7 +32,6 @@ export default function QuizPlayer({ quiz, questionCount }: QuizPlayerProps) {
 
   useEffect(() => {
     setQuestions(shuffleQuestions(quiz.questions, questionCount));
-    fetch(`/api/quizzes/${quiz.id}`, { method: "POST" }).catch(() => {});
   }, [quiz, questionCount]);
 
   const current = questions[currentIndex];
@@ -57,35 +57,36 @@ export default function QuizPlayer({ quiz, questionCount }: QuizPlayerProps) {
   const handleNext = useCallback(async () => {
     if (isLast) {
       setSubmitting(true);
+      const finalScore = scoreRef.current;
+      let percentile = 50;
+      let distribution: number[] = [];
+
       try {
-        const finalScore = scoreRef.current;
         const res = await fetch(`/api/quizzes/${quiz.id}/results`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ score: finalScore, total: questions.length }),
         });
-
-        let percentile = 50;
-        let distribution: number[] = [];
-
         if (res.ok) {
           const data = await res.json();
           percentile = data.percentile;
           distribution = data.distribution;
+        } else {
+          throw new Error("api unavailable");
         }
-
-        const params = new URLSearchParams({
-          score: String(finalScore),
-          total: String(questions.length),
-          percentile: String(percentile),
-          distribution: JSON.stringify(distribution),
-        });
-        router.push(`/quiz/${quiz.id}/results?${params.toString()}`);
       } catch {
-        router.push(
-          `/quiz/${quiz.id}/results?score=${scoreRef.current}&total=${questions.length}&percentile=50`,
-        );
+        const local = saveQuizResult(quiz.id, finalScore, questions.length);
+        percentile = local.percentile;
+        distribution = local.distribution;
       }
+
+      const params = new URLSearchParams({
+        score: String(finalScore),
+        total: String(questions.length),
+        percentile: String(percentile),
+        distribution: JSON.stringify(distribution),
+      });
+      router.push(`/quiz/${quiz.id}/results?${params.toString()}`);
       return;
     }
 

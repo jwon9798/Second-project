@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
-import type { Quiz } from "@/lib/types";
+import { fetchQuizById } from "@/lib/quizzes-client";
 import ResultScreen from "@/components/ResultScreen";
 
 export default function ResultsContent() {
@@ -10,7 +10,7 @@ export default function ResultsContent() {
   const searchParams = useSearchParams();
   const id = params.id as string;
 
-  const [quiz, setQuiz] = useState<Quiz | null>(null);
+  const [quiz, setQuiz] = useState<Awaited<ReturnType<typeof fetchQuizById>>>(null);
 
   const score = Number(searchParams.get("score") ?? 0);
   const total = Number(searchParams.get("total") ?? 1);
@@ -21,8 +21,7 @@ export default function ResultsContent() {
     : [];
 
   useEffect(() => {
-    fetch(`/api/quizzes/${id}`)
-      .then((r) => r.json())
+    fetchQuizById(id)
       .then(setQuiz)
       .catch(() => {});
   }, [id]);

@@ -1,5 +1,17 @@
 import { Suspense } from "react";
+import { routing } from "@/i18n/routing";
+import seedQuizzes from "@/data/seed-quizzes.json";
+import type { Quiz } from "@/lib/types";
 import ResultsContent from "./ResultsContent";
+
+export function generateStaticParams() {
+  return routing.locales.flatMap((locale) =>
+    (seedQuizzes as Quiz[]).map((quiz) => ({
+      locale,
+      id: quiz.id,
+    })),
+  );
+}
 
 export default function QuizResultsPage() {
   return (

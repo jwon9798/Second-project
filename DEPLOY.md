@@ -22,13 +22,17 @@ Output Directory에 `.next`나 `out`이 들어가 있으면 **Ready여도 전체
 2. **Use existing Build Cache** 체크 해제
 3. 배포 완료 후 **Visit** 버튼으로 접속 (도메인 직접 입력 말고)
 
-## 3. 동작 확인
+## 3. 동작 확인 (배포 URL 예시)
+
+`https://second-project-two-khaki.vercel.app`
 
 | URL | 기대 결과 |
 |-----|-----------|
 | `/api/health` | `{"ok":true,"app":"ClipQuiz"}` |
 | `/en` | ClipQuiz 홈 화면 |
 | `/` | `/en`으로 리다이렉트 |
+
+`x-vercel-error: NOT_FOUND` 가 나오면 Framework Preset이 Next.js가 아닙니다.
 
 ## 4. 그래도 404면
 

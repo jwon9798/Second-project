@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
-import type { Difficulty, QuestionType } from "@/lib/types";
+import { saveCustomQuiz } from "@/lib/quizzes-client";
+import type { Difficulty, QuestionType, Quiz } from "@/lib/types";
 import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
 
@@ -116,36 +117,47 @@ export default function CreateQuizForm() {
     }
 
     setPublishing(true);
+    const payload = {
+      title,
+      description,
+      category,
+      language: locale,
+      tags: [category],
+      creator,
+      coverEmoji,
+      difficulty,
+      questions: questions.map((q, i) => ({
+        ...toApiQuestion(q, i),
+        id: `q-${i}-${Date.now()}`,
+      })),
+    };
+
     try {
       const res = await fetch("/api/quizzes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          title,
-          description,
-          category,
-          language: locale,
-          tags: [category],
-          creator,
-          coverEmoji,
-          difficulty,
-          questions: questions.map(toApiQuestion),
-        }),
+        body: JSON.stringify(payload),
       });
 
-      if (!res.ok) {
-        const data = await res.json();
-        setError(JSON.stringify(data.error ?? "Error"));
+      if (res.ok) {
+        const quiz = await res.json();
+        setSuccess({ id: quiz.id });
         return;
       }
-
-      const quiz = await res.json();
-      setSuccess({ id: quiz.id });
     } catch {
-      setError("Network error");
+      // API unavailable — save locally
     } finally {
       setPublishing(false);
     }
+
+    const localQuiz: Quiz = {
+      ...payload,
+      id: `local-${Date.now()}`,
+      playCount: 0,
+      createdAt: new Date().toISOString(),
+    };
+    saveCustomQuiz(localQuiz);
+    setSuccess({ id: localQuiz.id });
   }
 
   if (success) {
