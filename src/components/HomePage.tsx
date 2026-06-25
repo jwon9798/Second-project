@@ -41,8 +41,6 @@ export default function HomePage() {
     return matchesSearch && matchesCategory;
   });
 
-  const totalPlays = quizzes.reduce((sum, q) => sum + q.playCount, 0);
-
   return (
     <>
       <section className="relative overflow-hidden py-16 sm:py-24">
@@ -85,17 +83,13 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="flex justify-center gap-8 sm:gap-16">
-              {[
-                { value: quizzes.length || "6+", label: t("hero.stats.quizzes") },
-                { value: totalPlays > 0 ? `${Math.round(totalPlays / 1000)}K+` : "270K+", label: t("hero.stats.players") },
-                { value: "50+", label: t("hero.stats.countries") },
-              ].map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <p className="font-display text-2xl sm:text-3xl font-bold text-white">{stat.value}</p>
-                  <p className="text-xs text-white/40 mt-1">{stat.label}</p>
-                </div>
-              ))}
+            <div className="flex justify-center">
+              <div className="text-center">
+                <p className="font-display text-2xl sm:text-3xl font-bold text-white">
+                  {loading ? "…" : quizzes.length}
+                </p>
+                <p className="text-xs text-white/40 mt-1">{t("hero.stats.quizzes")}</p>
+              </div>
             </div>
           </motion.div>
         </div>
