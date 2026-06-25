@@ -1,10 +1,10 @@
-import seedQuizzes from "@/data/seed-quizzes.json";
+import { allSeedQuizzes } from "@/lib/seed-data";
 import { isSupabaseConfigured } from "./supabase/admin";
 import type { Quiz, QuizResult } from "./types";
 import * as fileStorage from "./storage-file";
 import * as supabaseStorage from "./storage-supabase";
 
-const seed = seedQuizzes as Quiz[];
+const seed = allSeedQuizzes;
 
 function isSeedQuizId(quizId: string): boolean {
   return seed.some((q) => q.id === quizId);
