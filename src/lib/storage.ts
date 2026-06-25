@@ -1,34 +1,16 @@
-import { promises as fs } from "fs";
-import path from "path";
-import { v4 as uuidv4 } from "uuid";
-import type { Quiz, QuizResult } from "./types";
 import seedQuizzes from "@/data/seed-quizzes.json";
+import { isSupabaseConfigured } from "./supabase/admin";
+import type { Quiz, QuizResult } from "./types";
+import * as fileStorage from "./storage-file";
+import * as supabaseStorage from "./storage-supabase";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const QUIZZES_FILE = path.join(DATA_DIR, "quizzes.json");
-const RESULTS_FILE = path.join(DATA_DIR, "results.json");
+const seed = seedQuizzes as Quiz[];
 
-async function ensureDataDir() {
-  await fs.mkdir(DATA_DIR, { recursive: true });
+function isSeedQuizId(quizId: string): boolean {
+  return seed.some((q) => q.id === quizId);
 }
 
-async function readJsonFile<T>(filePath: string, fallback: T): Promise<T> {
-  try {
-    const raw = await fs.readFile(filePath, "utf-8");
-    return JSON.parse(raw) as T;
-  } catch {
-    return fallback;
-  }
-}
-
-async function writeJsonFile<T>(filePath: string, data: T) {
-  await ensureDataDir();
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
-}
-
-export async function getQuizzes(): Promise<Quiz[]> {
-  const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
-  const seed = seedQuizzes as Quiz[];
+function mergeQuizzes(custom: Quiz[]): Quiz[] {
   const map = new Map<string, Quiz>();
 
   for (const quiz of seed) {
@@ -41,59 +23,78 @@ export async function getQuizzes(): Promise<Quiz[]> {
   return Array.from(map.values());
 }
 
+export function getStorageBackend(): "supabase" | "file" {
+  return isSupabaseConfigured() ? "supabase" : "file";
+}
+
+export async function getQuizzes(): Promise<Quiz[]> {
+  const custom = isSupabaseConfigured()
+    ? await supabaseStorage.getCustomQuizzesFromSupabase()
+    : await fileStorage.getCustomQuizzesFromFile();
+
+  return mergeQuizzes(custom);
+}
+
 export async function getQuizById(id: string): Promise<Quiz | null> {
-  const quizzes = await getQuizzes();
-  return quizzes.find((q) => q.id === id) ?? null;
+  const seedQuiz = seed.find((q) => q.id === id);
+  if (seedQuiz) return seedQuiz;
+
+  if (isSupabaseConfigured()) {
+    return supabaseStorage.getCustomQuizByIdFromSupabase(id);
+  }
+
+  const custom = await fileStorage.getCustomQuizzesFromFile();
+  return custom.find((q) => q.id === id) ?? null;
 }
 
 export async function saveQuiz(quiz: Omit<Quiz, "id" | "playCount" | "createdAt">) {
-  const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
-  const newQuiz: Quiz = {
-    ...quiz,
-    id: uuidv4(),
-    playCount: 0,
-    createdAt: new Date().toISOString(),
-  };
-
-  custom.unshift(newQuiz);
-  await writeJsonFile(QUIZZES_FILE, custom);
-  return newQuiz;
+  if (isSupabaseConfigured()) {
+    return supabaseStorage.saveQuizToSupabase(quiz);
+  }
+  return fileStorage.saveQuizToFile(quiz);
 }
 
 export async function incrementPlayCount(quizId: string) {
-  const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
-  const seed = seedQuizzes as Quiz[];
-  const isSeed = seed.some((q) => q.id === quizId);
-
-  if (isSeed) {
-    const plays = await readJsonFile<Record<string, number>>(
-      path.join(DATA_DIR, "seed-plays.json"),
-      {},
-    );
-    plays[quizId] = (plays[quizId] ?? 0) + 1;
-    await writeJsonFile(path.join(DATA_DIR, "seed-plays.json"), plays);
+  if (isSeedQuizId(quizId)) {
+    if (isSupabaseConfigured()) {
+      await supabaseStorage.incrementSeedPlayCountInSupabase(quizId);
+    } else {
+      await fileStorage.incrementSeedPlayCountInFile(quizId);
+    }
     return;
   }
 
-  const index = custom.findIndex((q) => q.id === quizId);
-  if (index >= 0) {
-    custom[index].playCount += 1;
-    await writeJsonFile(QUIZZES_FILE, custom);
+  if (isSupabaseConfigured()) {
+    await supabaseStorage.incrementCustomPlayCountInSupabase(quizId);
+  } else {
+    await fileStorage.incrementCustomPlayCountInFile(quizId);
   }
 }
 
 export async function getPlayCount(quizId: string, baseCount: number): Promise<number> {
-  const plays = await readJsonFile<Record<string, number>>(
-    path.join(DATA_DIR, "seed-plays.json"),
-    {},
-  );
-  return baseCount + (plays[quizId] ?? 0);
+  const extra = isSupabaseConfigured()
+    ? await supabaseStorage.getSeedPlayCountFromSupabase(quizId)
+    : await fileStorage.getSeedPlayCountFromFile(quizId);
+
+  if (isSeedQuizId(quizId)) {
+    return baseCount + extra;
+  }
+
+  if (isSupabaseConfigured()) {
+    const quiz = await supabaseStorage.getCustomQuizByIdFromSupabase(quizId);
+    return quiz?.playCount ?? baseCount;
+  }
+
+  const custom = await fileStorage.getCustomQuizzesFromFile();
+  const quiz = custom.find((q) => q.id === quizId);
+  return quiz?.playCount ?? baseCount;
 }
 
 export async function getResults(quizId?: string): Promise<QuizResult[]> {
-  const results = await readJsonFile<QuizResult[]>(RESULTS_FILE, []);
-  if (!quizId) return results;
-  return results.filter((r) => r.quizId === quizId);
+  if (isSupabaseConfigured()) {
+    return supabaseStorage.getResultsFromSupabase(quizId);
+  }
+  return fileStorage.getResultsFromFile(quizId);
 }
 
 export async function saveResult(
@@ -101,16 +102,8 @@ export async function saveResult(
   score: number,
   total: number,
 ): Promise<QuizResult> {
-  const results = await readJsonFile<QuizResult[]>(RESULTS_FILE, []);
-  const result: QuizResult = {
-    id: uuidv4(),
-    quizId,
-    score,
-    total,
-    createdAt: new Date().toISOString(),
-  };
-
-  results.push(result);
-  await writeJsonFile(RESULTS_FILE, results);
-  return result;
+  if (isSupabaseConfigured()) {
+    return supabaseStorage.saveResultToSupabase(quizId, score, total);
+  }
+  return fileStorage.saveResultToFile(quizId, score, total);
 }

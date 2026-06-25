@@ -1,5 +1,7 @@
 # ClipQuiz 배포 & 운영 가이드
 
+> **Supabase DB 연결 (UGC 영구 저장):** [SUPABASE_SETUP.md](./SUPABASE_SETUP.md) — 처음부터 끝까지 단계별 가이드
+
 ## 1. Vercel 기본 배포 (지금 상태)
 
 배포 상태가 **Ready**인데 404가 나면, 빌드는 됐지만 **프로젝트 설정**이 잘못된 경우가 대부분입니다.
