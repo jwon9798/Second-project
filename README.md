@@ -18,6 +18,12 @@ npm run dev
 
 Your site URL should show ClipQuiz at `/en`.
 
+## Supabase (persistent UGC storage)
+
+See **[SUPABASE_SETUP.md](./SUPABASE_SETUP.md)** for the full step-by-step guide (Korean).
+
+Quick check after setup: `GET /api/health` should return `"storage": "supabase"`.
+
 ## Features
 
 - Image / Crop / Audio quiz modes

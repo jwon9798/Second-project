@@ -49,6 +49,12 @@
     "featured": "추천",
     "trending": "지금 인기",
     "all": "전체 퀴즈",
+    "allCategories": "전체",
+    "modes": {
+      "image": "이미지",
+      "crop": "일부 보기",
+      "audio": "음악"
+    },
     "search": "퀴즈 검색...",
     "noResults": "퀴즈를 찾을 수 없습니다",
     "start": "퀴즈 시작",
@@ -120,7 +126,7 @@
     "audioStart": "시작 시점 (초)",
     "answers": "정답 목록",
     "answersPlaceholder": "한 줄에 하나씩",
-    "answersHelp": "여러 표기를 한 줄에 하나씩 입력",
+    "answersHelp": "최대 {max}개, 한 줄에 하나씩 (띄어쓰기 무시)",
     "hint": "힌트 (선택)",
     "hintPlaceholder": "작은 힌트",
     "cropPosition": "크롭 위치",

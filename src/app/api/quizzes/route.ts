@@ -12,7 +12,7 @@ const questionSchema = z.object({
   youtubeId: z.string().optional(),
   audioStart: z.number().min(0).optional(),
   audioDuration: z.number().min(1).optional(),
-  answers: z.array(z.string().min(1)).min(1),
+  answers: z.array(z.string().min(1)).min(1).max(5),
   hint: z.string().optional(),
 });
 

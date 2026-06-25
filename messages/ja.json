@@ -49,6 +49,12 @@
     "featured": "おすすめ",
     "trending": "今人気",
     "all": "すべてのクイズ",
+    "allCategories": "すべて",
+    "modes": {
+      "image": "画像",
+      "crop": "一部",
+      "audio": "音楽"
+    },
     "search": "クイズを検索...",
     "noResults": "クイズが見つかりません",
     "start": "クイズ開始",
@@ -120,7 +126,7 @@
     "audioStart": "開始位置（秒）",
     "answers": "正解リスト",
     "answersPlaceholder": "1行に1つ",
-    "answersHelp": "複数の表記を1行に1つずつ",
+    "answersHelp": "最大{max}個、1行に1つ",
     "hint": "ヒント（任意）",
     "hintPlaceholder": "小さなヒント",
     "cropPosition": "クロップ位置",

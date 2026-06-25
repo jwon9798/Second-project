@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
 import { saveCustomQuiz } from "@/lib/quizzes-client";
+import { MAX_ANSWERS_PER_QUESTION } from "@/lib/quiz-utils";
 import type { Difficulty, QuestionType, Quiz } from "@/lib/types";
 import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
@@ -64,8 +65,12 @@ export default function CreateQuizForm() {
 
   const categories = [
     "music", "gaming", "anime", "movies", "sports",
-    "food", "geography", "travel", "memes", "other",
+    "food", "geography", "travel", "variety", "nature", "memes", "other",
   ] as const;
+
+  function parseAnswers(raw: string): string[] {
+    return raw.split("\n").map((a) => a.trim()).filter(Boolean).slice(0, MAX_ANSWERS_PER_QUESTION);
+  }
 
   function updateQuestion(index: number, patch: Partial<DraftQuestion>) {
     setQuestions((prev) =>
@@ -85,7 +90,7 @@ export default function CreateQuizForm() {
   function toApiQuestion(q: DraftQuestion, index: number) {
     const base = {
       type: q.type,
-      answers: q.answers.split("\n").map((a) => a.trim()).filter(Boolean),
+      answers: parseAnswers(q.answers),
       hint: q.hint || undefined,
     };
 
@@ -387,12 +392,19 @@ export default function CreateQuizForm() {
                 <textarea
                   required
                   value={q.answers}
-                  onChange={(e) => updateQuestion(index, { answers: e.target.value })}
+                  onChange={(e) => {
+                    const lines = e.target.value.split("\n");
+                    const limited =
+                      lines.length > MAX_ANSWERS_PER_QUESTION
+                        ? lines.slice(0, MAX_ANSWERS_PER_QUESTION).join("\n")
+                        : e.target.value;
+                    updateQuestion(index, { answers: limited });
+                  }}
                   placeholder={t("answersPlaceholder")}
                   rows={3}
                   className="input-field w-full rounded-lg px-3 py-2 text-sm text-white resize-none"
                 />
-                <p className="text-[10px] text-white/30 mt-1">{t("answersHelp")}</p>
+                <p className="text-[10px] text-white/30 mt-1">{t("answersHelp", { max: MAX_ANSWERS_PER_QUESTION })}</p>
               </div>
               <div>
                 <label className="block text-xs text-white/40 mb-1">{t("hint")}</label>

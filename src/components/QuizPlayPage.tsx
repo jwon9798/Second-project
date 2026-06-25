@@ -43,9 +43,9 @@ export default function QuizPlayPage() {
   }
 
   if (questionCount === null) {
+    const presets = [5, 10, 15, 20];
     const options = [
-      Math.min(5, quiz.questions.length),
-      Math.min(10, quiz.questions.length),
+      ...presets.filter((n) => n < quiz.questions.length),
       quiz.questions.length,
     ].filter((v, i, arr) => arr.indexOf(v) === i);
 

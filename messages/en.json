@@ -49,6 +49,12 @@
     "featured": "Featured",
     "trending": "Trending Now",
     "all": "All Quizzes",
+    "allCategories": "All",
+    "modes": {
+      "image": "Image",
+      "crop": "Crop",
+      "audio": "Audio"
+    },
     "search": "Search quizzes...",
     "noResults": "No quizzes found",
     "start": "Start Quiz",
@@ -120,7 +126,7 @@
     "audioStart": "Start at (seconds)",
     "answers": "Accepted Answers",
     "answersPlaceholder": "One per line (e.g. naruto)",
-    "answersHelp": "Add multiple accepted spellings, one per line",
+    "answersHelp": "Up to {max} accepted answers, one per line (spaces ignored when checking)",
     "hint": "Hint (optional)",
     "hintPlaceholder": "A small clue for players",
     "cropPosition": "Crop Position",
