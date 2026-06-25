@@ -14,6 +14,7 @@ export default function HomePage() {
   const t = useTranslations();
   const [quizzes, setQuizzes] = useState<Awaited<ReturnType<typeof fetchQuizzes>>>([]);
   const [search, setSearch] = useState("");
+  const [category, setCategory] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -26,13 +27,19 @@ export default function HomePage() {
   }, []);
 
   const featured = quizzes.filter((q) => q.featured);
-  const filtered = search
-    ? quizzes.filter(
-        (q) =>
-          q.title.toLowerCase().includes(search.toLowerCase()) ||
-          q.category.toLowerCase().includes(search.toLowerCase()),
-      )
-    : quizzes;
+  const categories = Array.from(
+    new Set(quizzes.map((q) => q.category.toLowerCase())),
+  ).sort();
+  const filtered = quizzes.filter((q) => {
+    const matchesSearch =
+      !search ||
+      q.title.toLowerCase().includes(search.toLowerCase()) ||
+      q.category.toLowerCase().includes(search.toLowerCase()) ||
+      q.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase()));
+    const matchesCategory =
+      !category || q.category.toLowerCase() === category.toLowerCase();
+    return matchesSearch && matchesCategory;
+  });
 
   const totalPlays = quizzes.reduce((sum, q) => sum + q.playCount, 0);
 
@@ -98,7 +105,7 @@ export default function HomePage() {
 
       <section id="trending" className="py-16 border-t border-white/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <h2 className="font-display text-3xl font-bold flex items-center gap-2">
               <span className="text-2xl">🔥</span>
               {t("quiz.trending")}
@@ -115,6 +122,36 @@ export default function HomePage() {
             </div>
           </div>
 
+          {categories.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-8">
+              <button
+                type="button"
+                onClick={() => setCategory(null)}
+                className={`rounded-full px-4 py-1.5 text-xs font-semibold transition-colors ${
+                  category === null
+                    ? "bg-[#ff3366]/20 text-[#ff6b9d] border border-[#ff3366]/30"
+                    : "bg-white/5 text-white/50 border border-white/10 hover:border-white/20"
+                }`}
+              >
+                {t("quiz.allCategories")}
+              </button>
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  type="button"
+                  onClick={() => setCategory(cat)}
+                  className={`rounded-full px-4 py-1.5 text-xs font-semibold capitalize transition-colors ${
+                    category === cat
+                      ? "bg-[#00f5d4]/20 text-[#00f5d4] border border-[#00f5d4]/30"
+                      : "bg-white/5 text-white/50 border border-white/10 hover:border-white/20"
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          )}
+
           {loading ? (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {Array.from({ length: 6 }).map((_, i) => (
@@ -125,7 +162,7 @@ export default function HomePage() {
             <p className="text-center text-white/40 py-12">{t("quiz.noResults")}</p>
           ) : (
             <>
-              {featured.length > 0 && !search && (
+              {featured.length > 0 && !search && !category && (
                 <div className="mb-10">
                   <h3 className="text-sm font-semibold text-[#00f5d4] uppercase tracking-wider mb-4">
                     {t("quiz.featured")}

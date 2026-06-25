@@ -3,20 +3,16 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import type { Quiz } from "@/lib/types";
+import { getQuizQuestionTypes } from "@/lib/quiz-utils";
 import { Image, Crop, Music, Play, Users } from "lucide-react";
 import { motion } from "framer-motion";
+
+const MODE_ICONS = { image: Image, crop: Crop, audio: Music } as const;
 
 function formatCount(n: number): string {
   if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(1)}K`;
   return String(n);
-}
-
-function getModeIcon(quiz: Quiz) {
-  const types = new Set(quiz.questions.map((q) => q.type));
-  if (types.has("audio")) return Music;
-  if (types.has("crop")) return Crop;
-  return Image;
 }
 
 interface QuizCardProps {
@@ -26,7 +22,7 @@ interface QuizCardProps {
 
 export default function QuizCard({ quiz, index = 0 }: QuizCardProps) {
   const t = useTranslations("quiz");
-  const ModeIcon = getModeIcon(quiz);
+  const modes = getQuizQuestionTypes(quiz);
 
   return (
     <motion.div
@@ -54,8 +50,15 @@ export default function QuizCard({ quiz, index = 0 }: QuizCardProps) {
 
         <div className="mt-auto flex items-center justify-between text-xs text-white/40">
           <div className="flex items-center gap-3">
-            <span className="flex items-center gap-1">
-              <ModeIcon className="h-3.5 w-3.5" />
+            <span className="flex items-center gap-1.5">
+              {modes.map((mode) => {
+                const Icon = MODE_ICONS[mode];
+                return (
+                  <span key={mode} title={t(`modes.${mode}`)}>
+                    <Icon className="h-3.5 w-3.5" aria-hidden />
+                  </span>
+                );
+              })}
               {quiz.category.charAt(0).toUpperCase() + quiz.category.slice(1)}
             </span>
             <span>{t("questions", { count: quiz.questions.length })}</span>

@@ -49,6 +49,12 @@
     "featured": "Destaque",
     "trending": "Em Alta",
     "all": "Todos os Quizzes",
+    "allCategories": "Todos",
+    "modes": {
+      "image": "Imagem",
+      "crop": "Recorte",
+      "audio": "Áudio"
+    },
     "search": "Buscar quizzes...",
     "noResults": "Nenhum quiz encontrado",
     "start": "Iniciar Quiz",
@@ -120,7 +126,7 @@
     "audioStart": "Início em (segundos)",
     "answers": "Respostas Aceitas",
     "answersPlaceholder": "Uma por linha",
-    "answersHelp": "Adicione várias grafias, uma por linha",
+    "answersHelp": "Até {max} respostas, uma por linha",
     "hint": "Dica (opcional)",
     "hintPlaceholder": "Uma pequena dica",
     "cropPosition": "Posição do Recorte",

@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { Question, QuizResult } from "./types";
+import type { Question, QuestionType, QuizResult } from "./types";
 
 export function normalizeAnswer(value: string): string {
   return value
@@ -66,6 +66,17 @@ export function getScoreLabel(
   if (ratio >= 0.5) return "solid";
   return "rookie";
 }
+
+export function getQuizQuestionTypes(quiz: { questions: Question[] }): QuestionType[] {
+  const types = new Set<QuestionType>();
+  for (const q of quiz.questions) {
+    types.add(q.type);
+  }
+  const order: QuestionType[] = ["image", "crop", "audio"];
+  return order.filter((t) => types.has(t));
+}
+
+export const MAX_ANSWERS_PER_QUESTION = 5;
 
 export function shuffleQuestions<T extends { id: string }>(
   items: T[],
