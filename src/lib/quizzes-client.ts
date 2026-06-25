@@ -1,4 +1,4 @@
-import seedQuizzes from "@/data/seed-quizzes.json";
+import { allSeedQuizzes } from "@/lib/seed-data";
 import type { Quiz, QuizResult } from "./types";
 import { calculatePercentile } from "./quiz-utils";
 
@@ -15,7 +15,7 @@ function getCustomQuizzes(): Quiz[] {
 
 export function getAllQuizzes(): Quiz[] {
   const map = new Map<string, Quiz>();
-  for (const quiz of seedQuizzes as Quiz[]) {
+  for (const quiz of allSeedQuizzes) {
     map.set(quiz.id, quiz);
   }
   for (const quiz of getCustomQuizzes()) {

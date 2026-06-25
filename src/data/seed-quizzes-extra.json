@@ -1,0 +1,2391 @@
+[
+  {
+    "id": "europe-flags-challenge",
+    "title": "European Flags Quiz",
+    "description": "Name the European country from its flag. Essential geography for travelers and trivia fans.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "europe",
+      "geography"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 62400,
+    "createdAt": "2026-01-10T00:00:00.000Z",
+    "coverEmoji": "🇪🇺",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      {
+        "id": "ef1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/de.png",
+        "answers": [
+          "germany",
+          "deutschland"
+        ],
+        "hint": "Black, red, gold horizontal"
+      },
+      {
+        "id": "ef2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/it.png",
+        "answers": [
+          "italy",
+          "italia"
+        ],
+        "hint": "Green, white, red vertical"
+      },
+      {
+        "id": "ef3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/es.png",
+        "answers": [
+          "spain",
+          "españa",
+          "espana"
+        ],
+        "hint": "Red and yellow with coat of arms"
+      },
+      {
+        "id": "ef4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/nl.png",
+        "answers": [
+          "netherlands",
+          "holland",
+          "nederland"
+        ],
+        "hint": "Red, white, blue horizontal"
+      },
+      {
+        "id": "ef5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/se.png",
+        "answers": [
+          "sweden",
+          "sverige"
+        ],
+        "hint": "Blue with yellow cross"
+      },
+      {
+        "id": "ef6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pl.png",
+        "answers": [
+          "poland",
+          "polska"
+        ],
+        "hint": "White over red"
+      },
+      {
+        "id": "ef7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/gr.png",
+        "answers": [
+          "greece",
+          "hellas"
+        ],
+        "hint": "Blue and white stripes with cross"
+      },
+      {
+        "id": "ef8",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ch.png",
+        "answers": [
+          "switzerland",
+          "swiss"
+        ],
+        "hint": "Red with white cross"
+      }
+    ]
+  },
+  {
+    "id": "usa-state-flags",
+    "title": "US State Flags",
+    "description": "Americana trivia — can you identify these US state flags?",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "usa",
+      "flags",
+      "states"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 51800,
+    "createdAt": "2026-01-08T00:00:00.000Z",
+    "coverEmoji": "🇺🇸",
+    "difficulty": "hard",
+    "featured": false,
+    "questions": [
+      {
+        "id": "us1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/800px-Flag_of_California.svg.png",
+        "answers": [
+          "california",
+          "ca"
+        ],
+        "hint": "Bear republic"
+      },
+      {
+        "id": "us2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/800px-Flag_of_Texas.svg.png",
+        "answers": [
+          "texas",
+          "tx"
+        ],
+        "hint": "Lone star state"
+      },
+      {
+        "id": "us3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Florida.svg/800px-Flag_of_Florida.svg.png",
+        "answers": [
+          "florida",
+          "fl"
+        ],
+        "hint": "Sunshine state"
+      },
+      {
+        "id": "us4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/800px-Flag_of_Alaska.svg.png",
+        "answers": [
+          "alaska",
+          "ak"
+        ],
+        "hint": "Big dipper on blue"
+      },
+      {
+        "id": "us5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/800px-Flag_of_Hawaii.svg.png",
+        "answers": [
+          "hawaii",
+          "hi"
+        ],
+        "hint": "Union jack in corner"
+      },
+      {
+        "id": "us6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/800px-Flag_of_New_York.svg.png",
+        "answers": [
+          "new york",
+          "ny"
+        ],
+        "hint": "Empire state"
+      }
+    ]
+  },
+  {
+    "id": "marvel-heroes",
+    "title": "Marvel Superheroes",
+    "description": "Identify legendary Marvel heroes from their iconic looks.",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "marvel",
+      "superhero",
+      "mcu"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 78900,
+    "createdAt": "2026-01-05T00:00:00.000Z",
+    "coverEmoji": "🦸",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "mv_h1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Iron_Man_in_Civil_War.png",
+        "answers": [
+          "iron man",
+          "tony stark"
+        ],
+        "hint": "Genius billionaire"
+      },
+      {
+        "id": "mv_h2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Captain_America_%28Steve_Rogers%29.png",
+        "answers": [
+          "captain america",
+          "steve rogers",
+          "cap"
+        ],
+        "hint": "Stars and stripes shield"
+      },
+      {
+        "id": "mv_h3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Thor_Odinson.png",
+        "answers": [
+          "thor"
+        ],
+        "hint": "God of thunder"
+      },
+      {
+        "id": "mv_h4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ad/Hulk_comic_character.png",
+        "answers": [
+          "hulk",
+          "bruce banner"
+        ],
+        "hint": "You wouldn't like him angry"
+      },
+      {
+        "id": "mv_h5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/Spider-Man_%28Miles_Morales%29_textless_cover_art.jpg",
+        "answers": [
+          "spider-man",
+          "spiderman",
+          "miles morales"
+        ],
+        "hint": "Friendly neighborhood"
+      },
+      {
+        "id": "mv_h6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Black_Widow_%282020_film%29_poster.jpg",
+        "answers": [
+          "black widow",
+          "natasha romanoff"
+        ],
+        "hint": "Red in the ledger"
+      }
+    ]
+  },
+  {
+    "id": "harry-potter-magic",
+    "title": "Harry Potter Universe",
+    "description": "Wizards, witches, and magic — name the Harry Potter character.",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "harry potter",
+      "fantasy",
+      "movies"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 71200,
+    "createdAt": "2026-01-03T00:00:00.000Z",
+    "coverEmoji": "⚡",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "hp1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg",
+        "answers": [
+          "harry potter"
+        ],
+        "hint": "The boy who lived"
+      },
+      {
+        "id": "hp2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Hermione_Granger_poster.jpg",
+        "answers": [
+          "hermione",
+          "hermione granger"
+        ],
+        "hint": "Brightest witch of her age"
+      },
+      {
+        "id": "hp3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/16/Ron_Weasley_poster.jpg",
+        "answers": [
+          "ron",
+          "ron weasley"
+        ],
+        "hint": "Harry's best mate"
+      },
+      {
+        "id": "hp4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/26/Dumbledore%27s_poster.jpg",
+        "answers": [
+          "dumbledore",
+          "albus dumbledore"
+        ],
+        "hint": "Hogwarts headmaster"
+      },
+      {
+        "id": "hp5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Lord_Voldemort.jpg",
+        "answers": [
+          "voldemort",
+          "lord voldemort",
+          "tom riddle"
+        ],
+        "hint": "He who must not be named"
+      },
+      {
+        "id": "hp6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Severus_Snape.jpg",
+        "answers": [
+          "snape",
+          "severus snape"
+        ],
+        "hint": "Always..."
+      }
+    ]
+  },
+  {
+    "id": "pokemon-gen1",
+    "title": "Pokémon Gen 1",
+    "description": "Gotta catch 'em all! Name these original 151 Pokémon.",
+    "category": "Gaming",
+    "language": "en",
+    "tags": [
+      "pokemon",
+      "gaming",
+      "nostalgia"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 84500,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "coverEmoji": "⚡",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "pk1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Bulbasaur.png",
+        "answers": [
+          "bulbasaur"
+        ],
+        "hint": "Grass starter #001"
+      },
+      {
+        "id": "pk2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/77/Charmander.png",
+        "answers": [
+          "charmander"
+        ],
+        "hint": "Fire starter"
+      },
+      {
+        "id": "pk3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Squirtle.png",
+        "answers": [
+          "squirtle"
+        ],
+        "hint": "Water starter"
+      },
+      {
+        "id": "pk4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Jigglypuff.png",
+        "answers": [
+          "jigglypuff"
+        ],
+        "hint": "Singing pink balloon"
+      },
+      {
+        "id": "pk5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Charizard.png",
+        "answers": [
+          "charizard"
+        ],
+        "hint": "Charmander's final form"
+      },
+      {
+        "id": "pk6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Mewtwo.png",
+        "answers": [
+          "mewtwo"
+        ],
+        "hint": "Legendary genetic Pokémon"
+      }
+    ]
+  },
+  {
+    "id": "british-rock-legends",
+    "title": "British Rock Anthems",
+    "description": "Hear a classic British rock riff or chorus. Name the song!",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "rock",
+      "british",
+      "audio",
+      "classic"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 56700,
+    "createdAt": "2025-12-28T00:00:00.000Z",
+    "coverEmoji": "🎸",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "br1",
+        "type": "audio",
+        "youtubeId": "fJ9rUzIMcZQ",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "bohemian rhapsody",
+          "queen bohemian rhapsody"
+        ],
+        "hint": "Queen masterpiece"
+      },
+      {
+        "id": "br2",
+        "type": "audio",
+        "youtubeId": "rY0WxgSXdEE",
+        "audioStart": 30,
+        "audioDuration": 8,
+        "answers": [
+          "wonderwall",
+          "oasis wonderwall"
+        ],
+        "hint": "Oasis 1995"
+      },
+      {
+        "id": "br3",
+        "type": "audio",
+        "youtubeId": "hTWKbjikeIw",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "smells like teen spirit",
+          "nirvana smells like teen spirit"
+        ],
+        "hint": "Grunge anthem"
+      },
+      {
+        "id": "br4",
+        "type": "audio",
+        "youtubeId": "fLexgOxsZu0",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "hey jude",
+          "beatles hey jude"
+        ],
+        "hint": "The Beatles"
+      },
+      {
+        "id": "br5",
+        "type": "audio",
+        "youtubeId": "yRYFKcMa_Ek",
+        "audioStart": 55,
+        "audioDuration": 8,
+        "answers": [
+          "stairway to heaven",
+          "led zeppelin stairway"
+        ],
+        "hint": "Led Zeppelin epic"
+      },
+      {
+        "id": "br6",
+        "type": "audio",
+        "youtubeId": "rMbATaj7Il8",
+        "audioStart": 35,
+        "audioDuration": 8,
+        "answers": [
+          "paint it black",
+          "rolling stones paint it black"
+        ],
+        "hint": "Rolling Stones"
+      }
+    ]
+  },
+  {
+    "id": "latin-pop-global",
+    "title": "Latin Pop & Reggaeton",
+    "description": "Global dance hits from Latin America and Spain. Name the song!",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "latin",
+      "reggaeton",
+      "audio",
+      "spanish"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 69800,
+    "createdAt": "2025-12-25T00:00:00.000Z",
+    "coverEmoji": "💃",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      {
+        "id": "lp1",
+        "type": "audio",
+        "youtubeId": "JGwWNGJdvx8",
+        "audioStart": 60,
+        "audioDuration": 8,
+        "answers": [
+          "shape of you",
+          "ed sheeran shape of you"
+        ],
+        "hint": "Ed Sheeran tropical hit"
+      },
+      {
+        "id": "lp2",
+        "type": "audio",
+        "youtubeId": "HCjNJDNzw8Y",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "havana",
+          "camila cabello havana"
+        ],
+        "hint": "Camila Cabello"
+      },
+      {
+        "id": "lp3",
+        "type": "audio",
+        "youtubeId": "pRpeEdMmmQ0",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "waka waka",
+          "shakira waka waka"
+        ],
+        "hint": "2010 World Cup"
+      },
+      {
+        "id": "lp4",
+        "type": "audio",
+        "youtubeId": "Oce2cxc_b_c",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "gasolina",
+          "daddy yankee gasolina"
+        ],
+        "hint": "Daddy Yankee classic"
+      },
+      {
+        "id": "lp5",
+        "type": "audio",
+        "youtubeId": "wnJ6Lu8pSb0",
+        "audioStart": 55,
+        "audioDuration": 8,
+        "answers": [
+          "bailando",
+          "enrique iglesias bailando"
+        ],
+        "hint": "Enrique Iglesias"
+      },
+      {
+        "id": "lp6",
+        "type": "audio",
+        "youtubeId": "tt2k8PGm-TI",
+        "audioStart": 30,
+        "audioDuration": 8,
+        "answers": [
+          "despacito",
+          "luis fonsi despacito"
+        ],
+        "hint": "2017 global phenomenon"
+      }
+    ]
+  },
+  {
+    "id": "90s-hits-anthems",
+    "title": "90s Hit Songs",
+    "description": "Relive the 90s! A few seconds of each iconic track.",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "90s",
+      "music",
+      "audio",
+      "nostalgia"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 73200,
+    "createdAt": "2025-12-22T00:00:00.000Z",
+    "coverEmoji": "📼",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "n90_1",
+        "type": "audio",
+        "youtubeId": "gJLIiF15wjQ",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "wannabe",
+          "spice girls wannabe"
+        ],
+        "hint": "Spice Girls"
+      },
+      {
+        "id": "n90_2",
+        "type": "audio",
+        "youtubeId": "C-u5WLJ9Yk4",
+        "audioStart": 55,
+        "audioDuration": 8,
+        "answers": [
+          "baby one more time",
+          "britney spears baby one more time"
+        ],
+        "hint": "Britney debut"
+      },
+      {
+        "id": "n90_3",
+        "type": "audio",
+        "youtubeId": "6M6samPEMpM",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "i want it that way",
+          "backstreet boys"
+        ],
+        "hint": "Backstreet Boys"
+      },
+      {
+        "id": "n90_4",
+        "type": "audio",
+        "youtubeId": "FrLeQu6WRJI",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "no scrubs",
+          "tlc no scrubs"
+        ],
+        "hint": "TLC"
+      },
+      {
+        "id": "n90_5",
+        "type": "audio",
+        "youtubeId": "N6O2ncUKvlg",
+        "audioStart": 35,
+        "audioDuration": 8,
+        "answers": [
+          "macarena",
+          "los del rio macarena"
+        ],
+        "hint": "Dance craze"
+      },
+      {
+        "id": "n90_6",
+        "type": "audio",
+        "youtubeId": "0HI8TQqN0m4",
+        "audioStart": 60,
+        "audioDuration": 8,
+        "answers": [
+          "waterfalls",
+          "tlc waterfalls"
+        ],
+        "hint": "TLC again"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-viral-hits",
+    "title": "TikTok Viral Songs",
+    "description": "Songs that blew up on TikTok and charts worldwide.",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "tiktok",
+      "viral",
+      "audio",
+      "pop"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 82100,
+    "createdAt": "2025-12-20T00:00:00.000Z",
+    "coverEmoji": "📱",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "tt1",
+        "type": "audio",
+        "youtubeId": "4NRXx6U8ABQ",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "blinding lights",
+          "the weeknd blinding lights"
+        ],
+        "hint": "The Weeknd"
+      },
+      {
+        "id": "tt2",
+        "type": "audio",
+        "youtubeId": "r7qovpFAGrQ",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "old town road",
+          "lil nas x old town road"
+        ],
+        "hint": "Lil Nas X"
+      },
+      {
+        "id": "tt3",
+        "type": "audio",
+        "youtubeId": "qN4ooNxOXu8",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "as it was",
+          "harry styles as it was"
+        ],
+        "hint": "Harry Styles"
+      },
+      {
+        "id": "tt4",
+        "type": "audio",
+        "youtubeId": "G7KNmW9aA4Q",
+        "audioStart": 55,
+        "audioDuration": 8,
+        "answers": [
+          "flowers",
+          "miley cyrus flowers"
+        ],
+        "hint": "Miley Cyrus"
+      },
+      {
+        "id": "tt5",
+        "type": "audio",
+        "youtubeId": "yBLdQ1a4-J8",
+        "audioStart": 30,
+        "audioDuration": 8,
+        "answers": [
+          "drivers license",
+          "olivia rodrigo drivers license"
+        ],
+        "hint": "Olivia Rodrigo"
+      },
+      {
+        "id": "tt6",
+        "type": "audio",
+        "youtubeId": "CRrf3h9vkb8",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "stay",
+          "kid laroi stay",
+          "the kid laroi stay"
+        ],
+        "hint": "The Kid LAROI & Justin Bieber"
+      }
+    ]
+  },
+  {
+    "id": "christmas-songs-global",
+    "title": "Christmas Songs Worldwide",
+    "description": "Holiday classics everyone knows. Name the Christmas song!",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "christmas",
+      "holiday",
+      "audio"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 45600,
+    "createdAt": "2025-12-18T00:00:00.000Z",
+    "coverEmoji": "🎄",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "xm1",
+        "type": "audio",
+        "youtubeId": "yXQViqx6GMY",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "all i want for christmas is you",
+          "mariah carey all i want"
+        ],
+        "hint": "Mariah Carey"
+      },
+      {
+        "id": "xm2",
+        "type": "audio",
+        "youtubeId": "E8gmARGvPlI",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "last christmas",
+          "wham last christmas"
+        ],
+        "hint": "Wham!"
+      },
+      {
+        "id": "xm3",
+        "type": "audio",
+        "youtubeId": "koybu4b-87w",
+        "audioStart": 20,
+        "audioDuration": 8,
+        "answers": [
+          "jingle bell rock",
+          "bobby helms jingle bell rock"
+        ],
+        "hint": "Rockin' around"
+      },
+      {
+        "id": "xm4",
+        "type": "audio",
+        "youtubeId": "R_vmuI0_vLU",
+        "audioStart": 35,
+        "audioDuration": 8,
+        "answers": [
+          "silent night"
+        ],
+        "hint": "Classic carol"
+      },
+      {
+        "id": "xm5",
+        "type": "audio",
+        "youtubeId": "E2O-6uri9ec",
+        "audioStart": 30,
+        "audioDuration": 8,
+        "answers": [
+          "santa tell me",
+          "ariana grande santa tell me"
+        ],
+        "hint": "Ariana Grande"
+      },
+      {
+        "id": "xm6",
+        "type": "audio",
+        "youtubeId": "RpJIB-4C67w",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "rockin around the christmas tree",
+          "rockin around christmas tree"
+        ],
+        "hint": "Brenda Lee"
+      }
+    ]
+  },
+  {
+    "id": "famous-paintings",
+    "title": "Famous Paintings",
+    "description": "Masterpieces of art history. Name the painting or artist!",
+    "category": "Art",
+    "language": "en",
+    "tags": [
+      "art",
+      "paintings",
+      "culture"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 38900,
+    "createdAt": "2025-12-15T00:00:00.000Z",
+    "coverEmoji": "🎨",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "art1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "answers": [
+          "mona lisa",
+          "la gioconda"
+        ],
+        "hint": "Leonardo da Vinci"
+      },
+      {
+        "id": "art2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "answers": [
+          "starry night",
+          "the starry night"
+        ],
+        "hint": "Van Gogh"
+      },
+      {
+        "id": "art3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_Nasjonalgalleriet%2C_Oslo%2C_Norway.jpg/800px-Edvard_Munch%2C_1893%2C_The_Scream%2C_Nasjonalgalleriet%2C_Oslo%2C_Norway.jpg",
+        "answers": [
+          "the scream",
+          "scream"
+        ],
+        "hint": "Edvard Munch"
+      },
+      {
+        "id": "art4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "answers": [
+          "girl with a pearl earring",
+          "pearl earring"
+        ],
+        "hint": "Vermeer"
+      },
+      {
+        "id": "art5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/800px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+        "answers": [
+          "impression sunrise",
+          "impression soleil levant"
+        ],
+        "hint": "Monet — Impressionism"
+      },
+      {
+        "id": "art6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pablo_picasso_1.jpg/800px-Pablo_picasso_1.jpg",
+        "answers": [
+          "picasso",
+          "pablo picasso"
+        ],
+        "hint": "Cubism pioneer (portrait)"
+      }
+    ]
+  },
+  {
+    "id": "world-food-icons",
+    "title": "World Food Icons",
+    "description": "Famous dishes from around the globe. What are you eating?",
+    "category": "Food",
+    "language": "en",
+    "tags": [
+      "food",
+      "world",
+      "cuisine"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 54300,
+    "createdAt": "2025-12-12T00:00:00.000Z",
+    "coverEmoji": "🍕",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "fd1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "answers": [
+          "pizza",
+          "pizza margherita"
+        ],
+        "hint": "Italian classic"
+      },
+      {
+        "id": "fd2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/800px-Sushi_platter.jpg",
+        "answers": [
+          "sushi"
+        ],
+        "hint": "Japanese"
+      },
+      {
+        "id": "fd3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tacos_de_carne_deshebrada.jpg/800px-Tacos_de_carne_deshebrada.jpg",
+        "answers": [
+          "tacos",
+          "taco"
+        ],
+        "hint": "Mexican"
+      },
+      {
+        "id": "fd4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pho_with_beef_and_tendon.jpg/800px-Pho_with_beef_and_tendon.jpg",
+        "answers": [
+          "pho"
+        ],
+        "hint": "Vietnamese noodle soup"
+      },
+      {
+        "id": "fd5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paella_de_marisco_01.jpg/800px-Paella_de_marisco_01.jpg",
+        "answers": [
+          "paella"
+        ],
+        "hint": "Spanish rice dish"
+      },
+      {
+        "id": "fd6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Croissant-PetrKratochvil.jpg/800px-Croissant-PetrKratochvil.jpg",
+        "answers": [
+          "croissant"
+        ],
+        "hint": "French pastry"
+      },
+      {
+        "id": "fd7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hamburger_%28black_bg%29.jpg/800px-Hamburger_%28black_bg%29.jpg",
+        "answers": [
+          "hamburger",
+          "burger"
+        ],
+        "hint": "American icon"
+      }
+    ]
+  },
+  {
+    "id": "tech-logos-crop",
+    "title": "Tech Giants Logo Crop",
+    "description": "Zoomed-in tech logos. Silicon Valley trivia!",
+    "category": "Technology",
+    "language": "en",
+    "tags": [
+      "tech",
+      "logos",
+      "crop"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 47800,
+    "createdAt": "2025-12-10T00:00:00.000Z",
+    "coverEmoji": "💻",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "tc1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "cropX": 20,
+        "cropY": 50,
+        "cropSize": 18,
+        "answers": [
+          "google"
+        ],
+        "hint": "Search giant"
+      },
+      {
+        "id": "tc2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/800px-Microsoft_logo.svg.png",
+        "cropX": 10,
+        "cropY": 50,
+        "cropSize": 22,
+        "answers": [
+          "microsoft"
+        ],
+        "hint": "Windows maker"
+      },
+      {
+        "id": "tc3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/800px-Amazon_logo.svg.png",
+        "cropX": 5,
+        "cropY": 55,
+        "cropSize": 25,
+        "answers": [
+          "amazon"
+        ],
+        "hint": "Smile arrow"
+      },
+      {
+        "id": "tc4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 30,
+        "answers": [
+          "meta",
+          "facebook meta"
+        ],
+        "hint": "Infinity loop"
+      },
+      {
+        "id": "tc5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Intel_logo_%282020%2C_light_blue%29.svg/800px-Intel_logo_%282020%2C_light_blue%29.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 28,
+        "answers": [
+          "intel"
+        ],
+        "hint": "Inside the computer"
+      },
+      {
+        "id": "tc6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png",
+        "cropX": 50,
+        "cropY": 40,
+        "cropSize": 35,
+        "answers": [
+          "apple"
+        ],
+        "hint": "Bitten fruit"
+      }
+    ]
+  },
+  {
+    "id": "luxury-car-brands",
+    "title": "Luxury Car Brands",
+    "description": "Prestige automakers — identify the brand from the badge or car.",
+    "category": "Automotive",
+    "language": "en",
+    "tags": [
+      "cars",
+      "luxury",
+      "brands"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 41200,
+    "createdAt": "2025-12-08T00:00:00.000Z",
+    "coverEmoji": "🏎️",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "car1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/800px-BMW.svg.png",
+        "answers": [
+          "bmw",
+          "bayerische motoren werke"
+        ],
+        "hint": "Blue and white propeller"
+      },
+      {
+        "id": "car2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png",
+        "answers": [
+          "mercedes",
+          "mercedes-benz"
+        ],
+        "hint": "Three-pointed star"
+      },
+      {
+        "id": "car3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/Ferrari-Logo.svg",
+        "answers": [
+          "ferrari"
+        ],
+        "hint": "Prancing horse"
+      },
+      {
+        "id": "car4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lamborghini_Logo.svg/800px-Lamborghini_Logo.svg.png",
+        "answers": [
+          "lamborghini"
+        ],
+        "hint": "Italian bull"
+      },
+      {
+        "id": "car5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/800px-Volkswagen_logo_2019.svg.png",
+        "answers": [
+          "volkswagen",
+          "vw"
+        ],
+        "hint": "People's car"
+      },
+      {
+        "id": "car6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota.svg/800px-Toyota.svg.png",
+        "answers": [
+          "toyota"
+        ],
+        "hint": "Japan's largest automaker"
+      }
+    ]
+  },
+  {
+    "id": "football-clubs-world",
+    "title": "World Football Clubs",
+    "description": "Soccer crests and legends. Name the club!",
+    "category": "Sports",
+    "language": "en",
+    "tags": [
+      "football",
+      "soccer",
+      "sports"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 67500,
+    "createdAt": "2025-12-05T00:00:00.000Z",
+    "coverEmoji": "⚽",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      {
+        "id": "fb1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+        "answers": [
+          "real madrid"
+        ],
+        "hint": "La Liga giants"
+      },
+      {
+        "id": "fb2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+        "answers": [
+          "manchester united",
+          "man united",
+          "man utd"
+        ],
+        "hint": "Red Devils"
+      },
+      {
+        "id": "fb3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+        "answers": [
+          "liverpool",
+          "liverpool fc"
+        ],
+        "hint": "You'll Never Walk Alone"
+      },
+      {
+        "id": "fb4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+        "answers": [
+          "psg",
+          "paris saint germain",
+          "paris saint-germain"
+        ],
+        "hint": "French capital club"
+      },
+      {
+        "id": "fb5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+        "answers": [
+          "bayern munich",
+          "bayern",
+          "fc bayern"
+        ],
+        "hint": "German champions"
+      },
+      {
+        "id": "fb6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Juventus_FC_2017_logo.svg",
+        "answers": [
+          "juventus",
+          "juve"
+        ],
+        "hint": "Italian old lady"
+      }
+    ]
+  },
+  {
+    "id": "nba-teams",
+    "title": "NBA Team Logos",
+    "description": "Basketball fans — name the NBA team from its logo!",
+    "category": "Sports",
+    "language": "en",
+    "tags": [
+      "nba",
+      "basketball",
+      "sports"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 53400,
+    "createdAt": "2025-12-03T00:00:00.000Z",
+    "coverEmoji": "🏀",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "nba1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/National_Basketball_Association_logo.svg",
+        "answers": [
+          "nba",
+          "national basketball association"
+        ],
+        "hint": "The league itself"
+      },
+      {
+        "id": "nba2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8f/Los_Angeles_Lakers_logo.svg",
+        "answers": [
+          "lakers",
+          "los angeles lakers",
+          "la lakers"
+        ],
+        "hint": "Purple and gold"
+      },
+      {
+        "id": "nba3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8f/Chicago_Bulls_logo.svg",
+        "answers": [
+          "bulls",
+          "chicago bulls"
+        ],
+        "hint": "Michael Jordan's team"
+      },
+      {
+        "id": "nba4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Golden_State_Warriors_logo.svg",
+        "answers": [
+          "warriors",
+          "golden state warriors",
+          "gsw"
+        ],
+        "hint": "Stephen Curry's team"
+      },
+      {
+        "id": "nba5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Boston_Celtics.svg",
+        "answers": [
+          "celtics",
+          "boston celtics"
+        ],
+        "hint": "Green legends"
+      },
+      {
+        "id": "nba6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Miami_Heat_logo.svg",
+        "answers": [
+          "heat",
+          "miami heat"
+        ],
+        "hint": "South Beach basketball"
+      }
+    ]
+  },
+  {
+    "id": "star-wars-galaxy",
+    "title": "Star Wars Galaxy",
+    "description": "A galaxy far, far away. Name the Star Wars character!",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "star wars",
+      "sci-fi",
+      "movies"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 75600,
+    "createdAt": "2025-12-01T00:00:00.000Z",
+    "coverEmoji": "⭐",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "sw1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg",
+        "answers": [
+          "darth vader",
+          "vader",
+          "anakin skywalker"
+        ],
+        "hint": "I am your father"
+      },
+      {
+        "id": "sw2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png",
+        "answers": [
+          "luke skywalker",
+          "luke"
+        ],
+        "hint": "Farm boy turned Jedi"
+      },
+      {
+        "id": "sw3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Yoda_Empire_Strikes_Back.png",
+        "answers": [
+          "yoda"
+        ],
+        "hint": "Do or do not"
+      },
+      {
+        "id": "sw4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/Baby_Yoda.png",
+        "answers": [
+          "grogu",
+          "baby yoda",
+          "the child"
+        ],
+        "hint": "The Mandalorian"
+      },
+      {
+        "id": "sw5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Han_Solo_depicted_by_Harrison_Ford.png",
+        "answers": [
+          "han solo"
+        ],
+        "hint": "Scruffy-looking nerf herder"
+      },
+      {
+        "id": "sw6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Chewbacca.png",
+        "answers": [
+          "chewbacca",
+          "chewie"
+        ],
+        "hint": "Wookiee co-pilot"
+      }
+    ]
+  },
+  {
+    "id": "netflix-hit-shows",
+    "title": "Netflix Hit Shows",
+    "description": "Binge-worthy series from the streaming giant.",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "netflix",
+      "tv",
+      "streaming"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 61200,
+    "createdAt": "2025-11-28T00:00:00.000Z",
+    "coverEmoji": "📺",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "nf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Stranger_Things_season_4.jpg",
+        "answers": [
+          "stranger things"
+        ],
+        "hint": "Upside Down"
+      },
+      {
+        "id": "nf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Squid_Game.jpg",
+        "answers": [
+          "squid game"
+        ],
+        "hint": "Red light green light"
+      },
+      {
+        "id": "nf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Wednesday_Netflix_poster.jpg",
+        "answers": [
+          "wednesday"
+        ],
+        "hint": "Addams Family daughter"
+      },
+      {
+        "id": "nf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/61/Bridgerton_poster.jpg",
+        "answers": [
+          "bridgerton"
+        ],
+        "hint": "Regency romance"
+      },
+      {
+        "id": "nf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Orange_Is_the_New_Black_season_1.jpg",
+        "answers": [
+          "orange is the new black",
+          "oitnb"
+        ],
+        "hint": "Women's prison drama"
+      },
+      {
+        "id": "nf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/The_Witcher_poster.jpg",
+        "answers": [
+          "the witcher",
+          "witcher"
+        ],
+        "hint": "Toss a coin to your Witcher"
+      }
+    ]
+  },
+  {
+    "id": "flags-tricky-hard",
+    "title": "Tricky World Flags",
+    "description": "Harder flags from Africa, Asia, and South America.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "hard",
+      "geography"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 34500,
+    "createdAt": "2025-11-25T00:00:00.000Z",
+    "coverEmoji": "🏳️",
+    "difficulty": "hard",
+    "featured": false,
+    "questions": [
+      {
+        "id": "tf1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ng.png",
+        "answers": [
+          "nigeria"
+        ],
+        "hint": "Most populous African nation"
+      },
+      {
+        "id": "tf2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/eg.png",
+        "answers": [
+          "egypt"
+        ],
+        "hint": "Pyramids and Nile"
+      },
+      {
+        "id": "tf3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pk.png",
+        "answers": [
+          "pakistan"
+        ],
+        "hint": "Green with white crescent"
+      },
+      {
+        "id": "tf4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/vn.png",
+        "answers": [
+          "vietnam",
+          "viet nam"
+        ],
+        "hint": "Red with yellow star"
+      },
+      {
+        "id": "tf5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ar.png",
+        "answers": [
+          "argentina"
+        ],
+        "hint": "Messi's homeland"
+      },
+      {
+        "id": "tf6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/za.png",
+        "answers": [
+          "south africa"
+        ],
+        "hint": "Rainbow nation"
+      },
+      {
+        "id": "tf7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/th.png",
+        "answers": [
+          "thailand"
+        ],
+        "hint": "Red white blue stripes"
+      }
+    ]
+  },
+  {
+    "id": "seven-wonders-world",
+    "title": "Wonders of the World",
+    "description": "Iconic landmarks every traveler dreams of seeing.",
+    "category": "Travel",
+    "language": "en",
+    "tags": [
+      "wonders",
+      "landmarks",
+      "travel"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 49800,
+    "createdAt": "2025-11-22T00:00:00.000Z",
+    "coverEmoji": "🗿",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      {
+        "id": "wn1",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80",
+        "answers": [
+          "christ the redeemer",
+          "rio",
+          "rio de janeiro"
+        ],
+        "hint": "Brazil statue"
+      },
+      {
+        "id": "wn2",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&q=80",
+        "answers": [
+          "machu picchu"
+        ],
+        "hint": "Inca citadel Peru"
+      },
+      {
+        "id": "wn3",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=80",
+        "answers": [
+          "great wall",
+          "great wall of china",
+          "china wall"
+        ],
+        "hint": "Ancient China defense"
+      },
+      {
+        "id": "wn4",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea4fc?w=800&q=80",
+        "answers": [
+          "taj mahal"
+        ],
+        "hint": "India marble mausoleum"
+      },
+      {
+        "id": "wn5",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80",
+        "answers": [
+          "petra",
+          "jordan"
+        ],
+        "hint": "Rose city carved in rock"
+      },
+      {
+        "id": "wn6",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80",
+        "answers": [
+          "chichen itza",
+          "chichen-itza"
+        ],
+        "hint": "Mayan pyramid Mexico"
+      }
+    ]
+  },
+  {
+    "id": "safari-wildlife",
+    "title": "African Safari Wildlife",
+    "description": "The Big Five and more — name the wild animal!",
+    "category": "Nature",
+    "language": "en",
+    "tags": [
+      "animals",
+      "safari",
+      "africa",
+      "nature"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 42300,
+    "createdAt": "2025-11-20T00:00:00.000Z",
+    "coverEmoji": "🐘",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "sf1",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&q=80",
+        "answers": [
+          "elephant",
+          "african elephant"
+        ],
+        "hint": "Largest land mammal"
+      },
+      {
+        "id": "sf2",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23eafaaca0d?w=800&q=80",
+        "answers": [
+          "lion"
+        ],
+        "hint": "King of the savanna"
+      },
+      {
+        "id": "sf3",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23eafaaca0d?w=800&q=80",
+        "answers": [
+          "leopard"
+        ],
+        "hint": "Spotted big cat"
+      },
+      {
+        "id": "sf4",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1534567110280-5d2b507d36b0?w=800&q=80",
+        "answers": [
+          "giraffe"
+        ],
+        "hint": "Tallest animal"
+      },
+      {
+        "id": "sf5",
+        "type": "image",
+        "imageUrl": "https://images.unsplash.com/photo-1511735111811-9a527f81b20e?w=800&q=80",
+        "answers": [
+          "zebra"
+        ],
+        "hint": "Black and white stripes"
+      }
+    ]
+  },
+  {
+    "id": "edm-party-hits",
+    "title": "EDM & Party Anthems",
+    "description": "Festival bangers and dance floor classics.",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "edm",
+      "dance",
+      "audio",
+      "festival"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 58900,
+    "createdAt": "2025-11-18T00:00:00.000Z",
+    "coverEmoji": "🎧",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "edm1",
+        "type": "audio",
+        "youtubeId": "_ovdm2yX4MA",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "levels",
+          "avicii levels"
+        ],
+        "hint": "Avicii classic"
+      },
+      {
+        "id": "edm2",
+        "type": "audio",
+        "youtubeId": "gCYcHz2kXxc",
+        "audioStart": 30,
+        "audioDuration": 8,
+        "answers": [
+          "animals",
+          "martin garrix animals"
+        ],
+        "hint": "Martin Garrix debut"
+      },
+      {
+        "id": "edm3",
+        "type": "audio",
+        "youtubeId": "ebXbLfLACGM",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "summer",
+          "calvin harris summer"
+        ],
+        "hint": "Calvin Harris"
+      },
+      {
+        "id": "edm4",
+        "type": "audio",
+        "youtubeId": "Yw6u6YkTgQ4",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "clarity",
+          "zedd clarity"
+        ],
+        "hint": "Zedd feat. Foxes"
+      },
+      {
+        "id": "edm5",
+        "type": "audio",
+        "youtubeId": "60ItHLz5WEA",
+        "audioStart": 55,
+        "audioDuration": 8,
+        "answers": [
+          "faded",
+          "alan walker faded"
+        ],
+        "hint": "Alan Walker"
+      },
+      {
+        "id": "edm6",
+        "type": "audio",
+        "youtubeId": "IgLcQmlOtkU",
+        "audioStart": 35,
+        "audioDuration": 8,
+        "answers": [
+          "wake me up",
+          "avicii wake me up"
+        ],
+        "hint": "Avicii again"
+      }
+    ]
+  },
+  {
+    "id": "hollywood-legends",
+    "title": "Hollywood Legends",
+    "description": "Iconic actors who defined cinema. Name the star!",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "hollywood",
+      "actors",
+      "celebrity"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 46700,
+    "createdAt": "2025-11-15T00:00:00.000Z",
+    "coverEmoji": "🌟",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "hw1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Leonardo_DiCaprio_2014.jpg/800px-Leonardo_DiCaprio_2014.jpg",
+        "cropX": 50,
+        "cropY": 25,
+        "cropSize": 28,
+        "answers": [
+          "leonardo dicaprio",
+          "dicaprio",
+          "leo dicaprio"
+        ],
+        "hint": "Titanic star"
+      },
+      {
+        "id": "hw2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dwayne_Johnson_2014.jpg/800px-Dwayne_Johnson_2014.jpg",
+        "cropX": 50,
+        "cropY": 20,
+        "cropSize": 25,
+        "answers": [
+          "dwayne johnson",
+          "the rock"
+        ],
+        "hint": "WWE to Hollywood"
+      },
+      {
+        "id": "hw3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Tom_Cruise_2023.jpg/800px-Tom_Cruise_2023.jpg",
+        "cropX": 50,
+        "cropY": 22,
+        "cropSize": 26,
+        "answers": [
+          "tom cruise"
+        ],
+        "hint": "Mission Impossible"
+      },
+      {
+        "id": "hw4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Hanks_2016.jpg/800px-Tom_Hanks_2016.jpg",
+        "cropX": 50,
+        "cropY": 25,
+        "cropSize": 28,
+        "answers": [
+          "tom hanks"
+        ],
+        "hint": "Forrest Gump"
+      },
+      {
+        "id": "hw5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Scarlett_Johansson-8588.jpg/800px-Scarlett_Johansson-8588.jpg",
+        "cropX": 50,
+        "cropY": 20,
+        "cropSize": 24,
+        "answers": [
+          "scarlett johansson",
+          "scarjo"
+        ],
+        "hint": "Black Widow actress"
+      },
+      {
+        "id": "hw6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Morgan_Freeman_2010.jpg/800px-Morgan_Freeman_2010.jpg",
+        "cropX": 50,
+        "cropY": 22,
+        "cropSize": 26,
+        "answers": [
+          "morgan freeman"
+        ],
+        "hint": "God-like voice"
+      }
+    ]
+  },
+  {
+    "id": "sneaker-brands-crop",
+    "title": "Sneaker Brand Logos",
+    "description": "Streetwear and sneaker culture — spot the brand!",
+    "category": "Fashion",
+    "language": "en",
+    "tags": [
+      "sneakers",
+      "fashion",
+      "logos",
+      "crop"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 38400,
+    "createdAt": "2025-11-12T00:00:00.000Z",
+    "coverEmoji": "👟",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "sn1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/800px-Logo_NIKE.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 30,
+        "answers": [
+          "nike"
+        ],
+        "hint": "Just Do It"
+      },
+      {
+        "id": "sn2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/800px-Adidas_Logo.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 28,
+        "answers": [
+          "adidas"
+        ],
+        "hint": "Three stripes"
+      },
+      {
+        "id": "sn3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Puma_logo.svg/800px-Puma_logo.svg.png",
+        "cropX": 50,
+        "cropY": 45,
+        "cropSize": 32,
+        "answers": [
+          "puma"
+        ],
+        "hint": "Leaping cat"
+      },
+      {
+        "id": "sn4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/New_Balance_logo.svg/800px-New_Balance_logo.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 35,
+        "answers": [
+          "new balance"
+        ],
+        "hint": "N on the side"
+      },
+      {
+        "id": "sn5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Reebok_red_logo.svg/800px-Reebok_red_logo.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 30,
+        "answers": [
+          "reebok"
+        ],
+        "hint": "Vector logo"
+      },
+      {
+        "id": "sn6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Converse_logo.svg/800px-Converse_logo.svg.png",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 28,
+        "answers": [
+          "converse"
+        ],
+        "hint": "Chuck Taylor star"
+      }
+    ]
+  },
+  {
+    "id": "taylor-swift-era",
+    "title": "Taylor Swift Hits",
+    "description": "The biggest pop star on the planet. Name the song!",
+    "category": "Music",
+    "language": "en",
+    "tags": [
+      "taylor swift",
+      "pop",
+      "audio"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 91200,
+    "createdAt": "2025-11-10T00:00:00.000Z",
+    "coverEmoji": "💜",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      {
+        "id": "ts1",
+        "type": "audio",
+        "youtubeId": "b1kbLwvqugk",
+        "audioStart": 45,
+        "audioDuration": 8,
+        "answers": [
+          "anti-hero",
+          "anti hero",
+          "taylor swift anti-hero"
+        ],
+        "hint": "Midnights era"
+      },
+      {
+        "id": "ts2",
+        "type": "audio",
+        "youtubeId": "PcLrWGaN2y8",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "shake it off",
+          "taylor swift shake it off"
+        ],
+        "hint": "1989 album"
+      },
+      {
+        "id": "ts3",
+        "type": "audio",
+        "youtubeId": "8xg3vE8Ie_E",
+        "audioStart": 50,
+        "audioDuration": 8,
+        "answers": [
+          "look what you made me do",
+          "taylor swift look what you made me do"
+        ],
+        "hint": "Reputation era"
+      },
+      {
+        "id": "ts4",
+        "type": "audio",
+        "youtubeId": "e-ORhEE9VVg",
+        "audioStart": 60,
+        "audioDuration": 8,
+        "answers": [
+          "blank space",
+          "taylor swift blank space"
+        ],
+        "hint": "Got a long list"
+      },
+      {
+        "id": "ts5",
+        "type": "audio",
+        "youtubeId": "QcIy9NiNbmo",
+        "audioStart": 40,
+        "audioDuration": 8,
+        "answers": [
+          "cruel summer",
+          "taylor swift cruel summer"
+        ],
+        "hint": "Lover album"
+      },
+      {
+        "id": "ts6",
+        "type": "audio",
+        "youtubeId": "h8DLof_L6_s",
+        "audioStart": 35,
+        "audioDuration": 8,
+        "answers": [
+          "love story",
+          "taylor swift love story"
+        ],
+        "hint": "Romeo and Juliet"
+      }
+    ]
+  },
+  {
+    "id": "meme-internet-culture",
+    "title": "Internet Meme Icons",
+    "description": "Viral moments and meme legends from the internet.",
+    "category": "Memes",
+    "language": "en",
+    "tags": [
+      "memes",
+      "internet",
+      "viral"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 55600,
+    "createdAt": "2025-11-08T00:00:00.000Z",
+    "coverEmoji": "😂",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "mm1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg",
+        "answers": [
+          "doge",
+          "dog meme"
+        ],
+        "hint": "Much wow"
+      },
+      {
+        "id": "mm2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Grumpy_Cat_by_Gage_Skidmore.jpg",
+        "answers": [
+          "grumpy cat"
+        ],
+        "hint": "Perpetually unhappy feline"
+      },
+      {
+        "id": "mm3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Pepe_the_Frog.png",
+        "answers": [
+          "pepe",
+          "pepe the frog"
+        ],
+        "hint": "Feels good man"
+      },
+      {
+        "id": "mm4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Wojak_cropped.jpg",
+        "answers": [
+          "wojak",
+          "feels guy"
+        ],
+        "hint": "Sad illustration meme"
+      },
+      {
+        "id": "mm5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Distracted_boyfriend.jpg",
+        "answers": [
+          "distracted boyfriend",
+          "distracted boyfriend meme"
+        ],
+        "hint": "Stock photo meme"
+      },
+      {
+        "id": "mm6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/Success_Kid.jpg",
+        "answers": [
+          "success kid",
+          "success baby"
+        ],
+        "hint": "Fist pump toddler"
+      }
+    ]
+  },
+  {
+    "id": "world-currencies",
+    "title": "World Currencies",
+    "description": "Banknotes from around the world. Which country uses this currency?",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "money",
+      "currency",
+      "geography"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 31200,
+    "createdAt": "2025-11-05T00:00:00.000Z",
+    "coverEmoji": "💵",
+    "difficulty": "hard",
+    "featured": false,
+    "questions": [
+      {
+        "id": "cur1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/United_States_one_dollar_bill%2C_obverse%2C_series_2009.jpg/800px-United_States_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
+        "answers": [
+          "united states",
+          "usa",
+          "america",
+          "dollar"
+        ],
+        "hint": "George Washington"
+      },
+      {
+        "id": "cur2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/EUR_5_obverse_%282013_issue%29.png/800px-EUR_5_obverse_%282013_issue%29.png",
+        "answers": [
+          "euro",
+          "europe",
+          "european union"
+        ],
+        "hint": "EU currency"
+      },
+      {
+        "id": "cur3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Japanese_yen_coins_and_banknotes.jpg/800px-Japanese_yen_coins_and_banknotes.jpg",
+        "answers": [
+          "japan",
+          "yen",
+          "japanese yen"
+        ],
+        "hint": "Land of the rising sun money"
+      },
+      {
+        "id": "cur4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/British_10_pound_note_%28Series_G%29.jpg/800px-British_10_pound_note_%28Series_G%29.jpg",
+        "answers": [
+          "united kingdom",
+          "uk",
+          "britain",
+          "pound"
+        ],
+        "hint": "Queen on the note"
+      },
+      {
+        "id": "cur5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1000_rupees_note_%28India%29.jpg/800px-1000_rupees_note_%28India%29.jpg",
+        "answers": [
+          "india",
+          "rupee",
+          "indian rupee"
+        ],
+        "hint": "Gandhi on the note"
+      },
+      {
+        "id": "cur6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Swiss-10-franc-note.jpg/800px-Swiss-10-franc-note.jpg",
+        "answers": [
+          "switzerland",
+          "swiss franc",
+          "franc"
+        ],
+        "hint": "Swiss banking"
+      }
+    ]
+  },
+  {
+    "id": "pixar-magic",
+    "title": "Pixar & Disney Animation",
+    "description": "Beloved animated characters from Pixar and Disney.",
+    "category": "Movies",
+    "language": "en",
+    "tags": [
+      "pixar",
+      "disney",
+      "animation"
+    ],
+    "creator": "ClipQuiz",
+    "playCount": 63400,
+    "createdAt": "2025-11-02T00:00:00.000Z",
+    "coverEmoji": "🎬",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "px1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/37/WoodyToyStory.png",
+        "answers": [
+          "woody"
+        ],
+        "hint": "Toy Story cowboy"
+      },
+      {
+        "id": "px2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Buzz_lightyear.png",
+        "answers": [
+          "buzz lightyear",
+          "buzz"
+        ],
+        "hint": "To infinity and beyond"
+      },
+      {
+        "id": "px3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/33/Nemo.png",
+        "answers": [
+          "nemo",
+          "finding nemo"
+        ],
+        "hint": "Lost clownfish"
+      },
+      {
+        "id": "px4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Elsa_from_Disney%27s_Frozen.png",
+        "answers": [
+          "elsa",
+          "queen elsa"
+        ],
+        "hint": "Let it go"
+      },
+      {
+        "id": "px5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Mike_Wazowski.png",
+        "answers": [
+          "mike wazowski",
+          "mike"
+        ],
+        "hint": "Monsters Inc green eye"
+      },
+      {
+        "id": "px6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/85/Remy_%28Ratatouille%29.png",
+        "answers": [
+          "remy",
+          "ratatouille"
+        ],
+        "hint": "Rat who cooks"
+      }
+    ]
+  }
+]
