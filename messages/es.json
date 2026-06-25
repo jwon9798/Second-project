@@ -7,7 +7,10 @@
     "home": "Inicio",
     "create": "Crear",
     "trending": "Tendencias",
-    "howItWorks": "Cómo funciona"
+    "howItWorks": "Cómo funciona",
+    "about": "Acerca de",
+    "openMenu": "Menú",
+    "closeMenu": "Cerrar"
   },
   "hero": {
     "badge": "El Juego de Adivinanzas #1",

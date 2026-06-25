@@ -7,7 +7,10 @@
     "home": "Home",
     "create": "Create",
     "trending": "Trending",
-    "howItWorks": "How it works"
+    "howItWorks": "How it works",
+    "about": "About",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "badge": "The #1 Global Guessing Game",
@@ -92,7 +95,8 @@
     "shareText": "I scored {score}/{total} on \"{title}\" — Top {percent}%! Can you beat me?",
     "playAgain": "Play Again",
     "browseMore": "More Quizzes",
-    "copied": "Copied to clipboard!"
+    "copied": "Copied to clipboard!",
+    "relatedTitle": "Try these next"
   },
   "create": {
     "title": "Create Your Quiz",
@@ -159,7 +163,131 @@
   },
   "footer": {
     "tagline": "Made for streamers, friend groups, and trivia addicts worldwide.",
-    "rights": "© {year} ClipQuiz. All rights reserved."
+    "rights": "© {year} ClipQuiz. All rights reserved.",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "adChoices": "Ad Settings"
+  },
+  "ads": {
+    "label": "Advertisement",
+    "placeholder": "Ad space",
+    "slotMissing": "Set AdSense slot ID in environment variables"
+  },
+  "cookies": {
+    "message": "We use essential cookies to run ClipQuiz and remember your preferences.",
+    "messageAds": "We use cookies for site functionality and to show ads via Google AdSense. Third parties, including Google, may use cookies to serve ads based on your visits.",
+    "privacyLink": "Privacy Policy",
+    "accept": "Accept"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: June 2026",
+      "sections": [
+        {
+          "title": "Overview",
+          "body": "ClipQuiz (\"we\", \"our\") operates a free online quiz platform at clipquiz.app and related domains. This policy explains what data we collect and how we use it."
+        },
+        {
+          "title": "Information We Collect",
+          "body": "• Quiz content you create (title, questions, creator name)\n• Quiz scores and play statistics\n• Technical data: IP address, browser type, pages visited (via hosting and analytics)\n• Cookies for preferences and advertising (see below)"
+        },
+        {
+          "title": "Google AdSense & Advertising Cookies",
+          "body": "We use Google AdSense to display ads. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites.\n\nGoogle's use of advertising cookies enables it and its partners to serve ads to users based on their visit to our sites and/or other sites on the Internet.\n\nUsers may opt out of personalized advertising by visiting Google Ads Settings: https://www.google.com/settings/ads\n\nAlternatively, visit www.aboutads.info to opt out of third-party vendors' use of cookies for personalized advertising.\n\nSee how Google uses data when you use our partners' sites: https://policies.google.com/technologies/partner-sites"
+        },
+        {
+          "title": "How We Use Data",
+          "body": "We use collected data to operate the service, calculate percentile rankings, display ads, prevent abuse, and improve the platform. We do not sell personal information."
+        },
+        {
+          "title": "User-Generated Content",
+          "body": "Quizzes you create are publicly visible. Do not submit personal data, copyrighted material without permission, or illegal content. We may remove content that violates our Terms."
+        },
+        {
+          "title": "Data Storage",
+          "body": "Data is stored on secure cloud infrastructure (Vercel, Supabase). You may request deletion of user-created quizzes by contacting us."
+        },
+        {
+          "title": "Contact",
+          "body": "Questions about this policy: contact@clipquiz.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "updated": "Last updated: June 2026",
+      "sections": [
+        {
+          "title": "Acceptance",
+          "body": "By using ClipQuiz, you agree to these Terms. If you do not agree, please do not use the service."
+        },
+        {
+          "title": "Service Description",
+          "body": "ClipQuiz provides image, crop, and audio guessing quizzes. Users may play quizzes and create their own. The service is provided \"as is\" without warranty."
+        },
+        {
+          "title": "User Content",
+          "body": "You are responsible for quizzes you create. You must not upload illegal, hateful, sexually explicit, or infringing content. We may remove content and block abuse without notice.\n\nYou grant ClipQuiz a license to host and display your quiz content on the platform."
+        },
+        {
+          "title": "Intellectual Property",
+          "body": "Seed quizzes and site design belong to ClipQuiz. Third-party images, music, and trademarks belong to their owners. Use only content you have rights to use."
+        },
+        {
+          "title": "Age Requirement",
+          "body": "You must be at least 13 years old to use ClipQuiz. Users under 18 should have parental consent."
+        },
+        {
+          "title": "Limitation of Liability",
+          "body": "ClipQuiz is not liable for indirect damages, data loss, or third-party content. Use the service at your own risk."
+        },
+        {
+          "title": "Changes",
+          "body": "We may update these Terms. Continued use after changes constitutes acceptance."
+        }
+      ]
+    },
+    "about": {
+      "title": "About ClipQuiz",
+      "intro": "ClipQuiz is a global guessing game platform inspired by classic trivia sites — built for international audiences from day one.",
+      "sections": [
+        {
+          "title": "What We Offer",
+          "body": "• Image quizzes — see a photo, type the answer\n• Crop challenges — extreme zoom on a tiny slice\n• Audio clips — hear a few seconds, name the song\n• Percentile rankings and score sharing\n• Create your own quiz in minutes — no account required"
+        },
+        {
+          "title": "Our Mission",
+          "body": "We make viral trivia accessible worldwide with 5 languages, mobile-friendly design, and fair free-to-play access. Whether you're a streamer, friend group, or trivia fan — guess, compete, share."
+        },
+        {
+          "title": "Original Content",
+          "body": "ClipQuiz includes 14+ original seed quizzes covering geography, music, movies, food, gaming, and more. User-created quizzes add fresh content daily."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "Questions, feedback, content reports, or partnership inquiries — we'd love to hear from you.",
+      "email": "contact@clipquiz.app",
+      "sections": [
+        {
+          "title": "Content Reports",
+          "body": "To report inappropriate user-created quizzes, email us with the quiz link and reason. We review reports promptly."
+        },
+        {
+          "title": "Privacy Requests",
+          "body": "To request deletion of user-created content associated with your creator name, contact us with the quiz ID."
+        },
+        {
+          "title": "Business",
+          "body": "For advertising, sponsorship, or media inquiries, reach out via email."
+        }
+      ]
+    }
   },
   "lang": {
     "label": "Language"

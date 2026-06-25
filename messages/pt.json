@@ -7,7 +7,10 @@
     "home": "Início",
     "create": "Criar",
     "trending": "Em Alta",
-    "howItWorks": "Como funciona"
+    "howItWorks": "Como funciona",
+    "about": "Sobre",
+    "openMenu": "Menu",
+    "closeMenu": "Fechar"
   },
   "hero": {
     "badge": "O Jogo de Adivinhação #1",
