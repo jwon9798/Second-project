@@ -1,13 +1,30 @@
-# Second-project
+# ClipQuiz
 
-## ClipQuiz — Global Machugi.io
+The global guessing game platform — a Machugi.io-inspired international quiz experience.
 
-A full-featured international guessing quiz platform built as the global version of Korea's [Machugi.io](https://machugi.io).
+**Guess from images, cropped close-ups, and music clips. Beat the percentile. Go viral.**
 
-See [`clipquiz/README.md`](clipquiz/README.md) for setup and documentation.
+## Quick Start
 
 ```bash
-cd clipquiz && npm install && npm run dev
+npm install
+npm run dev
 ```
 
-Open http://localhost:3000
+Open [http://localhost:3000](http://localhost:3000)
+
+On tablet (same Wi-Fi as your PC): `http://<your-pc-ip>:3000`
+
+## Deploy on Vercel
+
+1. Connect this GitHub repo to Vercel
+2. **Root Directory**: leave as `.` (repository root)
+3. Framework Preset: **Next.js** (auto-detected)
+4. Deploy
+
+## Features
+
+- Image / Crop / Audio quiz modes
+- Percentile ranking with score distribution
+- UGC quiz creation (no account required)
+- 5 languages: EN, KO, JA, ES, PT
