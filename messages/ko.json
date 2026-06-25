@@ -7,7 +7,10 @@
     "home": "홈",
     "create": "만들기",
     "trending": "인기",
-    "howItWorks": "이용 방법"
+    "howItWorks": "이용 방법",
+    "about": "소개",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
   },
   "hero": {
     "badge": "글로벌 #1 맞히기 게임",
@@ -92,7 +95,8 @@
     "shareText": "\"{title}\" 퀴즈에서 {score}/{total} 맞춤 — 상위 {percent}%! 이길 수 있어?",
     "playAgain": "다시 하기",
     "browseMore": "더 많은 퀴즈",
-    "copied": "클립보드에 복사됨!"
+    "copied": "클립보드에 복사됨!",
+    "relatedTitle": "이것도 도전해 보세요"
   },
   "create": {
     "title": "퀴즈 만들기",
@@ -159,7 +163,111 @@
   },
   "footer": {
     "tagline": "스트리머, 친구들, 퀴즈 매니아를 위해.",
-    "rights": "© {year} ClipQuiz. All rights reserved."
+    "rights": "© {year} ClipQuiz. All rights reserved.",
+    "home": "홈",
+    "about": "소개",
+    "contact": "문의",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "adChoices": "광고 설정"
+  },
+  "ads": {
+    "label": "광고",
+    "placeholder": "광고 영역",
+    "slotMissing": "환경 변수에 AdSense 슬롯 ID를 설정하세요"
+  },
+  "cookies": {
+    "message": "ClipQuiz 운영과 설정 저장을 위해 필수 쿠키를 사용합니다.",
+    "messageAds": "사이트 기능 및 Google AdSense 광고를 위해 쿠키를 사용합니다. Google을 포함한 제3자가 방문 기록을 바탕으로 광고를 게재할 수 있습니다.",
+    "privacyLink": "개인정보처리방침",
+    "accept": "동의"
+  },
+  "legal": {
+    "privacy": {
+      "title": "개인정보처리방침",
+      "updated": "최종 수정: 2026년 6월",
+      "sections": [
+        {
+          "title": "개요",
+          "body": "ClipQuiz(이하 \"회사\")는 무료 온라인 퀴즈 플랫폼을 운영합니다. 본 방침은 수집하는 정보와 이용 방법을 설명합니다."
+        },
+        {
+          "title": "수집 정보",
+          "body": "• 제작 퀴즈 내용(제목, 문제, 제작자명)\n• 퀴즈 점수 및 플레이 통계\n• 기술 정보: IP, 브라우저, 방문 페이지\n• 쿠키(설정 및 광고용)"
+        },
+        {
+          "title": "Google AdSense 및 광고 쿠키",
+          "body": "Google AdSense를 통해 광고를 표시합니다. Google을 포함한 제3자는 쿠키를 사용하여 이용자의 이전 방문 기록을 바탕으로 광고를 게재할 수 있습니다.\n\n맞춤 광고 거부: https://www.google.com/settings/ads\n\n기타 제3자 맞춤 광고 거부: www.aboutads.info\n\nGoogle 데이터 사용 안내: https://policies.google.com/technologies/partner-sites"
+        },
+        {
+          "title": "이용 목적",
+          "body": "서비스 운영, 순위 계산, 광고 표시, 악용 방지, 서비스 개선에 사용합니다. 개인정보를 판매하지 않습니다."
+        },
+        {
+          "title": "이용자 제작 콘텐츠",
+          "body": "만든 퀴즈는 공개됩니다. 개인정보, 무단 저작물, 불법 콘텐츠를 올리지 마세요. 위반 시 삭제할 수 있습니다."
+        },
+        {
+          "title": "문의",
+          "body": "개인정보 관련 문의: contact@clipquiz.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "이용약관",
+      "updated": "최종 수정: 2026년 6월",
+      "sections": [
+        {
+          "title": "동의",
+          "body": "ClipQuiz 이용 시 본 약관에 동의한 것으로 간주됩니다."
+        },
+        {
+          "title": "서비스",
+          "body": "이미지·크롭·음악 맞히기 퀴즈를 제공합니다. 서비스는 \"있는 그대로\" 제공됩니다."
+        },
+        {
+          "title": "이용자 콘텐츠",
+          "body": "제작 퀴즈에 대한 책임은 이용자에게 있습니다. 불법·혐오·음란·저작권 침해 콘텐츠를 금지합니다. 플랫폼에 콘텐츠 게시 라이선스를 부여합니다."
+        },
+        {
+          "title": "연령",
+          "body": "만 13세 이상 이용 가능. 미성년자는 보호자 동의가 필요합니다."
+        },
+        {
+          "title": "변경",
+          "body": "약관을 변경할 수 있으며, 변경 후 이용은 동의로 간주됩니다."
+        }
+      ]
+    },
+    "about": {
+      "title": "ClipQuiz 소개",
+      "intro": "마추기아이오에서 영감을 받은 글로벌 맞히기 퀴즈 플랫폼입니다.",
+      "sections": [
+        {
+          "title": "제공 기능",
+          "body": "• 이미지 / 크롭 / 음악 퀴즈\n• 상위 % 순위 및 공유\n• 계정 없이 퀴즈 제작\n• 5개 언어 지원"
+        },
+        {
+          "title": "차별점",
+          "body": "한국뿐 아니라 전 세계 사용자를 위한 다국어 UI, 모바일 제작 지원, Supabase 기반 영구 저장으로 친구와 퀴즈를 안정적으로 공유할 수 있습니다."
+        }
+      ]
+    },
+    "contact": {
+      "title": "문의하기",
+      "intro": "피드백, 신고, 제휴 문의를 환영합니다.",
+      "email": "contact@clipquiz.app",
+      "sections": [
+        {
+          "title": "콘텐츠 신고",
+          "body": "부적절한 퀴즈는 링크와 사유를 이메일로 보내주세요."
+        },
+        {
+          "title": "삭제 요청",
+          "body": "본인이 만든 퀴즈 삭제 요청 시 퀴즈 ID와 함께 문의해 주세요."
+        }
+      ]
+    }
   },
   "lang": {
     "label": "언어"

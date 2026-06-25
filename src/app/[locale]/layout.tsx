@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
+import AdSenseScript from "@/components/ads/AdSenseScript";
+import { getSiteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -20,11 +23,19 @@ export async function generateMetadata({
   return {
     title: t("title"),
     description: t("description"),
+    metadataBase: new URL(getSiteUrl()),
     openGraph: {
       title: t("title"),
       description: t("description"),
       siteName: "ClipQuiz",
       type: "website",
+      url: `${getSiteUrl()}/${locale}`,
+    },
+    alternates: {
+      canonical: `${getSiteUrl()}/${locale}`,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [l, `${getSiteUrl()}/${l}`]),
+      ),
     },
   };
 }
@@ -47,10 +58,12 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <AdSenseScript />
       <div className="mesh-bg fixed inset-0 -z-10" />
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
+      <CookieConsent />
     </NextIntlClientProvider>
   );
 }
