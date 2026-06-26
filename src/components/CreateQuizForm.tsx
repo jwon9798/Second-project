@@ -61,6 +61,7 @@ export default function CreateQuizForm() {
   const [previewIndex, setPreviewIndex] = useState<number | null>(null);
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
+  const [termsAgreed, setTermsAgreed] = useState(false);
   const [success, setSuccess] = useState<{ id: string } | null>(null);
 
   const categories = [
@@ -118,6 +119,11 @@ export default function CreateQuizForm() {
 
     if (questions.length < 3) {
       setError(t("minQuestions"));
+      return;
+    }
+
+    if (!termsAgreed) {
+      setError(t("termsRequired"));
       return;
     }
 
@@ -449,6 +455,19 @@ export default function CreateQuizForm() {
       {error && (
         <p className="mb-4 text-center text-sm text-red-400">{error}</p>
       )}
+
+      <p className="mb-4 text-xs text-white/40 leading-relaxed">{t("copyrightNotice")}</p>
+
+      <label className="mb-6 flex items-start gap-3 text-sm text-white/60 cursor-pointer">
+        <input
+          type="checkbox"
+          checked={termsAgreed}
+          onChange={(e) => setTermsAgreed(e.target.checked)}
+          className="mt-1 rounded border-white/20"
+          required
+        />
+        <span>{t("termsAgree")}</span>
+      </label>
 
       <button
         type="submit"

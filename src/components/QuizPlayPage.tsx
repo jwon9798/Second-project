@@ -2,30 +2,33 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { useParams } from "next/navigation";
 import type { Quiz } from "@/lib/types";
 import { fetchQuizById } from "@/lib/quizzes-client";
 import QuizPlayer from "@/components/QuizPlayer";
 import AdSlot from "@/components/ads/AdSlot";
+import ReportQuiz from "@/components/ReportQuiz";
 import { Play, Users, Clock } from "lucide-react";
 
-export default function QuizPlayPage() {
-  const t = useTranslations("quiz");
-  const params = useParams();
-  const id = params.id as string;
+interface QuizPlayPageProps {
+  quizId: string;
+  initialQuiz?: Quiz | null;
+}
 
-  const [quiz, setQuiz] = useState<Quiz | null>(null);
+export default function QuizPlayPage({ quizId, initialQuiz = null }: QuizPlayPageProps) {
+  const t = useTranslations("quiz");
+  const [quiz, setQuiz] = useState<Quiz | null>(initialQuiz);
   const [questionCount, setQuestionCount] = useState<number | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!initialQuiz);
 
   useEffect(() => {
-    fetchQuizById(id)
+    if (initialQuiz) return;
+    fetchQuizById(quizId)
       .then((data) => {
         setQuiz(data);
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, [id]);
+  }, [quizId, initialQuiz]);
 
   if (loading) {
     return (
@@ -55,7 +58,10 @@ export default function QuizPlayPage() {
         <div className="text-center mb-8">
           <span className="text-5xl mb-4 block">{quiz.coverEmoji}</span>
           <h1 className="font-display text-3xl font-bold mb-2">{quiz.title}</h1>
-          <p className="text-white/50 mb-4">{quiz.description}</p>
+          <p className="text-white/50 mb-4 leading-relaxed">{quiz.description}</p>
+          <p className="text-sm text-white/35 mb-4">
+            {quiz.category} · {t("questions", { count: quiz.questions.length })}
+          </p>
           <div className="flex items-center justify-center gap-4 text-sm text-white/40">
             <span className="flex items-center gap-1">
               <Users className="h-4 w-4" />
@@ -90,6 +96,10 @@ export default function QuizPlayPage() {
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="flex justify-center mt-4">
+          <ReportQuiz quizId={quiz.id} quizTitle={quiz.title} />
         </div>
 
         <AdSlot label="quiz" />

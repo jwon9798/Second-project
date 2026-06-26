@@ -1,8 +1,18 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
+export type LegalPageKey =
+  | "privacy"
+  | "terms"
+  | "about"
+  | "contact"
+  | "faq"
+  | "guidelines"
+  | "copyright"
+  | "guide";
+
 interface LegalPageProps {
-  page: "privacy" | "terms" | "about" | "contact";
+  page: LegalPageKey;
 }
 
 export default function LegalPage({ page }: LegalPageProps) {
@@ -14,7 +24,7 @@ export default function LegalPage({ page }: LegalPageProps) {
     <article className="mx-auto max-w-3xl px-4 py-12 sm:py-16">
       <h1 className="font-display mb-2 text-4xl font-bold">{t("title")}</h1>
       {t.has("updated") && <p className="mb-8 text-sm text-white/40">{t("updated")}</p>}
-      {t.has("intro") && <p className="mb-8 text-lg text-white/60">{t("intro")}</p>}
+      {t.has("intro") && <p className="mb-8 text-lg text-white/60 leading-relaxed">{t("intro")}</p>}
 
       <div className="space-y-8">
         {sections.map((section, i) => (
@@ -37,6 +47,11 @@ export default function LegalPage({ page }: LegalPageProps) {
         <Link href="/privacy">{footer("privacy")}</Link>
         <Link href="/terms">{footer("terms")}</Link>
         <Link href="/about">{footer("about")}</Link>
+        <Link href="/contact">{footer("contact")}</Link>
+        <Link href="/faq">{footer("faq")}</Link>
+        <Link href="/guidelines">{footer("guidelines")}</Link>
+        <Link href="/copyright">{footer("copyright")}</Link>
+        <Link href="/guide">{footer("guide")}</Link>
         <Link href="/">{footer("home")}</Link>
       </nav>
     </article>

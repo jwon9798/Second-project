@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { ADSENSE_CLIENT_ID } from "@/lib/site";
+import { getConsent } from "@/lib/consent";
 
 type AdLabel = "home" | "quiz" | "results";
 
@@ -30,16 +31,24 @@ export default function AdSlot({ label, className = "" }: AdSlotProps) {
   const t = useTranslations("ads");
   const pushed = useRef(false);
   const slotId = getSlotId(label);
+  const [adConsent, setAdConsent] = useState(false);
 
   useEffect(() => {
-    if (!slotId || pushed.current) return;
+    const check = () => setAdConsent(getConsent() === "accepted");
+    check();
+    window.addEventListener("clipquiz-consent-change", check);
+    return () => window.removeEventListener("clipquiz-consent-change", check);
+  }, []);
+
+  useEffect(() => {
+    if (!slotId || !adConsent || pushed.current) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       pushed.current = true;
     } catch {
       // script still loading
     }
-  }, [slotId]);
+  }, [slotId, adConsent]);
 
   return (
     <div className={`my-4 ${className}`}>

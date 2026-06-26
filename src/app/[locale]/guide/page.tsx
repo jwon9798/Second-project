@@ -1,6 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
-import { getQuizzes } from "@/lib/storage";
-import HomePage from "@/components/HomePage";
+import LegalPage from "@/components/LegalPage";
 
 export default async function Page({
   params,
@@ -9,6 +8,5 @@ export default async function Page({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const quizzes = await getQuizzes();
-  return <HomePage initialQuizzes={quizzes} />;
+  return <LegalPage page="guide" />;
 }

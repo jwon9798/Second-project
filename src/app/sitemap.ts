@@ -6,7 +6,18 @@ import { allSeedQuizzes } from "@/lib/seed-data";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
   const now = new Date();
-  const paths = ["", "/create", "/about", "/contact", "/privacy", "/terms"];
+  const paths = [
+    "",
+    "/create",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/faq",
+    "/guidelines",
+    "/copyright",
+    "/guide",
+  ];
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of routing.locales) {

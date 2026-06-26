@@ -7,25 +7,35 @@ import { fetchQuizzes } from "@/lib/quizzes-client";
 import QuizCard from "@/components/QuizCard";
 import ModeShowcase from "@/components/ModeShowcase";
 import HowItWorks from "@/components/HowItWorks";
+import EditorialSection from "@/components/EditorialSection";
 import AdSlot from "@/components/ads/AdSlot";
+import type { Quiz } from "@/lib/types";
 import { motion } from "framer-motion";
 import { Play, Plus, Search, TrendingUp } from "lucide-react";
 
-export default function HomePage() {
+interface HomePageProps {
+  initialQuizzes?: Quiz[];
+}
+
+export default function HomePage({ initialQuizzes = [] }: HomePageProps) {
   const t = useTranslations();
-  const [quizzes, setQuizzes] = useState<Awaited<ReturnType<typeof fetchQuizzes>>>([]);
+  const [quizzes, setQuizzes] = useState<Quiz[]>(initialQuizzes);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(initialQuizzes.length === 0);
 
   useEffect(() => {
+    if (initialQuizzes.length > 0) {
+      setLoading(false);
+      return;
+    }
     fetchQuizzes()
       .then((data) => {
         setQuizzes(data);
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, []);
+  }, [initialQuizzes.length]);
 
   const featured = quizzes.filter((q) => q.featured);
   const categories = Array.from(
@@ -192,6 +202,8 @@ export default function HomePage() {
       </div>
 
       <HowItWorks />
+
+      <EditorialSection />
     </>
   );
 }
