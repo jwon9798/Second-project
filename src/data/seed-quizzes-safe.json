@@ -1,0 +1,218 @@
+[
+  {
+    "id": "asia-flags-mastery",
+    "title": "Asia Flags Mastery",
+    "description": "Test your knowledge of Asian country flags — from well-known nations to lesser-known ones.",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["flags", "asia", "geography"],
+    "creator": "ClipQuiz",
+    "playCount": 12400,
+    "createdAt": "2026-01-15T00:00:00.000Z",
+    "coverEmoji": "🏯",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      { "id": "af1", "type": "image", "imageUrl": "https://flagcdn.com/w640/th.png", "answers": ["thailand"], "hint": "Land of smiles" },
+      { "id": "af2", "type": "image", "imageUrl": "https://flagcdn.com/w640/vn.png", "answers": ["vietnam", "viet nam"], "hint": "Pho and Ha Long Bay" },
+      { "id": "af3", "type": "image", "imageUrl": "https://flagcdn.com/w640/id.png", "answers": ["indonesia"], "hint": "World's largest archipelago" },
+      { "id": "af4", "type": "image", "imageUrl": "https://flagcdn.com/w640/ph.png", "answers": ["philippines"], "hint": "Over 7,000 islands" },
+      { "id": "af5", "type": "image", "imageUrl": "https://flagcdn.com/w640/sg.png", "answers": ["singapore"], "hint": "City-state with a lion" },
+      { "id": "af6", "type": "image", "imageUrl": "https://flagcdn.com/w640/my.png", "answers": ["malaysia"], "hint": "Petronas Towers homeland" },
+      { "id": "af7", "type": "image", "imageUrl": "https://flagcdn.com/w640/np.png", "answers": ["nepal"], "hint": "Home of Mount Everest" },
+      { "id": "af8", "type": "image", "imageUrl": "https://flagcdn.com/w640/lk.png", "answers": ["sri lanka"], "hint": "Pearl of the Indian Ocean" }
+    ]
+  },
+  {
+    "id": "africa-flags-explorer",
+    "title": "Africa Flags Explorer",
+    "description": "How many African flags can you identify? A geography challenge across the continent.",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["flags", "africa", "geography"],
+    "creator": "ClipQuiz",
+    "playCount": 9800,
+    "createdAt": "2026-01-15T00:00:00.000Z",
+    "coverEmoji": "🦁",
+    "difficulty": "medium",
+    "questions": [
+      { "id": "afr1", "type": "image", "imageUrl": "https://flagcdn.com/w640/eg.png", "answers": ["egypt"], "hint": "Pyramids and the Nile" },
+      { "id": "afr2", "type": "image", "imageUrl": "https://flagcdn.com/w640/za.png", "answers": ["south africa"], "hint": "Rainbow nation" },
+      { "id": "afr3", "type": "image", "imageUrl": "https://flagcdn.com/w640/ng.png", "answers": ["nigeria"], "hint": "Most populous African nation" },
+      { "id": "afr4", "type": "image", "imageUrl": "https://flagcdn.com/w640/ke.png", "answers": ["kenya"], "hint": "Great Rift Valley" },
+      { "id": "afr5", "type": "image", "imageUrl": "https://flagcdn.com/w640/ma.png", "answers": ["morocco"], "hint": "Gateway to Africa" },
+      { "id": "afr6", "type": "image", "imageUrl": "https://flagcdn.com/w640/et.png", "answers": ["ethiopia"], "hint": "Birthplace of coffee" }
+    ]
+  },
+  {
+    "id": "south-america-flags",
+    "title": "South America Flags",
+    "description": "Name the South American countries from their flags — a colorful geography quiz.",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["flags", "south america", "geography"],
+    "creator": "ClipQuiz",
+    "playCount": 11200,
+    "createdAt": "2026-01-20T00:00:00.000Z",
+    "coverEmoji": "🌎",
+    "difficulty": "easy",
+    "questions": [
+      { "id": "sa1", "type": "image", "imageUrl": "https://flagcdn.com/w640/ar.png", "answers": ["argentina"], "hint": "Tango and Patagonia" },
+      { "id": "sa2", "type": "image", "imageUrl": "https://flagcdn.com/w640/cl.png", "answers": ["chile"], "hint": "Long and narrow" },
+      { "id": "sa3", "type": "image", "imageUrl": "https://flagcdn.com/w640/co.png", "answers": ["colombia"], "hint": "Coffee exporter" },
+      { "id": "sa4", "type": "image", "imageUrl": "https://flagcdn.com/w640/pe.png", "answers": ["peru"], "hint": "Machu Picchu" },
+      { "id": "sa5", "type": "image", "imageUrl": "https://flagcdn.com/w640/ve.png", "answers": ["venezuela"], "hint": "Angel Falls" },
+      { "id": "sa6", "type": "image", "imageUrl": "https://flagcdn.com/w640/uy.png", "answers": ["uruguay"], "hint": "Smallest Spanish-speaking country in SA" }
+    ]
+  },
+  {
+    "id": "world-mountains",
+    "title": "Famous Mountains",
+    "description": "Identify the world's most famous peaks and mountain ranges from photographs.",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["mountains", "nature", "geography"],
+    "creator": "ClipQuiz",
+    "playCount": 15600,
+    "createdAt": "2026-01-20T00:00:00.000Z",
+    "coverEmoji": "⛰️",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      { "id": "mt1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/640px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg", "answers": ["everest", "mount everest", "mt everest"], "hint": "Tallest mountain on Earth" },
+      { "id": "mt2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/640px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg", "answers": ["matterhorn"], "hint": "Iconic Swiss-Italian peak" },
+      { "id": "mt3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg", "answers": ["fuji", "mount fuji", "mt fuji"], "hint": "Sacred Japanese volcano" },
+      { "id": "mt4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mount_Kilimanjaro_from_Amboseli_National_Park.jpg/640px-Mount_Kilimanjaro_from_Amboseli_National_Park.jpg", "answers": ["kilimanjaro", "mount kilimanjaro"], "hint": "Africa's highest peak" },
+      { "id": "mt5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Denali_Mt_McKinley.jpg/640px-Denali_Mt_McKinley.jpg", "answers": ["denali", "mount mckinley", "mckinley"], "hint": "North America's tallest" },
+      { "id": "mt6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Aconcagua_%28from_south%29%2C_Argentina.jpg/640px-Aconcagua_%28from_south%29%2C_Argentina.jpg", "answers": ["aconcagua"], "hint": "Highest peak in the Americas" }
+    ]
+  },
+  {
+    "id": "world-rivers",
+    "title": "Rivers of the World",
+    "description": "Can you name these famous rivers from satellite and landscape images?",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["rivers", "geography", "nature"],
+    "creator": "ClipQuiz",
+    "playCount": 8900,
+    "createdAt": "2026-02-01T00:00:00.000Z",
+    "coverEmoji": "🌊",
+    "difficulty": "medium",
+    "questions": [
+      { "id": "rv1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Amazon_river_near_Manaus.jpg/640px-Amazon_river_near_Manaus.jpg", "answers": ["amazon", "amazon river"], "hint": "Largest river by volume" },
+      { "id": "rv2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponile_Rialto_from_the_Grand_Canal.jpg/640px-Camponile_Rialto_from_the_Grand_Canal.jpg", "answers": ["nile", "river nile"], "hint": "Flows through Egypt" },
+      { "id": "rv3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yangtze_River_%28Chang_Jiang%29_01.jpg/640px-Yangtze_River_%28Chang_Jiang%29_01.jpg", "answers": ["yangtze", "chang jiang", "yangtze river"], "hint": "Longest river in Asia" },
+      { "id": "rv4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mississippi_River_from_Eads_Bridge.jpg/640px-Mississippi_River_from_Eads_Bridge.jpg", "answers": ["mississippi", "mississippi river"], "hint": "Major US waterway" },
+      { "id": "rv5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Danube_in_Budapest.jpg/640px-Danube_in_Budapest.jpg", "answers": ["danube", "danube river"], "hint": "Flows through Vienna and Budapest" },
+      { "id": "rv6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ganges_at_Haridwar.jpg/640px-Ganges_at_Haridwar.jpg", "answers": ["ganges", "ganga", "ganges river"], "hint": "Sacred river in India" }
+    ]
+  },
+  {
+    "id": "solar-system",
+    "title": "Solar System Quiz",
+    "description": "Identify planets and celestial bodies in our solar system from NASA public-domain images.",
+    "category": "Science",
+    "language": "en",
+    "tags": ["space", "science", "planets"],
+    "creator": "ClipQuiz",
+    "playCount": 22100,
+    "createdAt": "2026-02-01T00:00:00.000Z",
+    "coverEmoji": "🪐",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      { "id": "sp1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue_Marble_2002.png/640px-Blue_Marble_2002.png", "answers": ["earth"], "hint": "Our home planet" },
+      { "id": "sp2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/640px-OSIRIS_Mars_true_color.jpg", "answers": ["mars"], "hint": "The red planet" },
+      { "id": "sp3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jupiter_New_Horizons.jpg/640px-Jupiter_New_Horizons.jpg", "answers": ["jupiter"], "hint": "Largest planet" },
+      { "id": "sp4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Saturn_from_Cassini_Huygens.jpg/640px-Saturn_from_Cassini_Huygens.jpg", "answers": ["saturn"], "hint": "Famous for its rings" },
+      { "id": "sp5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/640px-Uranus2.jpg", "answers": ["uranus"], "hint": "Tilted ice giant" },
+      { "id": "sp6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/640px-Neptune_Full.jpg", "answers": ["neptune"], "hint": "Windiest planet" }
+    ]
+  },
+  {
+    "id": "world-birds",
+    "title": "Birds of the World",
+    "description": "Identify beautiful bird species from photographs — a nature lover's quiz.",
+    "category": "Nature",
+    "language": "en",
+    "tags": ["birds", "nature", "wildlife"],
+    "creator": "ClipQuiz",
+    "playCount": 7600,
+    "createdAt": "2026-02-10T00:00:00.000Z",
+    "coverEmoji": "🦅",
+    "difficulty": "medium",
+    "questions": [
+      { "id": "bd1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bald_Eagle_Portrait.jpg/640px-Bald_Eagle_Portrait.jpg", "answers": ["bald eagle", "eagle"], "hint": "US national bird" },
+      { "id": "bd2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flamingo_Laguna_Colorada_Bolivia.jpg/640px-Flamingo_Laguna_Colorada_Bolivia.jpg", "answers": ["flamingo"], "hint": "Pink wading bird" },
+      { "id": "bd3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pavo_cristatus_-_India.jpg/640px-Pavo_cristatus_-_India.jpg", "answers": ["peacock"], "hint": "Colorful tail display" },
+      { "id": "bd4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pinguinus_impennis_specimen_%28National_Museum_of_Scotland%29.jpg/640px-Pinguinus_impennis_specimen_%28National_Museum_of_Scotland%29.jpg", "answers": ["penguin"], "hint": "Antarctic swimmer" },
+      { "id": "bd5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Owl_ears.jpg/640px-Owl_ears.jpg", "answers": ["owl"], "hint": "Nocturnal hunter" },
+      { "id": "bd6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Parrot.red.macaw.1.arp.750pix.jpg/640px-Parrot.red.macaw.1.arp.750pix.jpg", "answers": ["parrot", "macaw"], "hint": "Colorful tropical bird" }
+    ]
+  },
+  {
+    "id": "unesco-landmarks",
+    "title": "UNESCO World Heritage Sites",
+    "description": "Recognize famous UNESCO World Heritage landmarks from around the globe.",
+    "category": "Travel",
+    "language": "en",
+    "tags": ["unesco", "landmarks", "travel"],
+    "creator": "ClipQuiz",
+    "playCount": 14300,
+    "createdAt": "2026-02-10T00:00:00.000Z",
+    "coverEmoji": "🏛️",
+    "difficulty": "medium",
+    "questions": [
+      { "id": "un1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg", "answers": ["colosseum", "coliseum"], "hint": "Ancient Roman amphitheater" },
+      { "id": "un2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG", "answers": ["great wall", "great wall of china"], "hint": "Visible from space (myth aside)" },
+      { "id": "un3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg", "answers": ["statue of liberty", "liberty"], "hint": "New York harbor icon" },
+      { "id": "un4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg", "answers": ["taj mahal"], "hint": "White marble mausoleum in India" },
+      { "id": "un5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg", "answers": ["eiffel tower"], "hint": "Paris iron lattice tower" },
+      { "id": "un6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Stonehenge_2017.jpg/640px-Stonehenge_2017.jpg", "answers": ["stonehenge"], "hint": "Prehistoric stone circle in England" }
+    ]
+  },
+  {
+    "id": "world-deserts",
+    "title": "Deserts of the World",
+    "description": "Name these famous deserts and arid landscapes from stunning photographs.",
+    "category": "Geography",
+    "language": "en",
+    "tags": ["deserts", "geography", "nature"],
+    "creator": "ClipQuiz",
+    "playCount": 6500,
+    "createdAt": "2026-02-15T00:00:00.000Z",
+    "coverEmoji": "🏜️",
+    "difficulty": "hard",
+    "questions": [
+      { "id": "ds1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sahara_desert.jpg/640px-Sahara_desert.jpg", "answers": ["sahara", "sahara desert"], "hint": "Largest hot desert" },
+      { "id": "ds2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/GobiDesertLandscape.jpg/640px-GobiDesertLandscape.jpg", "answers": ["gobi", "gobi desert"], "hint": "Mongolia and China" },
+      { "id": "ds3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/AtacamaDesertByMars.jpg/640px-AtacamaDesertByMars.jpg", "answers": ["atacama", "atacama desert"], "hint": "Driest non-polar desert" },
+      { "id": "ds4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg/640px-Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg", "answers": ["uluru", "ayers rock"], "hint": "Sacred Australian monolith" },
+      { "id": "ds5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Death_Valley_National_Park%2C_California.jpg/640px-Death_Valley_National_Park%2C_California.jpg", "answers": ["death valley"], "hint": "Hottest place in North America" },
+      { "id": "ds6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Wadi_Rum%2C_Jordan.jpg/640px-Wadi_Rum%2C_Jordan.jpg", "answers": ["wadi rum", "jordan desert"], "hint": "Valley of the Moon in Jordan" }
+    ]
+  },
+  {
+    "id": "japanese-culture",
+    "title": "Japanese Culture & Landmarks",
+    "description": "Explore Japan through its iconic landmarks, traditions, and cultural symbols.",
+    "category": "Travel",
+    "language": "en",
+    "tags": ["japan", "culture", "travel"],
+    "creator": "ClipQuiz",
+    "playCount": 18700,
+    "createdAt": "2026-02-15T00:00:00.000Z",
+    "coverEmoji": "🗾",
+    "difficulty": "easy",
+    "featured": true,
+    "questions": [
+      { "id": "jp1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Torii_gate_at_Itsukushima_Shrine_2011.jpg/640px-Torii_gate_at_Itsukushima_Shrine_2011.jpg", "answers": ["torii", "itsukushima", "miyajima"], "hint": "Floating shrine gate" },
+      { "id": "jp2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tokyo_Skytree_2014_%28cropped%29.JPG/640px-Tokyo_Skytree_2014_%28cropped%29.JPG", "answers": ["tokyo skytree", "skytree"], "hint": "Tallest structure in Japan" },
+      { "id": "jp3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg/640px-Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg", "answers": ["kinkaku-ji", "golden pavilion", "kinkakuji"], "hint": "Gold-leaf temple in Kyoto" },
+      { "id": "jp4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Shibuya_Crossing_2018.jpg/640px-Shibuya_Crossing_2018.jpg", "answers": ["shibuya", "shibuya crossing"], "hint": "Busiest pedestrian crossing" },
+      { "id": "jp5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fushimi_Inari-taisha_torii_gate.jpg/640px-Fushimi_Inari-taisha_torii_gate.jpg", "answers": ["fushimi inari", "inari shrine"], "hint": "Thousands of orange gates" },
+      { "id": "jp6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Fuji_and_cherry_blossoms.jpg/640px-Mount_Fuji_and_cherry_blossoms.jpg", "answers": ["mount fuji", "fuji", "cherry blossom"], "hint": "Iconic volcano with sakura" }
+    ]
+  }
+]

@@ -5,7 +5,8 @@ import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
-import AdSenseScript from "@/components/ads/AdSenseScript";
+import ConsentAwareAdSense from "@/components/ads/ConsentAwareAdSense";
+import SetHtmlLang from "@/components/SetHtmlLang";
 import { getSiteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -52,7 +53,8 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <AdSenseScript />
+      <SetHtmlLang />
+      <ConsentAwareAdSense />
       <div className="mesh-bg fixed inset-0 -z-10" />
       <Header />
       <main className="flex-1">{children}</main>

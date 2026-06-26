@@ -19,15 +19,20 @@ export default function Footer() {
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-white/50">
             <Link href="/about" className="hover:text-[#00f5d4]">{t("about")}</Link>
+            <Link href="/guide" className="hover:text-[#00f5d4]">{t("guide")}</Link>
+            <Link href="/faq" className="hover:text-[#00f5d4]">{t("faq")}</Link>
             <Link href="/contact" className="hover:text-[#00f5d4]">{t("contact")}</Link>
             <Link href="/privacy" className="hover:text-[#00f5d4]">{t("privacy")}</Link>
             <Link href="/terms" className="hover:text-[#00f5d4]">{t("terms")}</Link>
+            <Link href="/guidelines" className="hover:text-[#00f5d4]">{t("guidelines")}</Link>
+            <Link href="/copyright" className="hover:text-[#00f5d4]">{t("copyright")}</Link>
             <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="hover:text-white/70">
               {t("adChoices")}
             </a>
           </nav>
         </div>
-        <p className="mt-8 text-center text-xs text-white/30">{t("rights", { year })}</p>
+        <p className="mt-4 text-center text-xs text-white/25 max-w-lg mx-auto">{t("disclaimer")}</p>
+        <p className="mt-4 text-center text-xs text-white/30">{t("rights", { year })}</p>
       </div>
     </footer>
   );
