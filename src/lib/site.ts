@@ -5,7 +5,9 @@ export const ADSENSE_CLIENT_ID =
 export const ADSENSE_PUBLISHER_ID =
   process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID ?? "pub-4911271163170466";
 
-export function getSiteUrl(): string {
+export const CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "jwon9798@gmail.com";
+
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   }

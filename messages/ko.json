@@ -199,7 +199,7 @@
     "submit": "신고 제출",
     "submitting": "제출 중...",
     "success": "감사합니다. 48시간 이내에 검토하겠습니다.",
-    "error": "신고를 제출할 수 없습니다. contact@clipquiz.app 으로 이메일을 보내주세요."
+    "error": "신고를 제출할 수 없습니다. jwon9798@gmail.com 으로 이메일을 보내주세요."
   },
   "cookies": {
     "message": "사이트 운영을 위해 쿠키를 사용하며, 동의 시 Google AdSense 광고 쿠키를 사용합니다.",
@@ -212,10 +212,10 @@
       "title": "개인정보처리방침",
       "updated": "최종 수정: 2026년 6월 24일",
       "sections": [
-        { "title": "1. 운영자 정보", "body": "ClipQuiz(이하 \"회사\")는 clipquiz.app 웹사이트를 운영합니다.\n\n개인정보 보호 책임자: contact@clipquiz.app\n운영 지역: 대한민국" },
+        { "title": "1. 운영자 정보", "body": "ClipQuiz(이하 \"회사\")는 clipquiz.app 웹사이트를 운영합니다.\n\n개인정보 보호 책임자: jwon9798@gmail.com\n운영 지역: 대한민국" },
         { "title": "2. 수집하는 정보", "body": "• 사용자가 생성한 퀴즈 콘텐츠\n• 퀴즈 점수 및 플레이 기록\n• IP 주소, 브라우저 정보 등 기술 데이터\n• 쿠키 및 유사 기술" },
         { "title": "3. Google AdSense", "body": "Google AdSense(게시자 ID: ca-pub-4911271163170466)를 통해 광고를 제공합니다. 동의 시 제3자가 쿠키를 사용하여 맞춤 광고를 제공할 수 있습니다.\n\n맞춤 광고 거부: https://www.google.com/settings/ads" },
-        { "title": "4. 이용자 권리", "body": "개인정보 열람, 정정, 삭제 요청은 contact@clipquiz.app 으로 문의하세요. 13세 미만 아동의 정보는 의도적으로 수집하지 않습니다." }
+        { "title": "4. 이용자 권리", "body": "개인정보 열람, 정정, 삭제 요청은 jwon9798@gmail.com 으로 문의하세요. 13세 미만 아동의 정보는 의도적으로 수집하지 않습니다." }
       ]
     },
     "terms": {
@@ -234,15 +234,15 @@
       "sections": [
         { "title": "미션", "body": "트리비아는 빠르고, 사회적이며, 실력 기반이어야 합니다. 직접 답을 입력하고 백분위 순위로 실력을 확인하세요." },
         { "title": "제공 기능", "body": "• 24개 이상의 큐레이션 퀴즈\n• 이미지/크롭/오디오 3가지 모드\n• 사용자 퀴즈 제작\n• 백분위 순위 및 결과 공유\n• 5개 언어 지원" },
-        { "title": "운영 정보", "body": "대한민국 기반 독립 개발자가 운영합니다.\n문의: contact@clipquiz.app" }
+        { "title": "운영 정보", "body": "대한민국 기반 독립 개발자가 운영합니다.\n문의: jwon9798@gmail.com" }
       ]
     },
     "contact": {
       "title": "문의하기",
       "intro": "질문, 피드백, 콘텐츠 신고를 환영합니다. 2영업일 이내 답변합니다.",
-      "email": "contact@clipquiz.app",
+      "email": "jwon9798@gmail.com",
       "sections": [
-        { "title": "콘텐츠 신고", "body": "퀴즈 페이지의 \"퀴즈 신고\" 버튼을 사용하거나 contact@clipquiz.app 으로 퀴즈 URL과 사유를 보내주세요. 48시간 이내 검토합니다." },
+        { "title": "콘텐츠 신고", "body": "퀴즈 페이지의 \"퀴즈 신고\" 버튼을 사용하거나 jwon9798@gmail.com 으로 퀴즈 URL과 사유를 보내주세요. 48시간 이내 검토합니다." },
         { "title": "저작권/DMCA", "body": "저작권 침해 신고 시 저작물 설명, 침해 퀴즈 URL, 연락처를 포함하여 이메일로 보내주세요." }
       ]
     },
@@ -262,7 +262,7 @@
       "sections": [
         { "title": "타인 존중", "body": "혐오 표현, 괴롭힘, 위협, 차별적 콘텐츠를 금지합니다." },
         { "title": "저작권", "body": "본인이 소유하거나 허가받은 콘텐츠만 사용하세요. 저작권 음악, 영화 스틸, 연예인 사진 무단 사용을 금지합니다." },
-        { "title": "집행", "body": "위반 시 퀴즈가 삭제될 수 있습니다. 신고는 앱 내 버튼 또는 contact@clipquiz.app 으로 접수하세요." }
+        { "title": "집행", "body": "위반 시 퀴즈가 삭제될 수 있습니다. 신고는 앱 내 버튼 또는 jwon9798@gmail.com 으로 접수하세요." }
       ]
     },
     "copyright": {
@@ -270,7 +270,7 @@
       "intro": "ClipQuiz는 지적재산권을 존중하며 유효한 저작권 신고에 신속히 대응합니다.",
       "sections": [
         { "title": "자체 콘텐츠", "body": "편집팀이 제작한 퀴즈는 퍼블릭 도메인 이미지, 국기(flagcdn.com), 위키미디어 커먼즈 미디어를 사용합니다." },
-        { "title": "DMCA 신고", "body": "저작권 침해 신고는 contact@clipquiz.app 으로 연락처, 저작물 설명, 침해 URL, 진술서, 서명을 포함하여 보내주세요." }
+        { "title": "DMCA 신고", "body": "저작권 침해 신고는 jwon9798@gmail.com 으로 연락처, 저작물 설명, 침해 URL, 진술서, 서명을 포함하여 보내주세요." }
       ]
     },
     "guide": {
