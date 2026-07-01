@@ -10,16 +10,14 @@
     "howItWorks": "이용 방법"
   },
   "hero": {
-    "badge": "글로벌 #1 맞히기 게임",
-    "title": "맞혀라. 겨뤄라.",
-    "titleAccent": "퍼져라.",
-    "subtitle": "이미지 퀴즈, 확대 크롭, 음악 클립. 답을 입력하고 상위 %를 겨루고 결과를 공유하세요.",
-    "cta": "지금 플레이",
-    "ctaSecondary": "퀴즈 만들기",
+    "badge": "이미지 · 크롭 · 음악 퀴즈",
+    "title": "보이는 걸 입력해.",
+    "titleAccent": "또는 들리는 걸.",
+    "subtitle": "퀴즈 고르고 정답 맞히고 순위 확인. 끝.",
+    "cta": "퀴즈 둘러보기",
+    "ctaSecondary": "직접 만들기",
     "stats": {
-      "quizzes": "퀴즈",
-      "players": "플레이어",
-      "countries": "국가"
+      "quizzes": "퀴즈"
     }
   },
   "modes": {
@@ -49,6 +47,7 @@
     "featured": "추천",
     "trending": "지금 인기",
     "all": "전체 퀴즈",
+    "allCategories": "전체",
     "search": "퀴즈 검색...",
     "noResults": "퀴즈를 찾을 수 없습니다",
     "start": "퀴즈 시작",

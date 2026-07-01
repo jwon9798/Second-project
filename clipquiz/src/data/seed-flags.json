@@ -1,0 +1,571 @@
+[
+  {
+    "id": "flags-europe",
+    "title": "european flags",
+    "description": "just flags. europe edition. took longer than expected.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "geo_nerd",
+    "playCount": 26750,
+    "createdAt": "2026-05-22T13:42:18.423Z",
+    "coverEmoji": "🇪🇺",
+    "difficulty": "medium",
+    "featured": true,
+    "questions": [
+      {
+        "id": "flags-europe-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/fr.png",
+        "answers": "baguette country"
+      },
+      {
+        "id": "flags-europe-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/it.png",
+        "answers": "boot shape on the map"
+      },
+      {
+        "id": "flags-europe-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/es.png",
+        "answers": "siesta hours"
+      },
+      {
+        "id": "flags-europe-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pl.png",
+        "answers": "white and red horizontal"
+      },
+      {
+        "id": "flags-europe-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/se.png",
+        "answers": "nordic cross yellow on blue"
+      },
+      {
+        "id": "flags-europe-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ch.png",
+        "answers": "square flag plus"
+      },
+      {
+        "id": "flags-europe-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/gr.png",
+        "answers": "blue and white stripes"
+      },
+      {
+        "id": "flags-europe-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/no.png",
+        "answers": "nordic cross red on blue"
+      }
+    ]
+  },
+  {
+    "id": "flags-asia-pacific",
+    "title": "asia + pacific flags",
+    "description": "my cousin in singapore helped check these. english answers.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "trevor",
+    "playCount": 19406,
+    "createdAt": "2026-05-15T13:42:18.424Z",
+    "coverEmoji": "🏯",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "flags-asia-pacific-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/th.png",
+        "answers": "white blue red stripes"
+      },
+      {
+        "id": "flags-asia-pacific-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/vn.png",
+        "answers": "yellow star red field"
+      },
+      {
+        "id": "flags-asia-pacific-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/id.png",
+        "answers": "red over white"
+      },
+      {
+        "id": "flags-asia-pacific-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ph.png",
+        "answers": "sun and stars"
+      },
+      {
+        "id": "flags-asia-pacific-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/sg.png",
+        "answers": "moon and stars small island"
+      },
+      {
+        "id": "flags-asia-pacific-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/my.png",
+        "answers": "crescent and stripes"
+      },
+      {
+        "id": "flags-asia-pacific-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/nz.png",
+        "answers": "southern cross stars"
+      },
+      {
+        "id": "flags-asia-pacific-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pk.png",
+        "answers": "crescent moon green"
+      }
+    ]
+  },
+  {
+    "id": "flags-africa",
+    "title": "african flags quiz",
+    "description": "harder than i thought. some of these look similar.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "plantmom",
+    "playCount": 34915,
+    "createdAt": "2026-05-08T13:42:18.424Z",
+    "coverEmoji": "🦁",
+    "difficulty": "medium",
+    "featured": false,
+    "questions": [
+      {
+        "id": "flags-africa-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/eg.png",
+        "answers": "eagle in the center"
+      },
+      {
+        "id": "flags-africa-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/za.png",
+        "answers": "y shape colors"
+      },
+      {
+        "id": "flags-africa-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ng.png",
+        "answers": "green white green"
+      },
+      {
+        "id": "flags-africa-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ke.png",
+        "answers": "shield and spears"
+      },
+      {
+        "id": "flags-africa-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ma.png",
+        "answers": "green star red field"
+      },
+      {
+        "id": "flags-africa-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/et.png",
+        "answers": "green yellow red"
+      },
+      {
+        "id": "flags-africa-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/gh.png",
+        "answers": "black star"
+      },
+      {
+        "id": "flags-africa-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/tn.png",
+        "answers": "crescent and star red"
+      }
+    ]
+  },
+  {
+    "id": "flags-americas",
+    "title": "americas flags",
+    "description": "north and south. not just the US one.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "rowan",
+    "playCount": 33264,
+    "createdAt": "2026-05-01T13:42:18.424Z",
+    "coverEmoji": "🌎",
+    "difficulty": "easy",
+    "featured": false,
+    "questions": [
+      {
+        "id": "flags-americas-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ar.png",
+        "answers": "sun in the middle"
+      },
+      {
+        "id": "flags-americas-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/cl.png",
+        "answers": "star white stripe"
+      },
+      {
+        "id": "flags-americas-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/co.png",
+        "answers": "yellow blue red"
+      },
+      {
+        "id": "flags-americas-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pe.png",
+        "answers": "red white red"
+      },
+      {
+        "id": "flags-americas-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ve.png",
+        "answers": "stars arc"
+      },
+      {
+        "id": "flags-americas-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/uy.png",
+        "answers": "sun top left"
+      },
+      {
+        "id": "flags-americas-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/cu.png",
+        "answers": "lone star triangle"
+      },
+      {
+        "id": "flags-americas-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/jm.png",
+        "answers": "green yellow x"
+      }
+    ]
+  },
+  {
+    "id": "flags-tricky-twins",
+    "title": "flags that look alike",
+    "description": "these annoy me every time. good luck telling them apart.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "zero",
+    "playCount": 1167,
+    "createdAt": "2026-04-24T13:42:18.424Z",
+    "coverEmoji": "😵",
+    "difficulty": "hard",
+    "featured": true,
+    "questions": [
+      {
+        "id": "flags-tricky-twins-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ro.png",
+        "answers": "blue yellow red vertical"
+      },
+      {
+        "id": "flags-tricky-twins-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/td.png",
+        "answers": "same colors different blue shade"
+      },
+      {
+        "id": "flags-tricky-twins-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/id.png",
+        "answers": "red top white bottom"
+      },
+      {
+        "id": "flags-tricky-twins-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/mc.png",
+        "answers": "same layout tinier country"
+      },
+      {
+        "id": "flags-tricky-twins-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/nl.png",
+        "answers": "red white blue horizontal"
+      },
+      {
+        "id": "flags-tricky-twins-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/lu.png",
+        "answers": "similar tricolor lighter blue"
+      },
+      {
+        "id": "flags-tricky-twins-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ie.png",
+        "answers": "green white orange"
+      },
+      {
+        "id": "flags-tricky-twins-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ci.png",
+        "answers": "orange white green flipped"
+      }
+    ]
+  },
+  {
+    "id": "flags-us-states",
+    "title": "us state flags",
+    "description": "american states have surprisingly weird flags. who knew.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "creator": "dex",
+    "playCount": 21216,
+    "createdAt": "2026-04-17T13:42:18.424Z",
+    "coverEmoji": "🇺🇸",
+    "difficulty": "hard",
+    "featured": false,
+    "questions": [
+      {
+        "id": "flags-us-states-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-tx.png",
+        "answers": [
+          "texas"
+        ],
+        "hint": "lone star state — use state name not country"
+      },
+      {
+        "id": "flags-us-states-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-ca.png",
+        "answers": [
+          "california"
+        ],
+        "hint": "bear walking"
+      },
+      {
+        "id": "flags-us-states-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-co.png",
+        "answers": [
+          "colorado"
+        ],
+        "hint": "red c yellow center"
+      },
+      {
+        "id": "flags-us-states-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-md.png",
+        "answers": [
+          "maryland"
+        ],
+        "hint": "heraldic quarters"
+      },
+      {
+        "id": "flags-us-states-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-az.png",
+        "answers": [
+          "arizona"
+        ],
+        "hint": "copper star rays"
+      },
+      {
+        "id": "flags-us-states-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/us-nm.png",
+        "answers": [
+          "new mexico"
+        ],
+        "hint": "zia sun symbol"
+      }
+    ]
+  },
+  {
+    "id": "flags-middle-east",
+    "title": "middle east flags",
+    "description": "gulf states and neighbors. some look really similar honestly.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags"
+    ],
+    "creator": "dex",
+    "playCount": 8531,
+    "createdAt": "2026-05-12T13:42:18.424Z",
+    "coverEmoji": "🕌",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "id": "flags-middle-east-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/sa.png",
+        "answers": [
+          "saudi arabia"
+        ],
+        "hint": "green sword script"
+      },
+      {
+        "id": "flags-middle-east-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ae.png",
+        "answers": [
+          "uae",
+          "united arab emirates"
+        ],
+        "hint": "red green white black"
+      },
+      {
+        "id": "flags-middle-east-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/qa.png",
+        "answers": [
+          "qatar"
+        ],
+        "hint": "maroon white serrated"
+      },
+      {
+        "id": "flags-middle-east-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/kw.png",
+        "answers": [
+          "kuwait"
+        ],
+        "hint": "black trapezoid green red"
+      },
+      {
+        "id": "flags-middle-east-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/il.png",
+        "answers": [
+          "israel"
+        ],
+        "hint": "blue star of david"
+      },
+      {
+        "id": "flags-middle-east-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/tr.png",
+        "answers": [
+          "turkey"
+        ],
+        "hint": "red crescent star"
+      },
+      {
+        "id": "flags-middle-east-6",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ir.png",
+        "answers": [
+          "iran"
+        ],
+        "hint": "green white red emblem"
+      },
+      {
+        "id": "flags-middle-east-7",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/jo.png",
+        "answers": [
+          "jordan"
+        ],
+        "hint": "black triangle star stripes"
+      }
+    ]
+  },
+  {
+    "id": "flags-oceania",
+    "title": "oceania flags",
+    "description": "pacific islands and down under. smaller countries included.",
+    "category": "Geography",
+    "language": "en",
+    "tags": [
+      "flags"
+    ],
+    "creator": "breadcat",
+    "playCount": 5604,
+    "createdAt": "2026-05-09T13:42:18.424Z",
+    "coverEmoji": "🏝️",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "id": "flags-oceania-0",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/fj.png",
+        "answers": [
+          "fiji"
+        ],
+        "hint": "shield on blue"
+      },
+      {
+        "id": "flags-oceania-1",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/pg.png",
+        "answers": [
+          "papua new guinea"
+        ],
+        "hint": "bird of paradise"
+      },
+      {
+        "id": "flags-oceania-2",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/ws.png",
+        "answers": [
+          "samoa"
+        ],
+        "hint": "southern cross stars"
+      },
+      {
+        "id": "flags-oceania-3",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/to.png",
+        "answers": [
+          "tonga"
+        ],
+        "hint": "red cross on white"
+      },
+      {
+        "id": "flags-oceania-4",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/vu.png",
+        "answers": [
+          "vanuatu"
+        ],
+        "hint": "pig tusk boar"
+      },
+      {
+        "id": "flags-oceania-5",
+        "type": "image",
+        "imageUrl": "https://flagcdn.com/w640/sb.png",
+        "answers": [
+          "solomon islands"
+        ],
+        "hint": "five stars diagonal"
+      }
+    ]
+  }
+]

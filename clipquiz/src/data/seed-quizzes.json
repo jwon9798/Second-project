@@ -1,410 +1,144 @@
 [
   {
     "id": "world-flags-easy",
-    "title": "World Flags Challenge",
-    "description": "Can you name these countries from their flags? From easy to tricky.",
+    "title": "flag = country. that's it.",
+    "description": "saw a quiz like this elsewhere and wanted a shorter one. english answers fine.",
     "category": "Geography",
     "language": "en",
-    "tags": ["flags", "geography", "trivia"],
-    "creator": "ClipQuiz",
-    "playCount": 48200,
+    "tags": ["flags", "geography"],
+    "creator": "geo_nerd",
+    "playCount": 4821,
     "createdAt": "2025-11-01T00:00:00.000Z",
     "coverEmoji": "🌍",
     "difficulty": "easy",
     "featured": true,
     "questions": [
-      {
-        "id": "wf1",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/jp.png",
-        "answers": ["japan", "日本"],
-        "hint": "Land of the rising sun"
-      },
-      {
-        "id": "wf2",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/br.png",
-        "answers": ["brazil", "brasil"],
-        "hint": "Samba and football"
-      },
-      {
-        "id": "wf3",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/kr.png",
-        "answers": ["south korea", "korea", "republic of korea", "대한민국", "한국"],
-        "hint": "K-pop homeland"
-      },
-      {
-        "id": "wf4",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/ca.png",
-        "answers": ["canada"],
-        "hint": "Maple leaf nation"
-      },
-      {
-        "id": "wf5",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/de.png",
-        "answers": ["germany", "deutschland"],
-        "hint": "Oktoberfest country"
-      },
-      {
-        "id": "wf6",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/mx.png",
-        "answers": ["mexico", "méxico"],
-        "hint": "Tacos and mariachi"
-      },
-      {
-        "id": "wf7",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/au.png",
-        "answers": ["australia"],
-        "hint": "Kangaroos down under"
-      },
-      {
-        "id": "wf8",
-        "type": "image",
-        "imageUrl": "https://flagcdn.com/w640/in.png",
-        "answers": ["india", "bharat"],
-        "hint": "Bollywood & curry"
-      }
+      { "id": "wf1", "type": "image", "imageUrl": "https://flagcdn.com/w640/jp.png", "answers": ["japan", "日本"], "hint": "rising sun" },
+      { "id": "wf2", "type": "image", "imageUrl": "https://flagcdn.com/w640/br.png", "answers": ["brazil", "brasil"], "hint": "big green yellow diamond" },
+      { "id": "wf3", "type": "image", "imageUrl": "https://flagcdn.com/w640/kr.png", "answers": ["south korea", "korea", "republic of korea", "대한민국", "한국"], "hint": "yin yang symbol" },
+      { "id": "wf4", "type": "image", "imageUrl": "https://flagcdn.com/w640/ca.png", "answers": ["canada"], "hint": "maple leaf" },
+      { "id": "wf5", "type": "image", "imageUrl": "https://flagcdn.com/w640/de.png", "answers": ["germany", "deutschland"], "hint": "black red gold stripes" },
+      { "id": "wf6", "type": "image", "imageUrl": "https://flagcdn.com/w640/mx.png", "answers": ["mexico", "méxico"], "hint": "eagle on cactus" },
+      { "id": "wf7", "type": "image", "imageUrl": "https://flagcdn.com/w640/au.png", "answers": ["australia"], "hint": "southern cross stars" },
+      { "id": "wf8", "type": "image", "imageUrl": "https://flagcdn.com/w640/in.png", "answers": ["india", "bharat"], "hint": "wheel in center" },
+      { "id": "wf9", "type": "image", "imageUrl": "https://flagcdn.com/w640/gb.png", "answers": ["united kingdom", "uk", "britain", "great britain", "england"], "hint": "union jack" },
+      { "id": "wf10", "type": "image", "imageUrl": "https://flagcdn.com/w640/us.png", "answers": ["united states", "usa", "us", "america"], "hint": "stars and stripes" }
     ]
   },
   {
     "id": "landmarks-crop",
-    "title": "Landmarks Zoom Quiz",
-    "description": "We cropped famous landmarks to tiny slices. Can you still recognize them?",
+    "title": "landmarks but zoomed in too much",
+    "description": "sorry in advance. friend said the last crop quiz was too easy.",
     "category": "Travel",
     "language": "en",
     "tags": ["landmarks", "travel", "crop"],
-    "creator": "ClipQuiz",
-    "playCount": 31500,
+    "creator": "mika",
+    "playCount": 3152,
     "createdAt": "2025-10-15T00:00:00.000Z",
     "coverEmoji": "🗼",
     "difficulty": "medium",
     "featured": true,
     "questions": [
-      {
-        "id": "lm1",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
-        "cropX": 48,
-        "cropY": 35,
-        "cropSize": 18,
-        "answers": ["eiffel tower", "eiffel", "paris"],
-        "hint": "City of love"
-      },
-      {
-        "id": "lm2",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
-        "cropX": 50,
-        "cropY": 30,
-        "cropSize": 20,
-        "answers": ["taj mahal", "taj"],
-        "hint": "India's white marble wonder"
-      },
-      {
-        "id": "lm3",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
-        "cropX": 55,
-        "cropY": 40,
-        "cropSize": 22,
-        "answers": ["burj khalifa", "burj", "dubai"],
-        "hint": "World's tallest building"
-      },
-      {
-        "id": "lm4",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=800&q=80",
-        "cropX": 50,
-        "cropY": 55,
-        "cropSize": 25,
-        "answers": ["colosseum", "coliseum", "rome"],
-        "hint": "Ancient Roman arena"
-      },
-      {
-        "id": "lm5",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=800&q=80",
-        "cropX": 45,
-        "cropY": 50,
-        "cropSize": 20,
-        "answers": ["statue of liberty", "liberty", "new york"],
-        "hint": "Gift from France"
-      },
-      {
-        "id": "lm6",
-        "type": "crop",
-        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-        "cropX": 50,
-        "cropY": 45,
-        "cropSize": 30,
-        "answers": ["matterhorn", "swiss alps", "alps"],
-        "hint": "Iconic Swiss peak"
-      }
+      { "id": "lm1", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80", "cropX": 48, "cropY": 35, "cropSize": 18, "answers": ["eiffel tower", "eiffel", "paris"], "hint": "iron tower france" },
+      { "id": "lm2", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80", "cropX": 50, "cropY": 30, "cropSize": 20, "answers": ["taj mahal", "taj"], "hint": "white marble india" },
+      { "id": "lm3", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", "cropX": 55, "cropY": 40, "cropSize": 22, "answers": ["burj khalifa", "burj", "dubai"], "hint": "tallest building" },
+      { "id": "lm4", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=800&q=80", "cropX": 50, "cropY": 55, "cropSize": 25, "answers": ["colosseum", "coliseum", "rome"], "hint": "roman arena" },
+      { "id": "lm5", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=800&q=80", "cropX": 45, "cropY": 50, "cropSize": 20, "answers": ["statue of liberty", "liberty", "new york"], "hint": "torch and crown" },
+      { "id": "lm6", "type": "crop", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "cropX": 50, "cropY": 45, "cropSize": 30, "answers": ["matterhorn", "swiss alps", "alps"], "hint": "pointy swiss peak" },
+      { "id": "lm7", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg", "cropX": 50, "cropY": 40, "cropSize": 22, "answers": ["sydney opera house", "opera house"], "hint": "white shells australia" }
     ]
   },
   {
     "id": "pop-hits-2010s",
-    "title": "2010s Pop Hits",
-    "description": "Hear a few seconds. Name the song. Streamers love this one.",
+    "title": "2010s songs from the chorus",
+    "description": "youtube clips. you probably heard these at a store somewhere.",
     "category": "Music",
     "language": "en",
     "tags": ["music", "pop", "audio", "2010s"],
-    "creator": "ClipQuiz",
-    "playCount": 67800,
+    "creator": "rowan",
+    "playCount": 6784,
     "createdAt": "2025-09-20T00:00:00.000Z",
     "coverEmoji": "🎵",
     "difficulty": "medium",
     "featured": true,
     "questions": [
-      {
-        "id": "ph1",
-        "type": "audio",
-        "youtubeId": "kJQP7kiw5Fk",
-        "audioStart": 40,
-        "audioDuration": 8,
-        "answers": ["despacito", "despacito luis fonsi"],
-        "hint": "2017 global phenomenon"
-      },
-      {
-        "id": "ph2",
-        "type": "audio",
-        "youtubeId": "RgKAFK5djSk",
-        "audioStart": 55,
-        "audioDuration": 8,
-        "answers": ["see you again", "see you again wiz khalifa"],
-        "hint": "Furious 7 tribute"
-      },
-      {
-        "id": "ph3",
-        "type": "audio",
-        "youtubeId": "hT_nvWreIhg",
-        "audioStart": 30,
-        "audioDuration": 8,
-        "answers": ["counting stars", "onerepublic counting stars"],
-        "hint": "OneRepublic hit"
-      },
-      {
-        "id": "ph4",
-        "type": "audio",
-        "youtubeId": "YQHsXMglC9A",
-        "audioStart": 45,
-        "audioDuration": 8,
-        "answers": ["hello", "adele hello"],
-        "hint": "Adele comeback"
-      },
-      {
-        "id": "ph5",
-        "type": "audio",
-        "youtubeId": "OPf0YbXqDm0",
-        "audioStart": 50,
-        "audioDuration": 8,
-        "answers": ["uptown funk", "uptown funk bruno mars"],
-        "hint": "Bruno Mars & Mark Ronson"
-      },
-      {
-        "id": "ph6",
-        "type": "audio",
-        "youtubeId": "09R8_2nJtjg",
-        "audioStart": 35,
-        "audioDuration": 8,
-        "answers": ["sugar", "maroon 5 sugar"],
-        "hint": "Maroon 5 wedding crash"
-      }
+      { "id": "ph1", "type": "audio", "youtubeId": "kJQP7kiw5Fk", "audioStart": 40, "audioDuration": 8, "answers": ["despacito", "despacito luis fonsi"], "hint": "spanish summer hit 2017" },
+      { "id": "ph2", "type": "audio", "youtubeId": "RgKAFK5djSk", "audioStart": 55, "audioDuration": 8, "answers": ["see you again", "see you again wiz khalifa"], "hint": "fast and furious song" },
+      { "id": "ph3", "type": "audio", "youtubeId": "hT_nvWreIhg", "audioStart": 30, "audioDuration": 8, "answers": ["counting stars", "onerepublic counting stars"], "hint": "onerepublic" },
+      { "id": "ph4", "type": "audio", "youtubeId": "YQHsXMglC9A", "audioStart": 45, "audioDuration": 8, "answers": ["hello", "adele hello"], "hint": "adele" },
+      { "id": "ph5", "type": "audio", "youtubeId": "OPf0YbXqDm0", "audioStart": 50, "audioDuration": 8, "answers": ["uptown funk", "uptown funk bruno mars"], "hint": "bruno mars" },
+      { "id": "ph6", "type": "audio", "youtubeId": "09R8_2nJtjg", "audioStart": 35, "audioDuration": 8, "answers": ["sugar", "maroon 5 sugar"], "hint": "maroon 5" },
+      { "id": "ph7", "type": "audio", "youtubeId": "fLexgOxsZu0", "audioStart": 10, "audioDuration": 8, "answers": ["shape of you", "ed sheeran shape of you"], "hint": "ed sheeran 2017" },
+      { "id": "ph8", "type": "audio", "youtubeId": "lp-EO5I60KA", "audioStart": 45, "audioDuration": 8, "answers": ["thinking out loud", "ed sheeran thinking out loud"], "hint": "wedding song maybe" }
     ]
   },
   {
     "id": "anime-crop-hard",
-    "title": "Anime Character Crop",
-    "description": "Extreme close-ups of legendary anime characters. Only true fans survive.",
+    "title": "anime faces. very cropped.",
+    "description": "if you watch even a little anime you might get half. no promises.",
     "category": "Anime",
     "language": "en",
-    "tags": ["anime", "crop", "otaku"],
-    "creator": "ClipQuiz",
-    "playCount": 52300,
+    "tags": ["anime", "crop"],
+    "creator": "zero",
+    "playCount": 5238,
     "createdAt": "2025-08-10T00:00:00.000Z",
     "coverEmoji": "⚔️",
     "difficulty": "hard",
     "featured": true,
     "questions": [
-      {
-        "id": "an1",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Naruto_Uzumaki.png",
-        "cropX": 50,
-        "cropY": 15,
-        "cropSize": 22,
-        "answers": ["naruto", "naruto uzumaki"],
-        "hint": "Believe it!"
-      },
-      {
-        "id": "an2",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Goku_Super_Saiyan.png",
-        "cropX": 50,
-        "cropY": 20,
-        "cropSize": 20,
-        "answers": ["goku", "son goku"],
-        "hint": "Dragon Ball hero"
-      },
-      {
-        "id": "an3",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Monkey_D._Luffy.png",
-        "cropX": 48,
-        "cropY": 25,
-        "cropSize": 24,
-        "answers": ["luffy", "monkey d luffy", "monkey d. luffy"],
-        "hint": "Future Pirate King"
-      },
-      {
-        "id": "an4",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lelouch_vi_Britannia.png",
-        "cropX": 50,
-        "cropY": 18,
-        "cropSize": 20,
-        "answers": ["lelouch", "lelouch vi britannia", "lelouch lamperouge"],
-        "hint": "All hail the emperor"
-      },
-      {
-        "id": "an5",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Eren_Yeager.png",
-        "cropX": 50,
-        "cropY": 22,
-        "cropSize": 22,
-        "answers": ["eren", "eren yeager", "eren jaeger"],
-        "hint": "Attack on Titan"
-      }
+      { "id": "an1", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Naruto_Uzumaki.png", "cropX": 50, "cropY": 15, "cropSize": 22, "answers": ["naruto", "naruto uzumaki"], "hint": "blond spiky hair" },
+      { "id": "an2", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Goku_Super_Saiyan.png", "cropX": 50, "cropY": 20, "cropSize": 20, "answers": ["goku", "son goku"], "hint": "dragon ball" },
+      { "id": "an3", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Monkey_D._Luffy.png", "cropX": 48, "cropY": 25, "cropSize": 24, "answers": ["luffy", "monkey d luffy", "monkey d. luffy"], "hint": "straw hat" },
+      { "id": "an4", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Eren_Yeager.png", "cropX": 50, "cropY": 22, "cropSize": 22, "answers": ["eren", "eren yeager", "eren jaeger"], "hint": "attack on titan" },
+      { "id": "an5", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lelouch_vi_Britannia.png", "cropX": 50, "cropY": 18, "cropSize": 20, "answers": ["lelouch", "lelouch vi britannia", "lelouch lamperouge"], "hint": "code geass" },
+      { "id": "an6", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Sailor_Moon_character.png", "cropX": 50, "cropY": 20, "cropSize": 22, "answers": ["sailor moon", "usagi"], "hint": "magical girl classic" },
+      { "id": "an7", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Pikachu_artwork.png", "cropX": 50, "cropY": 30, "cropSize": 25, "answers": ["pikachu"], "hint": "yellow electric" }
     ]
   },
   {
     "id": "gaming-icons",
-    "title": "Gaming Icons Quiz",
-    "description": "Legendary video game characters — do you know them all?",
+    "title": "video game characters",
+    "description": "mostly older games with a few newer ones. english names.",
     "category": "Gaming",
     "language": "en",
-    "tags": ["gaming", "characters", "nostalgia"],
-    "creator": "ClipQuiz",
-    "playCount": 44100,
+    "tags": ["gaming", "characters"],
+    "creator": "dex",
+    "playCount": 4412,
     "createdAt": "2025-07-01T00:00:00.000Z",
     "coverEmoji": "🎮",
     "difficulty": "medium",
     "featured": false,
     "questions": [
-      {
-        "id": "gm1",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Mario_by_Shigehiko_Nakajo.png",
-        "answers": ["mario", "super mario"],
-        "hint": "It's-a him!"
-      },
-      {
-        "id": "gm2",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Sonic_the_Hedgehog.png",
-        "answers": ["sonic", "sonic the hedgehog"],
-        "hint": "Gotta go fast"
-      },
-      {
-        "id": "gm3",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Master_Chief_Halo_3.png",
-        "answers": ["master chief", "chief", "john 117"],
-        "hint": "Halo protagonist"
-      },
-      {
-        "id": "gm4",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lara_Croft_in_Tomb_Raider_XIV.png",
-        "answers": ["lara croft", "lara"],
-        "hint": "Tomb Raider"
-      },
-      {
-        "id": "gm5",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Pikachu.png",
-        "answers": ["pikachu"],
-        "hint": "Electric mouse"
-      },
-      {
-        "id": "gm6",
-        "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Steve_%28Minecraft%29.png",
-        "answers": ["steve", "minecraft steve"],
-        "hint": "Blocky builder"
-      }
+      { "id": "gm1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Mario_by_Shigehiko_Nakajo.png", "answers": ["mario", "super mario"], "hint": "red hat plumber" },
+      { "id": "gm2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Sonic_the_Hedgehog.png", "answers": ["sonic", "sonic the hedgehog"], "hint": "blue fast hedgehog" },
+      { "id": "gm3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Master_Chief_Halo_3.png", "answers": ["master chief", "chief", "john 117"], "hint": "halo armor" },
+      { "id": "gm4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lara_Croft_in_Tomb_Raider_XIV.png", "answers": ["lara croft", "lara"], "hint": "tomb raider" },
+      { "id": "gm5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Pikachu.png", "answers": ["pikachu"], "hint": "pokemon mascot" },
+      { "id": "gm6", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Steve_%28Minecraft%29.png", "answers": ["steve", "minecraft steve"], "hint": "blocky guy" },
+      { "id": "gm7", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Kratos_from_God_of_War_2018.png", "answers": ["kratos"], "hint": "god of war" },
+      { "id": "gm8", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Link_ssb4.png", "answers": ["link"], "hint": "zelda hero" }
     ]
   },
   {
     "id": "fast-food-logos",
-    "title": "Fast Food Logo Crop",
-    "description": "Zoomed-in fast food logos. Hungry for a perfect score?",
+    "title": "fast food logos zoomed in",
+    "description": "got hungry making this. brand names in english.",
     "category": "Food",
     "language": "en",
     "tags": ["food", "logos", "crop"],
-    "creator": "ClipQuiz",
-    "playCount": 28900,
+    "creator": "breadcat",
+    "playCount": 2891,
     "createdAt": "2025-06-15T00:00:00.000Z",
     "coverEmoji": "🍔",
     "difficulty": "easy",
     "featured": false,
     "questions": [
-      {
-        "id": "ff1",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png",
-        "cropX": 50,
-        "cropY": 50,
-        "cropSize": 35,
-        "answers": ["mcdonalds", "mcdonald's", "mcd"],
-        "hint": "Golden arches"
-      },
-      {
-        "id": "ff2",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/KFC_logo.svg",
-        "cropX": 30,
-        "cropY": 50,
-        "cropSize": 30,
-        "answers": ["kfc", "kentucky fried chicken"],
-        "hint": "Colonel's chicken"
-      },
-      {
-        "id": "ff3",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Coca-Cola_logo.svg",
-        "cropX": 40,
-        "cropY": 55,
-        "cropSize": 25,
-        "answers": ["coca cola", "coca-cola", "coke"],
-        "hint": "Classic soda"
-      },
-      {
-        "id": "ff4",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg",
-        "cropX": 50,
-        "cropY": 45,
-        "cropSize": 28,
-        "answers": ["starbucks"],
-        "hint": "Green siren coffee"
-      },
-      {
-        "id": "ff5",
-        "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Domino%27s_pizza_logo.svg/800px-Domino%27s_pizza_logo.svg.png",
-        "cropX": 35,
-        "cropY": 50,
-        "cropSize": 30,
-        "answers": ["dominos", "domino's", "dominos pizza"],
-        "hint": "30 minutes or less"
-      }
+      { "id": "ff1", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png", "cropX": 50, "cropY": 50, "cropSize": 35, "answers": ["mcdonalds", "mcdonald's", "mcd"], "hint": "golden arches" },
+      { "id": "ff2", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/KFC_logo.svg", "cropX": 30, "cropY": 50, "cropSize": 30, "answers": ["kfc", "kentucky fried chicken"], "hint": "colonel" },
+      { "id": "ff3", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Coca-Cola_logo.svg", "cropX": 40, "cropY": 55, "cropSize": 25, "answers": ["coca cola", "coca-cola", "coke"], "hint": "red soda" },
+      { "id": "ff4", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg", "cropX": 50, "cropY": 45, "cropSize": 28, "answers": ["starbucks"], "hint": "green mermaid" },
+      { "id": "ff5", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Domino%27s_pizza_logo.svg/800px-Domino%27s_pizza_logo.svg.png", "cropX": 35, "cropY": 50, "cropSize": 30, "answers": ["dominos", "domino's", "dominos pizza"], "hint": "pizza delivery dots" },
+      { "id": "ff6", "type": "crop", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/Subway_2016_logo.svg", "cropX": 50, "cropY": 50, "cropSize": 30, "answers": ["subway"], "hint": "sandwich chain" }
     ]
   }
 ]

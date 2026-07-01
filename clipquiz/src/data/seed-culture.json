@@ -1,0 +1,486 @@
+[
+  {
+    "id": "famous-paintings",
+    "title": "paintings you might recognize",
+    "description": "museum stuff. public domain images. artist or painting title both ok.",
+    "category": "Art",
+    "coverEmoji": "🎨",
+    "difficulty": "medium",
+    "featured": true,
+    "creator": "hana",
+    "questions": [
+      {
+        "id": "pt1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "answers": [
+          "starry night",
+          "the starry night",
+          "van gogh"
+        ],
+        "hint": "swirly night sky"
+      },
+      {
+        "id": "pt2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/640px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "answers": [
+          "girl with a pearl earring",
+          "pearl earring",
+          "vermeer"
+        ],
+        "hint": "blue headscarf"
+      },
+      {
+        "id": "pt3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/640px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "answers": [
+          "mona lisa",
+          "da vinci",
+          "leonardo"
+        ],
+        "hint": "famous smile"
+      },
+      {
+        "id": "pt4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_The_Scream.jpg/640px-Edvard_Munch%2C_The_Scream.jpg",
+        "answers": [
+          "the scream",
+          "scream",
+          "munch"
+        ],
+        "hint": "person hands on face"
+      },
+      {
+        "id": "pt5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/640px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "answers": [
+          "the kiss",
+          "kiss",
+          "klimt"
+        ],
+        "hint": "gold embrace"
+      },
+      {
+        "id": "pt6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/640px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+        "answers": [
+          "arnolfini portrait",
+          "arnolfini",
+          "van eyck"
+        ],
+        "hint": "couple mirror dog"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "art"
+    ],
+    "playCount": 4494,
+    "createdAt": "2026-06-21T13:42:18.424Z"
+  },
+  {
+    "id": "unesco-sites",
+    "title": "famous places",
+    "description": "tourist spots basically. unesco or just really well known.",
+    "category": "Travel",
+    "coverEmoji": "🏛️",
+    "difficulty": "medium",
+    "creator": "rowan",
+    "questions": [
+      {
+        "id": "un1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "colosseum",
+          "coliseum",
+          "rome"
+        ],
+        "hint": "roman arena"
+      },
+      {
+        "id": "un2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "china long wall"
+      },
+      {
+        "id": "un3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "nyc harbor"
+      },
+      {
+        "id": "un4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "answers": [
+          "taj mahal"
+        ],
+        "hint": "white marble india"
+      },
+      {
+        "id": "un5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "answers": [
+          "eiffel tower"
+        ],
+        "hint": "paris iron tower"
+      },
+      {
+        "id": "un6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Stonehenge_2017.jpg/640px-Stonehenge_2017.jpg",
+        "answers": [
+          "stonehenge"
+        ],
+        "hint": "rocks in circle england"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 4094,
+    "createdAt": "2026-06-18T13:42:18.424Z"
+  },
+  {
+    "id": "japan-travel-spots",
+    "title": "japan spots",
+    "description": "places tourists photograph. not anime characters.",
+    "category": "Travel",
+    "coverEmoji": "🗾",
+    "difficulty": "easy",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "jp1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg",
+        "answers": [
+          "mount fuji",
+          "fuji",
+          "mt fuji"
+        ],
+        "hint": "snow cap volcano"
+      },
+      {
+        "id": "jp2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Torii_gate_at_Itsukushima_Shrine_2011.jpg/640px-Torii_gate_at_Itsukushima_Shrine_2011.jpg",
+        "answers": [
+          "torii",
+          "itsukushima",
+          "miyajima"
+        ],
+        "hint": "floating gate"
+      },
+      {
+        "id": "jp3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg/640px-Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg",
+        "answers": [
+          "kinkaku-ji",
+          "golden pavilion",
+          "kinkakuji"
+        ],
+        "hint": "gold temple kyoto"
+      },
+      {
+        "id": "jp4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fushimi_Inari-taisha_torii_gate.jpg/640px-Fushimi_Inari-taisha_torii_gate.jpg",
+        "answers": [
+          "fushimi inari",
+          "inari"
+        ],
+        "hint": "orange gates tunnel"
+      },
+      {
+        "id": "jp5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Shibuya_Crossing_2018.jpg/640px-Shibuya_Crossing_2018.jpg",
+        "answers": [
+          "shibuya",
+          "shibuya crossing",
+          "tokyo"
+        ],
+        "hint": "busy tokyo crossing"
+      },
+      {
+        "id": "jp6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tokyo_Skytree_2014_%28cropped%29.JPG/640px-Tokyo_Skytree_2014_%28cropped%29.JPG",
+        "answers": [
+          "tokyo skytree",
+          "skytree"
+        ],
+        "hint": "tall tower tokyo"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 1642,
+    "createdAt": "2026-06-15T13:42:18.424Z"
+  },
+  {
+    "id": "musical-instruments",
+    "title": "instruments",
+    "description": "name the instrument. seemed easy until i tried writing answers.",
+    "category": "Music",
+    "coverEmoji": "🎸",
+    "difficulty": "easy",
+    "creator": "dex",
+    "questions": [
+      {
+        "id": "ins1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Guitare_classique_manuel_rodriguez.jpg/640px-Guitare_classique_manuel_rodriguez.jpg",
+        "answers": [
+          "guitar"
+        ],
+        "hint": "six strings"
+      },
+      {
+        "id": "ins2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Steinway_Vienna_002.JPG/640px-Steinway_Vienna_002.JPG",
+        "answers": [
+          "piano"
+        ],
+        "hint": "black and white keys"
+      },
+      {
+        "id": "ins3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Violin_VL100.png/640px-Violin_VL100.png",
+        "answers": [
+          "violin"
+        ],
+        "hint": "bow small strings"
+      },
+      {
+        "id": "ins4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Drum_set.jpg/640px-Drum_set.jpg",
+        "answers": [
+          "drums",
+          "drum kit",
+          "drum set"
+        ],
+        "hint": "kit with cymbals"
+      },
+      {
+        "id": "ins5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Trumpet_1.jpg/640px-Trumpet_1.jpg",
+        "answers": [
+          "trumpet"
+        ],
+        "hint": "brass horn valves"
+      },
+      {
+        "id": "ins6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Saxophone_alto.jpg/640px-Saxophone_alto.jpg",
+        "answers": [
+          "saxophone",
+          "sax"
+        ],
+        "hint": "jazz brass woodwind"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "music"
+    ],
+    "playCount": 18788,
+    "createdAt": "2026-06-12T13:42:18.424Z"
+  },
+  {
+    "id": "landmarks-round-two",
+    "title": "more landmarks (cropped)",
+    "description": "sequel nobody asked for. harder crops than the first landmarks quiz.",
+    "category": "Travel",
+    "coverEmoji": "📸",
+    "difficulty": "hard",
+    "creator": "mika",
+    "questions": [
+      {
+        "id": "lm2-1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "cropX": 50,
+        "cropY": 20,
+        "cropSize": 15,
+        "answers": [
+          "eiffel tower",
+          "eiffel"
+        ],
+        "hint": "iron lattice"
+      },
+      {
+        "id": "lm2-2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "cropX": 50,
+        "cropY": 25,
+        "cropSize": 18,
+        "answers": [
+          "christ the redeemer",
+          "christ redeemer"
+        ],
+        "hint": "arms open statue"
+      },
+      {
+        "id": "lm2-3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "cropX": 48,
+        "cropY": 40,
+        "cropSize": 20,
+        "answers": [
+          "sydney opera house",
+          "opera house"
+        ],
+        "hint": "white shells"
+      },
+      {
+        "id": "lm2-4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Fuji_and_cherry_blossoms.jpg/640px-Mount_Fuji_and_cherry_blossoms.jpg",
+        "cropX": 50,
+        "cropY": 30,
+        "cropSize": 22,
+        "answers": [
+          "mount fuji",
+          "fuji"
+        ],
+        "hint": "snow peak sakura"
+      },
+      {
+        "id": "lm2-5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "cropX": 45,
+        "cropY": 50,
+        "cropSize": 18,
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "stone wall ridge"
+      },
+      {
+        "id": "lm2-6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "cropX": 50,
+        "cropY": 15,
+        "cropSize": 20,
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "green copper torch"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 14446,
+    "createdAt": "2026-06-09T13:42:18.424Z"
+  },
+  {
+    "id": "deserts-world",
+    "title": "deserts",
+    "description": "sandy or rocky. name the desert.",
+    "category": "Geography",
+    "coverEmoji": "🏜️",
+    "difficulty": "hard",
+    "creator": "trevor",
+    "questions": [
+      {
+        "id": "ds1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sahara_desert.jpg/640px-Sahara_desert.jpg",
+        "answers": [
+          "sahara",
+          "sahara desert"
+        ],
+        "hint": "largest hot desert"
+      },
+      {
+        "id": "ds2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/GobiDesertLandscape.jpg/640px-GobiDesertLandscape.jpg",
+        "answers": [
+          "gobi",
+          "gobi desert"
+        ],
+        "hint": "mongolia china"
+      },
+      {
+        "id": "ds3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/AtacamaDesertByMars.jpg/640px-AtacamaDesertByMars.jpg",
+        "answers": [
+          "atacama",
+          "atacama desert"
+        ],
+        "hint": "driest chile"
+      },
+      {
+        "id": "ds4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg/640px-Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg",
+        "answers": [
+          "uluru",
+          "ayers rock"
+        ],
+        "hint": "red rock australia"
+      },
+      {
+        "id": "ds5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Death_Valley_National_Park%2C_California.jpg/640px-Death_Valley_National_Park%2C_California.jpg",
+        "answers": [
+          "death valley"
+        ],
+        "hint": "hot california basin"
+      },
+      {
+        "id": "ds6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Wadi_Rum%2C_Jordan.jpg/640px-Wadi_Rum%2C_Jordan.jpg",
+        "answers": [
+          "wadi rum"
+        ],
+        "hint": "jordan mars-like"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 14290,
+    "createdAt": "2026-06-06T13:42:18.424Z"
+  }
+]

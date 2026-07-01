@@ -50,7 +50,8 @@ export default function QuizCard({ quiz, index = 0 }: QuizCardProps) {
         <h3 className="font-display mb-1 text-lg font-bold leading-snug group-hover:text-[#00f5d4] transition-colors">
           {quiz.title}
         </h3>
-        <p className="mb-4 line-clamp-2 text-sm text-white/50">{quiz.description}</p>
+        <p className="mb-1 line-clamp-2 text-sm text-white/50">{quiz.description}</p>
+        <p className="mb-4 text-xs text-white/30">by {quiz.creator}</p>
 
         <div className="mt-auto flex items-center justify-between text-xs text-white/40">
           <div className="flex items-center gap-3">

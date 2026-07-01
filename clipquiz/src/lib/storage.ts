@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { v4 as uuidv4 } from "uuid";
 import type { Quiz, QuizResult } from "./types";
-import seedQuizzes from "@/data/seed-quizzes.json";
+import { allSeedQuizzes } from "@/lib/seed-data";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const QUIZZES_FILE = path.join(DATA_DIR, "quizzes.json");
@@ -28,7 +28,7 @@ async function writeJsonFile<T>(filePath: string, data: T) {
 
 export async function getQuizzes(): Promise<Quiz[]> {
   const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
-  const seed = seedQuizzes as Quiz[];
+  const seed = allSeedQuizzes;
   const map = new Map<string, Quiz>();
 
   for (const quiz of seed) {
@@ -62,7 +62,7 @@ export async function saveQuiz(quiz: Omit<Quiz, "id" | "playCount" | "createdAt"
 
 export async function incrementPlayCount(quizId: string) {
   const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
-  const seed = seedQuizzes as Quiz[];
+  const seed = allSeedQuizzes;
   const isSeed = seed.some((q) => q.id === quizId);
 
   if (isSeed) {

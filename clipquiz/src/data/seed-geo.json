@@ -1,0 +1,554 @@
+[
+  {
+    "id": "capitals-europe",
+    "title": "european capitals",
+    "description": "photo of a landmark or skyline. name the capital city.",
+    "category": "Geography",
+    "coverEmoji": "🏛️",
+    "difficulty": "medium",
+    "featured": true,
+    "creator": "geo_nerd",
+    "questions": [
+      {
+        "id": "ce1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "answers": [
+          "paris"
+        ],
+        "hint": "france capital"
+      },
+      {
+        "id": "ce2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "rome"
+        ],
+        "hint": "italy capital"
+      },
+      {
+        "id": "ce3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madrid_Collage.jpg/640px-Madrid_Collage.jpg",
+        "answers": [
+          "madrid"
+        ],
+        "hint": "spain capital"
+      },
+      {
+        "id": "ce4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Brandenburg_Gate%2C_Berlin%2C_Germany.jpg/640px-Brandenburg_Gate%2C_Berlin%2C_Germany.jpg",
+        "answers": [
+          "berlin"
+        ],
+        "hint": "germany capital"
+      },
+      {
+        "id": "ce5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Big_Ben_2012-06-23.jpg/640px-Big_Ben_2012-06-23.jpg",
+        "answers": [
+          "london"
+        ],
+        "hint": "uk capital"
+      },
+      {
+        "id": "ce6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Amsterdam_%28cropped%29.jpg/640px-Amsterdam_%28cropped%29.jpg",
+        "answers": [
+          "amsterdam"
+        ],
+        "hint": "netherlands capital"
+      },
+      {
+        "id": "ce7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vienna_-_Hofburg_New_Castle_01.jpg/640px-Vienna_-_Hofburg_New_Castle_01.jpg",
+        "answers": [
+          "vienna"
+        ],
+        "hint": "austria capital"
+      },
+      {
+        "id": "ce8",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Acropolis_of_Athens_01361.JPG/640px-Acropolis_of_Athens_01361.JPG",
+        "answers": [
+          "athens"
+        ],
+        "hint": "greece capital"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 23162,
+    "createdAt": "2026-06-16T13:42:18.424Z"
+  },
+  {
+    "id": "capitals-world-mix",
+    "title": "capitals around the world",
+    "description": "not just europe this time. mixed bag.",
+    "category": "Geography",
+    "coverEmoji": "🌐",
+    "difficulty": "medium",
+    "creator": "atlas",
+    "questions": [
+      {
+        "id": "cw1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "washington",
+          "washington dc",
+          "washington d.c."
+        ],
+        "hint": "US capital area"
+      },
+      {
+        "id": "cw2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "answers": [
+          "new delhi",
+          "delhi"
+        ],
+        "hint": "india capital region"
+      },
+      {
+        "id": "cw3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "answers": [
+          "brasilia",
+          "rio de janeiro",
+          "rio"
+        ],
+        "hint": "brazil — christ statue city"
+      },
+      {
+        "id": "cw4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Fuji_and_cherry_blossoms.jpg/640px-Mount_Fuji_and_cherry_blossoms.jpg",
+        "answers": [
+          "tokyo"
+        ],
+        "hint": "japan capital region"
+      },
+      {
+        "id": "cw5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cairo_Citadel%2C_Egypt.jpg/640px-Cairo_Citadel%2C_Egypt.jpg",
+        "answers": [
+          "cairo"
+        ],
+        "hint": "egypt capital"
+      },
+      {
+        "id": "cw6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "answers": [
+          "canberra",
+          "sydney"
+        ],
+        "hint": "australia — sydney is NOT capital but iconic"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 22135,
+    "createdAt": "2026-06-12T13:42:18.424Z"
+  },
+  {
+    "id": "famous-mountains",
+    "title": "name that mountain",
+    "description": "photos of famous peaks. not climbing advice.",
+    "category": "Geography",
+    "coverEmoji": "⛰️",
+    "difficulty": "medium",
+    "creator": "trevor",
+    "questions": [
+      {
+        "id": "mt1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/640px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+        "answers": [
+          "everest",
+          "mount everest",
+          "mt everest"
+        ],
+        "hint": "tallest on earth"
+      },
+      {
+        "id": "mt2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg",
+        "answers": [
+          "fuji",
+          "mount fuji",
+          "mt fuji"
+        ],
+        "hint": "japan volcano"
+      },
+      {
+        "id": "mt3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mount_Kilimanjaro_from_Amboseli_National_Park.jpg/640px-Mount_Kilimanjaro_from_Amboseli_National_Park.jpg",
+        "answers": [
+          "kilimanjaro",
+          "mount kilimanjaro"
+        ],
+        "hint": "africa tallest"
+      },
+      {
+        "id": "mt4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/640px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+        "answers": [
+          "matterhorn"
+        ],
+        "hint": "alps iconic peak"
+      },
+      {
+        "id": "mt5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Denali_Mt_McKinley.jpg/640px-Denali_Mt_McKinley.jpg",
+        "answers": [
+          "denali",
+          "mount mckinley",
+          "mckinley"
+        ],
+        "hint": "alaska tallest"
+      },
+      {
+        "id": "mt6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Aconcagua_%28from_south%29%2C_Argentina.jpg/640px-Aconcagua_%28from_south%29%2C_Argentina.jpg",
+        "answers": [
+          "aconcagua"
+        ],
+        "hint": "south america tallest"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 4293,
+    "createdAt": "2026-06-08T13:42:18.424Z"
+  },
+  {
+    "id": "rivers-of-earth",
+    "title": "rivers",
+    "description": "big rivers from photos. geography class flashbacks.",
+    "category": "Geography",
+    "coverEmoji": "🌊",
+    "difficulty": "medium",
+    "creator": "jules",
+    "questions": [
+      {
+        "id": "rv1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Amazon_river_near_Manaus.jpg/640px-Amazon_river_near_Manaus.jpg",
+        "answers": [
+          "amazon",
+          "amazon river"
+        ],
+        "hint": "largest by volume"
+      },
+      {
+        "id": "rv2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yangtze_River_%28Chang_Jiang%29_01.jpg/640px-Yangtze_River_%28Chang_Jiang%29_01.jpg",
+        "answers": [
+          "yangtze",
+          "chang jiang",
+          "yangtze river"
+        ],
+        "hint": "longest in asia"
+      },
+      {
+        "id": "rv3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mississippi_River_from_Eads_Bridge.jpg/640px-Mississippi_River_from_Eads_Bridge.jpg",
+        "answers": [
+          "mississippi",
+          "mississippi river"
+        ],
+        "hint": "US heartland river"
+      },
+      {
+        "id": "rv4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Danube_in_Budapest.jpg/640px-Danube_in_Budapest.jpg",
+        "answers": [
+          "danube",
+          "danube river"
+        ],
+        "hint": "flows through budapest"
+      },
+      {
+        "id": "rv5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ganges_at_Haridwar.jpg/640px-Ganges_at_Haridwar.jpg",
+        "answers": [
+          "ganges",
+          "ganga",
+          "ganges river"
+        ],
+        "hint": "sacred in india"
+      },
+      {
+        "id": "rv6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponile_Rialto_from_the_Grand_Canal.jpg/640px-Camponile_Rialto_from_the_Grand_Canal.jpg",
+        "answers": [
+          "nile",
+          "river nile"
+        ],
+        "hint": "egypt lifeline"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 7356,
+    "createdAt": "2026-06-04T13:42:18.424Z"
+  },
+  {
+    "id": "world-currencies",
+    "title": "currencies",
+    "description": "banknotes. name the currency not the country (e.g. yen not japan).",
+    "category": "Geography",
+    "coverEmoji": "💵",
+    "difficulty": "hard",
+    "creator": "luna_p",
+    "questions": [
+      {
+        "id": "cur1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/640px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
+        "answers": [
+          "dollar",
+          "us dollar",
+          "usd"
+        ],
+        "hint": "green george washington"
+      },
+      {
+        "id": "cur2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/5000_yen.jpg/640px-5000_yen.jpg",
+        "answers": [
+          "yen",
+          "japanese yen"
+        ],
+        "hint": "japan money"
+      },
+      {
+        "id": "cur3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Euro_coins_and_banknotes.jpg/640px-Euro_coins_and_banknotes.jpg",
+        "answers": [
+          "euro",
+          "euros"
+        ],
+        "hint": "EU currency"
+      },
+      {
+        "id": "cur4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/British_10_pound_note.jpg/640px-British_10_pound_note.jpg",
+        "answers": [
+          "pound",
+          "british pound",
+          "gbp",
+          "pound sterling"
+        ],
+        "hint": "uk money"
+      },
+      {
+        "id": "cur5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/1000_rupees.jpg/640px-1000_rupees.jpg",
+        "answers": [
+          "rupee",
+          "indian rupee"
+        ],
+        "hint": "india money"
+      },
+      {
+        "id": "cur6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/100_yuan_note.jpg/640px-100_yuan_note.jpg",
+        "answers": [
+          "yuan",
+          "renminbi",
+          "rmb",
+          "chinese yuan"
+        ],
+        "hint": "china money"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 14175,
+    "createdAt": "2026-05-31T13:42:18.424Z"
+  },
+  {
+    "id": "planets-solar-system",
+    "title": "planets",
+    "description": "NASA public domain pics. name the planet.",
+    "category": "Science",
+    "coverEmoji": "🪐",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "zero",
+    "questions": [
+      {
+        "id": "pl1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue_Marble_2002.png/640px-Blue_Marble_2002.png",
+        "answers": [
+          "earth"
+        ],
+        "hint": "you live here"
+      },
+      {
+        "id": "pl2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/640px-OSIRIS_Mars_true_color.jpg",
+        "answers": [
+          "mars"
+        ],
+        "hint": "red planet"
+      },
+      {
+        "id": "pl3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jupiter_New_Horizons.jpg/640px-Jupiter_New_Horizons.jpg",
+        "answers": [
+          "jupiter"
+        ],
+        "hint": "biggest gas giant"
+      },
+      {
+        "id": "pl4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Saturn_from_Cassini_Huygens.jpg/640px-Saturn_from_Cassini_Huygens.jpg",
+        "answers": [
+          "saturn"
+        ],
+        "hint": "rings"
+      },
+      {
+        "id": "pl5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/640px-Uranus2.jpg",
+        "answers": [
+          "uranus"
+        ],
+        "hint": "tilted ice giant"
+      },
+      {
+        "id": "pl6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/640px-Neptune_Full.jpg",
+        "answers": [
+          "neptune"
+        ],
+        "hint": "windy blue"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 20499,
+    "createdAt": "2026-05-27T13:42:18.424Z"
+  },
+  {
+    "id": "country-by-outline",
+    "title": "country shape only",
+    "description": "silhouette of a country border. no labels. good luck.",
+    "category": "Geography",
+    "coverEmoji": "🗺️",
+    "difficulty": "hard",
+    "creator": "geo_nerd",
+    "questions": [
+      {
+        "id": "co1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Italy_location_map.svg/640px-Italy_location_map.svg.png",
+        "answers": [
+          "italy"
+        ],
+        "hint": "boot shape"
+      },
+      {
+        "id": "co2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/France_location_map.svg/640px-France_location_map.svg.png",
+        "answers": [
+          "france"
+        ],
+        "hint": "hexagon-ish"
+      },
+      {
+        "id": "co3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Japan_location_map.svg/640px-Japan_location_map.svg.png",
+        "answers": [
+          "japan"
+        ],
+        "hint": "island chain"
+      },
+      {
+        "id": "co4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_location_map.svg/640px-Australia_location_map.svg.png",
+        "answers": [
+          "australia"
+        ],
+        "hint": "continent island"
+      },
+      {
+        "id": "co5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mexico_location_map.svg/640px-Mexico_location_map.svg.png",
+        "answers": [
+          "mexico"
+        ],
+        "hint": "south of US"
+      },
+      {
+        "id": "co6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/United_Kingdom_location_map.svg/640px-United_Kingdom_location_map.svg.png",
+        "answers": [
+          "united kingdom",
+          "uk",
+          "britain",
+          "great britain"
+        ],
+        "hint": "island northwest europe"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 30685,
+    "createdAt": "2026-05-23T13:42:18.424Z"
+  }
+]

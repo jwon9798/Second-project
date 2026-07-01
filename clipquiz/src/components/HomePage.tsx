@@ -14,6 +14,7 @@ export default function HomePage() {
   const t = useTranslations();
   const [quizzes, setQuizzes] = useState<Quiz[]>([]);
   const [search, setSearch] = useState("");
+  const [category, setCategory] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,15 +28,19 @@ export default function HomePage() {
   }, []);
 
   const featured = quizzes.filter((q) => q.featured);
-  const filtered = search
-    ? quizzes.filter(
-        (q) =>
-          q.title.toLowerCase().includes(search.toLowerCase()) ||
-          q.category.toLowerCase().includes(search.toLowerCase()),
-      )
-    : quizzes;
-
-  const totalPlays = quizzes.reduce((sum, q) => sum + q.playCount, 0);
+  const categories = Array.from(
+    new Set(quizzes.map((q) => q.category.toLowerCase())),
+  ).sort();
+  const filtered = quizzes.filter((q) => {
+    const matchesSearch =
+      !search ||
+      q.title.toLowerCase().includes(search.toLowerCase()) ||
+      q.category.toLowerCase().includes(search.toLowerCase()) ||
+      q.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase()));
+    const matchesCategory =
+      !category || q.category.toLowerCase() === category.toLowerCase();
+    return matchesSearch && matchesCategory;
+  });
 
   return (
     <>
@@ -79,17 +84,13 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="flex justify-center gap-8 sm:gap-16">
-              {[
-                { value: quizzes.length || "6+", label: t("hero.stats.quizzes") },
-                { value: totalPlays > 0 ? `${Math.round(totalPlays / 1000)}K+` : "270K+", label: t("hero.stats.players") },
-                { value: "50+", label: t("hero.stats.countries") },
-              ].map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <p className="font-display text-2xl sm:text-3xl font-bold text-white">{stat.value}</p>
-                  <p className="text-xs text-white/40 mt-1">{stat.label}</p>
-                </div>
-              ))}
+            <div className="flex justify-center">
+              <div className="text-center">
+                <p className="font-display text-2xl sm:text-3xl font-bold text-white">
+                  {loading ? "…" : quizzes.length}
+                </p>
+                <p className="text-xs text-white/40 mt-1">{t("hero.stats.quizzes")}</p>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -116,6 +117,36 @@ export default function HomePage() {
             </div>
           </div>
 
+          {categories.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-8">
+              <button
+                type="button"
+                onClick={() => setCategory(null)}
+                className={`rounded-full px-4 py-1.5 text-xs font-semibold transition-colors ${
+                  category === null
+                    ? "bg-[#ff3366]/20 text-[#ff6b9d] border border-[#ff3366]/30"
+                    : "bg-white/5 text-white/50 border border-white/10 hover:border-white/20"
+                }`}
+              >
+                {t("quiz.allCategories")}
+              </button>
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  type="button"
+                  onClick={() => setCategory(cat)}
+                  className={`rounded-full px-4 py-1.5 text-xs font-semibold capitalize transition-colors ${
+                    category === cat
+                      ? "bg-[#00f5d4]/20 text-[#00f5d4] border border-[#00f5d4]/30"
+                      : "bg-white/5 text-white/50 border border-white/10 hover:border-white/20"
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          )}
+
           {loading ? (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {Array.from({ length: 6 }).map((_, i) => (
@@ -126,7 +157,7 @@ export default function HomePage() {
             <p className="text-center text-white/40 py-12">{t("quiz.noResults")}</p>
           ) : (
             <>
-              {featured.length > 0 && !search && (
+              {featured.length > 0 && !search && !category && (
                 <div className="mb-10">
                   <h3 className="text-sm font-semibold text-[#00f5d4] uppercase tracking-wider mb-4">
                     {t("quiz.featured")}

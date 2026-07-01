@@ -1,0 +1,740 @@
+[
+  {
+    "id": "animals-easy-photos",
+    "title": "animals. name them.",
+    "description": "photos of animals. nothing trickier than that. maybe.",
+    "category": "Nature",
+    "coverEmoji": "🐾",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "plantmom",
+    "questions": [
+      {
+        "id": "ae1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "answers": [
+          "lion"
+        ],
+        "hint": "big cat mane"
+      },
+      {
+        "id": "ae2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Southern_green_frog.jpg/640px-Southern_green_frog.jpg",
+        "answers": [
+          "frog"
+        ],
+        "hint": "amphibian jumps"
+      },
+      {
+        "id": "ae3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/640px-Grosser_Panda.JPG",
+        "answers": [
+          "panda",
+          "giant panda"
+        ],
+        "hint": "bamboo eater black white"
+      },
+      {
+        "id": "ae4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "answers": [
+          "tiger"
+        ],
+        "hint": "orange stripes"
+      },
+      {
+        "id": "ae5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "answers": [
+          "giraffe"
+        ],
+        "hint": "very long neck"
+      },
+      {
+        "id": "ae6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hippo_at_Dallas_Zoo.jpg/640px-Hippo_at_Dallas_Zoo.jpg",
+        "answers": [
+          "hippo",
+          "hippopotamus"
+        ],
+        "hint": "river horse"
+      },
+      {
+        "id": "ae7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Platypus.jpg/640px-Platypus.jpg",
+        "answers": [
+          "platypus"
+        ],
+        "hint": "duck bill mammal"
+      },
+      {
+        "id": "ae8",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg",
+        "answers": [
+          "koala"
+        ],
+        "hint": "sleeps in eucalyptus"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature"
+    ],
+    "playCount": 22059,
+    "createdAt": "2026-06-11T13:42:18.424Z"
+  },
+  {
+    "id": "animals-crop-zoom",
+    "title": "animals but zoomed in",
+    "description": "like machugi animal quizzes. you only see a patch of fur or skin.",
+    "category": "Nature",
+    "coverEmoji": "🔍",
+    "difficulty": "hard",
+    "creator": "nightowl",
+    "questions": [
+      {
+        "id": "ac1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "cropX": 45,
+        "cropY": 30,
+        "cropSize": 18,
+        "answers": [
+          "lion"
+        ],
+        "hint": "mane maybe visible"
+      },
+      {
+        "id": "ac2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "cropX": 55,
+        "cropY": 50,
+        "cropSize": 15,
+        "answers": [
+          "tiger"
+        ],
+        "hint": "stripes"
+      },
+      {
+        "id": "ac3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "cropX": 40,
+        "cropY": 10,
+        "cropSize": 20,
+        "answers": [
+          "giraffe"
+        ],
+        "hint": "spots up high"
+      },
+      {
+        "id": "ac4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/640px-Grosser_Panda.JPG",
+        "cropX": 50,
+        "cropY": 40,
+        "cropSize": 22,
+        "answers": [
+          "panda",
+          "giant panda"
+        ],
+        "hint": "black and white fur"
+      },
+      {
+        "id": "ac5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Platypus.jpg/640px-Platypus.jpg",
+        "cropX": 48,
+        "cropY": 55,
+        "cropSize": 25,
+        "answers": [
+          "platypus"
+        ],
+        "hint": "weird bill"
+      },
+      {
+        "id": "ac6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg",
+        "cropX": 50,
+        "cropY": 35,
+        "cropSize": 20,
+        "answers": [
+          "koala"
+        ],
+        "hint": "grey fluff"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature"
+    ],
+    "playCount": 11019,
+    "createdAt": "2026-06-06T13:42:18.424Z"
+  },
+  {
+    "id": "birds-youve-seen",
+    "title": "birds (common ones)",
+    "description": "not super exotic. stuff you might see in a park or documentary.",
+    "category": "Nature",
+    "coverEmoji": "🦅",
+    "difficulty": "medium",
+    "creator": "hana",
+    "questions": [
+      {
+        "id": "br1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bald_Eagle_Portrait.jpg/640px-Bald_Eagle_Portrait.jpg",
+        "answers": [
+          "bald eagle",
+          "eagle"
+        ],
+        "hint": "US national bird"
+      },
+      {
+        "id": "br2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flamingo_Laguna_Colorada_Bolivia.jpg/640px-Flamingo_Laguna_Colorada_Bolivia.jpg",
+        "answers": [
+          "flamingo"
+        ],
+        "hint": "pink standing bird"
+      },
+      {
+        "id": "br3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pavo_cristatus_-_India.jpg/640px-Pavo_cristatus_-_India.jpg",
+        "answers": [
+          "peacock"
+        ],
+        "hint": "fancy tail"
+      },
+      {
+        "id": "br4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Owl_ears.jpg/640px-Owl_ears.jpg",
+        "answers": [
+          "owl"
+        ],
+        "hint": "turns head around"
+      },
+      {
+        "id": "br5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Parrot.red.macaw.1.arp.750pix.jpg/640px-Parrot.red.macaw.1.arp.750pix.jpg",
+        "answers": [
+          "parrot",
+          "macaw"
+        ],
+        "hint": "tropical colors"
+      },
+      {
+        "id": "br6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hummingbird.jpg/640px-Hummingbird.jpg",
+        "answers": [
+          "hummingbird"
+        ],
+        "hint": "hovers at flowers"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature"
+    ],
+    "playCount": 10100,
+    "createdAt": "2026-06-01T13:42:18.424Z"
+  },
+  {
+    "id": "ocean-creatures",
+    "title": "things that live in the ocean",
+    "description": "fish and friends. no trick questions on purpose.",
+    "category": "Nature",
+    "coverEmoji": "🐠",
+    "difficulty": "easy",
+    "creator": "atlas",
+    "questions": [
+      {
+        "id": "oc1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Clownfish_in_anemone.jpg/640px-Clownfish_in_anemone.jpg",
+        "answers": [
+          "clownfish",
+          "clown fish"
+        ],
+        "hint": "nemo fish orange white"
+      },
+      {
+        "id": "oc2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dolphin-2.jpg/640px-Dolphin-2.jpg",
+        "answers": [
+          "dolphin"
+        ],
+        "hint": "smart mammal jumps"
+      },
+      {
+        "id": "oc3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Orca_porpoising.jpg/640px-Orca_porpoising.jpg",
+        "answers": [
+          "orca",
+          "killer whale"
+        ],
+        "hint": "black white predator"
+      },
+      {
+        "id": "oc4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sea_turtle.jpg/640px-Sea_turtle.jpg",
+        "answers": [
+          "sea turtle",
+          "turtle"
+        ],
+        "hint": "shell swimmer"
+      },
+      {
+        "id": "oc5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Octopus2.jpg/640px-Octopus2.jpg",
+        "answers": [
+          "octopus"
+        ],
+        "hint": "eight arms"
+      },
+      {
+        "id": "oc6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jelly_cc11.jpg/640px-Jelly_cc11.jpg",
+        "answers": [
+          "jellyfish"
+        ],
+        "hint": "stings sometimes"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature"
+    ],
+    "playCount": 10927,
+    "createdAt": "2026-05-27T13:42:18.424Z"
+  },
+  {
+    "id": "dog-breeds-quiz",
+    "title": "dog breeds",
+    "description": "i miss my dog so i made this. breed name in english.",
+    "category": "Nature",
+    "coverEmoji": "🐕",
+    "difficulty": "medium",
+    "creator": "breadcat",
+    "questions": [
+      {
+        "id": "dg1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/640px-YellowLabradorLooking_new.jpg",
+        "answers": [
+          "labrador",
+          "labrador retriever",
+          "lab"
+        ],
+        "hint": "common family dog"
+      },
+      {
+        "id": "dg2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/640px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
+        "answers": [
+          "german shepherd"
+        ],
+        "hint": "police dog often"
+      },
+      {
+        "id": "dg3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Barkless_Basenji.jpg/640px-Barkless_Basenji.jpg",
+        "answers": [
+          "basenji"
+        ],
+        "hint": "doesnt bark much"
+      },
+      {
+        "id": "dg4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Border_Collie_600.jpg/640px-Border_Collie_600.jpg",
+        "answers": [
+          "border collie"
+        ],
+        "hint": "herding very smart"
+      },
+      {
+        "id": "dg5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Atika_Bijou_Poodle.jpg/640px-Atika_Bijou_Poodle.jpg",
+        "answers": [
+          "poodle"
+        ],
+        "hint": "curly haircut dog"
+      },
+      {
+        "id": "dg6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Dalmatian.jpg/640px-Dalmatian.jpg",
+        "answers": [
+          "dalmatian"
+        ],
+        "hint": "spotted firehouse dog"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature"
+    ],
+    "playCount": 21240,
+    "createdAt": "2026-05-22T13:42:18.424Z"
+  },
+  {
+    "id": "food-photo-guess",
+    "title": "food from a photo",
+    "description": "machugi has tons of food quizzes. this is the international version.",
+    "category": "Food",
+    "coverEmoji": "🍽️",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "sam_k",
+    "questions": [
+      {
+        "id": "fd1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "answers": [
+          "pizza",
+          "pizza margherita"
+        ],
+        "hint": "cheese tomato basil"
+      },
+      {
+        "id": "fd2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "answers": [
+          "sushi"
+        ],
+        "hint": "raw fish rice"
+      },
+      {
+        "id": "fd3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/640px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+        "answers": [
+          "taco",
+          "tacos"
+        ],
+        "hint": "mexican folded tortilla"
+      },
+      {
+        "id": "fd4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Croissant-Petr_Kratochvil.jpg/640px-Croissant-Petr_Kratochvil.jpg",
+        "answers": [
+          "croissant"
+        ],
+        "hint": "french buttery pastry"
+      },
+      {
+        "id": "fd5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/640px-%22Hyderabadi_Dum_Biryani%22.jpg",
+        "answers": [
+          "biryani"
+        ],
+        "hint": "spiced rice dish"
+      },
+      {
+        "id": "fd6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/640px-Latte_and_dark_coffee.jpg",
+        "answers": [
+          "coffee",
+          "latte"
+        ],
+        "hint": "cafe drink"
+      },
+      {
+        "id": "fd7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chocolate_chip_cookie.jpg/640px-Chocolate_chip_cookie.jpg",
+        "answers": [
+          "cookie",
+          "chocolate chip cookie"
+        ],
+        "hint": "sweet baked"
+      },
+      {
+        "id": "fd8",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ramen_Noodles.jpg/640px-Ramen_Noodles.jpg",
+        "answers": [
+          "ramen"
+        ],
+        "hint": "japanese noodle soup"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 8406,
+    "createdAt": "2026-05-17T13:42:18.424Z"
+  },
+  {
+    "id": "food-crop-machugi",
+    "title": "food but you only see a corner",
+    "description": "ripped this format straight from food crop quizzes. zoomed way in.",
+    "category": "Food",
+    "coverEmoji": "🥐",
+    "difficulty": "hard",
+    "creator": "mika",
+    "questions": [
+      {
+        "id": "fc1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 20,
+        "answers": [
+          "pizza"
+        ],
+        "hint": "melted cheese"
+      },
+      {
+        "id": "fc2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Croissant-Petr_Kratochvil.jpg/640px-Croissant-Petr_Kratochvil.jpg",
+        "cropX": 45,
+        "cropY": 45,
+        "cropSize": 22,
+        "answers": [
+          "croissant"
+        ],
+        "hint": "layered pastry"
+      },
+      {
+        "id": "fc3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chocolate_chip_cookie.jpg/640px-Chocolate_chip_cookie.jpg",
+        "cropX": 55,
+        "cropY": 50,
+        "cropSize": 25,
+        "answers": [
+          "cookie",
+          "chocolate chip cookie"
+        ],
+        "hint": "chips in dough"
+      },
+      {
+        "id": "fc4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ramen_Noodles.jpg/640px-Ramen_Noodles.jpg",
+        "cropX": 50,
+        "cropY": 55,
+        "cropSize": 20,
+        "answers": [
+          "ramen"
+        ],
+        "hint": "noodles broth"
+      },
+      {
+        "id": "fc5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "cropX": 40,
+        "cropY": 40,
+        "cropSize": 18,
+        "answers": [
+          "sushi"
+        ],
+        "hint": "rice and fish"
+      },
+      {
+        "id": "fc6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/640px-Latte_and_dark_coffee.jpg",
+        "cropX": 48,
+        "cropY": 52,
+        "cropSize": 22,
+        "answers": [
+          "coffee",
+          "latte"
+        ],
+        "hint": "milky brown"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 23670,
+    "createdAt": "2026-05-12T13:42:18.424Z"
+  },
+  {
+    "id": "tropical-fruits",
+    "title": "tropical fruits",
+    "description": "stuff you find at a market in thailand or brazil probably.",
+    "category": "Food",
+    "coverEmoji": "🥭",
+    "difficulty": "medium",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "tf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg",
+        "answers": [
+          "mango"
+        ],
+        "hint": "sweet orange flesh"
+      },
+      {
+        "id": "tf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pineapple_and_cross_section.jpg/640px-Pineapple_and_cross_section.jpg",
+        "answers": [
+          "pineapple"
+        ],
+        "hint": "spiky top fruit"
+      },
+      {
+        "id": "tf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Papaya_cross_section_BNC.jpg/640px-Papaya_cross_section_BNC.jpg",
+        "answers": [
+          "papaya"
+        ],
+        "hint": "orange center seeds"
+      },
+      {
+        "id": "tf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dragonfruit_pitahaya.jpg/640px-Dragonfruit_pitahaya.jpg",
+        "answers": [
+          "dragon fruit",
+          "dragonfruit",
+          "pitaya"
+        ],
+        "hint": "pink scaly outside"
+      },
+      {
+        "id": "tf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coconut_on_tree.jpg/640px-Coconut_on_tree.jpg",
+        "answers": [
+          "coconut"
+        ],
+        "hint": "tropical palm nut"
+      },
+      {
+        "id": "tf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lychee_01.jpg/640px-Lychee_01.jpg",
+        "answers": [
+          "lychee",
+          "litchi"
+        ],
+        "hint": "bumpy red shell"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 14859,
+    "createdAt": "2026-05-07T13:42:18.424Z"
+  },
+  {
+    "id": "insects-close-up",
+    "title": "insects (close up)",
+    "description": "bugs. zoomed in. some people will hate this one.",
+    "category": "Nature",
+    "coverEmoji": "🐛",
+    "difficulty": "medium",
+    "creator": "plantmom",
+    "questions": [
+      {
+        "id": "in1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/640px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
+        "answers": [
+          "butterfly",
+          "monarch butterfly",
+          "monarch"
+        ],
+        "hint": "orange black wings"
+      },
+      {
+        "id": "in2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Honeybee_on_snowdrop.jpg/640px-Honeybee_on_snowdrop.jpg",
+        "answers": [
+          "bee",
+          "honeybee",
+          "honey bee"
+        ],
+        "hint": "striped pollinator"
+      },
+      {
+        "id": "in3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ladybug_on_leaf.jpg/640px-Ladybug_on_leaf.jpg",
+        "answers": [
+          "ladybug",
+          "ladybird"
+        ],
+        "hint": "red black spots"
+      },
+      {
+        "id": "in4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Grasshopper_on_leaf.jpg/640px-Grasshopper_on_leaf.jpg",
+        "answers": [
+          "grasshopper"
+        ],
+        "hint": "jumps green"
+      },
+      {
+        "id": "in5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Dragonfly_on_leaf.jpg/640px-Dragonfly_on_leaf.jpg",
+        "answers": [
+          "dragonfly"
+        ],
+        "hint": "four wings long body"
+      },
+      {
+        "id": "in6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ant_on_leaf.jpg/640px-Ant_on_leaf.jpg",
+        "answers": [
+          "ant"
+        ],
+        "hint": "colony insect"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "nature",
+      "insects"
+    ],
+    "playCount": 7923,
+    "createdAt": "2026-06-23T13:42:18.424Z"
+  }
+]

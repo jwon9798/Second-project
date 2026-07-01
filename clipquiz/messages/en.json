@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "ClipQuiz — Guess from Clips, Images & Audio",
-    "description": "The global guessing game platform. Play image, crop & music quizzes. Beat the percentile. Go viral."
+    "title": "ClipQuiz — image, crop & audio quizzes",
+    "description": "guess from photos, zoomed crops, or short audio clips. type your answer, see your rank."
   },
   "nav": {
     "home": "Home",
@@ -10,20 +10,18 @@
     "howItWorks": "How it works"
   },
   "hero": {
-    "badge": "The #1 Global Guessing Game",
-    "title": "Guess. Compete.",
-    "titleAccent": "Go Viral.",
-    "subtitle": "Image quizzes. Cropped close-ups. Music clips. Type your answer, beat the crowd, and share your rank.",
-    "cta": "Play Now",
-    "ctaSecondary": "Create a Quiz",
+    "badge": "image · crop · audio quizzes",
+    "title": "type what you see.",
+    "titleAccent": "or hear.",
+    "subtitle": "pick a quiz, guess the answer, check where you rank. that's basically it.",
+    "cta": "browse quizzes",
+    "ctaSecondary": "make one",
     "stats": {
-      "quizzes": "Quizzes",
-      "players": "Players",
-      "countries": "Countries"
+      "quizzes": "quizzes"
     }
   },
-  "modes": {
-    "title": "Three ways to guess",
+    "modes": {
+    "title": "three question types",
     "image": {
       "title": "Image Quiz",
       "desc": "See the picture. Type the answer. Classic visual trivia."
@@ -49,6 +47,7 @@
     "featured": "Featured",
     "trending": "Trending Now",
     "all": "All Quizzes",
+    "allCategories": "All",
     "search": "Search quizzes...",
     "noResults": "No quizzes found",
     "start": "Start Quiz",
@@ -134,8 +133,8 @@
     "minQuestions": "Add at least 3 questions",
     "loginNote": "No account needed — just pick a creator name"
   },
-  "howItWorks": {
-    "title": "How ClipQuiz Works",
+    "howItWorks": {
+    "title": "how it works",
     "step1": {
       "title": "Pick a Quiz",
       "desc": "Browse trending quizzes or search by category."
