@@ -90,3 +90,22 @@ export async function saveResultToFile(
   await writeJsonFile(RESULTS_FILE, results);
   return result;
 }
+
+export async function setQuizFeaturedInFile(
+  quizId: string,
+  featured: boolean,
+): Promise<void> {
+  const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
+  const index = custom.findIndex((q) => q.id === quizId);
+  if (index < 0) return;
+  custom[index].featured = featured;
+  await writeJsonFile(QUIZZES_FILE, custom);
+}
+
+export async function deleteQuizFromFile(quizId: string): Promise<void> {
+  const custom = await readJsonFile<Quiz[]>(QUIZZES_FILE, []);
+  await writeJsonFile(
+    QUIZZES_FILE,
+    custom.filter((q) => q.id !== quizId),
+  );
+}

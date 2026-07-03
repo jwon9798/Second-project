@@ -139,8 +139,8 @@
     "cropSize": "Zoom Level",
     "preview": "Preview",
     "remove": "Remove",
-    "publish": "Submit for Review",
-    "publishing": "Submitting...",
+    "publish": "Publish Quiz",
+    "publishing": "Publishing...",
     "termsAgree": "I confirm this quiz follows the Community Guidelines, does not infringe copyrights, and I agree to the Terms of Service.",
     "termsAgreePrefix": "I confirm this quiz follows the",
     "termsAgreeGuidelines": "Community Guidelines",
@@ -150,15 +150,15 @@
     "termsAgreeSuffix": ". I represent that I own or have permission to use all images and content in this quiz.",
     "termsRequired": "You must agree to the Terms and Community Guidelines before publishing.",
     "copyrightNotice": "Only upload images you own or have permission to use. Do not use copyrighted music, movie posters, or celebrity photos without authorization.",
-    "policyBanner": "User quizzes are reviewed before going public. Music, movies, anime, and meme categories are not accepted due to copyright risk.",
+    "policyBanner": "Quizzes that pass automated checks publish immediately. Music, movies, anime, and meme categories are blocked due to copyright risk.",
     "policyGuidelines": "Guidelines",
     "policyCopyright": "Copyright",
     "policyModeration": "Moderation Policy",
     "categoryRestricted": "This category is not available for user submissions. Choose Geography, Nature, Food, Travel, Sports, or Gaming.",
     "submitError": "Could not submit your quiz. Please check your content and try again, or email jwon9798@gmail.com.",
-    "success": "Quiz submitted!",
-    "successDesc": "Our team reviews new quizzes within 48 hours. You will see it on the homepage once approved.",
-    "viewQuiz": "Back to Home",
+    "success": "Quiz published!",
+    "successDesc": "Your quiz is live now. Share the link with friends — it appears on the homepage automatically.",
+    "viewQuiz": "Play My Quiz",
     "createAnother": "Create Another",
     "audioDisabled": "Audio questions are paused while we review copyright policies. Use image or crop questions.",
     "minQuestions": "Add at least 3 questions",
@@ -218,7 +218,7 @@
     "details": "Additional details (optional)",
     "submit": "Submit Report",
     "submitting": "Submitting...",
-    "success": "Thank you. We will review this quiz within 48 hours.",
+    "success": "Thank you. The report was recorded and our automated systems will take action if needed.",
     "error": "Could not submit report. Please email jwon9798@gmail.com"
   },
   "cookies": {
@@ -251,10 +251,10 @@
         { "title": "1. Acceptance of Terms", "body": "By accessing or using ClipQuiz (\"the Service\"), you agree to be bound by these Terms of Service, our Privacy Policy, Community Guidelines, and Copyright Policy. If you do not agree, do not use the Service." },
         { "title": "2. Description of Service", "body": "ClipQuiz provides free online guessing quizzes in image, crop, and audio formats. Users can play curated quizzes, view percentile rankings, and create their own quizzes without an account. The Service is provided \"as is\" without warranties of any kind, express or implied." },
         { "title": "3. Eligibility", "body": "You must be at least 13 years old to use ClipQuiz. Users between 13 and 17 must have parental or guardian consent. By using the Service, you represent that you meet these requirements." },
-        { "title": "4. User-Generated Content", "body": "When you create a quiz, you grant ClipQuiz a non-exclusive, worldwide, royalty-free license to host, display, and distribute your quiz content on the platform. You retain ownership of your original content.\n\nNew user quizzes are reviewed before appearing on the public homepage. You are solely responsible for quizzes you submit. You must not upload content that:\n\n• Infringes copyrights, trademarks, or other intellectual property\n• Contains hate speech, harassment, or threats\n• Is sexually explicit or promotes violence\n• Contains malware, spam, or misleading information\n• Violates any applicable law\n\nWe may remove content and restrict access at our discretion without prior notice." },
+        { "title": "4. User-Generated Content", "body": "When you create a quiz, you grant ClipQuiz a non-exclusive, worldwide, royalty-free license to host, display, and distribute your quiz content on the platform. You retain ownership of your original content.\n\nQuizzes that pass automated validation are published immediately. You are solely responsible for quizzes you submit. You must not upload content that:\n\n• Infringes copyrights, trademarks, or other intellectual property\n• Contains hate speech, harassment, or threats\n• Is sexually explicit or promotes violence\n• Contains malware, spam, or misleading information\n• Violates any applicable law\n\nWe may remove content automatically or at our discretion without prior notice." },
         { "title": "5. Intellectual Property", "body": "ClipQuiz's name, logo, website design, and original seed quiz content are owned by ClipQuiz. Third-party trademarks, images, and media referenced in quizzes belong to their respective owners and are used for identification and educational purposes.\n\nIf you believe your copyright has been infringed, see our Copyright Policy or email jwon9798@gmail.com with a DMCA notice." },
         { "title": "6. Prohibited Conduct", "body": "You agree not to:\n\n• Use automated tools to scrape, spam, or overload the Service\n• Attempt to gain unauthorized access to our systems\n• Circumvent quiz mechanics or manipulate rankings\n• Impersonate others or misrepresent your affiliation\n• Use the Service for any unlawful purpose" },
-        { "title": "7. Content Moderation", "body": "We review reported content within 48 hours. Users can report quizzes via the in-app report button or by emailing jwon9798@gmail.com. Repeat violators may have their quizzes removed and access restricted." },
+        { "title": "7. Content Moderation", "body": "User reports are processed automatically. Quizzes with multiple reports may be hidden or removed without manual review. Users can report quizzes via the in-app report button. Repeat violators may have quiz creation restricted." },
         { "title": "8. Disclaimer of Warranties", "body": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE.\" WE DISCLAIM ALL WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE UNINTERRUPTED OR ERROR-FREE OPERATION." },
         { "title": "9. Limitation of Liability", "body": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, CLIPQUIZ SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY SHALL NOT EXCEED USD $100." },
         { "title": "10. Termination", "body": "We may suspend or terminate your access to the Service at any time for violation of these Terms. You may request deletion of your user-created quizzes by contacting jwon9798@gmail.com." },
@@ -268,7 +268,7 @@
       "sections": [
         { "title": "Our Mission", "body": "We believe trivia should be fast, social, and skill-based. ClipQuiz lets you type your answers instead of picking from multiple choice, so your knowledge — not lucky guesses — determines your score. Percentile rankings show exactly how you compare to other players worldwide." },
         { "title": "What We Offer", "body": "• 24+ curated quiz sets covering geography, nature, science, art, and culture\n• Three quiz modes: full image, extreme crop zoom, and audio clip\n• User-created quizzes — build and share your own in minutes\n• Percentile rankings and score sharing\n• Support for English, Korean, Japanese, Spanish, and Portuguese\n• Mobile-friendly design for play anywhere" },
-        { "title": "Our Content Standards", "body": "Our editorial team creates original quiz sets using public-domain images, country flags, and Wikimedia Commons media. We maintain Community Guidelines and a Copyright Policy to ensure user-created content meets legal and quality standards. Reported content is reviewed within 48 hours." },
+        { "title": "Our Content Standards", "body": "Our editorial team creates original quiz sets using public-domain images, country flags, and Wikimedia Commons media. User quizzes publish automatically after passing validation; reports trigger automated hiding or removal." },
         { "title": "Publisher Information", "body": "ClipQuiz is operated by an independent developer based in South Korea. The platform is free to use and supported by advertising.\n\nContact: jwon9798@gmail.com\nWebsite: clipquiz.jwonlabs.com" }
       ]
     },
@@ -278,7 +278,7 @@
       "email": "jwon9798@gmail.com",
       "sections": [
         { "title": "General Inquiries", "body": "For questions about how ClipQuiz works, feature requests, or press inquiries, email us at the address below." },
-        { "title": "Content Reports", "body": "To report a quiz for copyright infringement, inappropriate content, or spam:\n\n1. Use the \"Report Quiz\" button on any quiz page, OR\n2. Email jwon9798@gmail.com with the quiz URL and reason\n\nWe review all reports within 48 hours and remove violating content promptly." },
+        { "title": "Content Reports", "body": "To report a quiz for copyright infringement, inappropriate content, or spam:\n\n1. Use the \"Report Quiz\" button on any quiz page, OR\n2. Email jwon9798@gmail.com with the quiz URL and reason\n\nReports are processed automatically. Quizzes may be hidden or removed when thresholds are reached." },
         { "title": "Copyright / DMCA", "body": "For copyright takedown requests, include:\n\n• Your name and contact information\n• Description of the copyrighted work\n• URL of the infringing quiz on ClipQuiz\n• A statement of good faith belief\n• Your physical or electronic signature\n\nSend to: jwon9798@gmail.com" },
         { "title": "Privacy Requests", "body": "To request access, correction, or deletion of your data or user-created quizzes, email jwon9798@gmail.com with the quiz ID and your request. We process GDPR and privacy requests within 30 days." }
       ]
@@ -293,7 +293,7 @@
         { "title": "What quiz modes are available?", "body": "Image Quiz: see a full picture and type the answer. Crop Challenge: only a tiny zoomed portion is shown. Audio Clip: hear a few seconds of audio and name the song or sound. Not all quizzes use all three modes." },
         { "title": "How do I create a quiz?", "body": "Click \"Create\" in the navigation, fill in the title and description, add at least 3 questions with image URLs or YouTube links, and publish. Share the quiz link with friends or on social media." },
         { "title": "Can I use any image in my quiz?", "body": "You must only use images you own or have permission to use. Do not upload copyrighted photos, movie posters, album covers, or celebrity images without authorization. See our Community Guidelines and Copyright Policy for details." },
-        { "title": "How do I report a problematic quiz?", "body": "Click the \"Report Quiz\" button on any quiz page, select a reason, and submit. You can also email jwon9798@gmail.com with the quiz URL. We review reports within 48 hours." },
+        { "title": "How do I report a problematic quiz?", "body": "Click the \"Report Quiz\" button on any quiz page, select a reason, and submit. Reports are handled automatically — no manual review required." },
         { "title": "Is ClipQuiz free?", "body": "Yes, ClipQuiz is completely free to play and create quizzes. The site is supported by advertising through Google AdSense." },
         { "title": "What languages are supported?", "body": "The interface is available in English, Korean, Japanese, Spanish, and Portuguese. Quiz content is primarily in English, but answer matching supports multiple languages and alternate spellings." },
         { "title": "How is my privacy protected?", "body": "We collect minimal data — quiz content you create, play scores, and technical logs. We do not require personal information. See our Privacy Policy for full details on cookies, advertising, and your rights." }
@@ -308,21 +308,21 @@
         { "title": "No Harmful Content", "body": "Prohibited content includes:\n\n• Sexually explicit material or child sexual abuse material (CSAM)\n• Graphic violence or gore\n• Instructions for illegal activities\n• Malware links or phishing attempts\n• Spam, scams, or misleading quizzes" },
         { "title": "Accurate and Fair Quizzes", "body": "Write clear questions with fair accepted answers. Include common alternate spellings. Do not create trick questions designed to mislead players. Add hints when answers may be ambiguous.\n\nFor crop questions, use a zoom level between 18% and 75% so players can reasonably guess." },
         { "title": "Image and Link Rules", "body": "Use direct https:// image URLs only. Social media hotlinks (Instagram, Pinterest, TikTok, etc.) are not allowed.\n\nAudio questions are paused until our copyright review is complete." },
-        { "title": "Enforcement", "body": "All user quizzes are submitted for review and are not shown on the public homepage until approved.\n\nViolations may result in quiz removal without notice. Repeat offenders may be blocked from creating quizzes. We review all reports within 48 hours.\n\nReport violations via the in-app button or email jwon9798@gmail.com." }
+        { "title": "Enforcement", "body": "Quizzes that pass automated checks publish immediately. Violations may result in automatic hiding or removal when reported.\n\nReport violations via the in-app button. Copyright reports may hide a quiz after a single report; other reports hide after multiple reports." },
       ]
     },
     "moderation": {
       "title": "Content Moderation Policy",
       "updated": "Last updated: July 3, 2026",
-      "intro": "ClipQuiz takes a stricter approach than typical quiz platforms to reduce copyright and safety risks. This page explains how we review content before and after publication.",
+      "intro": "ClipQuiz uses automated systems to filter risky content at submission and after reports. No manual approval is required for publishing.",
       "sections": [
-        { "title": "1. Pre-Publication Review", "body": "Unlike platforms that publish user content immediately, ClipQuiz holds new user quizzes in a pending state (featured = false) until a human review approves them.\n\nApproved quizzes appear on the homepage and in search. Rejected or violating quizzes are removed or never published." },
-        { "title": "2. Automated Checks", "body": "When you submit a quiz, our server automatically checks:\n\n• Agreement to Terms and Community Guidelines\n• Blocked high-risk categories (music, movies, anime, memes)\n• Prohibited hate, harassment, and CSAM-related language\n• Trademark-heavy references (major brands, celebrities, franchises)\n• Valid https image URLs (no social media hotlinks)\n• Crop zoom within playable limits (18%–75%)\n\nFailed checks return an error immediately — fix the issue and resubmit." },
-        { "title": "3. Editorial Seed Content", "body": "Quizzes created by the ClipQuiz team use public-domain images, Wikimedia Commons media, country flags, and NASA imagery. These are curated separately from user submissions and are clearly marked with an editorial creator name." },
-        { "title": "4. Reporting and Takedowns", "body": "Anyone can report a quiz using the \"Report Quiz\" button. Reasons include copyright infringement, inappropriate content, and spam.\n\nWe aim to review reports within 48 hours. Valid copyright complaints are processed under our Copyright Policy (DMCA-style notice and counter-notification)." },
-        { "title": "5. Repeat Violations", "body": "Users who repeatedly submit infringing, harmful, or deceptive content may have quiz creation privileges restricted. We may block specific creator names or IP ranges when abuse is detected." },
-        { "title": "6. Appeals", "body": "If your quiz was rejected or removed in error, email jwon9798@gmail.com with the quiz title, submission date, and explanation. We will re-review within 5 business days." },
-        { "title": "7. Comparison with Other Platforms", "body": "Some quiz sites publish user content immediately and rely on post-moderation only. ClipQuiz combines automated filtering, pre-publication review, and post-publication reporting to better protect rights holders and players.\n\nYou remain solely responsible for content you submit. ClipQuiz is provided free of charge and does not profit from individual user quizzes." }
+        { "title": "1. Instant Publishing", "body": "When you submit a quiz, our server runs automated checks (category, keywords, image URLs, crop settings). If everything passes, your quiz is published immediately and appears on the homepage.\n\nFailed checks return an error so you can fix and resubmit." },
+        { "title": "2. Automated Checks", "body": "On every submission we check:\n\n• Agreement to Terms and Community Guidelines\n• Blocked high-risk categories (music, movies, anime, memes)\n• Prohibited hate, harassment, and CSAM-related language\n• Trademark-heavy references (major brands, celebrities, franchises)\n• Valid https image URLs (no social media hotlinks)\n• Crop zoom within playable limits (18%–75%)" },
+        { "title": "3. Editorial Seed Content", "body": "Quizzes created by the ClipQuiz team use public-domain images, Wikimedia Commons media, country flags, and NASA imagery. These are curated separately from user submissions." },
+        { "title": "4. Automated Report Handling", "body": "When users report a quiz:\n\n• Copyright reports: quiz may be hidden from the homepage after 1 report\n• Other reports: hidden after 3 reports\n• Deleted after 5 reports\n\nNo manual review is required. Direct quiz links may still work until deletion." },
+        { "title": "5. Repeat Violations", "body": "Users who repeatedly submit infringing or harmful content may have quizzes auto-deleted when report thresholds are reached." },
+        { "title": "6. Appeals", "body": "If you believe your quiz was hidden or removed in error, email jwon9798@gmail.com with the quiz title and explanation." },
+        { "title": "7. How This Compares", "body": "Like Machugi.io and similar platforms, ClipQuiz publishes passing quizzes immediately and relies on automated filters plus user reports for enforcement. ClipQuiz adds stricter upfront filters (blocked categories, trademark checks) before content goes live." }
       ]
     },
     "copyright": {
@@ -330,7 +330,7 @@
       "intro": "ClipQuiz respects intellectual property rights and responds to valid copyright complaints.",
       "sections": [
         { "title": "Our Content", "body": "Quiz sets created by the ClipQuiz editorial team use public-domain images, country flags (via flagcdn.com), Wikimedia Commons media, and NASA public-domain imagery. We make good-faith efforts to use properly licensed content." },
-        { "title": "User-Generated Content", "body": "Users who create quizzes represent that they own or have permission to use all uploaded content. ClipQuiz does not pre-screen user uploads but responds promptly to valid complaints." },
+        { "title": "User-Generated Content", "body": "Users who create quizzes represent that they own or have permission to use all uploaded content. Quizzes that pass automated validation publish immediately. ClipQuiz responds to reports and valid copyright complaints automatically or via email." },
         { "title": "DMCA Takedown Notice", "body": "If you believe content on ClipQuiz infringes your copyright, send a notice to jwon9798@gmail.com including:\n\n1. Your full name and contact information\n2. Identification of the copyrighted work claimed to be infringed\n3. The URL of the infringing quiz on ClipQuiz\n4. A statement that you have a good-faith belief the use is not authorized\n5. A statement, under penalty of perjury, that the information is accurate and you are the copyright owner or authorized agent\n6. Your physical or electronic signature\n\nWe will remove or disable access to the material and notify the quiz creator when appropriate." },
         { "title": "Counter-Notification", "body": "If you believe your quiz was removed in error, you may submit a counter-notification to jwon9798@gmail.com with your contact information, identification of the removed content, a statement under penalty of perjury that removal was a mistake, and your consent to jurisdiction of the courts of Seoul, South Korea." },
         { "title": "Repeat Infringers", "body": "We terminate quiz creation privileges for users who repeatedly infringe copyrights after receiving valid notices." }

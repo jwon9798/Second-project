@@ -14,7 +14,7 @@ create table if not exists public.quizzes (
   play_count int not null default 0,
   cover_emoji text not null default '🎯',
   difficulty text not null check (difficulty in ('easy', 'medium', 'hard')),
-  featured boolean not null default false,
+  featured boolean not null default true,
   created_at timestamptz not null default now()
 );
 

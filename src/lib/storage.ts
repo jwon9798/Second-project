@@ -44,21 +44,19 @@ export async function getQuizById(id: string): Promise<Quiz | null> {
   if (seedQuiz) return seedQuiz;
 
   if (isSupabaseConfigured()) {
-    const quiz = await supabaseStorage.getCustomQuizByIdFromSupabase(id);
-    return quiz && isPublicCustomQuiz(quiz) ? quiz : null;
+    return supabaseStorage.getCustomQuizByIdFromSupabase(id);
   }
 
   const custom = await fileStorage.getCustomQuizzesFromFile();
-  const quiz = custom.find((q) => q.id === id);
-  return quiz && isPublicCustomQuiz(quiz) ? quiz : null;
+  return custom.find((q) => q.id === id) ?? null;
 }
 
 export async function saveQuiz(quiz: Omit<Quiz, "id" | "playCount" | "createdAt">) {
-  const pendingQuiz = { ...quiz, featured: false };
+  const publishedQuiz = { ...quiz, featured: true };
   if (isSupabaseConfigured()) {
-    return supabaseStorage.saveQuizToSupabase(pendingQuiz);
+    return supabaseStorage.saveQuizToSupabase(publishedQuiz);
   }
-  return fileStorage.saveQuizToFile(pendingQuiz);
+  return fileStorage.saveQuizToFile(publishedQuiz);
 }
 
 export async function incrementPlayCount(quizId: string) {
@@ -113,4 +111,32 @@ export async function saveResult(
     return supabaseStorage.saveResultToSupabase(quizId, score, total);
   }
   return fileStorage.saveResultToFile(quizId, score, total);
+}
+
+export async function countReportsForQuiz(quizId: string): Promise<{
+  total: number;
+  hasCopyrightReport: boolean;
+}> {
+  if (isSupabaseConfigured()) {
+    return supabaseStorage.countReportsForQuizInSupabase(quizId);
+  }
+  return { total: 0, hasCopyrightReport: false };
+}
+
+export async function hideQuiz(quizId: string): Promise<void> {
+  if (isSeedQuizId(quizId)) return;
+  if (isSupabaseConfigured()) {
+    await supabaseStorage.setQuizFeaturedInSupabase(quizId, false);
+  } else {
+    await fileStorage.setQuizFeaturedInFile(quizId, false);
+  }
+}
+
+export async function deleteQuiz(quizId: string): Promise<void> {
+  if (isSeedQuizId(quizId)) return;
+  if (isSupabaseConfigured()) {
+    await supabaseStorage.deleteQuizFromSupabase(quizId);
+  } else {
+    await fileStorage.deleteQuizFromFile(quizId);
+  }
 }
