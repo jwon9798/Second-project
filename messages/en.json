@@ -308,7 +308,7 @@
         { "title": "No Harmful Content", "body": "Prohibited content includes:\n\n• Sexually explicit material or child sexual abuse material (CSAM)\n• Graphic violence or gore\n• Instructions for illegal activities\n• Malware links or phishing attempts\n• Spam, scams, or misleading quizzes" },
         { "title": "Accurate and Fair Quizzes", "body": "Write clear questions with fair accepted answers. Include common alternate spellings. Do not create trick questions designed to mislead players. Add hints when answers may be ambiguous.\n\nFor crop questions, use a zoom level between 18% and 75% so players can reasonably guess." },
         { "title": "Image and Link Rules", "body": "Use direct https:// image URLs only. Social media hotlinks (Instagram, Pinterest, TikTok, etc.) are not allowed.\n\nAudio questions are paused until our copyright review is complete." },
-        { "title": "Enforcement", "body": "Quizzes that pass automated checks publish immediately. Violations may result in automatic hiding or removal when reported.\n\nReport violations via the in-app button. Copyright reports may hide a quiz after a single report; other reports hide after multiple reports." },
+        { "title": "Enforcement", "body": "Quizzes that pass automated checks publish immediately. Violations may result in automatic hiding or removal when reported.\n\nReport violations via the in-app button. Copyright reports may hide a quiz after a single report; other reports hide after multiple reports." }
       ]
     },
     "moderation": {
