@@ -94,6 +94,9 @@ function isValidImageUrl(url: string): boolean {
     if (parsed.protocol !== "https:") return false;
     const host = parsed.hostname.toLowerCase();
     if (BLOCKED_IMAGE_HOSTS.some((b) => host.includes(b))) return false;
+    if (host.endsWith(".supabase.co") && parsed.pathname.includes("/storage/v1/object/public/quiz-images/")) {
+      return true;
+    }
     return true;
   } catch {
     return false;
