@@ -13,7 +13,7 @@ import {
   secondsToMinutesParts,
 } from "@/lib/youtube-utils";
 import type { Difficulty, QuestionType } from "@/lib/types";
-import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
+import { Image, Crop, Music, Plus, Trash2, Eye, Copy, CheckCircle2 } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
 import CropPicker from "./create/CropPicker";
 import ImageSourceField from "./create/ImageSourceField";
@@ -117,6 +117,23 @@ export default function CreateQuizForm() {
     if (questions.length <= 3) return;
     setQuestions((prev) => prev.filter((_, i) => i !== index));
   }
+
+  function duplicateQuestion(index: number) {
+    setQuestions((prev) => {
+      const copy = { ...prev[index] };
+      return [...prev.slice(0, index + 1), copy, ...prev.slice(index + 1)];
+    });
+  }
+
+  function isQuestionComplete(q: DraftQuestion): boolean {
+    if (parseAnswers(q.answers).length === 0) return false;
+    if (q.type === "audio") {
+      return extractYoutubeId(q.youtubeId).length === 11;
+    }
+    return Boolean(q.imageUrl.trim());
+  }
+
+  const completedCount = questions.filter(isQuestionComplete).length;
 
   function toApiQuestion(q: DraftQuestion, index: number) {
     const base = {
@@ -343,12 +360,42 @@ export default function CreateQuizForm() {
         </div>
       </div>
 
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <p className="text-sm text-white/50">
+          {t("questionsProgress", { done: completedCount, total: questions.length })}
+        </p>
+        <div className="h-1.5 flex-1 max-w-xs overflow-hidden rounded-full bg-white/10">
+          <div
+            className="h-full rounded-full bg-[#00f5d4] transition-all"
+            style={{ width: `${(completedCount / questions.length) * 100}%` }}
+          />
+        </div>
+      </div>
+
       <div className="space-y-4 mb-6">
         {questions.map((q, index) => (
-          <div key={index} className="glass-card rounded-2xl p-5">
+          <div
+            key={index}
+            className={`glass-card rounded-2xl p-5 transition-colors ${
+              isQuestionComplete(q) ? "ring-1 ring-[#00f5d4]/25" : ""
+            }`}
+          >
             <div className="flex items-center justify-between mb-4">
-              <span className="font-display font-bold text-white/80">Q{index + 1}</span>
+              <div className="flex items-center gap-2">
+                <span className="font-display font-bold text-white/80">Q{index + 1}</span>
+                {isQuestionComplete(q) && (
+                  <CheckCircle2 className="h-4 w-4 text-[#00f5d4]" aria-label={t("questionComplete")} />
+                )}
+              </div>
               <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => duplicateQuestion(index)}
+                  title={t("duplicateQuestion")}
+                  className="rounded-lg p-2 text-white/40 hover:bg-white/5 hover:text-white"
+                >
+                  <Copy className="h-4 w-4" />
+                </button>
                 <button
                   type="button"
                   onClick={() => setPreviewIndex(previewIndex === index ? null : index)}
