@@ -47,6 +47,7 @@ export default function QuizCard({ quiz, index = 0 }: QuizCardProps) {
           {quiz.title}
         </h3>
         <p className="mb-4 line-clamp-2 text-sm text-white/50">{quiz.description}</p>
+        <p className="mb-3 text-xs text-white/35">by {quiz.creator}</p>
 
         <div className="mt-auto flex items-center justify-between text-xs text-white/40">
           <div className="flex items-center gap-3">
