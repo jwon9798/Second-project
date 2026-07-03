@@ -1,0 +1,2704 @@
+[
+  {
+    "id": "famous-paintings",
+    "title": "paintings you might recognize",
+    "description": "museum stuff. public domain images. artist or painting title both ok.",
+    "category": "Art",
+    "coverEmoji": "🎨",
+    "difficulty": "medium",
+    "featured": true,
+    "creator": "hana",
+    "questions": [
+      {
+        "id": "pt1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "answers": [
+          "starry night",
+          "the starry night",
+          "van gogh"
+        ],
+        "hint": "swirly night sky"
+      },
+      {
+        "id": "pt2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/640px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "answers": [
+          "girl with a pearl earring",
+          "pearl earring",
+          "vermeer"
+        ],
+        "hint": "blue headscarf"
+      },
+      {
+        "id": "pt3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/640px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "answers": [
+          "mona lisa",
+          "da vinci",
+          "leonardo"
+        ],
+        "hint": "famous smile"
+      },
+      {
+        "id": "pt4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_The_Scream.jpg/640px-Edvard_Munch%2C_The_Scream.jpg",
+        "answers": [
+          "the scream",
+          "scream",
+          "munch"
+        ],
+        "hint": "person hands on face"
+      },
+      {
+        "id": "pt5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/640px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "answers": [
+          "the kiss",
+          "kiss",
+          "klimt"
+        ],
+        "hint": "gold embrace"
+      },
+      {
+        "id": "pt6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/640px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+        "answers": [
+          "arnolfini portrait",
+          "arnolfini",
+          "van eyck"
+        ],
+        "hint": "couple mirror dog"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "art"
+    ],
+    "playCount": 13369,
+    "createdAt": "2026-06-23T09:45:47.935Z"
+  },
+  {
+    "id": "unesco-sites",
+    "title": "famous places",
+    "description": "tourist spots basically. unesco or just really well known.",
+    "category": "Travel",
+    "coverEmoji": "🏛️",
+    "difficulty": "medium",
+    "creator": "rowan",
+    "questions": [
+      {
+        "id": "un1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "colosseum",
+          "coliseum",
+          "rome"
+        ],
+        "hint": "roman arena"
+      },
+      {
+        "id": "un2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "china long wall"
+      },
+      {
+        "id": "un3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "nyc harbor"
+      },
+      {
+        "id": "un4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "answers": [
+          "taj mahal"
+        ],
+        "hint": "white marble india"
+      },
+      {
+        "id": "un5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "answers": [
+          "eiffel tower"
+        ],
+        "hint": "paris iron tower"
+      },
+      {
+        "id": "un6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Stonehenge_2017.jpg/640px-Stonehenge_2017.jpg",
+        "answers": [
+          "stonehenge"
+        ],
+        "hint": "rocks in circle england"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 1537,
+    "createdAt": "2026-06-20T09:45:47.935Z"
+  },
+  {
+    "id": "japan-travel-spots",
+    "title": "japan spots",
+    "description": "places tourists photograph. not anime characters.",
+    "category": "Travel",
+    "coverEmoji": "🗾",
+    "difficulty": "easy",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "jp1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg",
+        "answers": [
+          "mount fuji",
+          "fuji",
+          "mt fuji"
+        ],
+        "hint": "snow cap volcano"
+      },
+      {
+        "id": "jp2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Torii_gate_at_Itsukushima_Shrine_2011.jpg/640px-Torii_gate_at_Itsukushima_Shrine_2011.jpg",
+        "answers": [
+          "torii",
+          "itsukushima",
+          "miyajima"
+        ],
+        "hint": "floating gate"
+      },
+      {
+        "id": "jp3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg/640px-Golden_Pavilion_Kinkaku-ji%2C_Kyoto%2C_Japan.jpg",
+        "answers": [
+          "kinkaku-ji",
+          "golden pavilion",
+          "kinkakuji"
+        ],
+        "hint": "gold temple kyoto"
+      },
+      {
+        "id": "jp4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fushimi_Inari-taisha_torii_gate.jpg/640px-Fushimi_Inari-taisha_torii_gate.jpg",
+        "answers": [
+          "fushimi inari",
+          "inari"
+        ],
+        "hint": "orange gates tunnel"
+      },
+      {
+        "id": "jp5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Shibuya_Crossing_2018.jpg/640px-Shibuya_Crossing_2018.jpg",
+        "answers": [
+          "shibuya",
+          "shibuya crossing",
+          "tokyo"
+        ],
+        "hint": "busy tokyo crossing"
+      },
+      {
+        "id": "jp6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tokyo_Skytree_2014_%28cropped%29.JPG/640px-Tokyo_Skytree_2014_%28cropped%29.JPG",
+        "answers": [
+          "tokyo skytree",
+          "skytree"
+        ],
+        "hint": "tall tower tokyo"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 7279,
+    "createdAt": "2026-06-17T09:45:47.935Z"
+  },
+  {
+    "id": "musical-instruments",
+    "title": "instruments",
+    "description": "name the instrument. seemed easy until i tried writing answers.",
+    "category": "Music",
+    "coverEmoji": "🎸",
+    "difficulty": "easy",
+    "creator": "dex",
+    "questions": [
+      {
+        "id": "ins1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Guitare_classique_manuel_rodriguez.jpg/640px-Guitare_classique_manuel_rodriguez.jpg",
+        "answers": [
+          "guitar"
+        ],
+        "hint": "six strings"
+      },
+      {
+        "id": "ins2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Steinway_Vienna_002.JPG/640px-Steinway_Vienna_002.JPG",
+        "answers": [
+          "piano"
+        ],
+        "hint": "black and white keys"
+      },
+      {
+        "id": "ins3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Violin_VL100.png/640px-Violin_VL100.png",
+        "answers": [
+          "violin"
+        ],
+        "hint": "bow small strings"
+      },
+      {
+        "id": "ins4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Drum_set.jpg/640px-Drum_set.jpg",
+        "answers": [
+          "drums",
+          "drum kit",
+          "drum set"
+        ],
+        "hint": "kit with cymbals"
+      },
+      {
+        "id": "ins5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Trumpet_1.jpg/640px-Trumpet_1.jpg",
+        "answers": [
+          "trumpet"
+        ],
+        "hint": "brass horn valves"
+      },
+      {
+        "id": "ins6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Saxophone_alto.jpg/640px-Saxophone_alto.jpg",
+        "answers": [
+          "saxophone",
+          "sax"
+        ],
+        "hint": "jazz brass woodwind"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "music"
+    ],
+    "playCount": 13700,
+    "createdAt": "2026-06-14T09:45:47.935Z"
+  },
+  {
+    "id": "landmarks-round-two",
+    "title": "more landmarks (cropped)",
+    "description": "zoomed in a bit but still fair. not evil tiny crops.",
+    "category": "Travel",
+    "coverEmoji": "📸",
+    "difficulty": "hard",
+    "creator": "mika",
+    "questions": [
+      {
+        "id": "lm2-1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "cropX": 50,
+        "cropY": 25,
+        "cropSize": 32,
+        "answers": [
+          "eiffel tower",
+          "eiffel"
+        ],
+        "hint": "iron lattice paris"
+      },
+      {
+        "id": "lm2-2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "cropX": 50,
+        "cropY": 30,
+        "cropSize": 30,
+        "answers": [
+          "christ the redeemer",
+          "christ redeemer"
+        ],
+        "hint": "arms open statue"
+      },
+      {
+        "id": "lm2-3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "cropX": 48,
+        "cropY": 40,
+        "cropSize": 32,
+        "answers": [
+          "sydney opera house",
+          "opera house"
+        ],
+        "hint": "white shells"
+      },
+      {
+        "id": "lm2-4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Fuji_and_cherry_blossoms.jpg/640px-Mount_Fuji_and_cherry_blossoms.jpg",
+        "cropX": 50,
+        "cropY": 35,
+        "cropSize": 30,
+        "answers": [
+          "mount fuji",
+          "fuji"
+        ],
+        "hint": "snow peak sakura"
+      },
+      {
+        "id": "lm2-5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "cropX": 45,
+        "cropY": 50,
+        "cropSize": 28,
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "stone wall ridge"
+      },
+      {
+        "id": "lm2-6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "cropX": 50,
+        "cropY": 20,
+        "cropSize": 30,
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "green copper torch"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 13444,
+    "createdAt": "2026-06-11T09:45:47.935Z"
+  },
+  {
+    "id": "deserts-world",
+    "title": "deserts",
+    "description": "sandy or rocky. name the desert.",
+    "category": "Geography",
+    "coverEmoji": "🏜️",
+    "difficulty": "hard",
+    "creator": "trevor",
+    "questions": [
+      {
+        "id": "ds1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sahara_desert.jpg/640px-Sahara_desert.jpg",
+        "answers": [
+          "sahara",
+          "sahara desert"
+        ],
+        "hint": "largest hot desert"
+      },
+      {
+        "id": "ds2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/GobiDesertLandscape.jpg/640px-GobiDesertLandscape.jpg",
+        "answers": [
+          "gobi",
+          "gobi desert"
+        ],
+        "hint": "mongolia china"
+      },
+      {
+        "id": "ds3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/AtacamaDesertByMars.jpg/640px-AtacamaDesertByMars.jpg",
+        "answers": [
+          "atacama",
+          "atacama desert"
+        ],
+        "hint": "driest chile"
+      },
+      {
+        "id": "ds4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg/640px-Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg",
+        "answers": [
+          "uluru",
+          "ayers rock"
+        ],
+        "hint": "red rock australia"
+      },
+      {
+        "id": "ds5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Death_Valley_National_Park%2C_California.jpg/640px-Death_Valley_National_Park%2C_California.jpg",
+        "answers": [
+          "death valley"
+        ],
+        "hint": "hot california basin"
+      },
+      {
+        "id": "ds6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Wadi_Rum%2C_Jordan.jpg/640px-Wadi_Rum%2C_Jordan.jpg",
+        "answers": [
+          "wadi rum"
+        ],
+        "hint": "jordan mars-like"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "geography"
+    ],
+    "playCount": 15303,
+    "createdAt": "2026-06-08T09:45:47.935Z"
+  },
+  {
+    "id": "korean-street-food-v2",
+    "title": "korean street food",
+    "description": "late night food stall vibes. name the dish.",
+    "category": "Food",
+    "coverEmoji": "🍜",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "breadcat",
+    "questions": [
+      {
+        "id": "kf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dduk-bokki.jpg/640px-Dduk-bokki.jpg",
+        "answers": [
+          "tteokbokki",
+          "떡볶이",
+          "topokki"
+        ],
+        "hint": "spicy rice cakes"
+      },
+      {
+        "id": "kf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kimchi.jpg/640px-Kimchi.jpg",
+        "answers": [
+          "kimchi",
+          "김치"
+        ],
+        "hint": "fermented cabbage"
+      },
+      {
+        "id": "kf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bibimbap.jpg/640px-Bibimbap.jpg",
+        "answers": [
+          "bibimbap",
+          "비빔밥"
+        ],
+        "hint": "mixed rice bowl"
+      },
+      {
+        "id": "kf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hotteok.jpg/640px-Hotteok.jpg",
+        "answers": [
+          "hotteok",
+          "호떡"
+        ],
+        "hint": "sweet pancake"
+      },
+      {
+        "id": "kf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Korean_fried_chicken.jpg/640px-Korean_fried_chicken.jpg",
+        "answers": [
+          "korean fried chicken",
+          "fried chicken",
+          "치킨"
+        ],
+        "hint": "crispy delivery classic"
+      },
+      {
+        "id": "kf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_BBQ-Galbi-02.jpg/640px-Korean_BBQ-Galbi-02.jpg",
+        "answers": [
+          "galbi",
+          "갈비",
+          "korean bbq"
+        ],
+        "hint": "grilled ribs"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 1236,
+    "createdAt": "2026-06-28T09:45:47.935Z"
+  },
+  {
+    "id": "japanese-food-basics",
+    "title": "japanese food",
+    "description": "sushi, noodles, the usual suspects.",
+    "category": "Food",
+    "coverEmoji": "🍣",
+    "difficulty": "easy",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "jf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "answers": [
+          "sushi"
+        ],
+        "hint": "rice and fish"
+      },
+      {
+        "id": "jf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ramen_-_Danbo.jpg/640px-Ramen_-_Danbo.jpg",
+        "answers": [
+          "ramen"
+        ],
+        "hint": "noodle soup"
+      },
+      {
+        "id": "jf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Takoyaki.jpg/640px-Takoyaki.jpg",
+        "answers": [
+          "takoyaki"
+        ],
+        "hint": "octopus balls"
+      },
+      {
+        "id": "jf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tempura_prawns.jpg/640px-Tempura_prawns.jpg",
+        "answers": [
+          "tempura"
+        ],
+        "hint": "fried battered seafood"
+      },
+      {
+        "id": "jf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Matcha_latte.jpg/640px-Matcha_latte.jpg",
+        "answers": [
+          "matcha",
+          "green tea"
+        ],
+        "hint": "powdered tea"
+      },
+      {
+        "id": "jf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Onigiri_002.jpg/640px-Onigiri_002.jpg",
+        "answers": [
+          "onigiri",
+          "rice ball"
+        ],
+        "hint": "triangle rice snack"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 16206,
+    "createdAt": "2026-06-27T09:45:47.935Z"
+  },
+  {
+    "id": "world-comfort-food",
+    "title": "comfort food worldwide",
+    "description": "if you have eaten it once you probably know it.",
+    "category": "Food",
+    "coverEmoji": "🍕",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "sam_k",
+    "questions": [
+      {
+        "id": "wf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "answers": [
+          "pizza",
+          "pizza margherita"
+        ],
+        "hint": "italian classic"
+      },
+      {
+        "id": "wf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tacos_de_carne_deshebrada.jpg/640px-Tacos_de_carne_deshebrada.jpg",
+        "answers": [
+          "tacos",
+          "taco"
+        ],
+        "hint": "mexican handheld"
+      },
+      {
+        "id": "wf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pho_with_beef_and_tendon.jpg/640px-Pho_with_beef_and_tendon.jpg",
+        "answers": [
+          "pho"
+        ],
+        "hint": "vietnamese soup"
+      },
+      {
+        "id": "wf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paella_de_marisco_01.jpg/640px-Paella_de_marisco_01.jpg",
+        "answers": [
+          "paella"
+        ],
+        "hint": "spanish rice"
+      },
+      {
+        "id": "wf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Croissant-PetrKratochvil.jpg/640px-Croissant-PetrKratochvil.jpg",
+        "answers": [
+          "croissant"
+        ],
+        "hint": "french pastry"
+      },
+      {
+        "id": "wf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hamburger_%28black_bg%29.jpg/640px-Hamburger_%28black_bg%29.jpg",
+        "answers": [
+          "hamburger",
+          "burger"
+        ],
+        "hint": "american icon"
+      },
+      {
+        "id": "wf7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Poutine.JPG/640px-Poutine.JPG",
+        "answers": [
+          "poutine"
+        ],
+        "hint": "canadian fries gravy cheese"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 2389,
+    "createdAt": "2026-06-26T09:45:47.935Z"
+  },
+  {
+    "id": "desserts-sweet",
+    "title": "desserts",
+    "description": "sugar rush round. name the dessert.",
+    "category": "Food",
+    "coverEmoji": "🍰",
+    "difficulty": "easy",
+    "creator": "luna_p",
+    "questions": [
+      {
+        "id": "de1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Chocolate_cake.jpg/640px-Chocolate_cake.jpg",
+        "answers": [
+          "chocolate cake",
+          "cake"
+        ],
+        "hint": "birthday classic"
+      },
+      {
+        "id": "de2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Macarons_in_a_box.jpg/640px-Macarons_in_a_box.jpg",
+        "answers": [
+          "macaron",
+          "macarons"
+        ],
+        "hint": "french almond cookies"
+      },
+      {
+        "id": "de3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/640px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
+        "answers": [
+          "ice cream"
+        ],
+        "hint": "frozen treat"
+      },
+      {
+        "id": "de4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Waffles_with_strawberry.jpg/640px-Waffles_with_strawberry.jpg",
+        "answers": [
+          "waffle",
+          "waffles"
+        ],
+        "hint": "grid breakfast"
+      },
+      {
+        "id": "de5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Creme_brulee.jpg/640px-Creme_brulee.jpg",
+        "answers": [
+          "creme brulee",
+          "crème brûlée"
+        ],
+        "hint": "torched sugar top"
+      },
+      {
+        "id": "de6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tiramisu.jpg/640px-Tiramisu.jpg",
+        "answers": [
+          "tiramisu"
+        ],
+        "hint": "coffee layered italian"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 7527,
+    "createdAt": "2026-06-25T09:45:47.935Z"
+  },
+  {
+    "id": "asia-capitals-landmarks",
+    "title": "asian capitals",
+    "description": "famous building or skyline = name the capital.",
+    "category": "Travel",
+    "coverEmoji": "🏙️",
+    "difficulty": "medium",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "ac1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Seoul_skyline_from_Namsan.jpg/640px-Seoul_skyline_from_Namsan.jpg",
+        "answers": [
+          "seoul"
+        ],
+        "hint": "korea capital"
+      },
+      {
+        "id": "ac2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shanghai_skyline_from_the_bund.jpg/640px-Shanghai_skyline_from_the_bund.jpg",
+        "answers": [
+          "beijing",
+          "shanghai"
+        ],
+        "hint": "china mega city — shanghai skyline"
+      },
+      {
+        "id": "ac3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Shibuya_Crossing_2018.jpg/640px-Shibuya_Crossing_2018.jpg",
+        "answers": [
+          "tokyo"
+        ],
+        "hint": "japan capital area"
+      },
+      {
+        "id": "ac4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bangkok_Skyline.jpg/640px-Bangkok_Skyline.jpg",
+        "answers": [
+          "bangkok"
+        ],
+        "hint": "thailand capital"
+      },
+      {
+        "id": "ac5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Singapore_skyline_at_sunset.jpg/640px-Singapore_skyline_at_sunset.jpg",
+        "answers": [
+          "singapore"
+        ],
+        "hint": "city-state"
+      },
+      {
+        "id": "ac6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jakarta_skyline.jpg/640px-Jakarta_skyline.jpg",
+        "answers": [
+          "jakarta"
+        ],
+        "hint": "indonesia capital"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 14172,
+    "createdAt": "2026-06-07T09:45:47.935Z"
+  },
+  {
+    "id": "europe-capitals-landmarks",
+    "title": "european capitals",
+    "description": "iconic photo → capital city.",
+    "category": "Travel",
+    "coverEmoji": "🇪🇺",
+    "difficulty": "medium",
+    "creator": "mika",
+    "questions": [
+      {
+        "id": "ec1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paris_Night.jpg/640px-Paris_Night.jpg",
+        "answers": [
+          "paris"
+        ],
+        "hint": "france"
+      },
+      {
+        "id": "ec2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/London_skyline_from_St_Paul%27s_Cathedral_2015.jpg/640px-London_skyline_from_St_Paul%27s_Cathedral_2015.jpg",
+        "answers": [
+          "london"
+        ],
+        "hint": "uk"
+      },
+      {
+        "id": "ec3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Brandenburg_Gate_Berlin.jpg/640px-Brandenburg_Gate_Berlin.jpg",
+        "answers": [
+          "berlin"
+        ],
+        "hint": "germany"
+      },
+      {
+        "id": "ec4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "rome"
+        ],
+        "hint": "italy"
+      },
+      {
+        "id": "ec5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Red_Square_Moscow.jpg/640px-Red_Square_Moscow.jpg",
+        "answers": [
+          "moscow"
+        ],
+        "hint": "russia"
+      },
+      {
+        "id": "ec6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Amsterdam_canals.jpg/640px-Amsterdam_canals.jpg",
+        "answers": [
+          "amsterdam"
+        ],
+        "hint": "netherlands"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 14455,
+    "createdAt": "2026-06-06T09:45:47.935Z"
+  },
+  {
+    "id": "famous-bridges",
+    "title": "famous bridges",
+    "description": "name the bridge or the city it's in.",
+    "category": "Travel",
+    "coverEmoji": "🌉",
+    "difficulty": "medium",
+    "creator": "rowan",
+    "questions": [
+      {
+        "id": "brg1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golden_Gate_Bridge_0002.jpg/640px-Golden_Gate_Bridge_0002.jpg",
+        "answers": [
+          "golden gate bridge",
+          "golden gate",
+          "san francisco"
+        ],
+        "hint": "red suspension california"
+      },
+      {
+        "id": "brg2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Tower_Bridge_from_Shad_Thames.jpg/640px-Tower_Bridge_from_Shad_Thames.jpg",
+        "answers": [
+          "tower bridge",
+          "london"
+        ],
+        "hint": "opens in the middle"
+      },
+      {
+        "id": "brg3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Brooklyn_Bridge_Manhattan.jpg/640px-Brooklyn_Bridge_Manhattan.jpg",
+        "answers": [
+          "brooklyn bridge",
+          "new york"
+        ],
+        "hint": "nyc cables"
+      },
+      {
+        "id": "brg4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sydney_Harbour_Bridge_from_the_air.jpg/640px-Sydney_Harbour_Bridge_from_the_air.jpg",
+        "answers": [
+          "sydney harbour bridge",
+          "sydney bridge"
+        ],
+        "hint": "australia coat hanger"
+      },
+      {
+        "id": "brg5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ponte_di_Rialto.jpg/640px-Ponte_di_Rialto.jpg",
+        "answers": [
+          "rialto bridge",
+          "venice"
+        ],
+        "hint": "italy canal shops"
+      },
+      {
+        "id": "brg6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Charles_Bridge_2021.jpg/640px-Charles_Bridge_2021.jpg",
+        "answers": [
+          "charles bridge",
+          "prague"
+        ],
+        "hint": "czech statues"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 13169,
+    "createdAt": "2026-06-05T09:45:47.935Z"
+  },
+  {
+    "id": "italian-food-deep",
+    "title": "italian food",
+    "description": "pasta pizza gelato. the classics.",
+    "category": "Food",
+    "coverEmoji": "🍝",
+    "difficulty": "easy",
+    "creator": "breadcat",
+    "questions": [
+      {
+        "id": "it1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Spaghetti_alla_Carbonara.jpg/640px-Spaghetti_alla_Carbonara.jpg",
+        "answers": [
+          "carbonara",
+          "pasta carbonara"
+        ],
+        "hint": "egg bacon pasta"
+      },
+      {
+        "id": "it2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "answers": [
+          "pizza",
+          "margherita"
+        ],
+        "hint": "tomato mozzarella basil"
+      },
+      {
+        "id": "it3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lasagna_-_by_Sara_Roston.jpg/640px-Lasagna_-_by_Sara_Roston.jpg",
+        "answers": [
+          "lasagna",
+          "lasagne"
+        ],
+        "hint": "layered pasta bake"
+      },
+      {
+        "id": "it4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Gelato_in_Florence.jpg/640px-Gelato_in_Florence.jpg",
+        "answers": [
+          "gelato",
+          "ice cream"
+        ],
+        "hint": "creamy italian"
+      },
+      {
+        "id": "it5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Risotto_milanese.jpg/640px-Risotto_milanese.jpg",
+        "answers": [
+          "risotto"
+        ],
+        "hint": "saffron rice"
+      },
+      {
+        "id": "it6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tiramisu_%28cropped%29.jpg/640px-Tiramisu_%28cropped%29.jpg",
+        "answers": [
+          "tiramisu"
+        ],
+        "hint": "coffee dessert"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 2372,
+    "createdAt": "2026-06-03T09:45:47.935Z"
+  },
+  {
+    "id": "indian-cuisine",
+    "title": "indian food",
+    "description": "curry naan biryani. spicy round.",
+    "category": "Food",
+    "coverEmoji": "🍛",
+    "difficulty": "easy",
+    "creator": "sam_k",
+    "questions": [
+      {
+        "id": "in1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chicken_Tikka_Masala.jpg/640px-Chicken_Tikka_Masala.jpg",
+        "answers": [
+          "tikka masala",
+          "chicken tikka masala"
+        ],
+        "hint": "orange curry"
+      },
+      {
+        "id": "in2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Naan_bread.jpg/640px-Naan_bread.jpg",
+        "answers": [
+          "naan",
+          "naan bread"
+        ],
+        "hint": "tandoor flatbread"
+      },
+      {
+        "id": "in3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hyderabadi_Biryani.jpg/640px-Hyderabadi_Biryani.jpg",
+        "answers": [
+          "biryani"
+        ],
+        "hint": "layered rice meat"
+      },
+      {
+        "id": "in4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Samosa.jpg/640px-Samosa.jpg",
+        "answers": [
+          "samosa"
+        ],
+        "hint": "fried triangle snack"
+      },
+      {
+        "id": "in5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dal_makhani.jpg/640px-Dal_makhani.jpg",
+        "answers": [
+          "dal",
+          "lentil curry"
+        ],
+        "hint": "lentil stew"
+      },
+      {
+        "id": "in6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mango_lassi.jpg/640px-Mango_lassi.jpg",
+        "answers": [
+          "lassi",
+          "mango lassi"
+        ],
+        "hint": "yogurt drink"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 15358,
+    "createdAt": "2026-06-02T09:45:47.935Z"
+  },
+  {
+    "id": "world-beaches",
+    "title": "famous beaches",
+    "description": "sand and turquoise. where is this?",
+    "category": "Travel",
+    "coverEmoji": "🏖️",
+    "difficulty": "medium",
+    "creator": "jules",
+    "questions": [
+      {
+        "id": "be1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bora_Bora_lagoon.jpg/640px-Bora_Bora_lagoon.jpg",
+        "answers": [
+          "bora bora"
+        ],
+        "hint": "french polynesia"
+      },
+      {
+        "id": "be2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Maldives_island.jpg/640px-Maldives_island.jpg",
+        "answers": [
+          "maldives"
+        ],
+        "hint": "overwater villas"
+      },
+      {
+        "id": "be3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Waikiki_Beach.jpg/640px-Waikiki_Beach.jpg",
+        "answers": [
+          "waikiki",
+          "hawaii"
+        ],
+        "hint": "honolulu shore"
+      },
+      {
+        "id": "be4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Whitehaven_Beach.jpg/640px-Whitehaven_Beach.jpg",
+        "answers": [
+          "whitehaven beach",
+          "whitsundays"
+        ],
+        "hint": "australia white sand"
+      },
+      {
+        "id": "be5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Phi_Phi_Islands.jpg/640px-Phi_Phi_Islands.jpg",
+        "answers": [
+          "phi phi",
+          "phi phi islands",
+          "thailand"
+        ],
+        "hint": "limestone cliffs"
+      },
+      {
+        "id": "be6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Copacabana_Beach.jpg/640px-Copacabana_Beach.jpg",
+        "answers": [
+          "copacabana",
+          "rio"
+        ],
+        "hint": "brazil mosaic sidewalk"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 11728,
+    "createdAt": "2026-06-01T09:45:47.935Z"
+  },
+  {
+    "id": "landmarks-full-photo",
+    "title": "landmarks (full photo)",
+    "description": "no evil crops. just famous places.",
+    "category": "Travel",
+    "coverEmoji": "🗼",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "atlas",
+    "questions": [
+      {
+        "id": "lf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "answers": [
+          "eiffel tower",
+          "eiffel"
+        ],
+        "hint": "paris iron"
+      },
+      {
+        "id": "lf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "answers": [
+          "taj mahal"
+        ],
+        "hint": "india marble"
+      },
+      {
+        "id": "lf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "answers": [
+          "sydney opera house",
+          "opera house"
+        ],
+        "hint": "shell roof"
+      },
+      {
+        "id": "lf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "answers": [
+          "christ the redeemer",
+          "christ redeemer"
+        ],
+        "hint": "rio statue"
+      },
+      {
+        "id": "lf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "nyc harbor"
+      },
+      {
+        "id": "lf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "colosseum",
+          "coliseum"
+        ],
+        "hint": "rome arena"
+      },
+      {
+        "id": "lf7",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "china stone"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 1712,
+    "createdAt": "2026-05-31T09:45:47.935Z"
+  },
+  {
+    "id": "chinese-food-classics",
+    "title": "chinese food",
+    "description": "dim sum noodles dumplings. the dishes you order by pointing at pictures.",
+    "category": "Food",
+    "coverEmoji": "🥟",
+    "difficulty": "easy",
+    "featured": true,
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "cn1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dim_sum_breakfast_in_Hong_Kong.jpg/640px-Dim_sum_breakfast_in_Hong_Kong.jpg",
+        "answers": [
+          "dim sum"
+        ],
+        "hint": "steamer baskets"
+      },
+      {
+        "id": "cn2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Dumplings_in_bamboo_steamer.jpg/640px-Dumplings_in_bamboo_steamer.jpg",
+        "answers": [
+          "dumpling",
+          "dumplings",
+          "jiaozi"
+        ],
+        "hint": "pleated wrappers"
+      },
+      {
+        "id": "cn3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Peking_duck.jpg/640px-Peking_duck.jpg",
+        "answers": [
+          "peking duck",
+          "peking duck"
+        ],
+        "hint": "crispy glazed bird"
+      },
+      {
+        "id": "cn4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fried_rice.jpg/640px-Fried_rice.jpg",
+        "answers": [
+          "fried rice"
+        ],
+        "hint": "wok tossed grains"
+      },
+      {
+        "id": "cn5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hot_pot.jpg/640px-Hot_pot.jpg",
+        "answers": [
+          "hot pot"
+        ],
+        "hint": "simmering shared broth"
+      },
+      {
+        "id": "cn6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mapo_tofu.jpg/640px-Mapo_tofu.jpg",
+        "answers": [
+          "mapo tofu"
+        ],
+        "hint": "spicy sichuan tofu"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 2449,
+    "createdAt": "2026-05-27T09:45:47.935Z"
+  },
+  {
+    "id": "mexican-food-classics",
+    "title": "mexican food",
+    "description": "tacos guac mole. not tex-mex chain stuff.",
+    "category": "Food",
+    "coverEmoji": "🌮",
+    "difficulty": "easy",
+    "creator": "sam_k",
+    "questions": [
+      {
+        "id": "mx1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/640px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+        "answers": [
+          "taco",
+          "tacos"
+        ],
+        "hint": "handheld tortilla"
+      },
+      {
+        "id": "mx2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Guacamole.jpg/640px-Guacamole.jpg",
+        "answers": [
+          "guacamole",
+          "guac"
+        ],
+        "hint": "avocado dip"
+      },
+      {
+        "id": "mx3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Enchiladas.jpg/640px-Enchiladas.jpg",
+        "answers": [
+          "enchilada",
+          "enchiladas"
+        ],
+        "hint": "rolled chili sauce"
+      },
+      {
+        "id": "mx4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Quesadilla.jpg/640px-Quesadilla.jpg",
+        "answers": [
+          "quesadilla"
+        ],
+        "hint": "cheese folded tortilla"
+      },
+      {
+        "id": "mx5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Churros.jpg/640px-Churros.jpg",
+        "answers": [
+          "churros",
+          "churro"
+        ],
+        "hint": "fried cinnamon sugar"
+      },
+      {
+        "id": "mx6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pozole.jpg/640px-Pozole.jpg",
+        "answers": [
+          "pozole"
+        ],
+        "hint": "hominy soup"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 565,
+    "createdAt": "2026-05-26T09:45:47.935Z"
+  },
+  {
+    "id": "thai-food-street",
+    "title": "thai street food",
+    "description": "bangkok night market energy. name the dish.",
+    "category": "Food",
+    "coverEmoji": "🍜",
+    "difficulty": "medium",
+    "creator": "mika",
+    "questions": [
+      {
+        "id": "th1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pad_Thai.jpg/640px-Pad_Thai.jpg",
+        "answers": [
+          "pad thai"
+        ],
+        "hint": "stir fried rice noodles"
+      },
+      {
+        "id": "th2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Green_curry.jpg/640px-Green_curry.jpg",
+        "answers": [
+          "green curry",
+          "thai green curry"
+        ],
+        "hint": "coconut green chili"
+      },
+      {
+        "id": "th3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tom_yum_kung.jpg/640px-Tom_yum_kung.jpg",
+        "answers": [
+          "tom yum",
+          "tom yum goong"
+        ],
+        "hint": "spicy sour soup"
+      },
+      {
+        "id": "th4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mango_sticky_rice.jpg/640px-Mango_sticky_rice.jpg",
+        "answers": [
+          "mango sticky rice"
+        ],
+        "hint": "sweet coconut dessert"
+      },
+      {
+        "id": "th5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Som_tam.jpg/640px-Som_tam.jpg",
+        "answers": [
+          "papaya salad",
+          "som tam"
+        ],
+        "hint": "shredded green papaya"
+      },
+      {
+        "id": "th6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Massaman_curry.jpg/640px-Massaman_curry.jpg",
+        "answers": [
+          "massaman curry"
+        ],
+        "hint": "peanut mild curry"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 4964,
+    "createdAt": "2026-05-25T09:45:47.935Z"
+  },
+  {
+    "id": "coffee-around-world",
+    "title": "coffee drinks",
+    "description": "espresso latte cappuccino. barista round.",
+    "category": "Food",
+    "coverEmoji": "☕",
+    "difficulty": "easy",
+    "creator": "luna_p",
+    "questions": [
+      {
+        "id": "cf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG",
+        "answers": [
+          "espresso"
+        ],
+        "hint": "tiny strong shot"
+      },
+      {
+        "id": "cf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/640px-Latte_and_dark_coffee.jpg",
+        "answers": [
+          "latte",
+          "caffe latte"
+        ],
+        "hint": "milky foam art"
+      },
+      {
+        "id": "cf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cappuccino_at_Sightglass_Coffee.jpg/640px-Cappuccino_at_Sightglass_Coffee.jpg",
+        "answers": [
+          "cappuccino"
+        ],
+        "hint": "equal foam milk espresso"
+      },
+      {
+        "id": "cf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Americano.jpg/640px-Americano.jpg",
+        "answers": [
+          "americano"
+        ],
+        "hint": "espresso plus hot water"
+      },
+      {
+        "id": "cf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Matcha_latte.jpg/640px-Matcha_latte.jpg",
+        "answers": [
+          "matcha latte",
+          "matcha"
+        ],
+        "hint": "green tea powder milk"
+      },
+      {
+        "id": "cf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Turkish_coffee.jpg/640px-Turkish_coffee.jpg",
+        "answers": [
+          "turkish coffee"
+        ],
+        "hint": "thick unfiltered cup"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 13091,
+    "createdAt": "2026-05-24T09:45:47.935Z"
+  },
+  {
+    "id": "capitals-americas",
+    "title": "americas capitals",
+    "description": "north and south america. landmark photo → capital city.",
+    "category": "Travel",
+    "coverEmoji": "🗽",
+    "difficulty": "medium",
+    "creator": "atlas",
+    "questions": [
+      {
+        "id": "am1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "washington",
+          "washington dc",
+          "washington d.c."
+        ],
+        "hint": "US capital not NYC"
+      },
+      {
+        "id": "am2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "answers": [
+          "brasilia",
+          "rio de janeiro"
+        ],
+        "hint": "brazil — statue city"
+      },
+      {
+        "id": "am3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angel_de_la_Independencia.jpg/640px-Angel_de_la_Independencia.jpg",
+        "answers": [
+          "mexico city",
+          "ciudad de mexico"
+        ],
+        "hint": "mexico capital angel"
+      },
+      {
+        "id": "am4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Parliament_Hill_Ottawa.jpg/640px-Parliament_Hill_Ottawa.jpg",
+        "answers": [
+          "ottawa"
+        ],
+        "hint": "canada capital"
+      },
+      {
+        "id": "am5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Buenos_Aires_Obelisco.jpg/640px-Buenos_Aires_Obelisco.jpg",
+        "answers": [
+          "buenos aires"
+        ],
+        "hint": "argentina capital obelisk"
+      },
+      {
+        "id": "am6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lima_Plaza_de_Armas.jpg/640px-Lima_Plaza_de_Armas.jpg",
+        "answers": [
+          "lima"
+        ],
+        "hint": "peru capital"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 2999,
+    "createdAt": "2026-05-23T09:45:47.935Z"
+  },
+  {
+    "id": "capitals-africa",
+    "title": "african capitals",
+    "description": "less famous than paris but still guessable from landmarks.",
+    "category": "Travel",
+    "coverEmoji": "🌍",
+    "difficulty": "hard",
+    "creator": "trevor",
+    "questions": [
+      {
+        "id": "af1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cairo_Citadel%2C_Egypt.jpg/640px-Cairo_Citadel%2C_Egypt.jpg",
+        "answers": [
+          "cairo"
+        ],
+        "hint": "egypt pyramids nearby"
+      },
+      {
+        "id": "af2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cape_Town_Table_Mountain.jpg/640px-Cape_Town_Table_Mountain.jpg",
+        "answers": [
+          "cape town",
+          "pretoria",
+          "johannesburg"
+        ],
+        "hint": "south africa — cape town iconic"
+      },
+      {
+        "id": "af3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Marrakech_medina.jpg/640px-Marrakech_medina.jpg",
+        "answers": [
+          "rabat",
+          "marrakech"
+        ],
+        "hint": "morocco — marrakech famous"
+      },
+      {
+        "id": "af4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nairobi_skyline.jpg/640px-Nairobi_skyline.jpg",
+        "answers": [
+          "nairobi"
+        ],
+        "hint": "kenya capital"
+      },
+      {
+        "id": "af5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lagos_skyline.jpg/640px-Lagos_skyline.jpg",
+        "answers": [
+          "abuja",
+          "lagos"
+        ],
+        "hint": "nigeria — lagos largest city"
+      },
+      {
+        "id": "af6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Addis_Ababa_skyline.jpg/640px-Addis_Ababa_skyline.jpg",
+        "answers": [
+          "addis ababa"
+        ],
+        "hint": "ethiopia capital"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 10523,
+    "createdAt": "2026-05-22T09:45:47.935Z"
+  },
+  {
+    "id": "waterfalls-world",
+    "title": "famous waterfalls",
+    "description": "mist and roaring water. where is this?",
+    "category": "Travel",
+    "coverEmoji": "💦",
+    "difficulty": "medium",
+    "creator": "rowan",
+    "questions": [
+      {
+        "id": "wf1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Niagara_Falls_from_Skylon_Tower.jpg/640px-Niagara_Falls_from_Skylon_Tower.jpg",
+        "answers": [
+          "niagara falls",
+          "niagara"
+        ],
+        "hint": "US canada border"
+      },
+      {
+        "id": "wf2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Victoria_Falls.jpg/640px-Victoria_Falls.jpg",
+        "answers": [
+          "victoria falls"
+        ],
+        "hint": "zambia zimbabwe mist"
+      },
+      {
+        "id": "wf3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Iguazu_Falls.jpg/640px-Iguazu_Falls.jpg",
+        "answers": [
+          "iguazu falls",
+          "iguazu"
+        ],
+        "hint": "argentina brazil"
+      },
+      {
+        "id": "wf4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angel_Falls_Venezuela.jpg/640px-Angel_Falls_Venezuela.jpg",
+        "answers": [
+          "angel falls"
+        ],
+        "hint": "venezuela tallest"
+      },
+      {
+        "id": "wf5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gullfoss.jpg/640px-Gullfoss.jpg",
+        "answers": [
+          "gullfoss"
+        ],
+        "hint": "iceland golden falls"
+      },
+      {
+        "id": "wf6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Plitvice_lakes.jpg/640px-Plitvice_lakes.jpg",
+        "answers": [
+          "plitvice",
+          "plitvice lakes"
+        ],
+        "hint": "croatia cascades"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 5443,
+    "createdAt": "2026-05-20T09:45:47.935Z"
+  },
+  {
+    "id": "castles-palaces",
+    "title": "castles & palaces",
+    "description": "fairytale buildings. name the place or country.",
+    "category": "Travel",
+    "coverEmoji": "🏰",
+    "difficulty": "medium",
+    "featured": true,
+    "creator": "hana",
+    "questions": [
+      {
+        "id": "cp1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Neuschwanstein_Castle.jpg/640px-Neuschwanstein_Castle.jpg",
+        "answers": [
+          "neuschwanstein",
+          "neuschwanstein castle"
+        ],
+        "hint": "bavaria disney inspiration"
+      },
+      {
+        "id": "cp2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Windsor_Castle_at_Sunset_-_Nov_2006.jpg/640px-Windsor_Castle_at_Sunset_-_Nov_2006.jpg",
+        "answers": [
+          "windsor castle",
+          "windsor"
+        ],
+        "hint": "uk royal residence"
+      },
+      {
+        "id": "cp3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Versailles_Chateau.jpg/640px-Versailles_Chateau.jpg",
+        "answers": [
+          "versailles",
+          "palace of versailles"
+        ],
+        "hint": "french sun king"
+      },
+      {
+        "id": "cp4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Edinburgh_Castle_scotland.jpg/640px-Edinburgh_Castle_scotland.jpg",
+        "answers": [
+          "edinburgh castle",
+          "edinburgh"
+        ],
+        "hint": "scotland hilltop"
+      },
+      {
+        "id": "cp5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Prague_Castle.jpg/640px-Prague_Castle.jpg",
+        "answers": [
+          "prague castle",
+          "prague"
+        ],
+        "hint": "czech largest ancient"
+      },
+      {
+        "id": "cp6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Alhambra_Granada.jpg/640px-Alhambra_Granada.jpg",
+        "answers": [
+          "alhambra",
+          "granada"
+        ],
+        "hint": "moorish spain"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 11509,
+    "createdAt": "2026-05-19T09:45:47.935Z"
+  },
+  {
+    "id": "world-museums",
+    "title": "famous museums",
+    "description": "building exterior → name the museum or city.",
+    "category": "Art",
+    "coverEmoji": "🏛️",
+    "difficulty": "hard",
+    "creator": "dex",
+    "questions": [
+      {
+        "id": "mu1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Louvre_Museum_Wikimedia_Commons.jpg/640px-Louvre_Museum_Wikimedia_Commons.jpg",
+        "answers": [
+          "louvre",
+          "louvre museum"
+        ],
+        "hint": "paris glass pyramid"
+      },
+      {
+        "id": "mu2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/British_Museum_from_NE_2.jpg/640px-British_Museum_from_NE_2.jpg",
+        "answers": [
+          "british museum",
+          "london"
+        ],
+        "hint": "greek temple facade"
+      },
+      {
+        "id": "mu3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/640px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg",
+        "answers": [
+          "met",
+          "metropolitan museum",
+          "met museum"
+        ],
+        "hint": "nyc steps"
+      },
+      {
+        "id": "mu4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Uffizi_Gallery_Florence.jpg/640px-Uffizi_Gallery_Florence.jpg",
+        "answers": [
+          "uffizi",
+          "uffizi gallery"
+        ],
+        "hint": "florence renaissance"
+      },
+      {
+        "id": "mu5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Rijksmuseum_Amsterdam.jpg/640px-Rijksmuseum_Amsterdam.jpg",
+        "answers": [
+          "rijksmuseum",
+          "amsterdam"
+        ],
+        "hint": "dutch masters home"
+      },
+      {
+        "id": "mu6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Guggenheim_Museum_Bilbao.jpg/640px-Guggenheim_Museum_Bilbao.jpg",
+        "answers": [
+          "guggenheim bilbao",
+          "guggenheim"
+        ],
+        "hint": "frank gehry titanium"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "art"
+    ],
+    "playCount": 5975,
+    "createdAt": "2026-05-17T09:45:47.935Z"
+  },
+  {
+    "id": "sculptures-famous",
+    "title": "famous sculptures",
+    "description": "statues and public art. not cropped to a nostril.",
+    "category": "Art",
+    "coverEmoji": "🗿",
+    "difficulty": "medium",
+    "creator": "hana",
+    "questions": [
+      {
+        "id": "sc1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Michelangelo%27s_David_-_right_view_2.jpg/640px-Michelangelo%27s_David_-_right_view_2.jpg",
+        "answers": [
+          "david",
+          "statue of david",
+          "michelangelo"
+        ],
+        "hint": "florence marble"
+      },
+      {
+        "id": "sc2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "answers": [
+          "statue of liberty",
+          "liberty"
+        ],
+        "hint": "nyc harbor"
+      },
+      {
+        "id": "sc3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "answers": [
+          "christ the redeemer"
+        ],
+        "hint": "rio arms open"
+      },
+      {
+        "id": "sc4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/The_Thinker_by_Rodin.jpg/640px-The_Thinker_by_Rodin.jpg",
+        "answers": [
+          "the thinker",
+          "thinker",
+          "rodin"
+        ],
+        "hint": "chin on fist"
+      },
+      {
+        "id": "sc5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Moai_Easter_Island.jpg/640px-Moai_Easter_Island.jpg",
+        "answers": [
+          "moai",
+          "easter island"
+        ],
+        "hint": "stone heads chile"
+      },
+      {
+        "id": "sc6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Little_Mermaid_Statue_Copenhagen.jpg/640px-Little_Mermaid_Statue_Copenhagen.jpg",
+        "answers": [
+          "little mermaid",
+          "copenhagen"
+        ],
+        "hint": "harbor denmark"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "art"
+    ],
+    "playCount": 5383,
+    "createdAt": "2026-05-16T09:45:47.935Z"
+  },
+  {
+    "id": "middle-east-landmarks",
+    "title": "middle east landmarks",
+    "description": "desert skylines and ancient sites. travel nerd round.",
+    "category": "Travel",
+    "coverEmoji": "🕌",
+    "difficulty": "medium",
+    "creator": "yun",
+    "questions": [
+      {
+        "id": "me1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Petra_Jordan.jpg/640px-Petra_Jordan.jpg",
+        "answers": [
+          "petra"
+        ],
+        "hint": "jordan rose city"
+      },
+      {
+        "id": "me2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Burj_Khalifa.jpg/640px-Burj_Khalifa.jpg",
+        "answers": [
+          "burj khalifa",
+          "dubai"
+        ],
+        "hint": "tallest building"
+      },
+      {
+        "id": "me3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Dome_of_the_Rock.jpg/640px-Dome_of_the_Rock.jpg",
+        "answers": [
+          "dome of the rock",
+          "jerusalem"
+        ],
+        "hint": "golden dome"
+      },
+      {
+        "id": "me4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sheikh_Zayed_Mosque.jpg/640px-Sheikh_Zayed_Mosque.jpg",
+        "answers": [
+          "sheikh zayed mosque",
+          "abu dhabi"
+        ],
+        "hint": "white domes uae"
+      },
+      {
+        "id": "me5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Persepolis_Iran.jpg/640px-Persepolis_Iran.jpg",
+        "answers": [
+          "persepolis"
+        ],
+        "hint": "ancient persia ruins"
+      },
+      {
+        "id": "me6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pyramids_of_Giza.jpg/640px-Pyramids_of_Giza.jpg",
+        "answers": [
+          "pyramids",
+          "giza",
+          "great pyramid"
+        ],
+        "hint": "egypt tombs"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 3567,
+    "createdAt": "2026-05-15T09:45:47.935Z"
+  },
+  {
+    "id": "food-breakfast-world",
+    "title": "breakfast around the world",
+    "description": "morning plates. what meal or dish is this?",
+    "category": "Food",
+    "coverEmoji": "🍳",
+    "difficulty": "easy",
+    "creator": "breadcat",
+    "questions": [
+      {
+        "id": "bk1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Full_English_breakfast.jpg/640px-Full_English_breakfast.jpg",
+        "answers": [
+          "english breakfast",
+          "full english"
+        ],
+        "hint": "beans eggs sausage"
+      },
+      {
+        "id": "bk2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Croissant_and_coffee.jpg/640px-Croissant_and_coffee.jpg",
+        "answers": [
+          "croissant",
+          "continental breakfast"
+        ],
+        "hint": "french pastry coffee"
+      },
+      {
+        "id": "bk3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Congee.jpg/640px-Congee.jpg",
+        "answers": [
+          "congee",
+          "rice porridge"
+        ],
+        "hint": "chinese morning bowl"
+      },
+      {
+        "id": "bk4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Chilaquiles.jpg/640px-Chilaquiles.jpg",
+        "answers": [
+          "chilaquiles"
+        ],
+        "hint": "mexican tortilla chips salsa"
+      },
+      {
+        "id": "bk5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Avocado_toast.jpg/640px-Avocado_toast.jpg",
+        "answers": [
+          "avocado toast"
+        ],
+        "hint": "millennial classic"
+      },
+      {
+        "id": "bk6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Idli_sambar.jpg/640px-Idli_sambar.jpg",
+        "answers": [
+          "idli",
+          "south indian breakfast"
+        ],
+        "hint": "steamed rice cakes"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 3997,
+    "createdAt": "2026-05-14T09:45:47.935Z"
+  },
+  {
+    "id": "ancient-ruins",
+    "title": "ancient ruins",
+    "description": "old stones with tourism boards. name the site.",
+    "category": "Travel",
+    "coverEmoji": "🏺",
+    "difficulty": "medium",
+    "featured": true,
+    "creator": "atlas",
+    "questions": [
+      {
+        "id": "ar1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/640px-Machu_Picchu%2C_Peru.jpg",
+        "answers": [
+          "machu picchu"
+        ],
+        "hint": "peru inca terraces"
+      },
+      {
+        "id": "ar2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angkor_Wat.jpg/640px-Angkor_Wat.jpg",
+        "answers": [
+          "angkor wat",
+          "angkor"
+        ],
+        "hint": "cambodia temple"
+      },
+      {
+        "id": "ar3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Stonehenge_2017.jpg/640px-Stonehenge_2017.jpg",
+        "answers": [
+          "stonehenge"
+        ],
+        "hint": "england stone circle"
+      },
+      {
+        "id": "ar4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "answers": [
+          "colosseum",
+          "coliseum"
+        ],
+        "hint": "rome gladiator arena"
+      },
+      {
+        "id": "ar5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pyramids_of_Giza.jpg/640px-Pyramids_of_Giza.jpg",
+        "answers": [
+          "pyramids",
+          "giza"
+        ],
+        "hint": "egypt triangles"
+      },
+      {
+        "id": "ar6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Petra_Jordan.jpg/640px-Petra_Jordan.jpg",
+        "answers": [
+          "petra"
+        ],
+        "hint": "jordan carved rock"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 8453,
+    "createdAt": "2026-04-14T09:45:47.935Z"
+  },
+  {
+    "id": "vegetables-fresh",
+    "title": "vegetables",
+    "description": "farmers market round. name the vegetable.",
+    "category": "Food",
+    "coverEmoji": "🥕",
+    "difficulty": "easy",
+    "creator": "plantmom",
+    "questions": [
+      {
+        "id": "vg1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Carrots_of_many_colors.jpg/640px-Carrots_of_many_colors.jpg",
+        "answers": [
+          "carrot",
+          "carrots"
+        ],
+        "hint": "orange root"
+      },
+      {
+        "id": "vg2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Broccoli_and_cross_section_edit.jpg/640px-Broccoli_and_cross_section_edit.jpg",
+        "answers": [
+          "broccoli"
+        ],
+        "hint": "green tree florets"
+      },
+      {
+        "id": "vg3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eggplant_display.jpg/640px-Eggplant_display.jpg",
+        "answers": [
+          "eggplant",
+          "aubergine"
+        ],
+        "hint": "purple glossy"
+      },
+      {
+        "id": "vg4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bell_pepper_colors.jpg/640px-Bell_pepper_colors.jpg",
+        "answers": [
+          "bell pepper",
+          "pepper",
+          "capsicum"
+        ],
+        "hint": "colorful hollow"
+      },
+      {
+        "id": "vg5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pumpkins_at_a_market.jpg/640px-Pumpkins_at_a_market.jpg",
+        "answers": [
+          "pumpkin"
+        ],
+        "hint": "halloween squash"
+      },
+      {
+        "id": "vg6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Asparagus_officinalis.jpg/640px-Asparagus_officinalis.jpg",
+        "answers": [
+          "asparagus"
+        ],
+        "hint": "green spears"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 12138,
+    "createdAt": "2026-04-12T09:45:47.935Z"
+  },
+  {
+    "id": "pasta-italian",
+    "title": "pasta shapes",
+    "description": "italian pasta identification. harder than food photos.",
+    "category": "Food",
+    "coverEmoji": "🍝",
+    "difficulty": "medium",
+    "creator": "breadcat",
+    "questions": [
+      {
+        "id": "pa1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Spaghetti_alla_Carbonara.jpg/640px-Spaghetti_alla_Carbonara.jpg",
+        "answers": [
+          "spaghetti"
+        ],
+        "hint": "long thin strands"
+      },
+      {
+        "id": "pa2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fusilli_pasta.jpg/640px-Fusilli_pasta.jpg",
+        "answers": [
+          "fusilli"
+        ],
+        "hint": "corkscrew spiral"
+      },
+      {
+        "id": "pa3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Penne_rigate.jpg/640px-Penne_rigate.jpg",
+        "answers": [
+          "penne"
+        ],
+        "hint": "tube diagonal cut"
+      },
+      {
+        "id": "pa4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Farfalle_pasta.jpg/640px-Farfalle_pasta.jpg",
+        "answers": [
+          "farfalle",
+          "bow tie pasta"
+        ],
+        "hint": "butterfly shape"
+      },
+      {
+        "id": "pa5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lasagna_-_by_Sara_Roston.jpg/640px-Lasagna_-_by_Sara_Roston.jpg",
+        "answers": [
+          "lasagna",
+          "lasagne"
+        ],
+        "hint": "layered sheets"
+      },
+      {
+        "id": "pa6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ravioli.jpg/640px-Ravioli.jpg",
+        "answers": [
+          "ravioli"
+        ],
+        "hint": "stuffed squares"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 2266,
+    "createdAt": "2026-04-11T09:45:47.935Z"
+  },
+  {
+    "id": "europe-food-tour",
+    "title": "european food tour",
+    "description": "one continent many cuisines. name the dish.",
+    "category": "Food",
+    "coverEmoji": "🥖",
+    "difficulty": "easy",
+    "creator": "jules",
+    "questions": [
+      {
+        "id": "ef1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Croissant-Petr_Kratochvil.jpg/640px-Croissant-Petr_Kratochvil.jpg",
+        "answers": [
+          "croissant"
+        ],
+        "hint": "french breakfast"
+      },
+      {
+        "id": "ef2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Wiener_Schnitzel.jpg/640px-Wiener_Schnitzel.jpg",
+        "answers": [
+          "schnitzel",
+          "wiener schnitzel"
+        ],
+        "hint": "austrian breaded cutlet"
+      },
+      {
+        "id": "ef3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pierogi.jpg/640px-Pierogi.jpg",
+        "answers": [
+          "pierogi"
+        ],
+        "hint": "polish dumplings"
+      },
+      {
+        "id": "ef4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Goulash.jpg/640px-Goulash.jpg",
+        "answers": [
+          "goulash"
+        ],
+        "hint": "hungarian stew"
+      },
+      {
+        "id": "ef5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fish_and_chips.jpg/640px-Fish_and_chips.jpg",
+        "answers": [
+          "fish and chips"
+        ],
+        "hint": "british takeaway"
+      },
+      {
+        "id": "ef6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Greek_salad.jpg/640px-Greek_salad.jpg",
+        "answers": [
+          "greek salad"
+        ],
+        "hint": "feta olives cucumber"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "food"
+    ],
+    "playCount": 368,
+    "createdAt": "2026-04-09T09:45:47.935Z"
+  },
+  {
+    "id": "world-train-stations",
+    "title": "famous train stations",
+    "description": "grand halls and clocks. name the station or city.",
+    "category": "Travel",
+    "coverEmoji": "🚂",
+    "difficulty": "hard",
+    "creator": "zero",
+    "questions": [
+      {
+        "id": "ts1",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Grand_Central_Terminal_Main_Concourse.jpg/640px-Grand_Central_Terminal_Main_Concourse.jpg",
+        "answers": [
+          "grand central",
+          "grand central terminal",
+          "new york"
+        ],
+        "hint": "nyc starry ceiling"
+      },
+      {
+        "id": "ts2",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/St_Pancras_Renaissance_London_Hotel.jpg/640px-St_Pancras_Renaissance_London_Hotel.jpg",
+        "answers": [
+          "st pancras",
+          "kings cross"
+        ],
+        "hint": "london gothic red"
+      },
+      {
+        "id": "ts3",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gare_du_Nord_Paris.jpg/640px-Gare_du_Nord_Paris.jpg",
+        "answers": [
+          "gare du nord",
+          "paris"
+        ],
+        "hint": "french rail hub"
+      },
+      {
+        "id": "ts4",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kuala_Lumpur_Railway_Station.jpg/640px-Kuala_Lumpur_Railway_Station.jpg",
+        "answers": [
+          "kuala lumpur railway station"
+        ],
+        "hint": "malaysia moorish"
+      },
+      {
+        "id": "ts5",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Atocha_Station_Madrid.jpg/640px-Atocha_Station_Madrid.jpg",
+        "answers": [
+          "atocha",
+          "madrid"
+        ],
+        "hint": "spain tropical garden inside"
+      },
+      {
+        "id": "ts6",
+        "type": "image",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kanazawa_Station.jpg/640px-Kanazawa_Station.jpg",
+        "answers": [
+          "kanazawa station",
+          "kanazawa"
+        ],
+        "hint": "japan drum gate"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 704,
+    "createdAt": "2026-04-08T09:45:47.935Z"
+  },
+  {
+    "id": "landmarks-crop-fair",
+    "title": "landmarks (fair crop)",
+    "description": "zoomed in but still recognizable. machugi crop done right.",
+    "category": "Travel",
+    "coverEmoji": "🔎",
+    "difficulty": "hard",
+    "creator": "nightowl",
+    "questions": [
+      {
+        "id": "lc1",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "cropX": 50,
+        "cropY": 30,
+        "cropSize": 35,
+        "answers": [
+          "eiffel tower",
+          "eiffel"
+        ],
+        "hint": "iron lattice"
+      },
+      {
+        "id": "lc2",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "cropX": 48,
+        "cropY": 42,
+        "cropSize": 34,
+        "answers": [
+          "sydney opera house",
+          "opera house"
+        ],
+        "hint": "white shells"
+      },
+      {
+        "id": "lc3",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "cropX": 50,
+        "cropY": 45,
+        "cropSize": 32,
+        "answers": [
+          "taj mahal"
+        ],
+        "hint": "marble dome"
+      },
+      {
+        "id": "lc4",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "cropX": 50,
+        "cropY": 50,
+        "cropSize": 35,
+        "answers": [
+          "colosseum",
+          "coliseum"
+        ],
+        "hint": "stone arches"
+      },
+      {
+        "id": "lc5",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "cropX": 50,
+        "cropY": 25,
+        "cropSize": 32,
+        "answers": [
+          "christ the redeemer"
+        ],
+        "hint": "open arms"
+      },
+      {
+        "id": "lc6",
+        "type": "crop",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+        "cropX": 45,
+        "cropY": 48,
+        "cropSize": 30,
+        "answers": [
+          "great wall",
+          "great wall of china"
+        ],
+        "hint": "stone steps"
+      }
+    ],
+    "language": "en",
+    "tags": [
+      "travel"
+    ],
+    "playCount": 930,
+    "createdAt": "2026-04-06T09:45:47.935Z"
+  }
+]
