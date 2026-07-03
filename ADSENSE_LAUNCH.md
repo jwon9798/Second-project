@@ -1,6 +1,6 @@
 # AdSense 출시 체크리스트 (pub-4911271163170466)
 
-코드에 이미 반영된 항목입니다. Vercel 재배포 후 아래만 확인하세요.
+코드에 이미 반영된 항목입니다. Cloudflare 배포 후 아래만 확인하세요.
 
 ## 자동 적용됨
 
@@ -19,7 +19,7 @@
 ## AdSense에서 할 일
 
 1. [adsense.google.com](https://adsense.google.com) 로그인
-2. **사이트** → 사이트 URL 추가 (Vercel 도메인)
+2. **사이트** → 사이트 URL 추가 (`https://clipquiz.jwonlabs.com`)
 3. 배포 후 확인:
    - `https://YOUR-DOMAIN/ads.txt`
    - `https://YOUR-DOMAIN/api/health` → `adsense.publisherId: pub-4911271163170466`
@@ -27,7 +27,7 @@
 
 ## 승인 후 (선택)
 
-AdSense → 광고 → 광고 단위 기준 → 디스플레이 광고 생성 후 Vercel 환경 변수:
+AdSense → 광고 → 광고 단위 기준 → 디스플레이 광고 생성 후 GitHub Secrets 또는 로컬 env:
 
 ```
 NEXT_PUBLIC_ADSENSE_SLOT_HOME=숫자

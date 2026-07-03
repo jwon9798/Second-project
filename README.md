@@ -9,14 +9,15 @@ npm install
 npm run dev
 ```
 
-## Deploy on Vercel (important)
+## Deploy on Cloudflare Workers
 
-1. Connect repo: https://github.com/jwon9798/Second-project
-2. **Root Directory** must be empty / `.` (NOT `clipquiz`)
-3. Framework: **Next.js** (auto-detected)
-4. Click **Redeploy** after pulling latest `main`
+**Production URL:** https://clipquiz.jwonlabs.com
 
-Your site URL should show ClipQuiz at `/en`.
+See **[DEPLOY.md](./DEPLOY.md)** for Cloudflare Workers setup (htv.jwonlabs.com과 동일 패턴).
+
+`main` push → GitHub Actions → Worker `clipquiz` 자동 배포.
+
+Quick check: `GET /api/health` · `GET /ads.txt` · `/en`
 
 ## Supabase (persistent UGC storage)
 

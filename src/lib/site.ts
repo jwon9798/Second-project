@@ -12,10 +12,7 @@ export function getSiteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   }
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  return "https://second-project-two-khaki.vercel.app";
+  return "https://clipquiz.jwonlabs.com";
 }
 
 export function isAdSenseEnabled(): boolean {
