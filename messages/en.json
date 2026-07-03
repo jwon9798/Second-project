@@ -37,7 +37,7 @@
     },
     "audio": {
       "title": "Audio Clip",
-      "desc": "Editorial audio quizzes coming soon. Play our image and crop sets today."
+      "desc": "Hear a few seconds from a YouTube clip and name the song or sound."
     }
   },
   "quiz": {
@@ -128,8 +128,15 @@
     "imageUrl": "Image URL",
     "imageUrlPlaceholder": "https://example.com/image.jpg",
     "youtubeUrl": "YouTube URL or Video ID",
-    "youtubePlaceholder": "https://youtube.com/watch?v=...",
+    "youtubePlaceholder": "https://youtube.com/watch?v=...&t=90",
+    "youtubeTimeHint": "Tip: add &t=1m30s to the URL and we fill the start time automatically.",
+    "audioType": "audio",
     "audioStart": "Start at (seconds)",
+    "audioStartMinutes": "Start (min)",
+    "audioStartSeconds": "Start (sec)",
+    "audioDuration": "Clip length (sec)",
+    "audioClipPreview": "Plays from {start} for {duration}s — like a chorus snippet",
+    "audioHelp": "Paste a YouTube link, set the start time (e.g. chorus at 1:30), and how many seconds to play. Only audio is heard — no video or title.",
     "answers": "Accepted Answers",
     "answersPlaceholder": "One per line (e.g. naruto)",
     "answersHelp": "Up to {max} accepted answers, one per line (spaces ignored when checking)",
@@ -150,11 +157,11 @@
     "termsAgreeSuffix": ". I represent that I own or have permission to use all images and content in this quiz.",
     "termsRequired": "You must agree to the Terms and Community Guidelines before publishing.",
     "copyrightNotice": "Only upload images you own or have permission to use. Do not use copyrighted music, movie posters, or celebrity photos without authorization.",
-    "policyBanner": "Quizzes that pass automated checks publish immediately. Music, movies, anime, and meme categories are blocked due to copyright risk.",
+    "policyBanner": "Quizzes that pass automated checks publish immediately. Movies, anime, and meme image quizzes are blocked. Music audio via YouTube is welcome.",
     "policyGuidelines": "Guidelines",
     "policyCopyright": "Copyright",
     "policyModeration": "Moderation Policy",
-    "categoryRestricted": "This category is not available for user submissions. Choose Geography, Nature, Food, Travel, Sports, or Gaming.",
+    "categoryRestricted": "This category is not available for user submissions. Try Music (audio), Geography, Nature, Food, Travel, or Gaming.",
     "submitError": "Could not submit your quiz. Please check your content and try again, or email jwon9798@gmail.com.",
     "success": "Quiz published!",
     "successDesc": "Your quiz is live now. Share the link with friends — it appears on the homepage automatically.",

@@ -3,6 +3,7 @@
  */
 
 import { UGC_BLOCKED_CATEGORIES } from "./ugc-constants";
+import { isValidYoutubeId } from "./youtube-utils";
 
 const BLOCKED_CATEGORIES = new Set<string>(UGC_BLOCKED_CATEGORIES);
 
@@ -40,6 +41,8 @@ export interface UgcQuizInput {
     type: string;
     imageUrl?: string;
     youtubeId?: string;
+    audioStart?: number;
+    audioDuration?: number;
     cropSize?: number;
     answers: string[];
     hint?: string;
@@ -68,6 +71,21 @@ function collectText(quiz: UgcQuizInput): string {
     ]),
   ];
   return parts.join(" ");
+}
+
+/** Song/artist names in audio answers are allowed — scan metadata only. */
+function collectTrademarkText(quiz: UgcQuizInput): string {
+  const parts = [quiz.title, quiz.description, quiz.creator];
+  for (const q of quiz.questions) {
+    if (q.type !== "audio") {
+      parts.push(...(q.answers ?? []), q.hint ?? "");
+    }
+  }
+  return parts.join(" ");
+}
+
+function isAudioQuiz(quiz: UgcQuizInput): boolean {
+  return quiz.questions.some((q) => q.type === "audio");
 }
 
 function isValidImageUrl(url: string): boolean {
@@ -100,7 +118,7 @@ export function validateUgcQuiz(
       ok: false,
       code: "CATEGORY_BLOCKED",
       message:
-        "This category is restricted for user submissions due to copyright risk. Try Geography, Nature, Food, Travel, or Science.",
+        "This category is restricted for user submissions due to copyright risk. Try Music (audio), Geography, Nature, Food, Travel, or Gaming.",
     };
   }
 
@@ -114,7 +132,10 @@ export function validateUgcQuiz(
     };
   }
 
-  const trademark = scanText(blob, TRADEMARK_HEAVY_PATTERNS);
+  const trademark = scanText(
+    isAudioQuiz(quiz) ? collectTrademarkText(quiz) : collectText(quiz),
+    TRADEMARK_HEAVY_PATTERNS,
+  );
   if (trademark) {
     return {
       ok: false,
@@ -126,11 +147,31 @@ export function validateUgcQuiz(
 
   for (const [i, q] of quiz.questions.entries()) {
     if (q.type === "audio") {
-      return {
-        ok: false,
-        code: "AUDIO_DISABLED",
-        message: "Audio questions are not accepted until copyright review is complete.",
-      };
+      const id = q.youtubeId?.trim() ?? "";
+      if (!isValidYoutubeId(id)) {
+        return {
+          ok: false,
+          code: "INVALID_YOUTUBE",
+          message: `Question ${i + 1}: paste a valid YouTube URL or 11-character video ID.`,
+        };
+      }
+      const start = q.audioStart ?? 0;
+      const duration = q.audioDuration ?? 8;
+      if (start < 0) {
+        return {
+          ok: false,
+          code: "INVALID_AUDIO_START",
+          message: `Question ${i + 1}: start time cannot be negative.`,
+        };
+      }
+      if (duration < 3 || duration > 30) {
+        return {
+          ok: false,
+          code: "INVALID_AUDIO_DURATION",
+          message: `Question ${i + 1}: clip length must be between 3 and 30 seconds.`,
+        };
+      }
+      continue;
     }
 
     if (q.type === "image" || q.type === "crop") {
@@ -187,11 +228,13 @@ export function validationMessageForLocale(
   const ko: Record<string, string> = {
     TERMS_REQUIRED: "이용약관 및 커뮤니티 가이드라인에 동의해야 합니다.",
     CATEGORY_BLOCKED:
-      "저작권 리스크로 해당 카테고리는 사용자 제출이 제한됩니다. 지리, 자연, 음식, 여행, 과학 카테고리를 이용해 주세요.",
+      "저작권 리스크로 해당 카테고리는 사용자 제출이 제한됩니다. 음악(오디오), 지리, 자연, 음식, 여행, 게임 카테고리를 이용해 주세요.",
     PROHIBITED_CONTENT: "허용되지 않는 콘텐츠가 포함되어 있습니다.",
     TRADEMARK_RISK:
       "브랜드·연예인·저작권 프랜차이즈 관련 퀴즈는 사용자 제출을 받지 않습니다.",
-    AUDIO_DISABLED: "오디오 문제는 저작권 검토 완료 전까지 제출할 수 없습니다.",
+    INVALID_YOUTUBE: "유효한 YouTube URL 또는 영상 ID를 입력해 주세요.",
+    INVALID_AUDIO_START: "시작 시점은 0 이상이어야 합니다.",
+    INVALID_AUDIO_DURATION: "재생 길이는 3~30초 사이여야 합니다.",
     MISSING_IMAGE: "이미지 URL이 필요합니다.",
     INVALID_IMAGE_URL:
       "https:// 직접 이미지 링크만 사용할 수 있습니다. SNS 핫링크는 불가합니다.",
