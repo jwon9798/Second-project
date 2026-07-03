@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
-import { saveCustomQuiz } from "@/lib/quizzes-client";
+import { Link, useRouter } from "@/i18n/navigation";
+import { UGC_BLOCKED_CATEGORIES } from "@/lib/ugc-constants";
 import { MAX_ANSWERS_PER_QUESTION } from "@/lib/quiz-utils";
-import type { Difficulty, QuestionType, Quiz } from "@/lib/types";
+import type { Difficulty, QuestionType } from "@/lib/types";
 import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
 
@@ -49,7 +49,7 @@ export default function CreateQuizForm() {
 
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [category, setCategory] = useState("gaming");
+  const [category, setCategory] = useState("geography");
   const [difficulty, setDifficulty] = useState<Difficulty>("medium");
   const [creator, setCreator] = useState("");
   const [coverEmoji, setCoverEmoji] = useState("🎯");
@@ -68,6 +68,12 @@ export default function CreateQuizForm() {
     "music", "gaming", "anime", "movies", "sports",
     "food", "geography", "travel", "variety", "nature", "memes", "other",
   ] as const;
+
+  const blockedSet = new Set<string>(UGC_BLOCKED_CATEGORIES);
+
+  const allowedCategories = categories.filter((c) => !blockedSet.has(c));
+
+  const categoryRestricted = blockedSet.has(category);
 
   function parseAnswers(raw: string): string[] {
     return raw.split("\n").map((a) => a.trim()).filter(Boolean).slice(0, MAX_ANSWERS_PER_QUESTION);
@@ -127,6 +133,11 @@ export default function CreateQuizForm() {
       return;
     }
 
+    if (categoryRestricted) {
+      setError(t("categoryRestricted"));
+      return;
+    }
+
     setPublishing(true);
     const payload = {
       title,
@@ -137,6 +148,7 @@ export default function CreateQuizForm() {
       creator,
       coverEmoji,
       difficulty,
+      termsAgreed: true as const,
       questions: questions.map((q, i) => ({
         ...toApiQuestion(q, i),
         id: `q-${i}-${Date.now()}`,
@@ -155,20 +167,16 @@ export default function CreateQuizForm() {
         setSuccess({ id: quiz.id });
         return;
       }
+
+      const data = (await res.json().catch(() => null)) as
+        | { error?: string }
+        | null;
+      setError(data?.error ?? t("submitError"));
     } catch {
-      // API unavailable — save locally
+      setError(t("submitError"));
     } finally {
       setPublishing(false);
     }
-
-    const localQuiz: Quiz = {
-      ...payload,
-      id: `local-${Date.now()}`,
-      playCount: 0,
-      createdAt: new Date().toISOString(),
-    };
-    saveCustomQuiz(localQuiz);
-    setSuccess({ id: localQuiz.id });
   }
 
   if (success) {
@@ -208,6 +216,21 @@ export default function CreateQuizForm() {
         <h1 className="font-display text-3xl font-bold mb-2">{t("title")}</h1>
         <p className="text-white/50">{t("subtitle")}</p>
         <p className="mt-2 text-xs text-[#00f5d4]">{t("loginNote")}</p>
+      </div>
+
+      <div className="mb-6 rounded-xl border border-[#00f5d4]/20 bg-[#00f5d4]/5 p-4 text-sm text-white/70 leading-relaxed">
+        {t("policyBanner")}{" "}
+        <Link href="/guidelines" className="text-[#00f5d4] hover:underline">
+          {t("policyGuidelines")}
+        </Link>
+        {" · "}
+        <Link href="/copyright" className="text-[#00f5d4] hover:underline">
+          {t("policyCopyright")}
+        </Link>
+        {" · "}
+        <Link href="/moderation" className="text-[#00f5d4] hover:underline">
+          {t("policyModeration")}
+        </Link>
       </div>
 
       <div className="glass-card rounded-2xl p-6 mb-6 space-y-4">
@@ -253,7 +276,7 @@ export default function CreateQuizForm() {
               onChange={(e) => setCategory(e.target.value)}
               className="input-field w-full rounded-xl px-4 py-3 text-white"
             >
-              {categories.map((c) => (
+              {allowedCategories.map((c) => (
                 <option key={c} value={c} className="bg-[#12131f]">
                   {t(`categories.${c}`)}
                 </option>
@@ -468,7 +491,22 @@ export default function CreateQuizForm() {
           className="mt-1 rounded border-white/20"
           required
         />
-        <span>{t("termsAgree")}</span>
+        <span>
+          {t("termsAgreePrefix")}{" "}
+          <Link href="/guidelines" className="text-[#00f5d4] hover:underline">
+            {t("termsAgreeGuidelines")}
+          </Link>
+          {", "}
+          <Link href="/copyright" className="text-[#00f5d4] hover:underline">
+            {t("termsAgreeCopyright")}
+          </Link>
+          {", "}
+          {t("termsAgreeAnd")}{" "}
+          <Link href="/terms" className="text-[#00f5d4] hover:underline">
+            {t("termsAgreeTerms")}
+          </Link>
+          {t("termsAgreeSuffix")}
+        </span>
       </label>
 
       <button

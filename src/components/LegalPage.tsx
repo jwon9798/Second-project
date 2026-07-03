@@ -8,6 +8,7 @@ export type LegalPageKey =
   | "contact"
   | "faq"
   | "guidelines"
+  | "moderation"
   | "copyright"
   | "guide";
 
@@ -50,6 +51,7 @@ export default function LegalPage({ page }: LegalPageProps) {
         <Link href="/contact">{footer("contact")}</Link>
         <Link href="/faq">{footer("faq")}</Link>
         <Link href="/guidelines">{footer("guidelines")}</Link>
+        <Link href="/moderation">{footer("moderation")}</Link>
         <Link href="/copyright">{footer("copyright")}</Link>
         <Link href="/guide">{footer("guide")}</Link>
         <Link href="/">{footer("home")}</Link>
