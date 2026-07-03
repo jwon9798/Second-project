@@ -10,6 +10,15 @@ const rawSeedQuizzes: Quiz[] = [
   ...(seedQuizzesSafe as Quiz[]),
 ];
 
-export const allSeedQuizzes: Quiz[] = rawSeedQuizzes.filter(
-  (quiz) => !isBlockedSeedQuiz(quiz.id),
-);
+function modestPlayCount(id: string): number {
+  let hash = 0;
+  for (const char of id) hash = (hash * 31 + char.charCodeAt(0)) % 1000;
+  return 120 + hash;
+}
+
+export const allSeedQuizzes: Quiz[] = rawSeedQuizzes
+  .filter((quiz) => !isBlockedSeedQuiz(quiz.id))
+  .map((quiz) => ({
+    ...quiz,
+    playCount: modestPlayCount(quiz.id),
+  }));

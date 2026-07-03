@@ -101,7 +101,7 @@
     "difficulty": "medium",
     "questions": [
       { "id": "rv1", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Amazon_river_near_Manaus.jpg/640px-Amazon_river_near_Manaus.jpg", "answers": ["amazon", "amazon river"], "hint": "Largest river by volume" },
-      { "id": "rv2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponile_Rialto_from_the_Grand_Canal.jpg/640px-Camponile_Rialto_from_the_Grand_Canal.jpg", "answers": ["nile", "river nile"], "hint": "Flows through Egypt" },
+      { "id": "rv2", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nile_River_and_delta_from_orbit.jpg/640px-Nile_River_and_delta_from_orbit.jpg", "answers": ["nile", "river nile"], "hint": "Flows through Egypt" },
       { "id": "rv3", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yangtze_River_%28Chang_Jiang%29_01.jpg/640px-Yangtze_River_%28Chang_Jiang%29_01.jpg", "answers": ["yangtze", "chang jiang", "yangtze river"], "hint": "Longest river in Asia" },
       { "id": "rv4", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mississippi_River_from_Eads_Bridge.jpg/640px-Mississippi_River_from_Eads_Bridge.jpg", "answers": ["mississippi", "mississippi river"], "hint": "Major US waterway" },
       { "id": "rv5", "type": "image", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Danube_in_Budapest.jpg/640px-Danube_in_Budapest.jpg", "answers": ["danube", "danube river"], "hint": "Flows through Vienna and Budapest" },

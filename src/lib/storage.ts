@@ -27,12 +27,16 @@ export function getStorageBackend(): "supabase" | "file" {
   return isSupabaseConfigured() ? "supabase" : "file";
 }
 
+function isPublicCustomQuiz(quiz: Quiz): boolean {
+  return quiz.featured === true;
+}
+
 export async function getQuizzes(): Promise<Quiz[]> {
   const custom = isSupabaseConfigured()
     ? await supabaseStorage.getCustomQuizzesFromSupabase()
     : await fileStorage.getCustomQuizzesFromFile();
 
-  return mergeQuizzes(custom);
+  return mergeQuizzes(custom.filter(isPublicCustomQuiz));
 }
 
 export async function getQuizById(id: string): Promise<Quiz | null> {
@@ -40,18 +44,21 @@ export async function getQuizById(id: string): Promise<Quiz | null> {
   if (seedQuiz) return seedQuiz;
 
   if (isSupabaseConfigured()) {
-    return supabaseStorage.getCustomQuizByIdFromSupabase(id);
+    const quiz = await supabaseStorage.getCustomQuizByIdFromSupabase(id);
+    return quiz && isPublicCustomQuiz(quiz) ? quiz : null;
   }
 
   const custom = await fileStorage.getCustomQuizzesFromFile();
-  return custom.find((q) => q.id === id) ?? null;
+  const quiz = custom.find((q) => q.id === id);
+  return quiz && isPublicCustomQuiz(quiz) ? quiz : null;
 }
 
 export async function saveQuiz(quiz: Omit<Quiz, "id" | "playCount" | "createdAt">) {
+  const pendingQuiz = { ...quiz, featured: false };
   if (isSupabaseConfigured()) {
-    return supabaseStorage.saveQuizToSupabase(quiz);
+    return supabaseStorage.saveQuizToSupabase(pendingQuiz);
   }
-  return fileStorage.saveQuizToFile(quiz);
+  return fileStorage.saveQuizToFile(pendingQuiz);
 }
 
 export async function incrementPlayCount(quizId: string) {

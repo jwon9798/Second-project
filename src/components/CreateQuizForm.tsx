@@ -180,7 +180,7 @@ export default function CreateQuizForm() {
         <div className="flex flex-col gap-3">
           <button
             type="button"
-            onClick={() => router.push(`/quiz/${success.id}`)}
+            onClick={() => router.push("/")}
             className="btn-primary rounded-xl py-4 font-bold text-white"
           >
             {t("viewQuiz")}
@@ -311,8 +311,8 @@ export default function CreateQuizForm() {
             </div>
 
             <div className="flex gap-2 mb-4">
-              {(["image", "crop", "audio"] as QuestionType[]).map((type) => {
-                const Icon = type === "image" ? Image : type === "crop" ? Crop : Music;
+              {(["image", "crop"] as QuestionType[]).map((type) => {
+                const Icon = type === "image" ? Image : Crop;
                 return (
                   <button
                     key={type}
@@ -330,6 +330,8 @@ export default function CreateQuizForm() {
                 );
               })}
             </div>
+
+            <p className="mb-4 text-xs text-white/35">{t("audioDisabled")}</p>
 
             {q.type !== "audio" && (
               <div className="mb-3">

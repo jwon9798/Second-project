@@ -29,6 +29,12 @@ export const BLOCKED_SEED_QUIZ_IDS = new Set([
   "sports-logos-crop",
   "sneaker-brands-crop",
   "variety-mixed-mega",
+  "famous-paintings",
+  "world-currencies",
+  "landmarks-crop",
+  "animal-closeup-crop",
+  "seven-wonders-world",
+  "world-capitals-landmarks",
 ]);
 
 export function isBlockedSeedQuiz(id: string): boolean {

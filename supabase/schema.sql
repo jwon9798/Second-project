@@ -54,3 +54,21 @@ create policy "Anyone can read quiz results"
 create policy "Anyone can read seed play counts"
   on public.seed_play_counts for select
   using (true);
+
+-- Content reports (copyright / abuse)
+create table if not exists public.quiz_reports (
+  id uuid primary key default gen_random_uuid(),
+  quiz_id text not null,
+  quiz_title text,
+  reason text not null,
+  details text,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists idx_quiz_reports_created_at on public.quiz_reports (created_at desc);
+
+alter table public.quiz_reports enable row level security;
+
+create policy "Anyone can read quiz reports"
+  on public.quiz_reports for select
+  using (true);

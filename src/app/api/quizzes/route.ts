@@ -74,6 +74,13 @@ export async function POST(request: Request) {
     const body = await request.json();
     const parsed = quizSchema.parse(body);
 
+    if (parsed.questions.some((q) => q.type === "audio")) {
+      return NextResponse.json(
+        { error: "Audio quizzes are temporarily disabled for content review." },
+        { status: 400 },
+      );
+    }
+
     const questions = parsed.questions.map((q, i) => ({
       ...q,
       id: `q-${i}-${Date.now()}`,

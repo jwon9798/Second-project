@@ -66,11 +66,9 @@ export default function AdSlot({ label, className = "" }: AdSlotProps) {
         />
       ) : (
         <div
-          className="flex min-h-[90px] items-center justify-center rounded-xl border border-dashed border-white/10 bg-white/[0.02] px-4"
+          className="min-h-[90px] rounded-xl border border-white/5 bg-white/[0.02]"
           aria-hidden
-        >
-          <span className="text-center text-xs text-white/25">{t("placeholder")}</span>
-        </div>
+        />
       )}
     </div>
   );

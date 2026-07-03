@@ -1,29 +1,37 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Script from "next/script";
 import { ADSENSE_CLIENT_ID } from "@/lib/site";
-import { getConsent } from "@/lib/consent";
+import { syncConsentOnLoad } from "@/lib/consent";
 
 export default function ConsentAwareAdSense() {
-  const [loadAds, setLoadAds] = useState(false);
-
   useEffect(() => {
-    const check = () => setLoadAds(getConsent() === "accepted");
-    check();
-    window.addEventListener("clipquiz-consent-change", check);
-    return () => window.removeEventListener("clipquiz-consent-change", check);
+    syncConsentOnLoad();
   }, []);
 
-  if (!loadAds) return null;
-
   return (
-    <Script
-      id="adsense-loader"
-      async
-      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
-      crossOrigin="anonymous"
-      strategy="afterInteractive"
-    />
+    <>
+      <Script id="consent-default" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+            wait_for_update: 500
+          });
+        `}
+      </Script>
+      <Script
+        id="adsense-loader"
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
+    </>
   );
 }
