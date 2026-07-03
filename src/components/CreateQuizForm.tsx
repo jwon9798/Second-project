@@ -15,6 +15,8 @@ import {
 import type { Difficulty, QuestionType } from "@/lib/types";
 import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
+import CropPicker from "./create/CropPicker";
+import ImageSourceField from "./create/ImageSourceField";
 
 interface DraftQuestion {
   type: QuestionType;
@@ -160,6 +162,17 @@ export default function CreateQuizForm() {
       return;
     }
 
+    for (const [i, q] of questions.entries()) {
+      if ((q.type === "image" || q.type === "crop") && !q.imageUrl.trim()) {
+        setError(t("imageRequired", { n: i + 1 }));
+        return;
+      }
+      if (q.type === "audio" && extractYoutubeId(q.youtubeId).length !== 11) {
+        setError(t("youtubeRequired", { n: i + 1 }));
+        return;
+      }
+    }
+
     setPublishing(true);
     const payload = {
       title,
@@ -233,7 +246,7 @@ export default function CreateQuizForm() {
   }
 
   return (
-    <form onSubmit={handlePublish} className="mx-auto max-w-2xl px-4 py-8">
+    <form onSubmit={handlePublish} className="mx-auto max-w-3xl px-4 py-8">
       <div className="mb-8 text-center">
         <h1 className="font-display text-3xl font-bold mb-2">{t("title")}</h1>
         <p className="text-white/50">{t("subtitle")}</p>
@@ -355,40 +368,52 @@ export default function CreateQuizForm() {
               </div>
             </div>
 
-            <div className="flex gap-2 mb-4">
-              {(["image", "crop", "audio"] as QuestionType[]).map((type) => {
-                const Icon = type === "image" ? Image : type === "crop" ? Crop : Music;
-                return (
-                  <button
-                    key={type}
-                    type="button"
-                    onClick={() => updateQuestion(index, { type })}
-                    className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-medium transition-colors ${
-                      q.type === type
-                        ? "bg-[#ff3366]/20 text-[#ff6b9d] border border-[#ff3366]/30"
-                        : "bg-white/5 text-white/50 hover:text-white"
-                    }`}
-                  >
-                    <Icon className="h-3.5 w-3.5" />
-                    {type === "audio" ? t("audioType") : type}
-                  </button>
-                );
-              })}
+            <div className="grid gap-2 sm:grid-cols-3 mb-4">
+              {(
+                [
+                  { type: "image" as const, icon: Image, label: t("typeImage"), desc: t("typeImageDesc") },
+                  { type: "crop" as const, icon: Crop, label: t("typeCrop"), desc: t("typeCropDesc") },
+                  { type: "audio" as const, icon: Music, label: t("typeAudio"), desc: t("typeAudioDesc") },
+                ]
+              ).map(({ type, icon: Icon, label, desc }) => (
+                <button
+                  key={type}
+                  type="button"
+                  onClick={() => updateQuestion(index, { type })}
+                  className={`rounded-xl border p-3 text-left transition-all ${
+                    q.type === type
+                      ? "border-[#ff3366]/50 bg-[#ff3366]/10"
+                      : "border-white/10 bg-white/[0.03] hover:border-white/20"
+                  }`}
+                >
+                  <Icon className={`mb-2 h-5 w-5 ${q.type === type ? "text-[#ff6b9d]" : "text-white/40"}`} />
+                  <p className="text-sm font-semibold text-white/90">{label}</p>
+                  <p className="mt-0.5 text-[10px] leading-snug text-white/40">{desc}</p>
+                </button>
+              ))}
             </div>
 
             {q.type === "audio" && (
               <p className="mb-4 text-xs text-white/40 leading-relaxed">{t("audioHelp")}</p>
             )}
 
-            {q.type !== "audio" && (
-              <div className="mb-3">
-                <label className="block text-xs text-white/40 mb-1">{t("imageUrl")}</label>
-                <input
-                  required
-                  value={q.imageUrl}
-                  onChange={(e) => updateQuestion(index, { imageUrl: e.target.value })}
-                  placeholder={t("imageUrlPlaceholder")}
-                  className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
+            {(q.type === "image" || q.type === "crop") && (
+              <div className="mb-4">
+                <ImageSourceField
+                  imageUrl={q.imageUrl}
+                  onChange={(url) => updateQuestion(index, { imageUrl: url })}
+                />
+              </div>
+            )}
+
+            {q.type === "crop" && q.imageUrl && (
+              <div className="mb-4">
+                <CropPicker
+                  imageUrl={q.imageUrl}
+                  cropX={q.cropX}
+                  cropY={q.cropY}
+                  cropSize={q.cropSize}
+                  onChange={(patch) => updateQuestion(index, patch)}
                 />
               </div>
             )}
@@ -464,29 +489,6 @@ export default function CreateQuizForm() {
                     duration: q.audioDuration,
                   })}
                 </p>
-              </div>
-            )}
-
-            {q.type === "crop" && (
-              <div className="grid gap-3 sm:grid-cols-3 mb-3">
-                <div>
-                  <label className="block text-xs text-white/40 mb-1">{t("cropPosition")} X</label>
-                  <input type="range" min={0} max={100} value={q.cropX}
-                    onChange={(e) => updateQuestion(index, { cropX: Number(e.target.value) })}
-                    className="w-full" />
-                </div>
-                <div>
-                  <label className="block text-xs text-white/40 mb-1">{t("cropPosition")} Y</label>
-                  <input type="range" min={0} max={100} value={q.cropY}
-                    onChange={(e) => updateQuestion(index, { cropY: Number(e.target.value) })}
-                    className="w-full" />
-                </div>
-                <div>
-                  <label className="block text-xs text-white/40 mb-1">{t("cropSize")}</label>
-                  <input type="range" min={10} max={60} value={q.cropSize}
-                    onChange={(e) => updateQuestion(index, { cropSize: Number(e.target.value) })}
-                    className="w-full" />
-                </div>
               </div>
             )}
 
