@@ -5,7 +5,11 @@
     "description": "Can you name these countries from their flags? From easy to tricky.",
     "category": "Geography",
     "language": "en",
-    "tags": ["flags", "geography", "trivia"],
+    "tags": [
+      "flags",
+      "geography",
+      "trivia"
+    ],
     "creator": "ClipQuiz",
     "playCount": 48200,
     "createdAt": "2025-11-01T00:00:00.000Z",
@@ -17,56 +21,81 @@
         "id": "wf1",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/jp.png",
-        "answers": ["japan", "日本"],
+        "answers": [
+          "japan",
+          "日本"
+        ],
         "hint": "Land of the rising sun"
       },
       {
         "id": "wf2",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/br.png",
-        "answers": ["brazil", "brasil"],
+        "answers": [
+          "brazil",
+          "brasil"
+        ],
         "hint": "Samba and football"
       },
       {
         "id": "wf3",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/kr.png",
-        "answers": ["south korea", "korea", "republic of korea", "대한민국", "한국"],
+        "answers": [
+          "south korea",
+          "korea",
+          "republic of korea",
+          "대한민국",
+          "한국"
+        ],
         "hint": "K-pop homeland"
       },
       {
         "id": "wf4",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/ca.png",
-        "answers": ["canada"],
+        "answers": [
+          "canada"
+        ],
         "hint": "Maple leaf nation"
       },
       {
         "id": "wf5",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/de.png",
-        "answers": ["germany", "deutschland"],
+        "answers": [
+          "germany",
+          "deutschland"
+        ],
         "hint": "Oktoberfest country"
       },
       {
         "id": "wf6",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/mx.png",
-        "answers": ["mexico", "méxico"],
+        "answers": [
+          "mexico",
+          "méxico"
+        ],
         "hint": "Tacos and mariachi"
       },
       {
         "id": "wf7",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/au.png",
-        "answers": ["australia"],
+        "answers": [
+          "australia"
+        ],
         "hint": "Kangaroos down under"
       },
       {
         "id": "wf8",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/in.png",
-        "answers": ["india", "bharat"],
+        "answers": [
+          "india",
+          "bharat"
+        ],
         "hint": "Bollywood & curry"
       }
     ]
@@ -77,7 +106,11 @@
     "description": "We cropped famous landmarks to tiny slices. Can you still recognize them?",
     "category": "Travel",
     "language": "en",
-    "tags": ["landmarks", "travel", "crop"],
+    "tags": [
+      "landmarks",
+      "travel",
+      "crop"
+    ],
     "creator": "ClipQuiz",
     "playCount": 31500,
     "createdAt": "2025-10-15T00:00:00.000Z",
@@ -92,7 +125,11 @@
         "cropX": 48,
         "cropY": 35,
         "cropSize": 18,
-        "answers": ["eiffel tower", "eiffel", "paris"],
+        "answers": [
+          "eiffel tower",
+          "eiffel",
+          "paris"
+        ],
         "hint": "City of love"
       },
       {
@@ -102,7 +139,10 @@
         "cropX": 50,
         "cropY": 30,
         "cropSize": 20,
-        "answers": ["taj mahal", "taj"],
+        "answers": [
+          "taj mahal",
+          "taj"
+        ],
         "hint": "India's white marble wonder"
       },
       {
@@ -112,7 +152,11 @@
         "cropX": 55,
         "cropY": 40,
         "cropSize": 22,
-        "answers": ["burj khalifa", "burj", "dubai"],
+        "answers": [
+          "burj khalifa",
+          "burj",
+          "dubai"
+        ],
         "hint": "World's tallest building"
       },
       {
@@ -122,7 +166,11 @@
         "cropX": 50,
         "cropY": 55,
         "cropSize": 25,
-        "answers": ["colosseum", "coliseum", "rome"],
+        "answers": [
+          "colosseum",
+          "coliseum",
+          "rome"
+        ],
         "hint": "Ancient Roman arena"
       },
       {
@@ -132,7 +180,11 @@
         "cropX": 45,
         "cropY": 50,
         "cropSize": 20,
-        "answers": ["statue of liberty", "liberty", "new york"],
+        "answers": [
+          "statue of liberty",
+          "liberty",
+          "new york"
+        ],
         "hint": "Gift from France"
       },
       {
@@ -142,7 +194,11 @@
         "cropX": 50,
         "cropY": 45,
         "cropSize": 30,
-        "answers": ["matterhorn", "swiss alps", "alps"],
+        "answers": [
+          "matterhorn",
+          "swiss alps",
+          "alps"
+        ],
         "hint": "Iconic Swiss peak"
       }
     ]
@@ -153,7 +209,12 @@
     "description": "Hear a few seconds. Name the song. Streamers love this one.",
     "category": "Music",
     "language": "en",
-    "tags": ["music", "pop", "audio", "2010s"],
+    "tags": [
+      "music",
+      "pop",
+      "audio",
+      "2010s"
+    ],
     "creator": "ClipQuiz",
     "playCount": 67800,
     "createdAt": "2025-09-20T00:00:00.000Z",
@@ -167,7 +228,10 @@
         "youtubeId": "kJQP7kiw5Fk",
         "audioStart": 40,
         "audioDuration": 8,
-        "answers": ["despacito", "despacito luis fonsi"],
+        "answers": [
+          "despacito",
+          "despacito luis fonsi"
+        ],
         "hint": "2017 global phenomenon"
       },
       {
@@ -176,7 +240,10 @@
         "youtubeId": "RgKAFK5djSk",
         "audioStart": 55,
         "audioDuration": 8,
-        "answers": ["see you again", "see you again wiz khalifa"],
+        "answers": [
+          "see you again",
+          "see you again wiz khalifa"
+        ],
         "hint": "Furious 7 tribute"
       },
       {
@@ -185,7 +252,10 @@
         "youtubeId": "hT_nvWreIhg",
         "audioStart": 30,
         "audioDuration": 8,
-        "answers": ["counting stars", "onerepublic counting stars"],
+        "answers": [
+          "counting stars",
+          "onerepublic counting stars"
+        ],
         "hint": "OneRepublic hit"
       },
       {
@@ -194,7 +264,10 @@
         "youtubeId": "YQHsXMglC9A",
         "audioStart": 45,
         "audioDuration": 8,
-        "answers": ["hello", "adele hello"],
+        "answers": [
+          "hello",
+          "adele hello"
+        ],
         "hint": "Adele comeback"
       },
       {
@@ -203,7 +276,10 @@
         "youtubeId": "OPf0YbXqDm0",
         "audioStart": 50,
         "audioDuration": 8,
-        "answers": ["uptown funk", "uptown funk bruno mars"],
+        "answers": [
+          "uptown funk",
+          "uptown funk bruno mars"
+        ],
         "hint": "Bruno Mars & Mark Ronson"
       },
       {
@@ -212,7 +288,10 @@
         "youtubeId": "09R8_2nJtjg",
         "audioStart": 35,
         "audioDuration": 8,
-        "answers": ["sugar", "maroon 5 sugar"],
+        "answers": [
+          "sugar",
+          "maroon 5 sugar"
+        ],
         "hint": "Maroon 5 wedding crash"
       }
     ]
@@ -223,7 +302,11 @@
     "description": "Extreme close-ups of legendary anime characters. Only true fans survive.",
     "category": "Anime",
     "language": "en",
-    "tags": ["anime", "crop", "otaku"],
+    "tags": [
+      "anime",
+      "crop",
+      "otaku"
+    ],
     "creator": "ClipQuiz",
     "playCount": 52300,
     "createdAt": "2025-08-10T00:00:00.000Z",
@@ -238,7 +321,10 @@
         "cropX": 50,
         "cropY": 15,
         "cropSize": 22,
-        "answers": ["naruto", "naruto uzumaki"],
+        "answers": [
+          "naruto",
+          "naruto uzumaki"
+        ],
         "hint": "Believe it!"
       },
       {
@@ -248,7 +334,10 @@
         "cropX": 50,
         "cropY": 20,
         "cropSize": 20,
-        "answers": ["goku", "son goku"],
+        "answers": [
+          "goku",
+          "son goku"
+        ],
         "hint": "Dragon Ball hero"
       },
       {
@@ -258,7 +347,11 @@
         "cropX": 48,
         "cropY": 25,
         "cropSize": 24,
-        "answers": ["luffy", "monkey d luffy", "monkey d. luffy"],
+        "answers": [
+          "luffy",
+          "monkey d luffy",
+          "monkey d. luffy"
+        ],
         "hint": "Future Pirate King"
       },
       {
@@ -268,7 +361,11 @@
         "cropX": 50,
         "cropY": 18,
         "cropSize": 20,
-        "answers": ["lelouch", "lelouch vi britannia", "lelouch lamperouge"],
+        "answers": [
+          "lelouch",
+          "lelouch vi britannia",
+          "lelouch lamperouge"
+        ],
         "hint": "All hail the emperor"
       },
       {
@@ -278,7 +375,11 @@
         "cropX": 50,
         "cropY": 22,
         "cropSize": 22,
-        "answers": ["eren", "eren yeager", "eren jaeger"],
+        "answers": [
+          "eren",
+          "eren yeager",
+          "eren jaeger"
+        ],
         "hint": "Attack on Titan"
       }
     ]
@@ -289,7 +390,11 @@
     "description": "Legendary video game characters — do you know them all?",
     "category": "Gaming",
     "language": "en",
-    "tags": ["gaming", "characters", "nostalgia"],
+    "tags": [
+      "gaming",
+      "characters",
+      "nostalgia"
+    ],
     "creator": "ClipQuiz",
     "playCount": 44100,
     "createdAt": "2025-07-01T00:00:00.000Z",
@@ -301,42 +406,60 @@
         "id": "gm1",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Mario_by_Shigehiko_Nakajo.png",
-        "answers": ["mario", "super mario"],
+        "answers": [
+          "mario",
+          "super mario"
+        ],
         "hint": "It's-a him!"
       },
       {
         "id": "gm2",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Sonic_the_Hedgehog.png",
-        "answers": ["sonic", "sonic the hedgehog"],
+        "answers": [
+          "sonic",
+          "sonic the hedgehog"
+        ],
         "hint": "Gotta go fast"
       },
       {
         "id": "gm3",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Master_Chief_Halo_3.png",
-        "answers": ["master chief", "chief", "john 117"],
+        "answers": [
+          "master chief",
+          "chief",
+          "john 117"
+        ],
         "hint": "Halo protagonist"
       },
       {
         "id": "gm4",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lara_Croft_in_Tomb_Raider_XIV.png",
-        "answers": ["lara croft", "lara"],
+        "answers": [
+          "lara croft",
+          "lara"
+        ],
         "hint": "Tomb Raider"
       },
       {
         "id": "gm5",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Pikachu.png",
-        "answers": ["pikachu"],
+        "answers": [
+          "pikachu"
+        ],
         "hint": "Electric mouse"
       },
       {
         "id": "gm6",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Steve_%28Minecraft%29.png",
-        "answers": ["steve", "minecraft steve"],
+        "answers": [
+          "steve",
+          "minecraft steve"
+        ],
         "hint": "Blocky builder"
       }
     ]
@@ -347,7 +470,11 @@
     "description": "Zoomed-in fast food logos. Hungry for a perfect score?",
     "category": "Food",
     "language": "en",
-    "tags": ["food", "logos", "crop"],
+    "tags": [
+      "food",
+      "logos",
+      "crop"
+    ],
     "creator": "ClipQuiz",
     "playCount": 28900,
     "createdAt": "2025-06-15T00:00:00.000Z",
@@ -358,11 +485,15 @@
       {
         "id": "ff1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1280px-McDonald%27s_Golden_Arches.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 35,
-        "answers": ["mcdonalds", "mcdonald's", "mcd"],
+        "answers": [
+          "mcdonalds",
+          "mcdonald's",
+          "mcd"
+        ],
         "hint": "Golden arches"
       },
       {
@@ -372,7 +503,10 @@
         "cropX": 30,
         "cropY": 50,
         "cropSize": 30,
-        "answers": ["kfc", "kentucky fried chicken"],
+        "answers": [
+          "kfc",
+          "kentucky fried chicken"
+        ],
         "hint": "Colonel's chicken"
       },
       {
@@ -382,7 +516,11 @@
         "cropX": 40,
         "cropY": 55,
         "cropSize": 25,
-        "answers": ["coca cola", "coca-cola", "coke"],
+        "answers": [
+          "coca cola",
+          "coca-cola",
+          "coke"
+        ],
         "hint": "Classic soda"
       },
       {
@@ -392,17 +530,23 @@
         "cropX": 50,
         "cropY": 45,
         "cropSize": 28,
-        "answers": ["starbucks"],
+        "answers": [
+          "starbucks"
+        ],
         "hint": "Green siren coffee"
       },
       {
         "id": "ff5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Domino%27s_pizza_logo.svg/800px-Domino%27s_pizza_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/1280px-Domino%27s_pizza_logo.svg.png",
         "cropX": 35,
         "cropY": 50,
         "cropSize": 30,
-        "answers": ["dominos", "domino's", "dominos pizza"],
+        "answers": [
+          "dominos",
+          "domino's",
+          "dominos pizza"
+        ],
         "hint": "30 minutes or less"
       }
     ]
@@ -413,7 +557,13 @@
     "description": "Image, crop, and audio — all in one set. Like Machugi.io's classic mixed quizzes.",
     "category": "Variety",
     "language": "en",
-    "tags": ["mixed", "variety", "image", "crop", "audio"],
+    "tags": [
+      "mixed",
+      "variety",
+      "image",
+      "crop",
+      "audio"
+    ],
     "creator": "ClipQuiz",
     "playCount": 89200,
     "createdAt": "2025-12-01T00:00:00.000Z",
@@ -425,17 +575,23 @@
         "id": "mv1",
         "type": "image",
         "imageUrl": "https://flagcdn.com/w640/fr.png",
-        "answers": ["france", "french", "프랑스"],
+        "answers": [
+          "france",
+          "french",
+          "프랑스"
+        ],
         "hint": "Eiffel Tower's home"
       },
       {
         "id": "mv2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/800px-Netflix_2015_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1280px-Netflix_2015_logo.svg.png",
         "cropX": 15,
         "cropY": 50,
         "cropSize": 22,
-        "answers": ["netflix"],
+        "answers": [
+          "netflix"
+        ],
         "hint": "Streaming giant red N"
       },
       {
@@ -444,14 +600,21 @@
         "youtubeId": "gdZLi9oWNZg",
         "audioStart": 65,
         "audioDuration": 8,
-        "answers": ["dynamite", "bts dynamite", "다이너마이트"],
+        "answers": [
+          "dynamite",
+          "bts dynamite",
+          "다이너마이트"
+        ],
         "hint": "2020 global BTS hit"
       },
       {
         "id": "mv4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tesla_logo.png/800px-Tesla_logo.png",
-        "answers": ["tesla", "테슬라"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tesla_logo.png/960px-Tesla_logo.png",
+        "answers": [
+          "tesla",
+          "테슬라"
+        ],
         "hint": "Elon Musk's car brand"
       },
       {
@@ -461,7 +624,11 @@
         "cropX": 50,
         "cropY": 55,
         "cropSize": 28,
-        "answers": ["pokemon", "pokémon", "포켓몬"],
+        "answers": [
+          "pokemon",
+          "pokémon",
+          "포켓몬"
+        ],
         "hint": "Gotta catch 'em all"
       },
       {
@@ -470,24 +637,36 @@
         "youtubeId": "9bZkp7q19f0",
         "audioStart": 45,
         "audioDuration": 8,
-        "answers": ["gangnam style", "강남스타일", "gangnamstyle"],
+        "answers": [
+          "gangnam style",
+          "강남스타일",
+          "gangnamstyle"
+        ],
         "hint": "2012 viral K-pop dance"
       },
       {
         "id": "mv7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png",
-        "answers": ["united states", "usa", "america", "미국"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+        "answers": [
+          "united states",
+          "usa",
+          "america",
+          "미국"
+        ],
         "hint": "Stars and stripes"
       },
       {
         "id": "mv8",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png",
         "cropX": 25,
         "cropY": 50,
         "cropSize": 20,
-        "answers": ["google", "구글"],
+        "answers": [
+          "google",
+          "구글"
+        ],
         "hint": "Search engine rainbow letters"
       },
       {
@@ -496,14 +675,21 @@
         "youtubeId": "L0MK7qz13bU",
         "audioStart": 55,
         "audioDuration": 8,
-        "answers": ["let it go", "렛잇고", "frozen let it go"],
+        "answers": [
+          "let it go",
+          "렛잇고",
+          "frozen let it go"
+        ],
         "hint": "Frozen power ballad"
       },
       {
         "id": "mv10",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Apple_logo_black.svg/800px-Apple_logo_black.svg.png",
-        "answers": ["apple", "애플"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png",
+        "answers": [
+          "apple",
+          "애플"
+        ],
         "hint": "iPhone maker"
       }
     ]
@@ -514,7 +700,12 @@
     "description": "Hear a few seconds of iconic K-pop. Name the song — the Machugi.io streamer favorite.",
     "category": "Music",
     "language": "ko",
-    "tags": ["kpop", "music", "audio", "korea"],
+    "tags": [
+      "kpop",
+      "music",
+      "audio",
+      "korea"
+    ],
     "creator": "ClipQuiz",
     "playCount": 95600,
     "createdAt": "2025-11-20T00:00:00.000Z",
@@ -528,7 +719,11 @@
         "youtubeId": "gdZLi9oWNZg",
         "audioStart": 65,
         "audioDuration": 8,
-        "answers": ["dynamite", "다이너마이트", "bts dynamite"],
+        "answers": [
+          "dynamite",
+          "다이너마이트",
+          "bts dynamite"
+        ],
         "hint": "BTS 2020"
       },
       {
@@ -537,7 +732,10 @@
         "youtubeId": "9bZkp7q19f0",
         "audioStart": 45,
         "audioDuration": 8,
-        "answers": ["gangnam style", "강남스타일"],
+        "answers": [
+          "gangnam style",
+          "강남스타일"
+        ],
         "hint": "PSY 2012"
       },
       {
@@ -546,7 +744,11 @@
         "youtubeId": "gQlMMD8auMs",
         "audioStart": 50,
         "audioDuration": 8,
-        "answers": ["pink venom", "핑크베놈", "blackpink pink venom"],
+        "answers": [
+          "pink venom",
+          "핑크베놈",
+          "blackpink pink venom"
+        ],
         "hint": "BLACKPINK 2022"
       },
       {
@@ -555,7 +757,11 @@
         "youtubeId": "pBuZEGYXA6E",
         "audioStart": 40,
         "audioDuration": 8,
-        "answers": ["hip", "힙", "mamamoo hip"],
+        "answers": [
+          "hip",
+          "힙",
+          "mamamoo hip"
+        ],
         "hint": "MAMAMOO"
       },
       {
@@ -564,7 +770,11 @@
         "youtubeId": "3OnnDqH6Wj8",
         "audioStart": 55,
         "audioDuration": 8,
-        "answers": ["super shy", "수퍼샤이", "newjeans super shy"],
+        "answers": [
+          "super shy",
+          "수퍼샤이",
+          "newjeans super shy"
+        ],
         "hint": "NewJeans 2023"
       },
       {
@@ -573,7 +783,11 @@
         "youtubeId": "IHNzOHi8sJs",
         "audioStart": 45,
         "audioDuration": 8,
-        "answers": ["butter", "버터", "bts butter"],
+        "answers": [
+          "butter",
+          "버터",
+          "bts butter"
+        ],
         "hint": "BTS 2021 summer"
       },
       {
@@ -582,7 +796,11 @@
         "youtubeId": "ioNng23DkIM",
         "audioStart": 60,
         "audioDuration": 8,
-        "answers": ["how you like that", "하우유라이크댓", "blackpink how you like that"],
+        "answers": [
+          "how you like that",
+          "하우유라이크댓",
+          "blackpink how you like that"
+        ],
         "hint": "BLACKPINK 2020"
       }
     ]
@@ -593,7 +811,12 @@
     "description": "One of Machugi.io's most requested themes — guess the Disney song from a short clip.",
     "category": "Movies",
     "language": "en",
-    "tags": ["disney", "music", "audio", "movies"],
+    "tags": [
+      "disney",
+      "music",
+      "audio",
+      "movies"
+    ],
     "creator": "ClipQuiz",
     "playCount": 73400,
     "createdAt": "2025-10-25T00:00:00.000Z",
@@ -607,7 +830,10 @@
         "youtubeId": "L0MK7qz13bU",
         "audioStart": 55,
         "audioDuration": 8,
-        "answers": ["let it go", "렛잇고"],
+        "answers": [
+          "let it go",
+          "렛잇고"
+        ],
         "hint": "Frozen"
       },
       {
@@ -616,7 +842,11 @@
         "youtubeId": "GibiNy4d4gc",
         "audioStart": 80,
         "audioDuration": 8,
-        "answers": ["circle of life", "서클오브라이프", "lion king circle of life"],
+        "answers": [
+          "circle of life",
+          "서클오브라이프",
+          "lion king circle of life"
+        ],
         "hint": "The Lion King opening"
       },
       {
@@ -625,7 +855,11 @@
         "youtubeId": "GC_mV1UpjXA",
         "audioStart": 30,
         "audioDuration": 8,
-        "answers": ["under the sea", "언더더씨", "little mermaid under the sea"],
+        "answers": [
+          "under the sea",
+          "언더더씨",
+          "little mermaid under the sea"
+        ],
         "hint": "The Little Mermaid"
       },
       {
@@ -634,7 +868,10 @@
         "youtubeId": "wTjiZDSSbVI",
         "audioStart": 40,
         "audioDuration": 8,
-        "answers": ["hakuna matata", "하쿠나마타타"],
+        "answers": [
+          "hakuna matata",
+          "하쿠나마타타"
+        ],
         "hint": "No worries for the rest of your days"
       },
       {
@@ -643,7 +880,11 @@
         "youtubeId": "ejtQZbNOc6s",
         "audioStart": 35,
         "audioDuration": 8,
-        "answers": ["a whole new world", "어홀뉴월드", "aladdin a whole new world"],
+        "answers": [
+          "a whole new world",
+          "어홀뉴월드",
+          "aladdin a whole new world"
+        ],
         "hint": "Aladdin duet"
       },
       {
@@ -652,7 +893,11 @@
         "youtubeId": "yUJQaA2fhSg",
         "audioStart": 50,
         "audioDuration": 8,
-        "answers": ["you'll be in my heart", "타잔", "tarzan you'll be in my heart"],
+        "answers": [
+          "you'll be in my heart",
+          "타잔",
+          "tarzan you'll be in my heart"
+        ],
         "hint": "Phil Collins, Tarzan"
       }
     ]
@@ -663,7 +908,11 @@
     "description": "Full image — name the movie. Machugi '일반' style for cinema fans.",
     "category": "Movies",
     "language": "en",
-    "tags": ["movies", "cinema", "image"],
+    "tags": [
+      "movies",
+      "cinema",
+      "image"
+    ],
     "creator": "ClipQuiz",
     "playCount": 41200,
     "createdAt": "2025-09-05T00:00:00.000Z",
@@ -675,42 +924,66 @@
         "id": "mp1",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Titanic_2.jpg",
-        "answers": ["titanic", "타이타닉"],
+        "answers": [
+          "titanic",
+          "타이타닉"
+        ],
         "hint": "Jack and Rose on a ship"
       },
       {
         "id": "mp2",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Star_Wars_The_Force_Awakens.jpg",
-        "answers": ["star wars", "the force awakens", "스타워즈", "포스 어웨이크닝"],
+        "answers": [
+          "star wars",
+          "the force awakens",
+          "스타워즈",
+          "포스 어웨이크닝"
+        ],
         "hint": "Episode VII"
       },
       {
         "id": "mp3",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
-        "answers": ["avengers infinity war", "어벤져스 인피니티 워", "infinity war"],
+        "answers": [
+          "avengers infinity war",
+          "어벤져스 인피니티 워",
+          "infinity war"
+        ],
         "hint": "Thanos snap"
       },
       {
         "id": "mp4",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/Parasite_%282019_film%29.png",
-        "answers": ["parasite", "기생충", "gisaengchung"],
+        "answers": [
+          "parasite",
+          "기생충",
+          "gisaengchung"
+        ],
         "hint": "Bong Joon-ho Oscar winner"
       },
       {
         "id": "mp5",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Spirited_Away_Japanese_poster.png",
-        "answers": ["spirited away", "센과 치히로의 행방불명", "sen to chihiro"],
+        "answers": [
+          "spirited away",
+          "센과 치히로의 행방불명",
+          "sen to chihiro"
+        ],
         "hint": "Studio Ghibli bathhouse"
       },
       {
         "id": "mp6",
         "type": "image",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29.jpg",
-        "answers": ["lord of the rings", "fellowship of the ring", "반지의 제왕"],
+        "answers": [
+          "lord of the rings",
+          "fellowship of the ring",
+          "반지의 제왕"
+        ],
         "hint": "One ring to rule them all"
       }
     ]
@@ -721,7 +994,11 @@
     "description": "A tiny slice of a wild animal — guess the species. Machugi '일부 보기' at its finest.",
     "category": "Nature",
     "language": "en",
-    "tags": ["animals", "nature", "crop"],
+    "tags": [
+      "animals",
+      "nature",
+      "crop"
+    ],
     "creator": "ClipQuiz",
     "playCount": 36800,
     "createdAt": "2025-08-20T00:00:00.000Z",
@@ -736,7 +1013,10 @@
         "cropX": 50,
         "cropY": 35,
         "cropSize": 18,
-        "answers": ["lion", "사자"],
+        "answers": [
+          "lion",
+          "사자"
+        ],
         "hint": "King of the jungle"
       },
       {
@@ -746,7 +1026,12 @@
         "cropX": 48,
         "cropY": 40,
         "cropSize": 20,
-        "answers": ["panda", "giant panda", "판다", "자이언트판다"],
+        "answers": [
+          "panda",
+          "giant panda",
+          "판다",
+          "자이언트판다"
+        ],
         "hint": "Bamboo lover from China"
       },
       {
@@ -756,7 +1041,11 @@
         "cropX": 52,
         "cropY": 30,
         "cropSize": 22,
-        "answers": ["pug", "dog", "퍼그"],
+        "answers": [
+          "pug",
+          "dog",
+          "퍼그"
+        ],
         "hint": "Wrinkly face dog breed"
       },
       {
@@ -766,7 +1055,10 @@
         "cropX": 50,
         "cropY": 45,
         "cropSize": 25,
-        "answers": ["chameleon", "카멜레온"],
+        "answers": [
+          "chameleon",
+          "카멜레온"
+        ],
         "hint": "Color-changing reptile"
       },
       {
@@ -776,7 +1068,12 @@
         "cropX": 45,
         "cropY": 38,
         "cropSize": 20,
-        "answers": ["turtle", "sea turtle", "거북이", "바다거북"],
+        "answers": [
+          "turtle",
+          "sea turtle",
+          "거북이",
+          "바다거북"
+        ],
         "hint": "Slow swimmer with a shell"
       },
       {
@@ -786,7 +1083,10 @@
         "cropX": 50,
         "cropY": 42,
         "cropSize": 18,
-        "answers": ["flamingo", "플라밍고"],
+        "answers": [
+          "flamingo",
+          "플라밍고"
+        ],
         "hint": "Pink wading bird"
       }
     ]
@@ -797,7 +1097,11 @@
     "description": "See the dish, name it. Popular Machugi.io category for Korean food lovers.",
     "category": "Food",
     "language": "ko",
-    "tags": ["korean", "food", "image"],
+    "tags": [
+      "korean",
+      "food",
+      "image"
+    ],
     "creator": "ClipQuiz",
     "playCount": 55100,
     "createdAt": "2025-07-15T00:00:00.000Z",
@@ -808,43 +1112,67 @@
       {
         "id": "kf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dduk-bokki.jpg/800px-Dduk-bokki.jpg",
-        "answers": ["tteokbokki", "떡볶이", "ddukbokki", "topokki"],
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dduk-bokki.jpg?width=800",
+        "answers": [
+          "tteokbokki",
+          "떡볶이",
+          "ddukbokki",
+          "topokki"
+        ],
         "hint": "Spicy rice cakes"
       },
       {
         "id": "kf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kimchi.jpg/800px-Kimchi.jpg",
-        "answers": ["kimchi", "김치"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kimchi.jpg/960px-Kimchi.jpg",
+        "answers": [
+          "kimchi",
+          "김치"
+        ],
         "hint": "Fermented cabbage staple"
       },
       {
         "id": "kf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bibimbap.jpg/800px-Bibimbap.jpg",
-        "answers": ["bibimbap", "비빔밥"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bibimbap_with_side_dishes.jpg",
+        "answers": [
+          "bibimbap",
+          "비빔밥"
+        ],
         "hint": "Mixed rice bowl"
       },
       {
         "id": "kf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_BBQ-Galbi-02.jpg/800px-Korean_BBQ-Galbi-02.jpg",
-        "answers": ["galbi", "갈비", "korean bbq", "kalbi"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Korean_barbecue-Galbi-02.jpg",
+        "answers": [
+          "galbi",
+          "갈비",
+          "korean bbq",
+          "kalbi"
+        ],
         "hint": "Grilled short ribs"
       },
       {
         "id": "kf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hotteok.jpg/800px-Hotteok.jpg",
-        "answers": ["hotteok", "호떡"],
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotteok_(%ED%98%B8%EB%96%A1).jpg?width=800",
+        "answers": [
+          "hotteok",
+          "호떡"
+        ],
         "hint": "Sweet filled pancake"
       },
       {
         "id": "kf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Korean_fried_chicken.jpg/800px-Korean_fried_chicken.jpg",
-        "answers": ["fried chicken", "치킨", "korean fried chicken", "yangnyeom chicken"],
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean-style_chicken.jpg?width=800",
+        "answers": [
+          "fried chicken",
+          "치킨",
+          "korean fried chicken",
+          "yangnyeom chicken"
+        ],
         "hint": "Friday night delivery classic"
       }
     ]
@@ -855,7 +1183,11 @@
     "description": "Zoomed-in team and league logos. Can you name them from a sliver?",
     "category": "Sports",
     "language": "en",
-    "tags": ["sports", "logos", "crop"],
+    "tags": [
+      "sports",
+      "logos",
+      "crop"
+    ],
     "creator": "ClipQuiz",
     "playCount": 29700,
     "createdAt": "2025-06-25T00:00:00.000Z",
@@ -870,7 +1202,10 @@
         "cropX": 50,
         "cropY": 45,
         "cropSize": 30,
-        "answers": ["nba", "national basketball association"],
+        "answers": [
+          "nba",
+          "national basketball association"
+        ],
         "hint": "US pro basketball league"
       },
       {
@@ -880,7 +1215,11 @@
         "cropX": 50,
         "cropY": 50,
         "cropSize": 35,
-        "answers": ["barcelona", "fc barcelona", "바르셀로나"],
+        "answers": [
+          "barcelona",
+          "fc barcelona",
+          "바르셀로나"
+        ],
         "hint": "Camp Nou club"
       },
       {
@@ -890,17 +1229,27 @@
         "cropX": 50,
         "cropY": 55,
         "cropSize": 32,
-        "answers": ["manchester united", "man united", "맨유", "man utd"],
+        "answers": [
+          "manchester united",
+          "man united",
+          "맨유",
+          "man utd"
+        ],
         "hint": "Red Devils"
       },
       {
         "id": "sp4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Olympic_flag.svg/800px-Olympic_flag.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/1280px-Olympic_flag.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 25,
-        "answers": ["olympics", "olympic", "올림픽", "olympic rings"],
+        "answers": [
+          "olympics",
+          "olympic",
+          "올림픽",
+          "olympic rings"
+        ],
         "hint": "Five interlocking rings"
       },
       {
@@ -910,7 +1259,11 @@
         "cropX": 50,
         "cropY": 40,
         "cropSize": 28,
-        "answers": ["marseille", "olympique marseille", "마르세유"],
+        "answers": [
+          "marseille",
+          "olympique marseille",
+          "마르세유"
+        ],
         "hint": "French Ligue 1 club"
       }
     ]
@@ -921,7 +1274,12 @@
     "description": "Famous city landmarks — type the capital city. Classic geography Machugi style.",
     "category": "Geography",
     "language": "en",
-    "tags": ["geography", "capitals", "travel", "image"],
+    "tags": [
+      "geography",
+      "capitals",
+      "travel",
+      "image"
+    ],
     "creator": "ClipQuiz",
     "playCount": 38400,
     "createdAt": "2025-05-10T00:00:00.000Z",
@@ -933,42 +1291,63 @@
         "id": "wc1",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-        "answers": ["london", "런던"],
+        "answers": [
+          "london",
+          "런던"
+        ],
         "hint": "Big Ben country"
       },
       {
         "id": "wc2",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
-        "answers": ["tokyo", "도쿄", "東京"],
+        "answers": [
+          "tokyo",
+          "도쿄",
+          "東京"
+        ],
         "hint": "Shibuya crossing city"
       },
       {
         "id": "wc3",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
-        "answers": ["paris", "파리"],
+        "answers": [
+          "paris",
+          "파리"
+        ],
         "hint": "Eiffel Tower city"
       },
       {
         "id": "wc4",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
-        "answers": ["rome", "로마", "roma"],
+        "answers": [
+          "rome",
+          "로마",
+          "roma"
+        ],
         "hint": "Colosseum city"
       },
       {
         "id": "wc5",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?w=800&q=80",
-        "answers": ["seoul", "서울"],
+        "answers": [
+          "seoul",
+          "서울"
+        ],
         "hint": "Gyeongbokgung palace city"
       },
       {
         "id": "wc6",
         "type": "image",
         "imageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80",
-        "answers": ["new york", "뉴욕", "nyc"],
+        "answers": [
+          "new york",
+          "뉴욕",
+          "nyc"
+        ],
         "hint": "Statue of Liberty city"
       }
     ]

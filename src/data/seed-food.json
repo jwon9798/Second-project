@@ -12,7 +12,7 @@
       {
         "id": "kf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dduk-bokki.jpg/640px-Dduk-bokki.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Korean.snacks-Tteokbokki-08.jpg/960px-Korean.snacks-Tteokbokki-08.jpg",
         "answers": [
           "tteokbokki",
           "떡볶이",
@@ -23,7 +23,7 @@
       {
         "id": "kf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kimchi.jpg/640px-Kimchi.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kimchi.jpg/960px-Kimchi.jpg",
         "answers": [
           "kimchi",
           "김치"
@@ -33,7 +33,7 @@
       {
         "id": "kf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bibimbap.jpg/640px-Bibimbap.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bibimbap_with_side_dishes.jpg",
         "answers": [
           "bibimbap",
           "비빔밥"
@@ -43,7 +43,7 @@
       {
         "id": "kf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hotteok.jpg/640px-Hotteok.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Korean_snack-Hotteok-01.jpg/960px-Korean_snack-Hotteok-01.jpg",
         "answers": [
           "hotteok",
           "호떡"
@@ -53,7 +53,7 @@
       {
         "id": "kf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Korean_fried_chicken.jpg/640px-Korean_fried_chicken.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Korean_fried_chicken_240206.jpg/960px-Korean_fried_chicken_240206.jpg",
         "answers": [
           "korean fried chicken",
           "fried chicken",
@@ -64,7 +64,7 @@
       {
         "id": "kf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_BBQ-Galbi-02.jpg/640px-Korean_BBQ-Galbi-02.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Korean_barbecue-Galbi-02.jpg",
         "answers": [
           "galbi",
           "갈비",
@@ -92,7 +92,7 @@
       {
         "id": "jf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/960px-Sushi_platter.jpg",
         "answers": [
           "sushi"
         ],
@@ -101,7 +101,7 @@
       {
         "id": "jf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ramen_-_Danbo.jpg/640px-Ramen_-_Danbo.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kyoto_Engine_Ramen.jpg/960px-Kyoto_Engine_Ramen.jpg",
         "answers": [
           "ramen"
         ],
@@ -110,7 +110,7 @@
       {
         "id": "jf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Takoyaki.jpg/640px-Takoyaki.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Takoyaki.jpg/960px-Takoyaki.jpg",
         "answers": [
           "takoyaki"
         ],
@@ -119,7 +119,7 @@
       {
         "id": "jf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tempura_prawns.jpg/640px-Tempura_prawns.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Prawn-tempura-box.jpg/960px-Prawn-tempura-box.jpg",
         "answers": [
           "tempura"
         ],
@@ -128,7 +128,7 @@
       {
         "id": "jf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Matcha_latte.jpg/640px-Matcha_latte.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Matcha_latte.jpg/960px-Matcha_latte.jpg",
         "answers": [
           "matcha",
           "green tea"
@@ -138,7 +138,7 @@
       {
         "id": "jf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Onigiri_002.jpg/640px-Onigiri_002.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Onigiri_1.jpg/960px-Onigiri_1.jpg",
         "answers": [
           "onigiri",
           "rice ball"
@@ -166,7 +166,7 @@
       {
         "id": "wf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/960px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
         "answers": [
           "pizza",
           "pizza margherita"
@@ -176,7 +176,7 @@
       {
         "id": "wf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tacos_de_carne_deshebrada.jpg/640px-Tacos_de_carne_deshebrada.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/960px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
         "answers": [
           "tacos",
           "taco"
@@ -186,7 +186,7 @@
       {
         "id": "wf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pho_with_beef_and_tendon.jpg/640px-Pho_with_beef_and_tendon.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Puente_Mong%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_01.JPG/960px-Puente_Mong%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_01.JPG",
         "answers": [
           "pho"
         ],
@@ -195,7 +195,7 @@
       {
         "id": "wf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paella_de_marisco_01.jpg/640px-Paella_de_marisco_01.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Paella_de_marisco.jpg/960px-Paella_de_marisco.jpg",
         "answers": [
           "paella"
         ],
@@ -204,7 +204,7 @@
       {
         "id": "wf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Croissant-PetrKratochvil.jpg/640px-Croissant-PetrKratochvil.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Croissant-Petr_Kratochvil.jpg/960px-Croissant-Petr_Kratochvil.jpg",
         "answers": [
           "croissant"
         ],
@@ -213,7 +213,7 @@
       {
         "id": "wf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hamburger_%28black_bg%29.jpg/640px-Hamburger_%28black_bg%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hamburger_patty.jpg",
         "answers": [
           "hamburger",
           "burger"
@@ -223,7 +223,7 @@
       {
         "id": "wf7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Poutine.JPG/640px-Poutine.JPG",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Poutine.JPG/960px-Poutine.JPG",
         "answers": [
           "poutine"
         ],
@@ -249,7 +249,7 @@
       {
         "id": "de1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Chocolate_cake.jpg/640px-Chocolate_cake.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Chocolate_Cake_%26_Raspberry_%2825271967935%29.jpg/960px-Chocolate_Cake_%26_Raspberry_%2825271967935%29.jpg",
         "answers": [
           "chocolate cake",
           "cake"
@@ -259,7 +259,7 @@
       {
         "id": "de2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Macarons_in_a_box.jpg/640px-Macarons_in_a_box.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Des_macarons_de_chez_Bouillet_%28mars_2023%29.jpg/960px-Des_macarons_de_chez_Bouillet_%28mars_2023%29.jpg",
         "answers": [
           "macaron",
           "macarons"
@@ -269,7 +269,7 @@
       {
         "id": "de3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/640px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/960px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
         "answers": [
           "ice cream"
         ],
@@ -278,7 +278,7 @@
       {
         "id": "de4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Waffles_with_strawberry.jpg/640px-Waffles_with_strawberry.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/960px-Waffles_with_Strawberries.jpg",
         "answers": [
           "waffle",
           "waffles"
@@ -288,7 +288,7 @@
       {
         "id": "de5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Creme_brulee.jpg/640px-Creme_brulee.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Cr%C3%A8me_br%C3%BBl%C3%A9e.jpg",
         "answers": [
           "creme brulee",
           "crème brûlée"
@@ -298,7 +298,7 @@
       {
         "id": "de6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tiramisu.jpg/640px-Tiramisu.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tiramisu.jpg",
         "answers": [
           "tiramisu"
         ],

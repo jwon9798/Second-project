@@ -122,7 +122,7 @@
       {
         "id": "us1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/800px-Flag_of_California.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/960px-Flag_of_California.svg.png",
         "answers": [
           "california",
           "ca"
@@ -132,7 +132,7 @@
       {
         "id": "us2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/800px-Flag_of_Texas.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/960px-Flag_of_Texas.svg.png",
         "answers": [
           "texas",
           "tx"
@@ -142,7 +142,7 @@
       {
         "id": "us3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Florida.svg/800px-Flag_of_Florida.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/960px-Flag_of_Florida.svg.png",
         "answers": [
           "florida",
           "fl"
@@ -152,7 +152,7 @@
       {
         "id": "us4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/800px-Flag_of_Alaska.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/960px-Flag_of_Alaska.svg.png",
         "answers": [
           "alaska",
           "ak"
@@ -162,7 +162,7 @@
       {
         "id": "us5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/800px-Flag_of_Hawaii.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/960px-Flag_of_Hawaii.svg.png",
         "answers": [
           "hawaii",
           "hi"
@@ -172,7 +172,7 @@
       {
         "id": "us6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/800px-Flag_of_New_York.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/960px-Flag_of_New_York.svg.png",
         "answers": [
           "new york",
           "ny"
@@ -901,7 +901,7 @@
       {
         "id": "art1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
         "answers": [
           "mona lisa",
           "la gioconda"
@@ -911,7 +911,7 @@
       {
         "id": "art2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
         "answers": [
           "starry night",
           "the starry night"
@@ -921,7 +921,7 @@
       {
         "id": "art3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_Nasjonalgalleriet%2C_Oslo%2C_Norway.jpg/800px-Edvard_Munch%2C_1893%2C_The_Scream%2C_Nasjonalgalleriet%2C_Oslo%2C_Norway.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
         "answers": [
           "the scream",
           "scream"
@@ -931,7 +931,7 @@
       {
         "id": "art4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg",
         "answers": [
           "girl with a pearl earring",
           "pearl earring"
@@ -941,7 +941,7 @@
       {
         "id": "art5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/800px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
         "answers": [
           "impression sunrise",
           "impression soleil levant"
@@ -951,7 +951,7 @@
       {
         "id": "art6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pablo_picasso_1.jpg/800px-Pablo_picasso_1.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/960px-Pablo_picasso_1.jpg",
         "answers": [
           "picasso",
           "pablo picasso"
@@ -981,7 +981,7 @@
       {
         "id": "fd1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/960px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
         "answers": [
           "pizza",
           "pizza margherita"
@@ -991,7 +991,7 @@
       {
         "id": "fd2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/800px-Sushi_platter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/960px-Sushi_platter.jpg",
         "answers": [
           "sushi"
         ],
@@ -1000,7 +1000,7 @@
       {
         "id": "fd3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tacos_de_carne_deshebrada.jpg/800px-Tacos_de_carne_deshebrada.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_de_carne_asada.jpg?width=800",
         "answers": [
           "tacos",
           "taco"
@@ -1010,7 +1010,7 @@
       {
         "id": "fd4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pho_with_beef_and_tendon.jpg/800px-Pho_with_beef_and_tendon.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho_in_Ho_Chi_Minh_City.jpg?width=800",
         "answers": [
           "pho"
         ],
@@ -1019,7 +1019,7 @@
       {
         "id": "fd5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paella_de_marisco_01.jpg/800px-Paella_de_marisco_01.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Paella_de_marisco.jpg/960px-Paella_de_marisco.jpg",
         "answers": [
           "paella"
         ],
@@ -1028,7 +1028,7 @@
       {
         "id": "fd6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Croissant-PetrKratochvil.jpg/800px-Croissant-PetrKratochvil.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Croissant-Petr_Kratochvil.jpg/960px-Croissant-Petr_Kratochvil.jpg",
         "answers": [
           "croissant"
         ],
@@ -1037,7 +1037,7 @@
       {
         "id": "fd7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hamburger_%28black_bg%29.jpg/800px-Hamburger_%28black_bg%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hamburger_patty.jpg",
         "answers": [
           "hamburger",
           "burger"
@@ -1067,7 +1067,7 @@
       {
         "id": "tc1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png",
         "cropX": 20,
         "cropY": 50,
         "cropSize": 18,
@@ -1079,7 +1079,7 @@
       {
         "id": "tc2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/800px-Microsoft_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1280px-Microsoft_logo.svg.png",
         "cropX": 10,
         "cropY": 50,
         "cropSize": 22,
@@ -1091,7 +1091,7 @@
       {
         "id": "tc3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/800px-Amazon_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png",
         "cropX": 5,
         "cropY": 55,
         "cropSize": 25,
@@ -1103,7 +1103,7 @@
       {
         "id": "tc4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/1280px-Meta_Platforms_Inc._logo.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 30,
@@ -1116,7 +1116,7 @@
       {
         "id": "tc5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Intel_logo_%282020%2C_light_blue%29.svg/800px-Intel_logo_%282020%2C_light_blue%29.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Intel_logo_%282020%2C_light_blue%29.svg/1280px-Intel_logo_%282020%2C_light_blue%29.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 28,
@@ -1128,7 +1128,7 @@
       {
         "id": "tc6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png",
         "cropX": 50,
         "cropY": 40,
         "cropSize": 35,
@@ -1160,7 +1160,7 @@
       {
         "id": "car1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/800px-BMW.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/960px-BMW.svg.png",
         "answers": [
           "bmw",
           "bayerische motoren werke"
@@ -1170,7 +1170,7 @@
       {
         "id": "car2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/960px-Mercedes-Logo.svg.png",
         "answers": [
           "mercedes",
           "mercedes-benz"
@@ -1189,7 +1189,7 @@
       {
         "id": "car4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lamborghini_Logo.svg/800px-Lamborghini_Logo.svg.png",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini_Logo.svg?width=800",
         "answers": [
           "lamborghini"
         ],
@@ -1198,7 +1198,7 @@
       {
         "id": "car5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/800px-Volkswagen_logo_2019.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/960px-Volkswagen_logo_2019.svg.png",
         "answers": [
           "volkswagen",
           "vw"
@@ -1208,7 +1208,7 @@
       {
         "id": "car6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota.svg/800px-Toyota.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota.svg/960px-Toyota.svg.png",
         "answers": [
           "toyota"
         ],
@@ -1881,7 +1881,7 @@
       {
         "id": "hw1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Leonardo_DiCaprio_2014.jpg/800px-Leonardo_DiCaprio_2014.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_DiCaprio_2014.jpg",
         "cropX": 50,
         "cropY": 25,
         "cropSize": 28,
@@ -1895,7 +1895,7 @@
       {
         "id": "hw2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dwayne_Johnson_2014.jpg/800px-Dwayne_Johnson_2014.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dwayne_Johnson_2014.jpg/1280px-Dwayne_Johnson_2014.jpg",
         "cropX": 50,
         "cropY": 20,
         "cropSize": 25,
@@ -1908,7 +1908,7 @@
       {
         "id": "hw3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Tom_Cruise_2023.jpg/800px-Tom_Cruise_2023.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Cruise_2023.jpg?width=1280",
         "cropX": 50,
         "cropY": 22,
         "cropSize": 26,
@@ -1920,7 +1920,7 @@
       {
         "id": "hw4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Hanks_2016.jpg/800px-Tom_Hanks_2016.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tom_Hanks_2016.jpg/1280px-Tom_Hanks_2016.jpg",
         "cropX": 50,
         "cropY": 25,
         "cropSize": 28,
@@ -1932,7 +1932,7 @@
       {
         "id": "hw5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Scarlett_Johansson-8588.jpg/800px-Scarlett_Johansson-8588.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/1280px-Scarlett_Johansson-8588.jpg",
         "cropX": 50,
         "cropY": 20,
         "cropSize": 24,
@@ -1945,7 +1945,7 @@
       {
         "id": "hw6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Morgan_Freeman_2010.jpg/800px-Morgan_Freeman_2010.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Morgan_Freeman_2010.jpg?width=1280",
         "cropX": 50,
         "cropY": 22,
         "cropSize": 26,
@@ -1978,7 +1978,7 @@
       {
         "id": "sn1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/800px-Logo_NIKE.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_NIKE.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 30,
@@ -1990,7 +1990,7 @@
       {
         "id": "sn2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/800px-Adidas_Logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 28,
@@ -2002,7 +2002,7 @@
       {
         "id": "sn3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Puma_logo.svg/800px-Puma_logo.svg.png",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Puma_logo.svg?width=1280",
         "cropX": 50,
         "cropY": 45,
         "cropSize": 32,
@@ -2014,7 +2014,7 @@
       {
         "id": "sn4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/New_Balance_logo.svg/800px-New_Balance_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/New_Balance_logo.svg/1280px-New_Balance_logo.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 35,
@@ -2026,7 +2026,7 @@
       {
         "id": "sn5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Reebok_red_logo.svg/800px-Reebok_red_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Reebok_red_logo.svg/1280px-Reebok_red_logo.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 30,
@@ -2038,7 +2038,7 @@
       {
         "id": "sn6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Converse_logo.svg/800px-Converse_logo.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Converse_logo.svg/1280px-Converse_logo.svg.png",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 28,
@@ -2242,7 +2242,7 @@
       {
         "id": "cur1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/United_States_one_dollar_bill%2C_obverse%2C_series_2009.jpg/800px-United_States_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/960px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
         "answers": [
           "united states",
           "usa",
@@ -2254,7 +2254,7 @@
       {
         "id": "cur2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/EUR_5_obverse_%282013_issue%29.png/800px-EUR_5_obverse_%282013_issue%29.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/EUR_5_obverse_%282013_issue%29.png",
         "answers": [
           "euro",
           "europe",
@@ -2265,7 +2265,7 @@
       {
         "id": "cur3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Japanese_yen_coins_and_banknotes.jpg/800px-Japanese_yen_coins_and_banknotes.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/10_Yen_%28Japan%29.jpg/960px-10_Yen_%28Japan%29.jpg",
         "answers": [
           "japan",
           "yen",
@@ -2276,7 +2276,7 @@
       {
         "id": "cur4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/British_10_pound_note_%28Series_G%29.jpg/800px-British_10_pound_note_%28Series_G%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bank-notes%2C_paper-money%2C-French-alarmists%2C-o%2C_the_devil%2C_the_devil%21-Ah%21_poor_John-Bull%21%21%21_%28BM_J%2C3.96%29.jpg/960px-Bank-notes%2C_paper-money%2C-French-alarmists%2C-o%2C_the_devil%2C_the_devil%21-Ah%21_poor_John-Bull%21%21%21_%28BM_J%2C3.96%29.jpg",
         "answers": [
           "united kingdom",
           "uk",
@@ -2288,7 +2288,7 @@
       {
         "id": "cur5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1000_rupees_note_%28India%29.jpg/800px-1000_rupees_note_%28India%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/India%2C_1000-Rupee_note%2C_P46%2C_1949-1957%2C_obverse.jpg/960px-India%2C_1000-Rupee_note%2C_P46%2C_1949-1957%2C_obverse.jpg",
         "answers": [
           "india",
           "rupee",
@@ -2299,7 +2299,7 @@
       {
         "id": "cur6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Swiss-10-franc-note.jpg/800px-Swiss-10-franc-note.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Euler-10-Swiss_Franc_note-horizontal.jpg",
         "answers": [
           "switzerland",
           "swiss franc",

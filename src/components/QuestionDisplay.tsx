@@ -86,12 +86,13 @@ export default function QuestionDisplay({ question }: QuestionDisplayProps) {
           <div className="absolute inset-0 overflow-hidden rounded-2xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={question.imageUrl}
-              alt="Crop challenge"
-              className="h-full w-full object-cover"
-              style={getCropStyle(question)}
-              draggable={false}
-            />
+          src={question.imageUrl}
+          alt="Crop challenge"
+          className="h-full w-full object-cover"
+          style={getCropStyle(question)}
+          draggable={false}
+          referrerPolicy="no-referrer"
+        />
           </div>
           <div className="absolute bottom-3 right-3 rounded-lg bg-black/70 px-2 py-1 text-xs text-white/60">
             {size}% zoom
@@ -110,6 +111,7 @@ export default function QuestionDisplay({ question }: QuestionDisplayProps) {
           alt="Quiz image"
           className="h-full w-full object-contain"
           draggable={false}
+          referrerPolicy="no-referrer"
         />
       </div>
     );

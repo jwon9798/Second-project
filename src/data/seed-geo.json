@@ -12,7 +12,7 @@
       {
         "id": "ce1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Eiffel_Tower.jpg/640px-The_Eiffel_Tower.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Eiffel_Tower.jpg/960px-The_Eiffel_Tower.jpg",
         "answers": [
           "paris"
         ],
@@ -21,7 +21,7 @@
       {
         "id": "ce2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
         "answers": [
           "rome"
         ],
@@ -30,7 +30,7 @@
       {
         "id": "ce3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madrid_Collage.jpg/640px-Madrid_Collage.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Madrid_Collage_II.jpg",
         "answers": [
           "madrid"
         ],
@@ -39,7 +39,7 @@
       {
         "id": "ce4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Brandenburg_Gate%2C_Berlin%2C_Germany.jpg/640px-Brandenburg_Gate%2C_Berlin%2C_Germany.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Brandenburg_Gate_Quadriga_at_Night.jpg/960px-Brandenburg_Gate_Quadriga_at_Night.jpg",
         "answers": [
           "berlin"
         ],
@@ -48,7 +48,7 @@
       {
         "id": "ce5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Big_Ben_2012-06-23.jpg/640px-Big_Ben_2012-06-23.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Big_ears_%288096121357%29.jpg/960px-Big_ears_%288096121357%29.jpg",
         "answers": [
           "london"
         ],
@@ -57,7 +57,7 @@
       {
         "id": "ce6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Amsterdam_%28cropped%29.jpg/640px-Amsterdam_%28cropped%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7215-8.jpg/960px-Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7215-8.jpg",
         "answers": [
           "amsterdam"
         ],
@@ -66,7 +66,7 @@
       {
         "id": "ce7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vienna_-_Hofburg_New_Castle_01.jpg/640px-Vienna_-_Hofburg_New_Castle_01.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Vienna_Austria_Staircase-in-Vienna-Castle-01.jpg/960px-Vienna_Austria_Staircase-in-Vienna-Castle-01.jpg",
         "answers": [
           "vienna"
         ],
@@ -75,7 +75,7 @@
       {
         "id": "ce8",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Acropolis_of_Athens_01361.JPG/640px-Acropolis_of_Athens_01361.JPG",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Acropolis_of_Athens_01361.JPG/960px-Acropolis_of_Athens_01361.JPG",
         "answers": [
           "athens"
         ],
@@ -101,7 +101,7 @@
       {
         "id": "cw1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/960px-Statue_of_Liberty_7.jpg",
         "answers": [
           "washington",
           "washington dc",
@@ -112,7 +112,7 @@
       {
         "id": "cw2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/960px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
         "answers": [
           "new delhi",
           "delhi"
@@ -122,7 +122,7 @@
       {
         "id": "cw3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/960px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
         "answers": [
           "brasilia",
           "rio de janeiro",
@@ -133,7 +133,7 @@
       {
         "id": "cw4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Fuji_and_cherry_blossoms.jpg/640px-Mount_Fuji_and_cherry_blossoms.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Lake_Kawaguchiko_Sakura_Mount_Fuji_4.JPG/960px-Lake_Kawaguchiko_Sakura_Mount_Fuji_4.JPG",
         "answers": [
           "tokyo"
         ],
@@ -142,7 +142,7 @@
       {
         "id": "cw5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cairo_Citadel%2C_Egypt.jpg/640px-Cairo_Citadel%2C_Egypt.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_%284%29.jpg/960px-thumbnail.jpg",
         "answers": [
           "cairo"
         ],
@@ -151,7 +151,7 @@
       {
         "id": "cw6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_%28cropped%29.jpg/640px-Sydney_Opera_House_%28cropped%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/960px-Sydney_Opera_House_-_Dec_2008.jpg",
         "answers": [
           "canberra",
           "sydney"
@@ -178,7 +178,7 @@
       {
         "id": "mt1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/640px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/960px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
         "answers": [
           "everest",
           "mount everest",
@@ -189,7 +189,7 @@
       {
         "id": "mt2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mount_Fuji_from_Lake_Kawaguchi.jpg/960px-Mount_Fuji_from_Lake_Kawaguchi.jpg",
         "answers": [
           "fuji",
           "mount fuji",
@@ -200,7 +200,7 @@
       {
         "id": "mt3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mount_Kilimanjaro_from_Amboseli_National_Park.jpg/640px-Mount_Kilimanjaro_from_Amboseli_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg",
         "answers": [
           "kilimanjaro",
           "mount kilimanjaro"
@@ -210,7 +210,7 @@
       {
         "id": "mt4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/640px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
         "answers": [
           "matterhorn"
         ],
@@ -219,7 +219,7 @@
       {
         "id": "mt5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Denali_Mt_McKinley.jpg/640px-Denali_Mt_McKinley.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Denali_Mt_McKinley.jpg",
         "answers": [
           "denali",
           "mount mckinley",
@@ -230,7 +230,7 @@
       {
         "id": "mt6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Aconcagua_%28from_south%29%2C_Argentina.jpg/640px-Aconcagua_%28from_south%29%2C_Argentina.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Argentina._Mt._Aconcagua_LCCN2001704584.jpg/960px-Argentina._Mt._Aconcagua_LCCN2001704584.jpg",
         "answers": [
           "aconcagua"
         ],
@@ -256,7 +256,7 @@
       {
         "id": "rv1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Amazon_river_near_Manaus.jpg/640px-Amazon_river_near_Manaus.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Manaus-Amazon-NASA.jpg/960px-Manaus-Amazon-NASA.jpg",
         "answers": [
           "amazon",
           "amazon river"
@@ -266,7 +266,7 @@
       {
         "id": "rv2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yangtze_River_%28Chang_Jiang%29_01.jpg/640px-Yangtze_River_%28Chang_Jiang%29_01.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/20240621_Looking_south_from_Wuhan_Yangtze_River_Bridge_01.jpg/960px-20240621_Looking_south_from_Wuhan_Yangtze_River_Bridge_01.jpg",
         "answers": [
           "yangtze",
           "chang jiang",
@@ -277,7 +277,7 @@
       {
         "id": "rv3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mississippi_River_from_Eads_Bridge.jpg/640px-Mississippi_River_from_Eads_Bridge.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Pedestrians_viewing_the_Mississippi_River_from_the_Eads_Bridge_during_the_1903_flood.jpg/960px-Pedestrians_viewing_the_Mississippi_River_from_the_Eads_Bridge_during_the_1903_flood.jpg",
         "answers": [
           "mississippi",
           "mississippi river"
@@ -287,7 +287,7 @@
       {
         "id": "rv4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Danube_in_Budapest.jpg/640px-Danube_in_Budapest.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg/960px-Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
         "answers": [
           "danube",
           "danube river"
@@ -297,7 +297,7 @@
       {
         "id": "rv5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ganges_at_Haridwar.jpg/640px-Ganges_at_Haridwar.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ganges_flowing_near_Har_ki_Pauri%2C_Haridwar.jpg/960px-Ganges_flowing_near_Har_ki_Pauri%2C_Haridwar.jpg",
         "answers": [
           "ganges",
           "ganga",
@@ -308,7 +308,7 @@
       {
         "id": "rv6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nile_River_and_delta_from_orbit.jpg/640px-Nile_River_and_delta_from_orbit.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nile_River_and_delta_from_orbit.jpg",
         "answers": [
           "nile",
           "river nile"
@@ -335,7 +335,7 @@
       {
         "id": "cur1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/640px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/960px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg",
         "answers": [
           "dollar",
           "us dollar",
@@ -346,7 +346,7 @@
       {
         "id": "cur2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/5000_yen.jpg/640px-5000_yen.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Series_E_5K_Yen_Bank_of_japan_note_-_front.jpg",
         "answers": [
           "yen",
           "japanese yen"
@@ -356,7 +356,7 @@
       {
         "id": "cur3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Euro_coins_and_banknotes.jpg/640px-Euro_coins_and_banknotes.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_coins_and_banknotes.jpg/960px-Euro_coins_and_banknotes.jpg",
         "answers": [
           "euro",
           "euros"
@@ -366,7 +366,7 @@
       {
         "id": "cur4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/British_10_pound_note.jpg/640px-British_10_pound_note.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bank-notes%2C_paper-money%2C-French-alarmists%2C-o%2C_the_devil%2C_the_devil%21-Ah%21_poor_John-Bull%21%21%21_%28BM_J%2C3.96%29.jpg/960px-Bank-notes%2C_paper-money%2C-French-alarmists%2C-o%2C_the_devil%2C_the_devil%21-Ah%21_poor_John-Bull%21%21%21_%28BM_J%2C3.96%29.jpg",
         "answers": [
           "pound",
           "british pound",
@@ -378,7 +378,7 @@
       {
         "id": "cur5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/1000_rupees.jpg/640px-1000_rupees.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/India%2C_1000-Rupee_note%2C_P46%2C_1949-1957%2C_obverse.jpg/960px-India%2C_1000-Rupee_note%2C_P46%2C_1949-1957%2C_obverse.jpg",
         "answers": [
           "rupee",
           "indian rupee"
@@ -388,7 +388,7 @@
       {
         "id": "cur6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/100_yuan_note.jpg/640px-100_yuan_note.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/100_Yuan_-_Hulunpeierh_Official_Currency_Bureau_%281919%29.jpg",
         "answers": [
           "yuan",
           "renminbi",
@@ -418,7 +418,7 @@
       {
         "id": "pl1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue_Marble_2002.png/640px-Blue_Marble_2002.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/960px-Blue_Marble_2002.png",
         "answers": [
           "earth"
         ],
@@ -427,7 +427,7 @@
       {
         "id": "pl2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/640px-OSIRIS_Mars_true_color.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/960px-OSIRIS_Mars_true_color.jpg",
         "answers": [
           "mars"
         ],
@@ -436,7 +436,7 @@
       {
         "id": "pl3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jupiter_New_Horizons.jpg/640px-Jupiter_New_Horizons.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg",
         "answers": [
           "jupiter"
         ],
@@ -445,7 +445,7 @@
       {
         "id": "pl4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Saturn_from_Cassini_Huygens.jpg/640px-Saturn_from_Cassini_Huygens.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/960px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg",
         "answers": [
           "saturn"
         ],
@@ -454,7 +454,7 @@
       {
         "id": "pl5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/640px-Uranus2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/960px-Uranus2.jpg",
         "answers": [
           "uranus"
         ],
@@ -463,7 +463,7 @@
       {
         "id": "pl6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/640px-Neptune_Full.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/960px-Neptune_Full.jpg",
         "answers": [
           "neptune"
         ],
@@ -489,7 +489,7 @@
       {
         "id": "co1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Italy_location_map.svg/640px-Italy_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Italy_provincial_location_map.png",
         "answers": [
           "italy"
         ],
@@ -498,7 +498,7 @@
       {
         "id": "co2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/France_location_map.svg/640px-France_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/British_Isles_and_France_location_map.png",
         "answers": [
           "france"
         ],
@@ -507,7 +507,7 @@
       {
         "id": "co3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Japan_location_map.svg/640px-Japan_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/960px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg",
         "answers": [
           "japan"
         ],
@@ -516,7 +516,7 @@
       {
         "id": "co4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_location_map.svg/640px-Australia_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Australia_location_map%28no_borders%29.png/960px-Australia_location_map%28no_borders%29.png",
         "answers": [
           "australia"
         ],
@@ -525,7 +525,7 @@
       {
         "id": "co5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mexico_location_map.svg/640px-Mexico_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mexico_Estado_de_Mexico_topographic_location_map.png",
         "answers": [
           "mexico"
         ],
@@ -534,7 +534,7 @@
       {
         "id": "co6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/United_Kingdom_location_map.svg/640px-United_Kingdom_location_map.svg.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/United_Kingdom_-_location_map.png",
         "answers": [
           "united kingdom",
           "uk",
@@ -564,7 +564,7 @@
       {
         "id": "sk1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/New_York_City_skyline.jpg/640px-New_York_City_skyline.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/New_York_City_skyline.jpg/960px-New_York_City_skyline.jpg",
         "answers": [
           "new york",
           "new york city",
@@ -575,7 +575,7 @@
       {
         "id": "sk2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paris_Night.jpg/640px-Paris_Night.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/960px-Paris_Night.jpg",
         "answers": [
           "paris"
         ],
@@ -584,7 +584,7 @@
       {
         "id": "sk3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/London_skyline_from_St_Paul%27s_Cathedral_2015.jpg/640px-London_skyline_from_St_Paul%27s_Cathedral_2015.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/London_skyline_from_the_South_Bank._View_of_The_Millennium_Bridge_and_St._Paul%27s_Cathedral_%2816583960636%29.jpg/960px-London_skyline_from_the_South_Bank._View_of_The_Millennium_Bridge_and_St._Paul%27s_Cathedral_%2816583960636%29.jpg",
         "answers": [
           "london"
         ],
@@ -593,7 +593,7 @@
       {
         "id": "sk4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shanghai_skyline_from_the_bund.jpg/640px-Shanghai_skyline_from_the_bund.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Shanghai_skyline_from_the_bund.jpg/960px-Shanghai_skyline_from_the_bund.jpg",
         "answers": [
           "shanghai"
         ],
@@ -602,7 +602,7 @@
       {
         "id": "sk5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Dubai_Marina_Skyline.jpg/640px-Dubai_Marina_Skyline.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/960px-Dubai_Marina_Skyline.jpg",
         "answers": [
           "dubai"
         ],
@@ -611,7 +611,7 @@
       {
         "id": "sk6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Seoul_skyline_from_Namsan.jpg/640px-Seoul_skyline_from_Namsan.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Seoul_Skyline_Night_2018.jpg/960px-Seoul_Skyline_Night_2018.jpg",
         "answers": [
           "seoul"
         ],
@@ -637,7 +637,7 @@
       {
         "id": "li1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lake_Baikal_2008.jpg/640px-Lake_Baikal_2008.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Imperiya_at_Quay_in_Port_Baykal_Lake_Baikal_16_August_2008.jpg/960px-Imperiya_at_Quay_in_Port_Baykal_Lake_Baikal_16_August_2008.jpg",
         "answers": [
           "lake baikal",
           "baikal"
@@ -647,7 +647,7 @@
       {
         "id": "li2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lake_Como.jpg/640px-Lake_Como.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/View_of_Lake_Como_from_Villa_Monastero%2C_Varenna.jpg",
         "answers": [
           "lake como",
           "como"
@@ -657,7 +657,7 @@
       {
         "id": "li3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Santorini_sunset.jpg/640px-Santorini_sunset.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Restaurant_at_sunset%2C_Fira%2C_Santorini%2C_Greece_%28approx._GPS_location%29_julesvernex2.jpg/960px-Restaurant_at_sunset%2C_Fira%2C_Santorini%2C_Greece_%28approx._GPS_location%29_julesvernex2.jpg",
         "answers": [
           "santorini"
         ],
@@ -666,7 +666,7 @@
       {
         "id": "li4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bora_Bora_lagoon.jpg/640px-Bora_Bora_lagoon.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bora_Bora_-_junk_cars_alongside_the_lagoon_-_panoramio.jpg/960px-Bora_Bora_-_junk_cars_alongside_the_lagoon_-_panoramio.jpg",
         "answers": [
           "bora bora"
         ],
@@ -675,7 +675,7 @@
       {
         "id": "li5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Maldives_island.jpg/640px-Maldives_island.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Floatplane_at_Bathala_%28Maldives%29.jpg/960px-Floatplane_at_Bathala_%28Maldives%29.jpg",
         "answers": [
           "maldives"
         ],
@@ -684,7 +684,7 @@
       {
         "id": "li6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bali_rice_terraces.jpg/640px-Bali_rice_terraces.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bali_rice_terraces.jpg",
         "answers": [
           "bali"
         ],
@@ -807,7 +807,7 @@
       {
         "id": "vo1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mount_Fuji_from_Motohakone_2022.jpg/640px-Mount_Fuji_from_Motohakone_2022.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mount_Fuji_from_Lake_Kawaguchi.jpg/960px-Mount_Fuji_from_Lake_Kawaguchi.jpg",
         "answers": [
           "mount fuji",
           "fuji"
@@ -817,7 +817,7 @@
       {
         "id": "vo2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mount_Vesuvius.jpg/640px-Mount_Vesuvius.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mount_Vesuvius.jpg/960px-Mount_Vesuvius.jpg",
         "answers": [
           "vesuvius",
           "mount vesuvius"
@@ -827,7 +827,7 @@
       {
         "id": "vo3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kilauea_volcano.jpg/640px-Kilauea_volcano.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kilauea_volcano.jpg/960px-Kilauea_volcano.jpg",
         "answers": [
           "kilauea",
           "hawaii"
@@ -837,7 +837,7 @@
       {
         "id": "vo4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Eyjafjallajokull_eruption.jpg/640px-Eyjafjallajokull_eruption.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fimmvorduhals_2010_03_27_dawn.jpg/960px-Fimmvorduhals_2010_03_27_dawn.jpg",
         "answers": [
           "eyjafjallajokull",
           "iceland"
@@ -847,7 +847,7 @@
       {
         "id": "vo5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mount_Etna_eruption.jpg/640px-Mount_Etna_eruption.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/960px-Etna_eruption_seen_from_the_International_Space_Station.jpg",
         "answers": [
           "etna",
           "mount etna"
@@ -857,7 +857,7 @@
       {
         "id": "vo6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mount_St_Helens.jpg/640px-Mount_St_Helens.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Mount_St._Helens_2007_panorama.jpg/960px-Mount_St._Helens_2007_panorama.jpg",
         "answers": [
           "mount st helens",
           "st helens"
@@ -884,7 +884,7 @@
       {
         "id": "nw1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Grand_Canyon_view_from_Pima_Point_2010.jpg/640px-Grand_Canyon_view_from_Pima_Point_2010.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Grand_Canyon_view_from_Pima_Point_2010.jpg/960px-Grand_Canyon_view_from_Pima_Point_2010.jpg",
         "answers": [
           "grand canyon"
         ],
@@ -893,7 +893,7 @@
       {
         "id": "nw2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg/640px-Ayers_Rock%2C_Uluru%2C_Northern_Territory%2C_Australia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Uluru%2C_Northern_Territory%2C_Australia.jpg/960px-Uluru%2C_Northern_Territory%2C_Australia.jpg",
         "answers": [
           "uluru",
           "ayers rock"
@@ -903,7 +903,7 @@
       {
         "id": "nw3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Northern_Lights_in_Tromso.jpg/640px-Northern_Lights_in_Tromso.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Northern_lights_in_Tromso.jpg/960px-Northern_lights_in_Tromso.jpg",
         "answers": [
           "aurora",
           "northern lights",
@@ -914,7 +914,7 @@
       {
         "id": "nw4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ha_Long_Bay.jpg/640px-Ha_Long_Bay.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ha_Long_Bay.jpg/960px-Ha_Long_Bay.jpg",
         "answers": [
           "ha long bay",
           "halong bay"
@@ -924,7 +924,7 @@
       {
         "id": "nw5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pamukkale_Turkey.jpg/640px-Pamukkale_Turkey.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/TR_Pamukkale_White_Terraces_asv2020-02_img16.jpg/960px-TR_Pamukkale_White_Terraces_asv2020-02_img16.jpg",
         "answers": [
           "pamukkale"
         ],
@@ -933,7 +933,7 @@
       {
         "id": "nw6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Antelope_Canyon.jpg/640px-Antelope_Canyon.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Antelope_Canyon.jpg/960px-Antelope_Canyon.jpg",
         "answers": [
           "antelope canyon"
         ],
@@ -959,7 +959,7 @@
       {
         "id": "wx1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rainbow_in_Bavaria.jpg/640px-Rainbow_in_Bavaria.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Rainbow_in_Pleinfeld.jpg",
         "answers": [
           "rainbow"
         ],
@@ -968,7 +968,7 @@
       {
         "id": "wx2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Northern_Lights_in_Tromso.jpg/640px-Northern_Lights_in_Tromso.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Northern_lights_in_Tromso.jpg/960px-Northern_lights_in_Tromso.jpg",
         "answers": [
           "aurora",
           "northern lights"
@@ -978,7 +978,7 @@
       {
         "id": "wx3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lightning_strike.jpg/640px-Lightning_strike.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Lightning_Pritzerbe_01_%28MK%29.jpg/960px-Lightning_Pritzerbe_01_%28MK%29.jpg",
         "answers": [
           "lightning"
         ],
@@ -987,7 +987,7 @@
       {
         "id": "wx4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tornado_in_Oklahoma.jpg/640px-Tornado_in_Oklahoma.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/FEMA_-_44359_-_Oklahoma_tornado_destroyed_home.jpg/960px-FEMA_-_44359_-_Oklahoma_tornado_destroyed_home.jpg",
         "answers": [
           "tornado"
         ],
@@ -996,7 +996,7 @@
       {
         "id": "wx5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Cumulonimbus_cloud.jpg/640px-Cumulonimbus_cloud.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cumulonimbus_cloud.jpg/960px-Cumulonimbus_cloud.jpg",
         "answers": [
           "cumulonimbus",
           "thundercloud"
@@ -1006,7 +1006,7 @@
       {
         "id": "wx6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Halo_around_sun.jpg/640px-Halo_around_sun.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Sun_halo_optical_phenomenon_edit.jpg/960px-Sun_halo_optical_phenomenon_edit.jpg",
         "answers": [
           "sun halo",
           "halo"

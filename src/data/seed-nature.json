@@ -12,7 +12,7 @@
       {
         "id": "ae1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/960px-Lion_waiting_in_Namibia.jpg",
         "answers": [
           "lion"
         ],
@@ -21,7 +21,7 @@
       {
         "id": "ae2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Southern_green_frog.jpg/640px-Southern_green_frog.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Green_and_Golden_Bell_Frog.jpg/960px-The_Green_and_Golden_Bell_Frog.jpg",
         "answers": [
           "frog"
         ],
@@ -30,7 +30,7 @@
       {
         "id": "ae3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/640px-Grosser_Panda.JPG",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/960px-Grosser_Panda.JPG",
         "answers": [
           "panda",
           "giant panda"
@@ -40,7 +40,7 @@
       {
         "id": "ae4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/960px-Walking_tiger_female.jpg",
         "answers": [
           "tiger"
         ],
@@ -49,7 +49,7 @@
       {
         "id": "ae5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/960px-Giraffe_Mikumi_National_Park.jpg",
         "answers": [
           "giraffe"
         ],
@@ -58,7 +58,7 @@
       {
         "id": "ae6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hippo_at_Dallas_Zoo.jpg/640px-Hippo_at_Dallas_Zoo.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg/960px-Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg",
         "answers": [
           "hippo",
           "hippopotamus"
@@ -68,7 +68,7 @@
       {
         "id": "ae7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Platypus.jpg/640px-Platypus.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Platypus.jpg",
         "answers": [
           "platypus"
         ],
@@ -77,7 +77,7 @@
       {
         "id": "ae8",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/960px-Koala_climbing_tree.jpg",
         "answers": [
           "koala"
         ],
@@ -103,7 +103,7 @@
       {
         "id": "ac1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
         "cropX": 45,
         "cropY": 30,
         "cropSize": 30,
@@ -115,7 +115,7 @@
       {
         "id": "ac2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1280px-Walking_tiger_female.jpg",
         "cropX": 55,
         "cropY": 50,
         "cropSize": 28,
@@ -127,7 +127,7 @@
       {
         "id": "ac3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/1280px-Giraffe_Mikumi_National_Park.jpg",
         "cropX": 40,
         "cropY": 10,
         "cropSize": 32,
@@ -139,7 +139,7 @@
       {
         "id": "ac4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/640px-Grosser_Panda.JPG",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG",
         "cropX": 50,
         "cropY": 40,
         "cropSize": 30,
@@ -152,7 +152,7 @@
       {
         "id": "ac5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Platypus.jpg/640px-Platypus.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Platypus.jpg",
         "cropX": 48,
         "cropY": 55,
         "cropSize": 32,
@@ -164,7 +164,7 @@
       {
         "id": "ac6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
         "cropX": 50,
         "cropY": 35,
         "cropSize": 30,
@@ -193,7 +193,7 @@
       {
         "id": "oc1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Clownfish_in_anemone.jpg/640px-Clownfish_in_anemone.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/960px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
         "answers": [
           "clownfish",
           "clown fish"
@@ -203,7 +203,7 @@
       {
         "id": "oc2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dolphin-2.jpg/640px-Dolphin-2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Common_bottlenose_dolphin.jpg/960px-Common_bottlenose_dolphin.jpg",
         "answers": [
           "dolphin"
         ],
@@ -212,7 +212,7 @@
       {
         "id": "oc3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Orca_porpoising.jpg/640px-Orca_porpoising.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Killerwhales_jumping_%28cropped%29.jpg/960px-Killerwhales_jumping_%28cropped%29.jpg",
         "answers": [
           "orca",
           "killer whale"
@@ -222,7 +222,7 @@
       {
         "id": "oc4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sea_turtle.jpg/640px-Sea_turtle.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sea_turtle.jpg/960px-Sea_turtle.jpg",
         "answers": [
           "sea turtle",
           "turtle"
@@ -232,7 +232,7 @@
       {
         "id": "oc5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Octopus2.jpg/640px-Octopus2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Octopus_sinensis.jpg/960px-Octopus_sinensis.jpg",
         "answers": [
           "octopus"
         ],
@@ -241,7 +241,7 @@
       {
         "id": "oc6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jelly_cc11.jpg/640px-Jelly_cc11.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/960px-Jelly_cc11.jpg",
         "answers": [
           "jellyfish"
         ],
@@ -267,7 +267,7 @@
       {
         "id": "dg1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/640px-YellowLabradorLooking_new.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg",
         "answers": [
           "labrador",
           "labrador retriever",
@@ -278,7 +278,7 @@
       {
         "id": "dg2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/640px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
         "answers": [
           "german shepherd"
         ],
@@ -287,7 +287,7 @@
       {
         "id": "dg3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Barkless_Basenji.jpg/640px-Barkless_Basenji.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Basenji_600.jpg",
         "answers": [
           "basenji"
         ],
@@ -296,7 +296,7 @@
       {
         "id": "dg4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Border_Collie_600.jpg/640px-Border_Collie_600.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Border_Collie_600.jpg",
         "answers": [
           "border collie"
         ],
@@ -305,7 +305,7 @@
       {
         "id": "dg5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Atika_Bijou_Poodle.jpg/640px-Atika_Bijou_Poodle.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Poodle.jpg",
         "answers": [
           "poodle"
         ],
@@ -314,7 +314,7 @@
       {
         "id": "dg6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Dalmatian.jpg/640px-Dalmatian.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Dalmatian_fetching_a_stick.jpg/960px-Dalmatian_fetching_a_stick.jpg",
         "answers": [
           "dalmatian"
         ],
@@ -341,7 +341,7 @@
       {
         "id": "fd1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/960px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
         "answers": [
           "pizza",
           "pizza margherita"
@@ -351,7 +351,7 @@
       {
         "id": "fd2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/960px-Sushi_platter.jpg",
         "answers": [
           "sushi"
         ],
@@ -360,7 +360,7 @@
       {
         "id": "fd3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/640px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/960px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
         "answers": [
           "taco",
           "tacos"
@@ -370,7 +370,7 @@
       {
         "id": "fd4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Croissant-Petr_Kratochvil.jpg/640px-Croissant-Petr_Kratochvil.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Croissant-Petr_Kratochvil.jpg/960px-Croissant-Petr_Kratochvil.jpg",
         "answers": [
           "croissant"
         ],
@@ -379,7 +379,7 @@
       {
         "id": "fd5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/640px-%22Hyderabadi_Dum_Biryani%22.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/960px-%22Hyderabadi_Dum_Biryani%22.jpg",
         "answers": [
           "biryani"
         ],
@@ -388,7 +388,7 @@
       {
         "id": "fd6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/640px-Latte_and_dark_coffee.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/960px-Latte_and_dark_coffee.jpg",
         "answers": [
           "coffee",
           "latte"
@@ -398,7 +398,7 @@
       {
         "id": "fd7",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chocolate_chip_cookie.jpg/640px-Chocolate_chip_cookie.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Chocolate_chip_cookie.jpg/960px-Chocolate_chip_cookie.jpg",
         "answers": [
           "cookie",
           "chocolate chip cookie"
@@ -408,7 +408,7 @@
       {
         "id": "fd8",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ramen_Noodles.jpg/640px-Ramen_Noodles.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kyoto_Engine_Ramen.jpg/960px-Kyoto_Engine_Ramen.jpg",
         "answers": [
           "ramen"
         ],
@@ -434,7 +434,7 @@
       {
         "id": "fc1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
         "cropX": 50,
         "cropY": 50,
         "cropSize": 32,
@@ -446,7 +446,7 @@
       {
         "id": "fc2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Croissant-Petr_Kratochvil.jpg/640px-Croissant-Petr_Kratochvil.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Croissant-Petr_Kratochvil.jpg",
         "cropX": 45,
         "cropY": 45,
         "cropSize": 30,
@@ -458,7 +458,7 @@
       {
         "id": "fc3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chocolate_chip_cookie.jpg/640px-Chocolate_chip_cookie.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Chocolate_chip_cookie.jpg/1280px-Chocolate_chip_cookie.jpg",
         "cropX": 55,
         "cropY": 50,
         "cropSize": 32,
@@ -471,7 +471,7 @@
       {
         "id": "fc4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ramen_Noodles.jpg/640px-Ramen_Noodles.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kyoto_Engine_Ramen.jpg/1280px-Kyoto_Engine_Ramen.jpg",
         "cropX": 50,
         "cropY": 55,
         "cropSize": 30,
@@ -483,7 +483,7 @@
       {
         "id": "fc5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sushi_platter.jpg/640px-Sushi_platter.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/1280px-Sushi_platter.jpg",
         "cropX": 40,
         "cropY": 40,
         "cropSize": 30,
@@ -495,7 +495,7 @@
       {
         "id": "fc6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/640px-Latte_and_dark_coffee.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/1280px-Latte_and_dark_coffee.jpg",
         "cropX": 48,
         "cropY": 52,
         "cropSize": 30,
@@ -525,7 +525,7 @@
       {
         "id": "tf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/960px-Mangos_-_single_and_halved.jpg",
         "answers": [
           "mango"
         ],
@@ -534,7 +534,7 @@
       {
         "id": "tf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pineapple_and_cross_section.jpg/640px-Pineapple_and_cross_section.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/960px-Pineapple_and_cross_section.jpg",
         "answers": [
           "pineapple"
         ],
@@ -543,7 +543,7 @@
       {
         "id": "tf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Papaya_cross_section_BNC.jpg/640px-Papaya_cross_section_BNC.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Papaya_cross_section_BNC.jpg/960px-Papaya_cross_section_BNC.jpg",
         "answers": [
           "papaya"
         ],
@@ -552,7 +552,7 @@
       {
         "id": "tf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dragonfruit_pitahaya.jpg/640px-Dragonfruit_pitahaya.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Butterfly_053.JPG/960px-Butterfly_053.JPG",
         "answers": [
           "dragon fruit",
           "dragonfruit",
@@ -563,7 +563,7 @@
       {
         "id": "tf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coconut_on_tree.jpg/640px-Coconut_on_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Koh_Samui_Lipa_Noi2.jpg/960px-Koh_Samui_Lipa_Noi2.jpg",
         "answers": [
           "coconut"
         ],
@@ -572,7 +572,7 @@
       {
         "id": "tf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lychee_01.jpg/640px-Lychee_01.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lychee_fruits_and_seed.jpg/960px-Lychee_fruits_and_seed.jpg",
         "answers": [
           "lychee",
           "litchi"
@@ -599,7 +599,7 @@
       {
         "id": "in1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/640px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/960px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
         "answers": [
           "butterfly",
           "monarch butterfly",
@@ -610,7 +610,7 @@
       {
         "id": "in2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Honeybee_on_snowdrop.jpg/640px-Honeybee_on_snowdrop.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg",
         "answers": [
           "bee",
           "honeybee",
@@ -621,7 +621,7 @@
       {
         "id": "in3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ladybug_on_leaf.jpg/640px-Ladybug_on_leaf.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coccinella_septempunctata.jpg",
         "answers": [
           "ladybug",
           "ladybird"
@@ -631,7 +631,7 @@
       {
         "id": "in4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Grasshopper_on_leaf.jpg/640px-Grasshopper_on_leaf.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Grasshopper_on_leaf.jpg/960px-Grasshopper_on_leaf.jpg",
         "answers": [
           "grasshopper"
         ],
@@ -640,7 +640,7 @@
       {
         "id": "in5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Dragonfly_on_leaf.jpg/640px-Dragonfly_on_leaf.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dragonfly_on_leaf.jpg/960px-Dragonfly_on_leaf.jpg",
         "answers": [
           "dragonfly"
         ],
@@ -649,7 +649,7 @@
       {
         "id": "in6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ant_on_leaf.jpg/640px-Ant_on_leaf.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ant_on_leaf.jpg/960px-Ant_on_leaf.jpg",
         "answers": [
           "ant"
         ],
@@ -677,7 +677,7 @@
       {
         "id": "sf1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/640px-African_Bush_Elephant.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/960px-African_Bush_Elephant.jpg",
         "answers": [
           "elephant",
           "african elephant"
@@ -687,7 +687,7 @@
       {
         "id": "sf2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/960px-Lion_waiting_in_Namibia.jpg",
         "answers": [
           "lion"
         ],
@@ -696,7 +696,7 @@
       {
         "id": "sf3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Leopard_in_tree.jpg/640px-Leopard_in_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leopard_Tree_AdF.jpg/960px-Leopard_Tree_AdF.jpg",
         "answers": [
           "leopard"
         ],
@@ -705,7 +705,7 @@
       {
         "id": "sf4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/960px-Giraffe_Mikumi_National_Park.jpg",
         "answers": [
           "giraffe"
         ],
@@ -714,7 +714,7 @@
       {
         "id": "sf5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Buffalo_Cape.jpg/640px-Buffalo_Cape.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/B%C3%BAfalo_cafre_%28Syncerus_caffer%29%2C_parque_nacional_del_lago_Nakuru%2C_Kenia%2C_2024-05-18%2C_DD_85.jpg/960px-B%C3%BAfalo_cafre_%28Syncerus_caffer%29%2C_parque_nacional_del_lago_Nakuru%2C_Kenia%2C_2024-05-18%2C_DD_85.jpg",
         "answers": [
           "buffalo",
           "cape buffalo"
@@ -724,7 +724,7 @@
       {
         "id": "sf6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Rhinoceros.jpg/640px-Rhinoceros.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rhinoceros.jpg/960px-Rhinoceros.jpg",
         "answers": [
           "rhino",
           "rhinoceros"
@@ -752,7 +752,7 @@
       {
         "id": "oc1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Dolphin_in_the_water.jpg/640px-Dolphin_in_the_water.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Common_bottlenose_dolphin.jpg/960px-Common_bottlenose_dolphin.jpg",
         "answers": [
           "dolphin"
         ],
@@ -761,7 +761,7 @@
       {
         "id": "oc2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Humpback_Whale_underwater_shot.jpg/640px-Humpback_Whale_underwater_shot.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/960px-Humpback_Whale_underwater_shot.jpg",
         "answers": [
           "whale",
           "humpback whale"
@@ -771,7 +771,7 @@
       {
         "id": "oc3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Clownfish.jpg/640px-Clownfish.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/960px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
         "answers": [
           "clownfish",
           "nemo"
@@ -781,7 +781,7 @@
       {
         "id": "oc4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Octopus_vulgaris.jpg/640px-Octopus_vulgaris.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Octopus_sinensis.jpg/960px-Octopus_sinensis.jpg",
         "answers": [
           "octopus"
         ],
@@ -790,7 +790,7 @@
       {
         "id": "oc5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jelly_cc11.jpg/640px-Jelly_cc11.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/960px-Jelly_cc11.jpg",
         "answers": [
           "jellyfish"
         ],
@@ -799,7 +799,7 @@
       {
         "id": "oc6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Great_white_shark_south_africa.jpg/640px-Great_white_shark_south_africa.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Great_white_shark_south_africa.jpg",
         "answers": [
           "shark",
           "great white shark"
@@ -827,7 +827,7 @@
       {
         "id": "pe1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/640px-YellowLabradorLooking_new.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg",
         "answers": [
           "dog",
           "labrador",
@@ -838,7 +838,7 @@
       {
         "id": "pe2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/960px-Cat03.jpg",
         "answers": [
           "cat"
         ],
@@ -847,7 +847,7 @@
       {
         "id": "pe3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Horse_in_meadow.jpg/640px-Horse_in_meadow.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Horses_grazing_at_Trunkol_meadow%2C_Jammu_and_Kashmir%2C_India_%28crop%29.jpg/960px-Horses_grazing_at_Trunkol_meadow%2C_Jammu_and_Kashmir%2C_India_%28crop%29.jpg",
         "answers": [
           "horse"
         ],
@@ -856,7 +856,7 @@
       {
         "id": "pe4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/640px-Cow_female_black_white.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/960px-Cow_female_black_white.jpg",
         "answers": [
           "cow"
         ],
@@ -865,7 +865,7 @@
       {
         "id": "pe5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Rabbit_in_montana.jpg/640px-Rabbit_in_montana.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20260522_eastern_cottontail_rabbit_longo_farm_PD02991.jpg/960px-20260522_eastern_cottontail_rabbit_longo_farm_PD02991.jpg",
         "answers": [
           "rabbit",
           "bunny"
@@ -875,7 +875,7 @@
       {
         "id": "pe6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sheep_in_Mongolia.jpg/640px-Sheep_in_Mongolia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sheep_in_Mongolia_02.jpg/960px-Sheep_in_Mongolia_02.jpg",
         "answers": [
           "sheep"
         ],
@@ -902,7 +902,7 @@
       {
         "id": "br1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bald_Eagle_Portrait.jpg/640px-Bald_Eagle_Portrait.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bald_Eagle_Portrait.jpg/960px-Bald_Eagle_Portrait.jpg",
         "answers": [
           "bald eagle",
           "eagle"
@@ -912,7 +912,7 @@
       {
         "id": "br2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flamingo_Laguna_Colorada_Bolivia.jpg/640px-Flamingo_Laguna_Colorada_Bolivia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Andean_Flamingos_Laguna_Colorada_Bolivia_Luca_Galuzzi_2006.jpg/960px-Andean_Flamingos_Laguna_Colorada_Bolivia_Luca_Galuzzi_2006.jpg",
         "answers": [
           "flamingo"
         ],
@@ -921,7 +921,7 @@
       {
         "id": "br3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pavo_cristatus_-_India.jpg/640px-Pavo_cristatus_-_India.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Feather_of_male_Pavo_cristatus_%28Indian_peafowl%29.jpg/960px-Feather_of_male_Pavo_cristatus_%28Indian_peafowl%29.jpg",
         "answers": [
           "peacock"
         ],
@@ -930,7 +930,7 @@
       {
         "id": "br4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Emperor_Penguin_Manchot_empereur.jpg/640px-Emperor_Penguin_Manchot_empereur.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg",
         "answers": [
           "penguin",
           "emperor penguin"
@@ -940,7 +940,7 @@
       {
         "id": "br5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Bubo_virginianus_06.jpg/640px-Bubo_virginianus_06.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Bubo_virginianus_06.jpg/960px-Bubo_virginianus_06.jpg",
         "answers": [
           "owl",
           "great horned owl"
@@ -950,7 +950,7 @@
       {
         "id": "br6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Parrot.red.macaw.1.arp.750pix.jpg/640px-Parrot.red.macaw.1.arp.750pix.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Parrot.red.macaw.1.arp.750pix.jpg",
         "answers": [
           "parrot",
           "macaw"
@@ -978,7 +978,7 @@
       {
         "id": "fl1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sunflower_sky_backdrop.jpg/640px-Sunflower_sky_backdrop.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg",
         "answers": [
           "sunflower"
         ],
@@ -987,7 +987,7 @@
       {
         "id": "fl2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tulip_fields_in_the_Netherlands.jpg/640px-Tulip_fields_in_the_Netherlands.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tulip_fields_near_Lisse%2C_in_the_Netherlands.jpg/960px-Tulip_fields_near_Lisse%2C_in_the_Netherlands.jpg",
         "answers": [
           "tulip",
           "tulips"
@@ -997,7 +997,7 @@
       {
         "id": "fl3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Rose_red_closeup.jpg/640px-Rose_red_closeup.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Red_rose_closeup_-_alekseib_Flickr_%2834992779085%29.jpg/960px-Red_rose_closeup_-_alekseib_Flickr_%2834992779085%29.jpg",
         "answers": [
           "rose"
         ],
@@ -1006,7 +1006,7 @@
       {
         "id": "fl4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cherry_blossoms_in_Japan.jpg/640px-Cherry_blossoms_in_Japan.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg/960px-Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg",
         "answers": [
           "cherry blossom",
           "sakura"
@@ -1016,7 +1016,7 @@
       {
         "id": "fl5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lavender_field.jpg/640px-Lavender_field.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Lavender_field_in_Provence%2C_France_%2851695613559%29.jpg/960px-Lavender_field_in_Provence%2C_France_%2851695613559%29.jpg",
         "answers": [
           "lavender"
         ],
@@ -1025,7 +1025,7 @@
       {
         "id": "fl6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Daisy_flower.jpg/640px-Daisy_flower.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Daisy_flower.jpg",
         "answers": [
           "daisy"
         ],
@@ -1052,7 +1052,7 @@
       {
         "id": "bc1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/960px-Lion_waiting_in_Namibia.jpg",
         "answers": [
           "lion"
         ],
@@ -1061,7 +1061,7 @@
       {
         "id": "bc2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/960px-Walking_tiger_female.jpg",
         "answers": [
           "tiger"
         ],
@@ -1070,7 +1070,7 @@
       {
         "id": "bc3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Leopard_in_tree.jpg/640px-Leopard_in_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leopard_Tree_AdF.jpg/960px-Leopard_Tree_AdF.jpg",
         "answers": [
           "leopard"
         ],
@@ -1079,7 +1079,7 @@
       {
         "id": "bc4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cheetah4.jpg/640px-Cheetah4.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cheetah_%28Acinonyx_jubatus%29_female_2.jpg/960px-Cheetah_%28Acinonyx_jubatus%29_female_2.jpg",
         "answers": [
           "cheetah"
         ],
@@ -1088,7 +1088,7 @@
       {
         "id": "bc5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Jaguar_in_Pantanal.jpg/640px-Jaguar_in_Pantanal.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jaguar_%28Panthera_onca_palustris%29_female_Piquiri_River_2.JPG/960px-Jaguar_%28Panthera_onca_palustris%29_female_Piquiri_River_2.JPG",
         "answers": [
           "jaguar"
         ],
@@ -1097,7 +1097,7 @@
       {
         "id": "bc6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Snow_leopard.jpg/640px-Snow_leopard.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Snow_leopard.jpg/960px-Snow_leopard.jpg",
         "answers": [
           "snow leopard"
         ],
@@ -1123,7 +1123,7 @@
       {
         "id": "rp1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Komodo_dragon_at_Komodo_National_Park.jpg/640px-Komodo_dragon_at_Komodo_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Komodo_dragon_at_Komodo_National_Park.jpg",
         "answers": [
           "komodo dragon",
           "komodo"
@@ -1133,7 +1133,7 @@
       {
         "id": "rp2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chameleon_in_Madagascar.jpg/640px-Chameleon_in_Madagascar.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg/960px-Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg",
         "answers": [
           "chameleon"
         ],
@@ -1142,7 +1142,7 @@
       {
         "id": "rp3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/American_alligator.jpg/640px-American_alligator.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/American_alligator.jpg",
         "answers": [
           "alligator"
         ],
@@ -1151,7 +1151,7 @@
       {
         "id": "rp4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Southern_green_frog.jpg/640px-Southern_green_frog.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Green_and_Golden_Bell_Frog.jpg/960px-The_Green_and_Golden_Bell_Frog.jpg",
         "answers": [
           "frog"
         ],
@@ -1160,7 +1160,7 @@
       {
         "id": "rp5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Green_iguana_head.jpg/640px-Green_iguana_head.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Iguana_iguana_male_head.jpg/960px-Iguana_iguana_male_head.jpg",
         "answers": [
           "iguana"
         ],
@@ -1169,7 +1169,7 @@
       {
         "id": "rp6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sea_turtle.jpg/640px-Sea_turtle.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sea_turtle.jpg/960px-Sea_turtle.jpg",
         "answers": [
           "sea turtle",
           "turtle"
@@ -1196,7 +1196,7 @@
       {
         "id": "cb1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacPoint.jpg/640px-Siam_lilacPoint.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Siamese_cat.jpg",
         "answers": [
           "siamese cat",
           "siamese"
@@ -1206,7 +1206,7 @@
       {
         "id": "cb2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Persian_cat_-_exhibition.jpg/640px-Persian_cat_-_exhibition.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2024-12-20_16-02-40_CZ_PRG_Tutankhamun_exhib_JHe_SO_v2_with_Persian_cat.jpg/960px-2024-12-20_16-02-40_CZ_PRG_Tutankhamun_exhib_JHe_SO_v2_with_Persian_cat.jpg",
         "answers": [
           "persian cat",
           "persian"
@@ -1216,7 +1216,7 @@
       {
         "id": "cb3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maine_Coon_cat.jpg/640px-Maine_Coon_cat.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Maine_Coon_cat.jpg",
         "answers": [
           "maine coon"
         ],
@@ -1225,7 +1225,7 @@
       {
         "id": "cb4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bengal_cat_4.jpg/640px-Bengal_cat_4.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bengal_cat.jpg/960px-Bengal_cat.jpg",
         "answers": [
           "bengal cat",
           "bengal"
@@ -1235,7 +1235,7 @@
       {
         "id": "cb5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ragdoll_cat.jpg/640px-Ragdoll_cat.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ragdoll_cat.jpg",
         "answers": [
           "ragdoll"
         ],
@@ -1244,7 +1244,7 @@
       {
         "id": "cb6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Scottish_Fold_cat.jpg/640px-Scottish_Fold_cat.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/One_folded_ear_kitten%2C_India.jpg/960px-One_folded_ear_kitten%2C_India.jpg",
         "answers": [
           "scottish fold"
         ],
@@ -1270,7 +1270,7 @@
       {
         "id": "tr1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Sequoia_National_Park_86.jpg/640px-Sequoia_National_Park_86.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sequoia_affinis_%28fossil_giant_redwood_tree_trunk%29_%28Florissant_Formation%2C_Upper_Eocene%3B_Florissant_Fossil_Beds_National_Monument%2C_Colorado%2C_USA%29_86.jpg/960px-Sequoia_affinis_%28fossil_giant_redwood_tree_trunk%29_%28Florissant_Formation%2C_Upper_Eocene%3B_Florissant_Fossil_Beds_National_Monument%2C_Colorado%2C_USA%29_86.jpg",
         "answers": [
           "sequoia",
           "redwood",
@@ -1281,7 +1281,7 @@
       {
         "id": "tr2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Japanese_maple_in_Portland.jpg/640px-Japanese_maple_in_Portland.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Portland_Japanese_Garden_maple.jpg/960px-Portland_Japanese_Garden_maple.jpg",
         "answers": [
           "japanese maple",
           "maple"
@@ -1291,7 +1291,7 @@
       {
         "id": "tr3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Baobab_tree.jpg/640px-Baobab_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Baobab_tree.jpg",
         "answers": [
           "baobab"
         ],
@@ -1300,7 +1300,7 @@
       {
         "id": "tr4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Olive_tree.jpg/640px-Olive_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Olive_tree.jpg/960px-Olive_tree.jpg",
         "answers": [
           "olive tree",
           "olive"
@@ -1310,7 +1310,7 @@
       {
         "id": "tr5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Cherry_blossom_tree.jpg/640px-Cherry_blossom_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg/960px-Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg",
         "answers": [
           "cherry blossom",
           "sakura tree"
@@ -1320,7 +1320,7 @@
       {
         "id": "tr6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Palm_tree_beach.jpg/640px-Palm_tree_beach.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Three_palm_trees_during_the_sunset%2C_Ayia_Marina_Chrysochous%2C_Paphos_District%2C_Cyprus_02.jpg/960px-Three_palm_trees_during_the_sunset%2C_Ayia_Marina_Chrysochous%2C_Paphos_District%2C_Cyprus_02.jpg",
         "answers": [
           "palm tree",
           "palm"
@@ -1347,7 +1347,7 @@
       {
         "id": "np1",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Grand_Canyon_view_from_Pima_Point_2010.jpg/640px-Grand_Canyon_view_from_Pima_Point_2010.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Grand_Canyon_view_from_Pima_Point_2010.jpg/960px-Grand_Canyon_view_from_Pima_Point_2010.jpg",
         "answers": [
           "grand canyon",
           "grand canyon national park"
@@ -1357,7 +1357,7 @@
       {
         "id": "np2",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Yosemite_Valley_from_Wawona_Tunnel.jpg/640px-Yosemite_Valley_from_Wawona_Tunnel.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Yosemite_Valley_from_Wawona_Tunnel_view%2C_vista_point.jpg/960px-Yosemite_Valley_from_Wawona_Tunnel_view%2C_vista_point.jpg",
         "answers": [
           "yosemite",
           "yosemite national park"
@@ -1367,7 +1367,7 @@
       {
         "id": "np3",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Yellowstone_National_Park.jpg/640px-Yellowstone_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Grand_prismatic_spring.jpg/960px-Grand_prismatic_spring.jpg",
         "answers": [
           "yellowstone",
           "yellowstone national park"
@@ -1377,7 +1377,7 @@
       {
         "id": "np4",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Banff_National_Park.jpg/640px-Banff_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Moraine_Lake%2C_Banff_National_Park.jpg/960px-Moraine_Lake%2C_Banff_National_Park.jpg",
         "answers": [
           "banff",
           "banff national park"
@@ -1387,7 +1387,7 @@
       {
         "id": "np5",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kruger_National_Park.jpg/640px-Kruger_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Centropus_burchellii_-Kruger_National_Park%2C_South_Africa-8.jpg/960px-Centropus_burchellii_-Kruger_National_Park%2C_South_Africa-8.jpg",
         "answers": [
           "kruger",
           "kruger national park"
@@ -1397,7 +1397,7 @@
       {
         "id": "np6",
         "type": "image",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Torres_del_Paine.jpg/640px-Torres_del_Paine.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Torres_del_Paine%2C_Chile.jpg/960px-Torres_del_Paine%2C_Chile.jpg",
         "answers": [
           "torres del paine",
           "patagonia"
@@ -1424,7 +1424,7 @@
       {
         "id": "afc1",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/640px-Lion_waiting_in_Namibia.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
         "cropX": 48,
         "cropY": 32,
         "cropSize": 35,
@@ -1436,7 +1436,7 @@
       {
         "id": "afc2",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1280px-Walking_tiger_female.jpg",
         "cropX": 52,
         "cropY": 48,
         "cropSize": 32,
@@ -1448,7 +1448,7 @@
       {
         "id": "afc3",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/640px-Grosser_Panda.JPG",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG",
         "cropX": 50,
         "cropY": 42,
         "cropSize": 34,
@@ -1461,7 +1461,7 @@
       {
         "id": "afc4",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/640px-Giraffe_Mikumi_National_Park.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/1280px-Giraffe_Mikumi_National_Park.jpg",
         "cropX": 42,
         "cropY": 15,
         "cropSize": 35,
@@ -1473,7 +1473,7 @@
       {
         "id": "afc5",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/640px-African_Bush_Elephant.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg",
         "cropX": 50,
         "cropY": 40,
         "cropSize": 32,
@@ -1485,7 +1485,7 @@
       {
         "id": "afc6",
         "type": "crop",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
         "cropX": 50,
         "cropY": 38,
         "cropSize": 34,
