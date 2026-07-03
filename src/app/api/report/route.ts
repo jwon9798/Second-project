@@ -1,4 +1,10 @@
 import { NextResponse } from "next/server";
+import { reportActionForCount } from "@/lib/auto-moderation";
+import {
+  countReportsForQuiz,
+  deleteQuiz,
+  hideQuiz,
+} from "@/lib/storage";
 import { isSupabaseConfigured, getSupabaseAdmin } from "@/lib/supabase/admin";
 
 export async function POST(request: Request) {
@@ -23,6 +29,17 @@ export async function POST(request: Request) {
       if (error) {
         console.error("[ClipQuiz Report]", error);
         return NextResponse.json({ error: "Failed to save report" }, { status: 500 });
+      }
+
+      const { total, hasCopyrightReport } = await countReportsForQuiz(String(quizId));
+      const action = reportActionForCount(total, hasCopyrightReport);
+
+      if (action === "delete") {
+        await deleteQuiz(String(quizId));
+        console.info("[ClipQuiz AutoMod] deleted quiz", quizId, "reports:", total);
+      } else if (action === "hide") {
+        await hideQuiz(String(quizId));
+        console.info("[ClipQuiz AutoMod] hid quiz", quizId, "reports:", total);
       }
     } else {
       console.info("[ClipQuiz Report]", {

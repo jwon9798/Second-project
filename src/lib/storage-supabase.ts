@@ -190,3 +190,39 @@ export async function saveResultToSupabase(
   if (error) throw error;
   return rowToResult(data as ResultRow);
 }
+
+export async function countReportsForQuizInSupabase(quizId: string): Promise<{
+  total: number;
+  hasCopyrightReport: boolean;
+}> {
+  const supabase = getSupabaseAdmin();
+  const { data, error } = await supabase
+    .from("quiz_reports")
+    .select("reason")
+    .eq("quiz_id", quizId);
+
+  if (error) throw error;
+  const rows = data ?? [];
+  return {
+    total: rows.length,
+    hasCopyrightReport: rows.some((r) => r.reason === "copyright"),
+  };
+}
+
+export async function setQuizFeaturedInSupabase(
+  quizId: string,
+  featured: boolean,
+): Promise<void> {
+  const supabase = getSupabaseAdmin();
+  const { error } = await supabase
+    .from("quizzes")
+    .update({ featured })
+    .eq("id", quizId);
+  if (error) throw error;
+}
+
+export async function deleteQuizFromSupabase(quizId: string): Promise<void> {
+  const supabase = getSupabaseAdmin();
+  const { error } = await supabase.from("quizzes").delete().eq("id", quizId);
+  if (error) throw error;
+}

@@ -188,7 +188,7 @@ export default function CreateQuizForm() {
         <div className="flex flex-col gap-3">
           <button
             type="button"
-            onClick={() => router.push("/")}
+            onClick={() => router.push(`/quiz/${success.id}`)}
             className="btn-primary rounded-xl py-4 font-bold text-white"
           >
             {t("viewQuiz")}
