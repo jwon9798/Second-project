@@ -69,6 +69,5 @@ create index if not exists idx_quiz_reports_created_at on public.quiz_reports (c
 
 alter table public.quiz_reports enable row level security;
 
-create policy "Anyone can read quiz reports"
-  on public.quiz_reports for select
-  using (true);
+-- Reports are write-only from the public API (service_role bypasses RLS).
+-- Do not expose report contents to anonymous clients.

@@ -25,6 +25,7 @@ export default function Footer() {
             <Link href="/privacy" className="hover:text-[#00f5d4]">{t("privacy")}</Link>
             <Link href="/terms" className="hover:text-[#00f5d4]">{t("terms")}</Link>
             <Link href="/guidelines" className="hover:text-[#00f5d4]">{t("guidelines")}</Link>
+            <Link href="/moderation" className="hover:text-[#00f5d4]">{t("moderation")}</Link>
             <Link href="/copyright" className="hover:text-[#00f5d4]">{t("copyright")}</Link>
             <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="hover:text-white/70">
               {t("adChoices")}

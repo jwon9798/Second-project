@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import { getQuizzes, saveQuiz } from "@/lib/storage";
 import type { Quiz } from "@/lib/types";
+import {
+  validateUgcQuiz,
+  validationMessageForLocale,
+} from "@/lib/ugc-moderation";
 import { z } from "zod";
 
 const questionSchema = z.object({
@@ -26,6 +30,7 @@ const quizSchema = z.object({
   coverEmoji: z.string().default("🎯"),
   difficulty: z.enum(["easy", "medium", "hard"]),
   questions: z.array(questionSchema).min(3).max(50),
+  termsAgreed: z.literal(true),
 });
 
 export async function GET(request: Request) {
@@ -74,6 +79,17 @@ export async function POST(request: Request) {
     const body = await request.json();
     const parsed = quizSchema.parse(body);
 
+    const validation = validateUgcQuiz(parsed, { termsAgreed: parsed.termsAgreed });
+    if (!validation.ok) {
+      const message =
+        validationMessageForLocale(validation.code, parsed.language) ||
+        validation.message;
+      return NextResponse.json(
+        { error: message, code: validation.code },
+        { status: 400 },
+      );
+    }
+
     if (parsed.questions.some((q) => q.type === "audio")) {
       return NextResponse.json(
         { error: "Audio quizzes are temporarily disabled for content review." },
@@ -86,8 +102,10 @@ export async function POST(request: Request) {
       id: `q-${i}-${Date.now()}`,
     }));
 
+    const { termsAgreed: _termsAgreed, ...quizData } = parsed;
+
     const quiz = await saveQuiz({
-      ...parsed,
+      ...quizData,
       questions,
       tags: parsed.tags.length ? parsed.tags : [parsed.category.toLowerCase()],
     });

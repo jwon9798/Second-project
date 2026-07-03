@@ -14,14 +14,7 @@ function getCustomQuizzes(): Quiz[] {
 }
 
 export function getAllQuizzes(): Quiz[] {
-  const map = new Map<string, Quiz>();
-  for (const quiz of allSeedQuizzes) {
-    map.set(quiz.id, quiz);
-  }
-  for (const quiz of getCustomQuizzes()) {
-    map.set(quiz.id, quiz);
-  }
-  return Array.from(map.values());
+  return [...allSeedQuizzes];
 }
 
 export function getQuizById(id: string): Quiz | null {
