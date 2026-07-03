@@ -5,6 +5,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link, useRouter } from "@/i18n/navigation";
 import { UGC_BLOCKED_CATEGORIES } from "@/lib/ugc-constants";
 import { MAX_ANSWERS_PER_QUESTION } from "@/lib/quiz-utils";
+import {
+  extractYoutubeId,
+  formatTimestamp,
+  minutesPartsToSeconds,
+  parseYoutubeInput,
+  secondsToMinutesParts,
+} from "@/lib/youtube-utils";
 import type { Difficulty, QuestionType } from "@/lib/types";
 import { Image, Crop, Music, Plus, Trash2, Eye } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
@@ -17,6 +24,7 @@ interface DraftQuestion {
   cropSize: number;
   youtubeId: string;
   audioStart: number;
+  audioDuration: number;
   answers: string;
   hint: string;
 }
@@ -29,18 +37,10 @@ const emptyQuestion = (): DraftQuestion => ({
   cropSize: 25,
   youtubeId: "",
   audioStart: 0,
+  audioDuration: 8,
   answers: "",
   hint: "",
 });
-
-function extractYoutubeId(url: string): string {
-  if (!url) return "";
-  if (url.length === 11 && !url.includes("/")) return url;
-  const match = url.match(
-    /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/,
-  );
-  return match?.[1] ?? url;
-}
 
 export default function CreateQuizForm() {
   const t = useTranslations("create");
@@ -75,6 +75,28 @@ export default function CreateQuizForm() {
 
   const categoryRestricted = blockedSet.has(category);
 
+  function handleYoutubeInput(index: number, raw: string) {
+    const { youtubeId, audioStart } = parseYoutubeInput(raw);
+    const patch: Partial<DraftQuestion> = { youtubeId: raw };
+    if (youtubeId && isValidYoutubeIdFromInput(youtubeId)) {
+      patch.youtubeId = raw;
+    }
+    if (audioStart !== null) {
+      patch.audioStart = audioStart;
+    }
+    updateQuestion(index, patch);
+  }
+
+  function isValidYoutubeIdFromInput(input: string): boolean {
+    return extractYoutubeId(input).length === 11;
+  }
+
+  function setAudioStartParts(index: number, minutes: number, seconds: number) {
+    updateQuestion(index, {
+      audioStart: minutesPartsToSeconds(minutes, seconds),
+    });
+  }
+
   function parseAnswers(raw: string): string[] {
     return raw.split("\n").map((a) => a.trim()).filter(Boolean).slice(0, MAX_ANSWERS_PER_QUESTION);
   }
@@ -106,7 +128,7 @@ export default function CreateQuizForm() {
         ...base,
         youtubeId: extractYoutubeId(q.youtubeId),
         audioStart: q.audioStart,
-        audioDuration: 8,
+        audioDuration: q.audioDuration,
       };
     }
 
@@ -334,8 +356,8 @@ export default function CreateQuizForm() {
             </div>
 
             <div className="flex gap-2 mb-4">
-              {(["image", "crop"] as QuestionType[]).map((type) => {
-                const Icon = type === "image" ? Image : Crop;
+              {(["image", "crop", "audio"] as QuestionType[]).map((type) => {
+                const Icon = type === "image" ? Image : type === "crop" ? Crop : Music;
                 return (
                   <button
                     key={type}
@@ -348,13 +370,15 @@ export default function CreateQuizForm() {
                     }`}
                   >
                     <Icon className="h-3.5 w-3.5" />
-                    {type}
+                    {type === "audio" ? t("audioType") : type}
                   </button>
                 );
               })}
             </div>
 
-            <p className="mb-4 text-xs text-white/35">{t("audioDisabled")}</p>
+            {q.type === "audio" && (
+              <p className="mb-4 text-xs text-white/40 leading-relaxed">{t("audioHelp")}</p>
+            )}
 
             {q.type !== "audio" && (
               <div className="mb-3">
@@ -370,27 +394,76 @@ export default function CreateQuizForm() {
             )}
 
             {q.type === "audio" && (
-              <div className="grid gap-3 sm:grid-cols-2 mb-3">
+              <div className="mb-3 space-y-3">
                 <div>
                   <label className="block text-xs text-white/40 mb-1">{t("youtubeUrl")}</label>
                   <input
                     required
                     value={q.youtubeId}
-                    onChange={(e) => updateQuestion(index, { youtubeId: e.target.value })}
+                    onChange={(e) => handleYoutubeInput(index, e.target.value)}
                     placeholder={t("youtubePlaceholder")}
                     className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
                   />
+                  <p className="mt-1 text-[10px] text-white/30">{t("youtubeTimeHint")}</p>
                 </div>
-                <div>
-                  <label className="block text-xs text-white/40 mb-1">{t("audioStart")}</label>
-                  <input
-                    type="number"
-                    min={0}
-                    value={q.audioStart}
-                    onChange={(e) => updateQuestion(index, { audioStart: Number(e.target.value) })}
-                    className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
-                  />
+                <div className="grid gap-3 sm:grid-cols-3">
+                  <div>
+                    <label className="block text-xs text-white/40 mb-1">{t("audioStartMinutes")}</label>
+                    <input
+                      type="number"
+                      min={0}
+                      max={120}
+                      value={secondsToMinutesParts(q.audioStart).minutes}
+                      onChange={(e) =>
+                        setAudioStartParts(
+                          index,
+                          Number(e.target.value),
+                          secondsToMinutesParts(q.audioStart).seconds,
+                        )
+                      }
+                      className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs text-white/40 mb-1">{t("audioStartSeconds")}</label>
+                    <input
+                      type="number"
+                      min={0}
+                      max={59}
+                      value={secondsToMinutesParts(q.audioStart).seconds}
+                      onChange={(e) =>
+                        setAudioStartParts(
+                          index,
+                          secondsToMinutesParts(q.audioStart).minutes,
+                          Number(e.target.value),
+                        )
+                      }
+                      className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs text-white/40 mb-1">{t("audioDuration")}</label>
+                    <input
+                      type="number"
+                      min={3}
+                      max={30}
+                      required
+                      value={q.audioDuration}
+                      onChange={(e) =>
+                        updateQuestion(index, {
+                          audioDuration: Number(e.target.value),
+                        })
+                      }
+                      className="input-field w-full rounded-lg px-3 py-2 text-sm text-white"
+                    />
+                  </div>
                 </div>
+                <p className="text-xs text-[#00f5d4]">
+                  {t("audioClipPreview", {
+                    start: formatTimestamp(q.audioStart),
+                    duration: q.audioDuration,
+                  })}
+                </p>
               </div>
             )}
 
@@ -447,6 +520,22 @@ export default function CreateQuizForm() {
                 />
               </div>
             </div>
+
+            {previewIndex === index && q.type === "audio" && extractYoutubeId(q.youtubeId) && (
+              <div className="mt-4 border-t border-white/5 pt-4">
+                <p className="text-xs text-white/40 mb-2">{t("preview")}</p>
+                <QuestionDisplay
+                  question={{
+                    id: "preview",
+                    type: "audio",
+                    youtubeId: extractYoutubeId(q.youtubeId),
+                    audioStart: q.audioStart,
+                    audioDuration: q.audioDuration,
+                    answers: [],
+                  }}
+                />
+              </div>
+            )}
 
             {previewIndex === index && q.imageUrl && q.type !== "audio" && (
               <div className="mt-4 border-t border-white/5 pt-4">

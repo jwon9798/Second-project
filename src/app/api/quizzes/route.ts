@@ -15,7 +15,7 @@ const questionSchema = z.object({
   cropSize: z.number().min(5).max(80).optional(),
   youtubeId: z.string().optional(),
   audioStart: z.number().min(0).optional(),
-  audioDuration: z.number().min(1).optional(),
+  audioDuration: z.number().min(3).max(30).optional(),
   answers: z.array(z.string().min(1)).min(1).max(5),
   hint: z.string().optional(),
 });
@@ -86,13 +86,6 @@ export async function POST(request: Request) {
         validation.message;
       return NextResponse.json(
         { error: message, code: validation.code },
-        { status: 400 },
-      );
-    }
-
-    if (parsed.questions.some((q) => q.type === "audio")) {
-      return NextResponse.json(
-        { error: "Audio quizzes are temporarily disabled for content review." },
         { status: 400 },
       );
     }
