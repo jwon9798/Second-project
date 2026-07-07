@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Script from "next/script";
-import { ADSENSE_CLIENT_ID } from "@/lib/site";
+import { ADSENSE_CLIENT_ID, GA4_MEASUREMENT_ID } from "@/lib/site";
 import { syncConsentOnLoad } from "@/lib/consent";
 
 export default function ConsentAwareAdSense() {
@@ -22,6 +22,21 @@ export default function ConsentAwareAdSense() {
             ad_personalization: 'denied',
             analytics_storage: 'denied',
             wait_for_update: 500
+          });
+        `}
+      </Script>
+      <Script
+        id="ga4-loader"
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-config" strategy="afterInteractive">
+        {`
+          gtag('js', new Date());
+          gtag('config', '${GA4_MEASUREMENT_ID}', {
+            anonymize_ip: true,
+            allow_google_signals: false
           });
         `}
       </Script>
