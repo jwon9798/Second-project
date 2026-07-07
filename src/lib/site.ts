@@ -6,7 +6,7 @@ export const ADSENSE_PUBLISHER_ID =
   process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID ?? "pub-4911271163170466";
 
 export const GA4_MEASUREMENT_ID =
-  process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID ?? "G-TRNR6LECH2";
+  process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID ?? "G-C24JK5CTF0";
 
 export const CONTACT_EMAIL =
   process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "jwon9798@gmail.com";
