@@ -247,7 +247,7 @@
     "error": "Could not submit report. Please email jwon9798@gmail.com"
   },
   "cookies": {
-    "message": "We use cookies for site functionality and, with your consent, Google AdSense advertising. Third parties, including Google, may use cookies to serve ads.",
+    "message": "We use essential cookies for site functionality. With your consent, we use Google Analytics (GA4) to understand how visitors use the site and Google AdSense to show ads. Third parties, including Google, may use cookies.",
     "privacyLink": "Privacy Policy",
     "accept": "Accept All",
     "reject": "Essential Only"
@@ -255,14 +255,14 @@
   "legal": {
     "privacy": {
       "title": "Privacy Policy",
-      "updated": "Last updated: June 24, 2026",
+      "updated": "Last updated: July 7, 2026",
       "sections": [
         { "title": "1. Who We Are", "body": "ClipQuiz (\"we\", \"us\", \"our\") operates the website clipquiz.jwonlabs.com and related services. We provide a free online quiz platform where users play and create image and crop guessing quizzes.\n\nData controller contact: jwon9798@gmail.com\n\nOperator location: South Korea" },
         { "title": "2. Information We Collect", "body": "We collect the following categories of data:\n\n• Quiz content you create (title, description, images, answers, creator name)\n• Quiz play results (score, quiz ID, timestamp)\n• Technical data: IP address, browser type, device type, pages visited\n• Cookies and similar technologies (see Section 5)\n\nWe do not require account registration. You may use a nickname when creating quizzes." },
-        { "title": "3. How We Use Your Data", "body": "We use collected data to:\n\n• Operate and improve the quiz platform\n• Display percentile rankings and play counts\n• Store and display user-created quizzes\n• Serve advertisements through Google AdSense (with your consent where required)\n• Respond to support requests and content reports\n• Prevent abuse and enforce our Terms of Service\n\nLegal bases (GDPR): contract performance, legitimate interests, and consent (for advertising cookies)." },
+        { "title": "3. How We Use Your Data", "body": "We use collected data to:\n\n• Operate and improve the quiz platform\n• Display percentile rankings and play counts\n• Store and display user-created quizzes\n• Measure site traffic and usage with Google Analytics 4 (with your consent where required)\n• Serve advertisements through Google AdSense (with your consent where required)\n• Respond to support requests and content reports\n• Prevent abuse and enforce our Terms of Service\n\nLegal bases (GDPR): contract performance, legitimate interests, and consent (for analytics and advertising cookies)." },
         { "title": "4. Data Retention", "body": "User-created quizzes are stored until you request deletion or we remove them for policy violations. Quiz result data is retained for ranking statistics. Server logs are retained for up to 90 days. Cookie consent preferences are stored in your browser until you clear them." },
-        { "title": "5. Cookies and Advertising", "body": "We use essential cookies for site functionality. With your consent, we use Google AdSense (Publisher ID: ca-pub-4911271163170466) to display advertisements.\n\nThird-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. You may opt out of personalized advertising at:\n\n• https://www.google.com/settings/ads\n• https://www.aboutads.info\n\nHow Google uses data: https://policies.google.com/technologies/partner-sites\n\nYou can choose \"Essential Only\" in our cookie banner to decline advertising cookies." },
-        { "title": "6. Third-Party Services", "body": "We use the following third-party services:\n\n• Google AdSense — advertising\n• Cloudflare — website hosting and security\n• Supabase — database hosting (when configured)\n\nThese providers process data according to their own privacy policies. We do not sell your personal information." },
+        { "title": "5. Cookies, Analytics, and Advertising", "body": "We use essential cookies for site functionality.\n\nWith your consent, we use:\n\n• Google Analytics 4 (Measurement ID: G-TRNR6LECH2) — to understand page views, traffic sources, and how visitors use ClipQuiz. IP addresses are anonymized. Data is processed by Google according to their privacy policy.\n• Google AdSense (Publisher ID: ca-pub-4911271163170466) — to display advertisements.\n\nWe implement Google Consent Mode. Until you choose \"Accept All\", analytics and advertising cookies remain denied. You can choose \"Essential Only\" in our cookie banner to decline non-essential cookies.\n\nThird-party vendors, including Google, may use cookies based on your prior visits. You may opt out of personalized advertising at:\n\n• https://www.google.com/settings/ads\n• https://www.aboutads.info\n• https://tools.google.com/dlpage/gaoptout (Analytics opt-out browser add-on)\n\nHow Google uses data: https://policies.google.com/technologies/partner-sites" },
+        { "title": "6. Third-Party Services", "body": "We use the following third-party services:\n\n• Google Analytics 4 — website analytics\n• Google AdSense — advertising\n• Cloudflare — website hosting and security\n• Supabase — database hosting (when configured)\n\nThese providers process data according to their own privacy policies. We do not sell your personal information." },
         { "title": "7. Your Rights", "body": "Depending on your location, you may have the right to:\n\n• Access the personal data we hold about you\n• Request correction or deletion of your data\n• Object to or restrict certain processing\n• Withdraw consent for advertising cookies\n• Lodge a complaint with a supervisory authority\n\nTo exercise these rights, email jwon9798@gmail.com with your request and the quiz ID if applicable." },
         { "title": "8. Children's Privacy", "body": "ClipQuiz is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us data, contact us and we will delete it promptly. Users aged 13–17 should have parental consent." },
         { "title": "9. International Transfers", "body": "Your data may be processed in countries outside your residence, including the United States and European Union, where our hosting and advertising providers operate. We rely on standard contractual clauses and provider safeguards where applicable." },
@@ -271,7 +271,7 @@
     },
     "terms": {
       "title": "Terms of Service",
-      "updated": "Last updated: June 24, 2026",
+      "updated": "Last updated: July 7, 2026",
       "sections": [
         { "title": "1. Acceptance of Terms", "body": "By accessing or using ClipQuiz (\"the Service\"), you agree to be bound by these Terms of Service, our Privacy Policy, Community Guidelines, and Copyright Policy. If you do not agree, do not use the Service." },
         { "title": "2. Description of Service", "body": "ClipQuiz provides free online guessing quizzes in image, crop, and audio formats. Users can play curated quizzes, view percentile rankings, and create their own quizzes without an account. The Service is provided \"as is\" without warranties of any kind, express or implied." },
@@ -321,7 +321,7 @@
         { "title": "How do I report a problematic quiz?", "body": "Click the \"Report Quiz\" button on any quiz page, select a reason, and submit. Reports are handled automatically — no manual review required." },
         { "title": "Is ClipQuiz free?", "body": "Yes, ClipQuiz is completely free to play and create quizzes. The site is supported by advertising through Google AdSense." },
         { "title": "What languages are supported?", "body": "The interface is available in English, Korean, Japanese, Spanish, and Portuguese. Quiz content is primarily in English, but answer matching supports multiple languages and alternate spellings." },
-        { "title": "How is my privacy protected?", "body": "We collect minimal data — quiz content you create, play scores, and technical logs. We do not require personal information. See our Privacy Policy for full details on cookies, advertising, and your rights." }
+        { "title": "How is my privacy protected?", "body": "We collect minimal data — quiz content you create, play scores, and technical logs. We do not require personal information. With your consent, Google Analytics helps us understand site usage. See our Privacy Policy for full details on cookies, analytics, advertising, and your rights." }
       ]
     },
     "guidelines": {
