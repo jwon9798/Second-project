@@ -2,10 +2,10 @@
 
 import { useEffect } from "react";
 import Script from "next/script";
-import { ADSENSE_CLIENT_ID, GA4_MEASUREMENT_ID } from "@/lib/site";
+import { GA4_MEASUREMENT_ID } from "@/lib/site";
 import { syncConsentOnLoad } from "@/lib/consent";
 
-export default function ConsentAwareAdSense() {
+export default function ConsentAwareAnalytics() {
   useEffect(() => {
     syncConsentOnLoad();
   }, []);
@@ -40,13 +40,6 @@ export default function ConsentAwareAdSense() {
           });
         `}
       </Script>
-      <Script
-        id="adsense-loader"
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
     </>
   );
 }

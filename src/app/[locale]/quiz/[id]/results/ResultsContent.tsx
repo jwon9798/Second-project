@@ -5,7 +5,6 @@ import { useParams, useSearchParams } from "next/navigation";
 import { fetchQuizById } from "@/lib/quizzes-client";
 import ResultScreen from "@/components/ResultScreen";
 import RelatedQuizzes from "@/components/RelatedQuizzes";
-import AdSlot from "@/components/ads/AdSlot";
 
 export default function ResultsContent() {
   const params = useParams();
@@ -36,9 +35,6 @@ export default function ResultsContent() {
 
   return (
     <>
-      <div className="mx-auto max-w-lg px-4 pt-4">
-        <AdSlot label="results" />
-      </div>
       <ResultScreen
         quizId={id}
         quizTitle={quiz.title}
@@ -47,9 +43,6 @@ export default function ResultsContent() {
         percentile={percentile}
         distribution={distribution}
       />
-      <div className="mx-auto max-w-lg px-4">
-        <AdSlot label="results" />
-      </div>
       <RelatedQuizzes currentId={id} category={quiz.category} />
     </>
   );

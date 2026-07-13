@@ -1,5 +1,6 @@
-/** Categories blocked for image-based user submissions (copyright risk). */
+/** Categories blocked for user submissions (copyright risk). */
 export const UGC_BLOCKED_CATEGORIES = [
+  "music",
   "movies",
   "anime",
   "memes",
