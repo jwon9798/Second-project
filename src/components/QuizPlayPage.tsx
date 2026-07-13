@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import type { Quiz } from "@/lib/types";
 import { fetchQuizById } from "@/lib/quizzes-client";
 import QuizPlayer from "@/components/QuizPlayer";
-import AdSlot from "@/components/ads/AdSlot";
 import ReportQuiz from "@/components/ReportQuiz";
 import { Play, Users, Clock } from "lucide-react";
 
@@ -101,8 +100,6 @@ export default function QuizPlayPage({ quizId, initialQuiz = null }: QuizPlayPag
         <div className="flex justify-center mt-4">
           <ReportQuiz quizId={quiz.id} quizTitle={quiz.title} />
         </div>
-
-        <AdSlot label="quiz" />
       </div>
     );
   }

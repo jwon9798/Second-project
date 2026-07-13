@@ -17,9 +17,10 @@ const BLOCKED_PATTERNS: RegExp[] = [
 ];
 
 const TRADEMARK_HEAVY_PATTERNS: RegExp[] = [
-  /\b(disney|marvel|pokemon|naruto|drake|taylor\s*swift|bts|blackpink)\b/i,
-  /\b(netflix|spotify|fortnite|minecraft|roblox)\b/i,
-  /\b(mcdonald|nike|adidas|gucci|louis\s*vuitton)\b/i,
+  /\b(disney|marvel|pokemon|naruto|drake|taylor\s*swift|bts|blackpink|newjeans|aespa|twice|stray\s*kids)\b/i,
+  /\b(netflix|spotify|fortnite|minecraft|roblox|youtube|vevo)\b/i,
+  /\b(mcdonald|nike|adidas|gucci|louis\s*vuitton|apple\s*music)\b/i,
+  /\b(copyright|official\s*music\s*video|mv\b|lyrics\s*video)\b/i,
 ];
 
 const BLOCKED_IMAGE_HOSTS = [
@@ -73,15 +74,9 @@ function collectText(quiz: UgcQuizInput): string {
   return parts.join(" ");
 }
 
-/** Song/artist names in audio answers are allowed — scan metadata only. */
+/** Song/artist names in audio answers are still scanned for high-risk trademarks. */
 function collectTrademarkText(quiz: UgcQuizInput): string {
-  const parts = [quiz.title, quiz.description, quiz.creator];
-  for (const q of quiz.questions) {
-    if (q.type !== "audio") {
-      parts.push(...(q.answers ?? []), q.hint ?? "");
-    }
-  }
-  return parts.join(" ");
+  return collectText(quiz);
 }
 
 function isAudioQuiz(quiz: UgcQuizInput): boolean {
@@ -121,7 +116,7 @@ export function validateUgcQuiz(
       ok: false,
       code: "CATEGORY_BLOCKED",
       message:
-        "This category is restricted for user submissions due to copyright risk. Try Music (audio), Geography, Nature, Food, Travel, or Gaming.",
+        "This category is restricted for user submissions due to copyright risk. Try Geography, Nature, Food, Travel, or Gaming.",
     };
   }
 
@@ -135,16 +130,22 @@ export function validateUgcQuiz(
     };
   }
 
-  const trademark = scanText(
-    isAudioQuiz(quiz) ? collectTrademarkText(quiz) : collectText(quiz),
-    TRADEMARK_HEAVY_PATTERNS,
-  );
+  const trademark = scanText(collectTrademarkText(quiz), TRADEMARK_HEAVY_PATTERNS);
   if (trademark) {
     return {
       ok: false,
       code: "TRADEMARK_RISK",
       message:
         "Quizzes referencing brands, celebrities, or copyrighted franchises are not accepted from user submissions. Use original or public-domain topics.",
+    };
+  }
+
+  if (isAudioQuiz(quiz)) {
+    return {
+      ok: false,
+      code: "AUDIO_UGC_BLOCKED",
+      message:
+        "YouTube audio quizzes from user submissions are paused due to copyright risk. Use image or crop questions instead.",
     };
   }
 
@@ -231,7 +232,9 @@ export function validationMessageForLocale(
   const ko: Record<string, string> = {
     TERMS_REQUIRED: "이용약관 및 커뮤니티 가이드라인에 동의해야 합니다.",
     CATEGORY_BLOCKED:
-      "저작권 리스크로 해당 카테고리는 사용자 제출이 제한됩니다. 음악(오디오), 지리, 자연, 음식, 여행, 게임 카테고리를 이용해 주세요.",
+      "저작권 리스크로 해당 카테고리는 사용자 제출이 제한됩니다. 지리, 자연, 음식, 여행, 게임 카테고리를 이용해 주세요.",
+    AUDIO_UGC_BLOCKED:
+      "저작권 리스크로 YouTube 오디오 퀴즈 사용자 제출이 일시 중단되었습니다. 일반 사진 또는 일부 보기를 이용해 주세요.",
     PROHIBITED_CONTENT: "허용되지 않는 콘텐츠가 포함되어 있습니다.",
     TRADEMARK_RISK:
       "브랜드·연예인·저작권 프랜차이즈 관련 퀴즈는 사용자 제출을 받지 않습니다.",

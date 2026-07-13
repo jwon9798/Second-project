@@ -9,15 +9,20 @@ declare global {
   }
 }
 
+import { isAdSenseEnabled } from "@/lib/site";
+
 function updateGoogleConsent(value: "accepted" | "rejected") {
   if (typeof window === "undefined") return;
   const granted = value === "accepted" ? "granted" : "denied";
-  window.gtag?.("consent", "update", {
-    ad_storage: granted,
-    ad_user_data: granted,
-    ad_personalization: granted,
+  const update: Record<string, string> = {
     analytics_storage: granted,
-  });
+  };
+  if (isAdSenseEnabled()) {
+    update.ad_storage = granted;
+    update.ad_user_data = granted;
+    update.ad_personalization = granted;
+  }
+  window.gtag?.("consent", "update", update);
 }
 
 export function getConsent(): ConsentValue {

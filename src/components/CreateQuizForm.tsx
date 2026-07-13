@@ -13,7 +13,7 @@ import {
   secondsToMinutesParts,
 } from "@/lib/youtube-utils";
 import type { Difficulty, QuestionType } from "@/lib/types";
-import { Image, Crop, Music, Plus, Trash2, Eye, Copy, CheckCircle2 } from "lucide-react";
+import { Image, Crop, Plus, Trash2, Eye, Copy, CheckCircle2 } from "lucide-react";
 import QuestionDisplay from "./QuestionDisplay";
 import CropPicker from "./create/CropPicker";
 import ImageSourceField from "./create/ImageSourceField";
@@ -415,12 +415,11 @@ export default function CreateQuizForm() {
               </div>
             </div>
 
-            <div className="grid gap-2 sm:grid-cols-3 mb-4">
+            <div className="grid gap-2 sm:grid-cols-2 mb-4">
               {(
                 [
                   { type: "image" as const, icon: Image, label: t("typeImage"), desc: t("typeImageDesc") },
                   { type: "crop" as const, icon: Crop, label: t("typeCrop"), desc: t("typeCropDesc") },
-                  { type: "audio" as const, icon: Music, label: t("typeAudio"), desc: t("typeAudioDesc") },
                 ]
               ).map(({ type, icon: Icon, label, desc }) => (
                 <button

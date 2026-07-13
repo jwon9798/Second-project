@@ -19,7 +19,7 @@ export function getSiteUrl(): string {
 }
 
 export function isAdSenseEnabled(): boolean {
-  return Boolean(ADSENSE_CLIENT_ID);
+  return process.env.NEXT_PUBLIC_ADSENSE_ENABLED === "true";
 }
 
 export function isGa4Enabled(): boolean {

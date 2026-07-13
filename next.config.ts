@@ -11,6 +11,41 @@ const nextConfig: NextConfig = {
         destination: "/en",
         permanent: false,
       },
+      {
+        source: "/privacy",
+        destination: "/en/privacy",
+        permanent: true,
+      },
+      {
+        source: "/terms",
+        destination: "/en/terms",
+        permanent: true,
+      },
+      {
+        source: "/contact",
+        destination: "/en/contact",
+        permanent: true,
+      },
+      {
+        source: "/guidelines",
+        destination: "/en/guidelines",
+        permanent: true,
+      },
+      {
+        source: "/copyright",
+        destination: "/en/copyright",
+        permanent: true,
+      },
+      {
+        source: "/faq",
+        destination: "/en/faq",
+        permanent: true,
+      },
+      {
+        source: "/about",
+        destination: "/en/about",
+        permanent: true,
+      },
     ];
   },
   images: {

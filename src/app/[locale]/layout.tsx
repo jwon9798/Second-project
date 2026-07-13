@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
-import ConsentAwareAdSense from "@/components/ads/ConsentAwareAdSense";
+import ConsentAwareAnalytics from "@/components/ads/ConsentAwareAnalytics";
 import SetHtmlLang from "@/components/SetHtmlLang";
 import { getSiteUrl } from "@/lib/site";
 
@@ -54,7 +54,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <SetHtmlLang />
-      <ConsentAwareAdSense />
+      <ConsentAwareAnalytics />
       <div className="mesh-bg fixed inset-0 -z-10" />
       <Header />
       <main className="flex-1">{children}</main>

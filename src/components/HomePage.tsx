@@ -8,7 +8,6 @@ import QuizCard from "@/components/QuizCard";
 import ModeShowcase from "@/components/ModeShowcase";
 import HowItWorks from "@/components/HowItWorks";
 import EditorialSection from "@/components/EditorialSection";
-import AdSlot from "@/components/ads/AdSlot";
 import type { Quiz } from "@/lib/types";
 import { motion } from "framer-motion";
 import { Play, Plus, Search, TrendingUp } from "lucide-react";
@@ -108,10 +107,6 @@ export default function HomePage({ initialQuizzes = [] }: HomePageProps) {
 
       <ModeShowcase />
 
-      <div className="mx-auto max-w-3xl px-4">
-        <AdSlot label="home" />
-      </div>
-
       <section id="trending" className="py-16 border-t border-white/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
@@ -196,10 +191,6 @@ export default function HomePage({ initialQuizzes = [] }: HomePageProps) {
           )}
         </div>
       </section>
-
-      <div className="mx-auto max-w-3xl px-4 pb-4">
-        <AdSlot label="home" />
-      </div>
 
       <HowItWorks />
 
